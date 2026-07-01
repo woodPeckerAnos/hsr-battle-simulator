@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23002",
+  "slug": "something-irreplaceable",
+  "gameId": "23002",
+  "name": "Something Irreplaceable",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1164.24,
+    "def": 396.9,
+    "atkPercent": 0.24
+  },
+  "superimpositions": {
+    "1": {
+      "AttackAddedRatio": 0.24
+    },
+    "2": {
+      "AttackAddedRatio": 0.28
+    },
+    "3": {
+      "AttackAddedRatio": 0.32
+    },
+    "4": {
+      "AttackAddedRatio": 0.36
+    },
+    "5": {
+      "AttackAddedRatio": 0.4
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

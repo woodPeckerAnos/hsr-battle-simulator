@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23003",
+  "slug": "but-the-battle-isn-t-over",
+  "gameId": "23003",
+  "name": "But the Battle Isn't Over",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1164.24,
+    "def": 463.05
+  },
+  "superimpositions": {
+    "1": {
+      "SPRatioBase": 0.1
+    },
+    "2": {
+      "SPRatioBase": 0.12
+    },
+    "3": {
+      "SPRatioBase": 0.14
+    },
+    "4": {
+      "SPRatioBase": 0.16
+    },
+    "5": {
+      "SPRatioBase": 0.18
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

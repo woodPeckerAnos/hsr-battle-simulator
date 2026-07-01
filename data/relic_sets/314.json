@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "314",
+  "slug": "izumo-gensei-and-takama-divine-realm",
+  "gameId": "314",
+  "name": "Izumo Gensei and Takama Divine Realm",
+  "description": "Increases the wearer's ATK by 12%. When entering battle, if at least one teammate follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.",
+  "pieces2": {
+    "description": "Increases the wearer's ATK by 12%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When entering battle, if at least one teammate follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

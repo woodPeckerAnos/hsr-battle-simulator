@@ -1,0 +1,41 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23039",
+  "slug": "flame-of-blood-blaze-my-path",
+  "gameId": "23039",
+  "name": "Flame of Blood, Blaze My Path",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 1375.92,
+    "def": 396.9,
+    "hpPercent": 0.18
+  },
+  "superimpositions": {
+    "1": {
+      "HPAddedRatio": 0.18,
+      "HealTakenRatio": 0.2
+    },
+    "2": {
+      "HPAddedRatio": 0.21,
+      "HealTakenRatio": 0.25
+    },
+    "3": {
+      "HPAddedRatio": 0.24,
+      "HealTakenRatio": 0.3
+    },
+    "4": {
+      "HPAddedRatio": 0.27,
+      "HealTakenRatio": 0.35
+    },
+    "5": {
+      "HPAddedRatio": 0.3,
+      "HealTakenRatio": 0.4
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

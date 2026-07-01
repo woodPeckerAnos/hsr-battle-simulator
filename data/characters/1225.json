@@ -1,0 +1,75 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1225",
+  "slug": "fugue",
+  "gameId": "1225",
+  "name": "Fugue",
+  "rarity": 5,
+  "element": "fire",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1125.43,
+    "def": 557.87,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 14
+  },
+  "tracesRaw": {
+    "Break Effect": 0.24,
+    "HP%": 0.1,
+    "SPD": 14
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14
+    }
+  ],
+  "source": "hsr-optimizer"
+}

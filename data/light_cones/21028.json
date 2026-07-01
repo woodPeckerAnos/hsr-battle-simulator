@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21028",
+  "slug": "warmth-shortens-cold-nights",
+  "gameId": "21028",
+  "name": "Warmth Shortens Cold Nights",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370.44,
+    "hp": 1058.4,
+    "def": 396.9,
+    "hpPercent": 0.16
+  },
+  "superimpositions": {
+    "1": {
+      "HPAddedRatio": 0.16
+    },
+    "2": {
+      "HPAddedRatio": 0.2
+    },
+    "3": {
+      "HPAddedRatio": 0.24
+    },
+    "4": {
+      "HPAddedRatio": 0.28
+    },
+    "5": {
+      "HPAddedRatio": 0.32
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23051",
+  "slug": "though-worlds-apart",
+  "gameId": "23051",
+  "name": "Though Worlds Apart",
+  "rarity": 5,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1058.4,
+    "def": 463.05,
+    "atkPercent": 0.64
+  },
+  "superimpositions": {
+    "1": {
+      "AttackAddedRatio": 0.64
+    },
+    "2": {
+      "AttackAddedRatio": 0.8
+    },
+    "3": {
+      "AttackAddedRatio": 0.96
+    },
+    "4": {
+      "AttackAddedRatio": 1.12
+    },
+    "5": {
+      "AttackAddedRatio": 1.28
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

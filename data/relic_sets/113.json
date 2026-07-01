@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "113",
+  "slug": "longevous-disciple",
+  "gameId": "113",
+  "name": "Longevous Disciple",
+  "description": "Increases Max HP by 12%. When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turns and up to 2 stacks.",
+  "pieces2": {
+    "description": "Increases Max HP by 12%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turns and up to 2 stacks.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

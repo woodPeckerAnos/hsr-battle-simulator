@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "303",
+  "slug": "pan-cosmic-commercial-enterprise",
+  "gameId": "303",
+  "name": "Pan-Cosmic Commercial Enterprise",
+  "description": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum increase of 25%.",
+  "pieces2": {
+    "description": "Increases the wearer's Effect Hit Rate by 10%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum increase of 25%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

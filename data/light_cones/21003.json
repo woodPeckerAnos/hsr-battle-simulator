@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21003",
+  "slug": "only-silence-remains",
+  "gameId": "21003",
+  "name": "Only Silence Remains",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 952.56,
+    "def": 330.75,
+    "atkPercent": 0.16
+  },
+  "superimpositions": {
+    "1": {
+      "AttackAddedRatio": 0.16
+    },
+    "2": {
+      "AttackAddedRatio": 0.2
+    },
+    "3": {
+      "AttackAddedRatio": 0.24
+    },
+    "4": {
+      "AttackAddedRatio": 0.28
+    },
+    "5": {
+      "AttackAddedRatio": 0.32
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

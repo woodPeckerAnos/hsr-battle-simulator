@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21045",
+  "slug": "after-the-charmony-fall",
+  "gameId": "21045",
+  "name": "After the Charmony Fall",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 846.72,
+    "def": 396.9,
+    "breakEffect": 0.28
+  },
+  "superimpositions": {
+    "1": {
+      "BreakDamageAddedRatioBase": 0.28
+    },
+    "2": {
+      "BreakDamageAddedRatioBase": 0.35
+    },
+    "3": {
+      "BreakDamageAddedRatioBase": 0.42
+    },
+    "4": {
+      "BreakDamageAddedRatioBase": 0.49
+    },
+    "5": {
+      "BreakDamageAddedRatioBase": 0.56
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

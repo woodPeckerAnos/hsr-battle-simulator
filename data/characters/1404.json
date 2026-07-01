@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1404",
+  "slug": "mydei",
+  "gameId": "1404",
+  "name": "Mydei",
+  "rarity": 5,
+  "element": "imaginary",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 426.89,
+    "hp": 1552.32,
+    "def": 194.04,
+    "speed": 95,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "flatSpeed": 5,
+    "critDmg": 0.373,
+    "hpPercent": 0.18
+  },
+  "tracesRaw": {
+    "SPD": 5,
+    "CRIT DMG": 0.373,
+    "HP%": 0.18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    }
+  ],
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "8006",
+  "slug": "trailblazer",
+  "gameId": "8006",
+  "name": "Trailblazer",
+  "rarity": 5,
+  "element": "imaginary",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 446.29,
+    "hp": 1086.62,
+    "def": 679.14,
+    "speed": 105,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "effectRes": 0.1,
+    "elementDmgBonus": 0.144
+  },
+  "tracesRaw": {
+    "Effect RES": 0.1,
+    "Break Effect": 0.373,
+    "Imaginary DMG Boost": 0.144
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "imaginary"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "imaginary"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

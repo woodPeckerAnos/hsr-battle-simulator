@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "character.schema.json",
+  "type": "object",
+  "required": ["id", "name", "element", "path", "level", "baseStats", "skills"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "element": { "type": "string" },
+    "path": { "type": "string" },
+    "level": { "type": "integer", "minimum": 1, "maximum": 80 },
+    "baseStats": {
+      "type": "object",
+      "properties": {
+        "atk": { "type": "number" },
+        "hp": { "type": "number" },
+        "def": { "type": "number" },
+        "speed": { "type": "number" },
+        "critRate": { "type": "number" },
+        "critDmg": { "type": "number" }
+      },
+      "required": ["atk", "speed"]
+    },
+    "traces": { "type": "object" },
+    "skills": { "type": "object" },
+    "passives": { "type": "array" }
+  }
+}

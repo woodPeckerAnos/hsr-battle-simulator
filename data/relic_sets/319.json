@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "319",
+  "slug": "bone-collection-s-serene-demesne",
+  "gameId": "319",
+  "name": "Bone Collection's Serene Demesne",
+  "description": "Increases the wearer's Max HP by 12%. When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28%.",
+  "pieces2": {
+    "description": "Increases the wearer's Max HP by 12%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1401",
+  "slug": "the-herta",
+  "gameId": "1401",
+  "name": "The Herta",
+  "rarity": 5,
+  "element": "ice",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 220,
+  "baseStats": {
+    "atk": 679.14,
+    "hp": 1164.24,
+    "def": 485.1,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "elementDmgBonus": 0.224,
+    "atkPercent": 0.18,
+    "flatSpeed": 5
+  },
+  "tracesRaw": {
+    "Ice DMG Boost": 0.224,
+    "ATK%": 0.18,
+    "SPD": 5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.18
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.224,
+      "tagFilter": [
+        "ice"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.18
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.224,
+      "tagFilter": [
+        "ice"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

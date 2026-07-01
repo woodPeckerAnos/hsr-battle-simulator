@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21057",
+  "slug": "the-flower-remembers",
+  "gameId": "21057",
+  "name": "The Flower Remembers",
+  "rarity": 4,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1058.4,
+    "def": 330.75,
+    "critDmg": 0.24
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.24
+    },
+    "2": {
+      "CriticalDamageBase": 0.28
+    },
+    "3": {
+      "CriticalDamageBase": 0.32
+    },
+    "4": {
+      "CriticalDamageBase": 0.36
+    },
+    "5": {
+      "CriticalDamageBase": 0.4
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

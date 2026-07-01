@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1107",
+  "slug": "clara",
+  "gameId": "1107",
+  "name": "Clara",
+  "rarity": 5,
+  "element": "physical",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 110,
+  "baseStats": {
+    "atk": 737.35,
+    "hp": 1241.86,
+    "def": 485.1,
+    "speed": 90,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "atkPercent": 0.28,
+    "elementDmgBonus": 0.144
+  },
+  "tracesRaw": {
+    "HP%": 0.1,
+    "ATK%": 0.28,
+    "Physical DMG Boost": 0.144
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "physical"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "physical"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

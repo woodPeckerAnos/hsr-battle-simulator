@@ -1,0 +1,76 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1205",
+  "slug": "blade",
+  "gameId": "1205",
+  "name": "Blade",
+  "rarity": 5,
+  "element": "wind",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 543.31,
+    "hp": 1358.28,
+    "def": 485.1,
+    "speed": 97,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "effectRes": 0.1,
+    "hpPercent": 0.28,
+    "critRate": 0.12
+  },
+  "tracesRaw": {
+    "Effect RES": 0.1,
+    "HP%": 0.28,
+    "CRIT Rate": 0.12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    }
+  ],
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23056",
+  "slug": "the-finale-of-a-lie",
+  "gameId": "23056",
+  "name": "The Finale of a Lie",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635.04,
+    "hp": 846.72,
+    "def": 529.2,
+    "critRate": 0.18
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalChanceBase": 0.18
+    },
+    "2": {
+      "CriticalChanceBase": 0.21
+    },
+    "3": {
+      "CriticalChanceBase": 0.24
+    },
+    "4": {
+      "CriticalChanceBase": 0.27
+    },
+    "5": {
+      "CriticalChanceBase": 0.3
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

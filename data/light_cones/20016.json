@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "20016",
+  "slug": "mutual-demise",
+  "gameId": "20016",
+  "name": "Mutual Demise",
+  "rarity": 3,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370.44,
+    "hp": 846.72,
+    "def": 198.45
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

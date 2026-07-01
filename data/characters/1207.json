@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1207",
+  "slug": "yukong",
+  "gameId": "1207",
+  "name": "Yukong",
+  "rarity": 4,
+  "element": "imaginary",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 599.76,
+    "hp": 917.28,
+    "def": 374.85,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.1,
+    "elementDmgBonus": 0.224,
+    "hpPercent": 0.18
+  },
+  "tracesRaw": {
+    "ATK%": 0.1,
+    "Imaginary DMG Boost": 0.224,
+    "HP%": 0.18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.224,
+      "tagFilter": [
+        "imaginary"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.224,
+      "tagFilter": [
+        "imaginary"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

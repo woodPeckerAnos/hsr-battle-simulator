@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21029",
+  "slug": "we-will-meet-again",
+  "gameId": "21029",
+  "name": "We Will Meet Again",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 846.72,
+    "def": 330.75
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21011",
+  "slug": "planetary-rendezvous",
+  "gameId": "21011",
+  "name": "Planetary Rendezvous",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423.36,
+    "hp": 1058.4,
+    "def": 330.75
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23054",
+  "slug": "when-she-decided-to-see",
+  "gameId": "23054",
+  "name": "When She Decided to See",
+  "rarity": 5,
+  "path": "elation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1058.4,
+    "def": 529.2
+  },
+  "superimpositions": {
+    "1": {
+      "SpeedAddedRatio": 0.18
+    },
+    "2": {
+      "SpeedAddedRatio": 0.21
+    },
+    "3": {
+      "SpeedAddedRatio": 0.24
+    },
+    "4": {
+      "SpeedAddedRatio": 0.27
+    },
+    "5": {
+      "SpeedAddedRatio": 0.3
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

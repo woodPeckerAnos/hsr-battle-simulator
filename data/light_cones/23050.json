@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23050",
+  "slug": "never-forget-her-flame",
+  "gameId": "23050",
+  "name": "Never Forget Her Flame",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1164.24,
+    "def": 463.05,
+    "breakEffect": 0.6
+  },
+  "superimpositions": {
+    "1": {
+      "BreakDamageAddedRatioBase": 0.6
+    },
+    "2": {
+      "BreakDamageAddedRatioBase": 0.75
+    },
+    "3": {
+      "BreakDamageAddedRatioBase": 0.9
+    },
+    "4": {
+      "BreakDamageAddedRatioBase": 1.05
+    },
+    "5": {
+      "BreakDamageAddedRatioBase": 1.2
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "8002",
+  "slug": "trailblazer",
+  "gameId": "8002",
+  "name": "Trailblazer",
+  "rarity": 5,
+  "element": "physical",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 620.93,
+    "hp": 1203.05,
+    "def": 460.85,
+    "speed": 100,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "defPercent": 0.125,
+    "atkPercent": 0.28,
+    "hpPercent": 0.18
+  },
+  "tracesRaw": {
+    "DEF%": 0.125,
+    "ATK%": 0.28,
+    "HP%": 0.18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    }
+  ],
+  "source": "hsr-optimizer"
+}

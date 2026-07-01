@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21050",
+  "slug": "victory-in-a-blink",
+  "gameId": "21050",
+  "name": "Victory In a Blink",
+  "rarity": 4,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 846.72,
+    "def": 396.9,
+    "critDmg": 0.12
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.12
+    },
+    "2": {
+      "CriticalDamageBase": 0.15
+    },
+    "3": {
+      "CriticalDamageBase": 0.18
+    },
+    "4": {
+      "CriticalDamageBase": 0.21
+    },
+    "5": {
+      "CriticalDamageBase": 0.24
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

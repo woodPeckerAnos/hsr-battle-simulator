@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "328",
+  "slug": "cosmic-life-sciences-institute",
+  "gameId": "328",
+  "name": "Cosmic Life Sciences Institute",
+  "description": "When entering combat, if the wearer's Max Energy is greater than or equal to 200, increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32%.",
+  "pieces2": {
+    "description": "When entering combat, if the wearer's Max Energy is greater than or equal to 200, increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When entering combat, if the wearer's Max Energy is greater than or equal to 200, increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

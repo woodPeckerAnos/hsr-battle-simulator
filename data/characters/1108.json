@@ -1,0 +1,76 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1108",
+  "slug": "sampo",
+  "gameId": "1108",
+  "name": "Sampo",
+  "rarity": 4,
+  "element": "wind",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 617.4,
+    "hp": 1023.12,
+    "def": 396.9,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "effectHitRate": 0.18,
+    "effectRes": 0.1,
+    "atkPercent": 0.28
+  },
+  "tracesRaw": {
+    "Effect Hit Rate": 0.18,
+    "Effect RES": 0.1,
+    "ATK%": 0.28
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    }
+  ],
+  "source": "hsr-optimizer"
+}

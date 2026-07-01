@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/enemy.schema.json",
+  "id": "foi-95",
+  "name": "混沌12层 Boss（无额外抗性）",
+  "level": 95,
+  "element": "physical",
+  "weaknesses": ["ice", "fire", "lightning"],
+  "defense": 1150,
+  "hp": 1600000,
+  "toughness": 12,
+  "speed": 132,
+  "resistances": {},
+  "effectRes": 0.4
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1317",
+  "slug": "rappa",
+  "gameId": "1317",
+  "name": "Rappa",
+  "rarity": 5,
+  "element": "imaginary",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 717.95,
+    "hp": 1086.62,
+    "def": 460.85,
+    "speed": 96,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "flatSpeed": 9
+  },
+  "tracesRaw": {
+    "ATK%": 0.28,
+    "SPD": 9,
+    "Break Effect": 0.133
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 9
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 9
+    }
+  ],
+  "source": "hsr-optimizer"
+}

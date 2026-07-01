@@ -1,0 +1,62 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1110",
+  "slug": "lynx",
+  "gameId": "1110",
+  "name": "Lynx",
+  "rarity": 4,
+  "element": "quantum",
+  "path": "abundance",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 493.92,
+    "hp": 1058.4,
+    "def": 551.25,
+    "speed": 100,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.28,
+    "defPercent": 0.225,
+    "effectRes": 0.1
+  },
+  "tracesRaw": {
+    "HP%": 0.28,
+    "DEF%": 0.225,
+    "Effect RES": 0.1
+  },
+  "traceModifiers": [],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [],
+  "source": "hsr-optimizer"
+}

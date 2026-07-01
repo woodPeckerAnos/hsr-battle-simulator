@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23042",
+  "slug": "long-may-rainbows-adorn-the-sky",
+  "gameId": "23042",
+  "name": "Long May Rainbows Adorn the Sky",
+  "rarity": 5,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 1164.24,
+    "def": 529.2
+  },
+  "superimpositions": {
+    "1": {
+      "SpeedAddedRatio": 0.18
+    },
+    "2": {
+      "SpeedAddedRatio": 0.21
+    },
+    "3": {
+      "SpeedAddedRatio": 0.24
+    },
+    "4": {
+      "SpeedAddedRatio": 0.27
+    },
+    "5": {
+      "SpeedAddedRatio": 0.3
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

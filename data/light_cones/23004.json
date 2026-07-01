@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23004",
+  "slug": "in-the-name-of-the-world",
+  "gameId": "23004",
+  "name": "In the Name of the World",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1058.4,
+    "def": 463.05
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

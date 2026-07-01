@@ -1,0 +1,82 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1104",
+  "slug": "gepard",
+  "gameId": "1104",
+  "name": "Gepard",
+  "rarity": 5,
+  "element": "ice",
+  "path": "preservation",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 543.31,
+    "hp": 1397.09,
+    "def": 654.89,
+    "speed": 92,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "defPercent": 0.125,
+    "elementDmgBonus": 0.224,
+    "effectRes": 0.18
+  },
+  "tracesRaw": {
+    "DEF%": 0.125,
+    "Ice DMG Boost": 0.224,
+    "Effect RES": 0.18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.224,
+      "tagFilter": [
+        "ice"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.224,
+      "tagFilter": [
+        "ice"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

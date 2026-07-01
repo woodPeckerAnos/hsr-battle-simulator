@@ -1,0 +1,87 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1501",
+  "slug": "sparxie",
+  "gameId": "1501",
+  "name": "Sparxie",
+  "rarity": 5,
+  "element": "fire",
+  "path": "elation",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 640.33,
+    "hp": 1047.82,
+    "def": 460.85,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critDmg": 0.133,
+    "critRate": 0.12
+  },
+  "tracesRaw": {
+    "CRIT DMG": 0.133,
+    "CRIT Rate": 0.12,
+    "Elation": 0.28
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.133
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.133
+    }
+  ],
+  "source": "hsr-optimizer"
+}

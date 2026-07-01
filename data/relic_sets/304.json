@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "304",
+  "slug": "belobog-of-the-architects",
+  "gameId": "304",
+  "name": "Belobog of the Architects",
+  "description": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
+  "pieces2": {
+    "description": "Increases the wearer's DEF by 15%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

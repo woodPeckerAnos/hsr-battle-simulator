@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23053",
+  "slug": "dazzled-by-a-flowery-world",
+  "gameId": "23053",
+  "name": "Dazzled by a Flowery World",
+  "rarity": 5,
+  "path": "elation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1058.4,
+    "def": 463.05,
+    "critDmg": 0.48
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.48
+    },
+    "2": {
+      "CriticalDamageBase": 0.56
+    },
+    "3": {
+      "CriticalDamageBase": 0.64
+    },
+    "4": {
+      "CriticalDamageBase": 0.72
+    },
+    "5": {
+      "CriticalDamageBase": 0.8
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

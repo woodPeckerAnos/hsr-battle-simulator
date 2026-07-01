@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "115",
+  "slug": "the-ashblazing-grand-duke",
+  "gameId": "115",
+  "name": "The Ashblazing Grand Duke",
+  "description": "Increases the DMG dealt by Follow-Up ATK by 20%. When the wearer uses a Follow-Up ATK, increases the wearer's ATK by 6% for every time the Follow-Up ATK deals DMG. This effect can stack up to 8 times and lasts for 3 turns. This effect is removed the next time the wearer uses a Follow-Up ATK.",
+  "pieces2": {
+    "description": "Increases the DMG dealt by Follow-Up ATK by 20%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer uses a Follow-Up ATK, increases the wearer's ATK by 6% for every time the Follow-Up ATK deals DMG. This effect can stack up to 8 times and lasts for 3 turns. This effect is removed the next time the wearer uses a Follow-Up ATK.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

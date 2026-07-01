@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23038",
+  "slug": "if-time-were-a-flower",
+  "gameId": "23038",
+  "name": "If Time Were a Flower",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1270.08,
+    "def": 396.9,
+    "critDmg": 0.36
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.36
+    },
+    "2": {
+      "CriticalDamageBase": 0.42
+    },
+    "3": {
+      "CriticalDamageBase": 0.48
+    },
+    "4": {
+      "CriticalDamageBase": 0.54
+    },
+    "5": {
+      "CriticalDamageBase": 0.6
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

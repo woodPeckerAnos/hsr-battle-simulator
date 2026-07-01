@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "119",
+  "slug": "iron-cavalry-against-the-scourge",
+  "gameId": "119",
+  "name": "Iron Cavalry Against the Scourge",
+  "description": "Increases Break Effect by 16%. If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF.",
+  "pieces2": {
+    "description": "Increases Break Effect by 16%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

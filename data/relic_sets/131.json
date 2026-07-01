@@ -1,0 +1,31 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "131",
+  "slug": "as-navigator-isee-sees-it",
+  "gameId": "131",
+  "name": "As Navigator Isee Sees It",
+  "description": "Increases ATK by 12%. When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18%, stacking up to 3 times. At the start of the wearer's turn or after using Ultimate, removes 1 stack of this effect.",
+  "pieces2": {
+    "description": "Increases ATK by 12%.",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18%, stacking up to 3 times. At the start of the wearer's turn or after using Ultimate, removes 1 stack of this effect.",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "source": "hsr-optimizer"
+}

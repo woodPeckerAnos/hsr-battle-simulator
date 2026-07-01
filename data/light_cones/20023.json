@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "20023",
+  "slug": "sneering",
+  "gameId": "20023",
+  "name": "Sneering",
+  "rarity": 3,
+  "path": "elation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370.44,
+    "hp": 740.88,
+    "def": 264.6
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1408",
+  "slug": "phainon",
+  "gameId": "1408",
+  "name": "Phainon",
+  "rarity": 5,
+  "element": "physical",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 12,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1435.9,
+    "def": 703.4,
+    "speed": 94,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "flatSpeed": 5,
+    "critDmg": 0.373,
+    "critRate": 0.12
+  },
+  "tracesRaw": {
+    "SPD": 5,
+    "CRIT DMG": 0.373,
+    "CRIT Rate": 0.12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    }
+  ],
+  "source": "hsr-optimizer"
+}

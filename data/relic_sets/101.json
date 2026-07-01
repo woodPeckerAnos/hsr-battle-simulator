@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "101",
+  "slug": "passerby-of-wandering-cloud",
+  "gameId": "101",
+  "name": "Passerby of Wandering Cloud",
+  "description": "Increases Outgoing Healing by 10%. At the start of the battle, immediately regenerates 1 Skill Point.",
+  "pieces2": {
+    "description": "Increases Outgoing Healing by 10%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "At the start of the battle, immediately regenerates 1 Skill Point.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

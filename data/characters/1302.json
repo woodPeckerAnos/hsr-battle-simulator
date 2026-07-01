@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1302",
+  "slug": "argenti",
+  "gameId": "1302",
+  "name": "Argenti",
+  "rarity": 5,
+  "element": "physical",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 180,
+  "baseStats": {
+    "atk": 737.35,
+    "hp": 1047.82,
+    "def": 363.83,
+    "speed": 103,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "elementDmgBonus": 0.144,
+    "hpPercent": 0.1
+  },
+  "tracesRaw": {
+    "ATK%": 0.28,
+    "Physical DMG Boost": 0.144,
+    "HP%": 0.1
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "physical"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "physical"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

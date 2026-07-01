@@ -1,0 +1,1894 @@
+{
+  "source": "hsr-optimizer game_data.json",
+  "importedAt": "2026-06-30T10:21:36.465Z",
+  "characters": [
+    {
+      "id": "1001",
+      "slug": "march-7th",
+      "name": "March 7th"
+    },
+    {
+      "id": "1002",
+      "slug": "dan-heng",
+      "name": "Dan Heng"
+    },
+    {
+      "id": "1003",
+      "slug": "himeko",
+      "name": "Himeko"
+    },
+    {
+      "id": "1004",
+      "slug": "welt",
+      "name": "Welt"
+    },
+    {
+      "id": "1005",
+      "slug": "kafka",
+      "name": "Kafka"
+    },
+    {
+      "id": "1006",
+      "slug": "silver-wolf",
+      "name": "Silver Wolf"
+    },
+    {
+      "id": "1008",
+      "slug": "arlan",
+      "name": "Arlan"
+    },
+    {
+      "id": "1009",
+      "slug": "asta",
+      "name": "Asta"
+    },
+    {
+      "id": "1013",
+      "slug": "herta",
+      "name": "Herta"
+    },
+    {
+      "id": "1014",
+      "slug": "saber",
+      "name": "Saber"
+    },
+    {
+      "id": "1015",
+      "slug": "archer",
+      "name": "Archer"
+    },
+    {
+      "id": "1101",
+      "slug": "bronya",
+      "name": "Bronya"
+    },
+    {
+      "id": "1102",
+      "slug": "seele",
+      "name": "Seele"
+    },
+    {
+      "id": "1103",
+      "slug": "serval",
+      "name": "Serval"
+    },
+    {
+      "id": "1104",
+      "slug": "gepard",
+      "name": "Gepard"
+    },
+    {
+      "id": "1105",
+      "slug": "natasha",
+      "name": "Natasha"
+    },
+    {
+      "id": "1106",
+      "slug": "pela",
+      "name": "Pela"
+    },
+    {
+      "id": "1107",
+      "slug": "clara",
+      "name": "Clara"
+    },
+    {
+      "id": "1108",
+      "slug": "sampo",
+      "name": "Sampo"
+    },
+    {
+      "id": "1109",
+      "slug": "hook",
+      "name": "Hook"
+    },
+    {
+      "id": "1110",
+      "slug": "lynx",
+      "name": "Lynx"
+    },
+    {
+      "id": "1111",
+      "slug": "luka",
+      "name": "Luka"
+    },
+    {
+      "id": "1112",
+      "slug": "topaz-numby",
+      "name": "Topaz & Numby"
+    },
+    {
+      "id": "1201",
+      "slug": "qingque",
+      "name": "Qingque"
+    },
+    {
+      "id": "1202",
+      "slug": "tingyun",
+      "name": "Tingyun"
+    },
+    {
+      "id": "1203",
+      "slug": "luocha",
+      "name": "Luocha"
+    },
+    {
+      "id": "1204",
+      "slug": "jing-yuan",
+      "name": "Jing Yuan"
+    },
+    {
+      "id": "1205",
+      "slug": "blade",
+      "name": "Blade"
+    },
+    {
+      "id": "1206",
+      "slug": "sushang",
+      "name": "Sushang"
+    },
+    {
+      "id": "1207",
+      "slug": "yukong",
+      "name": "Yukong"
+    },
+    {
+      "id": "1208",
+      "slug": "fu-xuan",
+      "name": "Fu Xuan"
+    },
+    {
+      "id": "1209",
+      "slug": "yanqing",
+      "name": "Yanqing"
+    },
+    {
+      "id": "1210",
+      "slug": "guinaifen",
+      "name": "Guinaifen"
+    },
+    {
+      "id": "1211",
+      "slug": "bailu",
+      "name": "Bailu"
+    },
+    {
+      "id": "1212",
+      "slug": "jingliu",
+      "name": "Jingliu"
+    },
+    {
+      "id": "1213",
+      "slug": "dan-heng-imbibitor-lunae",
+      "name": "Dan Heng • Imbibitor Lunae"
+    },
+    {
+      "id": "1214",
+      "slug": "xueyi",
+      "name": "Xueyi"
+    },
+    {
+      "id": "1215",
+      "slug": "hanya",
+      "name": "Hanya"
+    },
+    {
+      "id": "1217",
+      "slug": "huohuo",
+      "name": "Huohuo"
+    },
+    {
+      "id": "1218",
+      "slug": "jiaoqiu",
+      "name": "Jiaoqiu"
+    },
+    {
+      "id": "1220",
+      "slug": "feixiao",
+      "name": "Feixiao"
+    },
+    {
+      "id": "1221",
+      "slug": "yunli",
+      "name": "Yunli"
+    },
+    {
+      "id": "1222",
+      "slug": "lingsha",
+      "name": "Lingsha"
+    },
+    {
+      "id": "1223",
+      "slug": "moze",
+      "name": "Moze"
+    },
+    {
+      "id": "1224",
+      "slug": "march-7th",
+      "name": "March 7th"
+    },
+    {
+      "id": "1225",
+      "slug": "fugue",
+      "name": "Fugue"
+    },
+    {
+      "id": "1301",
+      "slug": "gallagher",
+      "name": "Gallagher"
+    },
+    {
+      "id": "1302",
+      "slug": "argenti",
+      "name": "Argenti"
+    },
+    {
+      "id": "1303",
+      "slug": "ruan-mei",
+      "name": "Ruan Mei"
+    },
+    {
+      "id": "1304",
+      "slug": "aventurine",
+      "name": "Aventurine"
+    },
+    {
+      "id": "1305",
+      "slug": "dr-ratio",
+      "name": "Dr. Ratio"
+    },
+    {
+      "id": "1306",
+      "slug": "sparkle",
+      "name": "Sparkle"
+    },
+    {
+      "id": "1307",
+      "slug": "black-swan",
+      "name": "Black Swan"
+    },
+    {
+      "id": "1308",
+      "slug": "acheron",
+      "name": "Acheron"
+    },
+    {
+      "id": "1309",
+      "slug": "robin",
+      "name": "Robin"
+    },
+    {
+      "id": "1310",
+      "slug": "firefly",
+      "name": "Firefly"
+    },
+    {
+      "id": "1312",
+      "slug": "misha",
+      "name": "Misha"
+    },
+    {
+      "id": "1313",
+      "slug": "sunday",
+      "name": "Sunday"
+    },
+    {
+      "id": "1314",
+      "slug": "jade",
+      "name": "Jade"
+    },
+    {
+      "id": "1315",
+      "slug": "boothill",
+      "name": "Boothill"
+    },
+    {
+      "id": "1317",
+      "slug": "rappa",
+      "name": "Rappa"
+    },
+    {
+      "id": "1321",
+      "slug": "the-dahlia",
+      "name": "The Dahlia"
+    },
+    {
+      "id": "1401",
+      "slug": "the-herta",
+      "name": "The Herta"
+    },
+    {
+      "id": "1402",
+      "slug": "aglaea",
+      "name": "Aglaea"
+    },
+    {
+      "id": "1403",
+      "slug": "tribbie",
+      "name": "Tribbie"
+    },
+    {
+      "id": "1404",
+      "slug": "mydei",
+      "name": "Mydei"
+    },
+    {
+      "id": "1405",
+      "slug": "anaxa",
+      "name": "Anaxa"
+    },
+    {
+      "id": "1406",
+      "slug": "cipher",
+      "name": "Cipher"
+    },
+    {
+      "id": "1407",
+      "slug": "castorice",
+      "name": "Castorice"
+    },
+    {
+      "id": "1408",
+      "slug": "phainon",
+      "name": "Phainon"
+    },
+    {
+      "id": "1409",
+      "slug": "hyacine",
+      "name": "Hyacine"
+    },
+    {
+      "id": "1410",
+      "slug": "hysilens",
+      "name": "Hysilens"
+    },
+    {
+      "id": "1412",
+      "slug": "cerydra",
+      "name": "Cerydra"
+    },
+    {
+      "id": "1413",
+      "slug": "evernight",
+      "name": "Evernight"
+    },
+    {
+      "id": "1414",
+      "slug": "dan-heng-permansor-terrae",
+      "name": "Dan Heng • Permansor Terrae"
+    },
+    {
+      "id": "1415",
+      "slug": "cyrene",
+      "name": "Cyrene"
+    },
+    {
+      "id": "1501",
+      "slug": "sparxie",
+      "name": "Sparxie"
+    },
+    {
+      "id": "1502",
+      "slug": "yao-guang",
+      "name": "Yao Guang"
+    },
+    {
+      "id": "1504",
+      "slug": "ashveil",
+      "name": "Ashveil"
+    },
+    {
+      "id": "1505",
+      "slug": "evanescia",
+      "name": "Evanescia"
+    },
+    {
+      "id": "1506",
+      "slug": "silver-wolf-lv-999",
+      "name": "Silver Wolf LV.999"
+    },
+    {
+      "id": "1507",
+      "slug": "mortenax-blade",
+      "name": "Mortenax Blade"
+    },
+    {
+      "id": "8001",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8002",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8003",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8004",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8005",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8006",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8007",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8008",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8009",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    },
+    {
+      "id": "8010",
+      "slug": "trailblazer",
+      "name": "Trailblazer"
+    }
+  ],
+  "lightCones": [
+    {
+      "id": "20000",
+      "slug": "arrows",
+      "name": "Arrows"
+    },
+    {
+      "id": "20001",
+      "slug": "cornucopia",
+      "name": "Cornucopia"
+    },
+    {
+      "id": "20002",
+      "slug": "collapsing-sky",
+      "name": "Collapsing Sky"
+    },
+    {
+      "id": "20003",
+      "slug": "amber",
+      "name": "Amber"
+    },
+    {
+      "id": "20004",
+      "slug": "void",
+      "name": "Void"
+    },
+    {
+      "id": "20005",
+      "slug": "chorus",
+      "name": "Chorus"
+    },
+    {
+      "id": "20006",
+      "slug": "data-bank",
+      "name": "Data Bank"
+    },
+    {
+      "id": "20007",
+      "slug": "darting-arrow",
+      "name": "Darting Arrow"
+    },
+    {
+      "id": "20008",
+      "slug": "fine-fruit",
+      "name": "Fine Fruit"
+    },
+    {
+      "id": "20009",
+      "slug": "shattered-home",
+      "name": "Shattered Home"
+    },
+    {
+      "id": "20010",
+      "slug": "defense",
+      "name": "Defense"
+    },
+    {
+      "id": "20011",
+      "slug": "loop",
+      "name": "Loop"
+    },
+    {
+      "id": "20012",
+      "slug": "meshing-cogs",
+      "name": "Meshing Cogs"
+    },
+    {
+      "id": "20013",
+      "slug": "passkey",
+      "name": "Passkey"
+    },
+    {
+      "id": "20014",
+      "slug": "adversarial",
+      "name": "Adversarial"
+    },
+    {
+      "id": "20015",
+      "slug": "multiplication",
+      "name": "Multiplication"
+    },
+    {
+      "id": "20016",
+      "slug": "mutual-demise",
+      "name": "Mutual Demise"
+    },
+    {
+      "id": "20017",
+      "slug": "pioneering",
+      "name": "Pioneering"
+    },
+    {
+      "id": "20018",
+      "slug": "hidden-shadow",
+      "name": "Hidden Shadow"
+    },
+    {
+      "id": "20019",
+      "slug": "mediation",
+      "name": "Mediation"
+    },
+    {
+      "id": "20020",
+      "slug": "sagacity",
+      "name": "Sagacity"
+    },
+    {
+      "id": "20021",
+      "slug": "shadowburn",
+      "name": "Shadowburn"
+    },
+    {
+      "id": "20022",
+      "slug": "reminiscence",
+      "name": "Reminiscence"
+    },
+    {
+      "id": "20023",
+      "slug": "sneering",
+      "name": "Sneering"
+    },
+    {
+      "id": "20024",
+      "slug": "lingering-tear",
+      "name": "Lingering Tear"
+    },
+    {
+      "id": "21000",
+      "slug": "post-op-conversation",
+      "name": "Post-Op Conversation"
+    },
+    {
+      "id": "21001",
+      "slug": "good-night-and-sleep-well",
+      "name": "Good Night and Sleep Well"
+    },
+    {
+      "id": "21002",
+      "slug": "day-one-of-my-new-life",
+      "name": "Day One of My New Life"
+    },
+    {
+      "id": "21003",
+      "slug": "only-silence-remains",
+      "name": "Only Silence Remains"
+    },
+    {
+      "id": "21004",
+      "slug": "memories-of-the-past",
+      "name": "Memories of the Past"
+    },
+    {
+      "id": "21005",
+      "slug": "the-moles-welcome-you",
+      "name": "The Moles Welcome You"
+    },
+    {
+      "id": "21006",
+      "slug": "the-birth-of-the-self",
+      "name": "The Birth of the Self"
+    },
+    {
+      "id": "21007",
+      "slug": "shared-feeling",
+      "name": "Shared Feeling"
+    },
+    {
+      "id": "21008",
+      "slug": "eyes-of-the-prey",
+      "name": "Eyes of the Prey"
+    },
+    {
+      "id": "21009",
+      "slug": "landau-s-choice",
+      "name": "Landau's Choice"
+    },
+    {
+      "id": "21010",
+      "slug": "swordplay",
+      "name": "Swordplay"
+    },
+    {
+      "id": "21011",
+      "slug": "planetary-rendezvous",
+      "name": "Planetary Rendezvous"
+    },
+    {
+      "id": "21012",
+      "slug": "a-secret-vow",
+      "name": "A Secret Vow"
+    },
+    {
+      "id": "21013",
+      "slug": "make-the-world-clamor",
+      "name": "Make the World Clamor"
+    },
+    {
+      "id": "21014",
+      "slug": "perfect-timing",
+      "name": "Perfect Timing"
+    },
+    {
+      "id": "21015",
+      "slug": "resolution-shines-as-pearls-of-sweat",
+      "name": "Resolution Shines As Pearls of Sweat"
+    },
+    {
+      "id": "21016",
+      "slug": "trend-of-the-universal-market",
+      "name": "Trend of the Universal Market"
+    },
+    {
+      "id": "21017",
+      "slug": "subscribe-for-more",
+      "name": "Subscribe for More!"
+    },
+    {
+      "id": "21018",
+      "slug": "dance-dance-dance",
+      "name": "Dance! Dance! Dance!"
+    },
+    {
+      "id": "21019",
+      "slug": "under-the-blue-sky",
+      "name": "Under the Blue Sky"
+    },
+    {
+      "id": "21020",
+      "slug": "geniuses-repose",
+      "name": "Geniuses' Repose"
+    },
+    {
+      "id": "21021",
+      "slug": "quid-pro-quo",
+      "name": "Quid Pro Quo"
+    },
+    {
+      "id": "21022",
+      "slug": "fermata",
+      "name": "Fermata"
+    },
+    {
+      "id": "21023",
+      "slug": "we-are-wildfire",
+      "name": "We Are Wildfire"
+    },
+    {
+      "id": "21024",
+      "slug": "river-flows-in-spring",
+      "name": "River Flows in Spring"
+    },
+    {
+      "id": "21025",
+      "slug": "past-and-future",
+      "name": "Past and Future"
+    },
+    {
+      "id": "21026",
+      "slug": "woof-walk-time",
+      "name": "Woof! Walk Time!"
+    },
+    {
+      "id": "21027",
+      "slug": "the-seriousness-of-breakfast",
+      "name": "The Seriousness of Breakfast"
+    },
+    {
+      "id": "21028",
+      "slug": "warmth-shortens-cold-nights",
+      "name": "Warmth Shortens Cold Nights"
+    },
+    {
+      "id": "21029",
+      "slug": "we-will-meet-again",
+      "name": "We Will Meet Again"
+    },
+    {
+      "id": "21030",
+      "slug": "this-is-me",
+      "name": "This Is Me!"
+    },
+    {
+      "id": "21031",
+      "slug": "return-to-darkness",
+      "name": "Return to Darkness"
+    },
+    {
+      "id": "21032",
+      "slug": "carve-the-moon-weave-the-clouds",
+      "name": "Carve the Moon, Weave the Clouds"
+    },
+    {
+      "id": "21033",
+      "slug": "nowhere-to-run",
+      "name": "Nowhere to Run"
+    },
+    {
+      "id": "21034",
+      "slug": "today-is-another-peaceful-day",
+      "name": "Today Is Another Peaceful Day"
+    },
+    {
+      "id": "21035",
+      "slug": "what-is-real",
+      "name": "What Is Real?"
+    },
+    {
+      "id": "21036",
+      "slug": "dreamville-adventure",
+      "name": "Dreamville Adventure"
+    },
+    {
+      "id": "21037",
+      "slug": "final-victor",
+      "name": "Final Victor"
+    },
+    {
+      "id": "21038",
+      "slug": "flames-afar",
+      "name": "Flames Afar"
+    },
+    {
+      "id": "21039",
+      "slug": "destiny-s-threads-forewoven",
+      "name": "Destiny's Threads Forewoven"
+    },
+    {
+      "id": "21040",
+      "slug": "the-day-the-cosmos-fell",
+      "name": "The Day The Cosmos Fell"
+    },
+    {
+      "id": "21041",
+      "slug": "it-s-showtime",
+      "name": "It's Showtime"
+    },
+    {
+      "id": "21042",
+      "slug": "indelible-promise",
+      "name": "Indelible Promise"
+    },
+    {
+      "id": "21043",
+      "slug": "concert-for-two",
+      "name": "Concert for Two"
+    },
+    {
+      "id": "21044",
+      "slug": "boundless-choreo",
+      "name": "Boundless Choreo"
+    },
+    {
+      "id": "21045",
+      "slug": "after-the-charmony-fall",
+      "name": "After the Charmony Fall"
+    },
+    {
+      "id": "21046",
+      "slug": "poised-to-bloom",
+      "name": "Poised to Bloom"
+    },
+    {
+      "id": "21047",
+      "slug": "shadowed-by-night",
+      "name": "Shadowed by Night"
+    },
+    {
+      "id": "21048",
+      "slug": "dream-s-montage",
+      "name": "Dream's Montage"
+    },
+    {
+      "id": "21050",
+      "slug": "victory-in-a-blink",
+      "name": "Victory In a Blink"
+    },
+    {
+      "id": "21051",
+      "slug": "geniuses-greetings",
+      "name": "Geniuses' Greetings"
+    },
+    {
+      "id": "21052",
+      "slug": "sweat-now-cry-less",
+      "name": "Sweat Now, Cry Less"
+    },
+    {
+      "id": "21053",
+      "slug": "journey-forever-peaceful",
+      "name": "Journey, Forever Peaceful"
+    },
+    {
+      "id": "21054",
+      "slug": "the-story-s-next-page",
+      "name": "The Story's Next Page"
+    },
+    {
+      "id": "21055",
+      "slug": "unto-tomorrow-s-morrow",
+      "name": "Unto Tomorrow's Morrow"
+    },
+    {
+      "id": "21056",
+      "slug": "in-pursuit-of-the-wind",
+      "name": "In Pursuit of the Wind"
+    },
+    {
+      "id": "21057",
+      "slug": "the-flower-remembers",
+      "name": "The Flower Remembers"
+    },
+    {
+      "id": "21058",
+      "slug": "a-trail-of-bygone-blood",
+      "name": "A Trail of Bygone Blood"
+    },
+    {
+      "id": "21060",
+      "slug": "a-dream-scented-in-wheat",
+      "name": "A Dream Scented in Wheat"
+    },
+    {
+      "id": "21061",
+      "slug": "holiday-thermae-escapade",
+      "name": "Holiday Thermae Escapade"
+    },
+    {
+      "id": "21062",
+      "slug": "see-you-at-the-end",
+      "name": "See You at the End"
+    },
+    {
+      "id": "21064",
+      "slug": "mushy-shroomy-s-adventures",
+      "name": "Mushy Shroomy's Adventures"
+    },
+    {
+      "id": "21065",
+      "slug": "today-s-good-luck",
+      "name": "Today's Good Luck"
+    },
+    {
+      "id": "22000",
+      "slug": "before-the-tutorial-mission-starts",
+      "name": "Before the Tutorial Mission Starts"
+    },
+    {
+      "id": "22001",
+      "slug": "hey-over-here",
+      "name": "Hey, Over Here"
+    },
+    {
+      "id": "22002",
+      "slug": "for-tomorrow-s-journey",
+      "name": "For Tomorrow's Journey"
+    },
+    {
+      "id": "22003",
+      "slug": "ninja-record-sound-hunt",
+      "name": "Ninja Record: Sound Hunt"
+    },
+    {
+      "id": "22004",
+      "slug": "the-great-cosmic-enterprise",
+      "name": "The Great Cosmic Enterprise"
+    },
+    {
+      "id": "22005",
+      "slug": "the-forever-victual",
+      "name": "The Forever Victual"
+    },
+    {
+      "id": "22006",
+      "slug": "fly-into-a-pink-tomorrow",
+      "name": "Fly Into a Pink Tomorrow"
+    },
+    {
+      "id": "22007",
+      "slug": "tomorrow-together",
+      "name": "Tomorrow, Together"
+    },
+    {
+      "id": "23000",
+      "slug": "night-on-the-milky-way",
+      "name": "Night on the Milky Way"
+    },
+    {
+      "id": "23001",
+      "slug": "in-the-night",
+      "name": "In the Night"
+    },
+    {
+      "id": "23002",
+      "slug": "something-irreplaceable",
+      "name": "Something Irreplaceable"
+    },
+    {
+      "id": "23003",
+      "slug": "but-the-battle-isn-t-over",
+      "name": "But the Battle Isn't Over"
+    },
+    {
+      "id": "23004",
+      "slug": "in-the-name-of-the-world",
+      "name": "In the Name of the World"
+    },
+    {
+      "id": "23005",
+      "slug": "moment-of-victory",
+      "name": "Moment of Victory"
+    },
+    {
+      "id": "23006",
+      "slug": "patience-is-all-you-need",
+      "name": "Patience Is All You Need"
+    },
+    {
+      "id": "23007",
+      "slug": "incessant-rain",
+      "name": "Incessant Rain"
+    },
+    {
+      "id": "23008",
+      "slug": "echoes-of-the-coffin",
+      "name": "Echoes of the Coffin"
+    },
+    {
+      "id": "23009",
+      "slug": "the-unreachable-side",
+      "name": "The Unreachable Side"
+    },
+    {
+      "id": "23010",
+      "slug": "before-dawn",
+      "name": "Before Dawn"
+    },
+    {
+      "id": "23011",
+      "slug": "she-already-shut-her-eyes",
+      "name": "She Already Shut Her Eyes"
+    },
+    {
+      "id": "23012",
+      "slug": "sleep-like-the-dead",
+      "name": "Sleep Like the Dead"
+    },
+    {
+      "id": "23013",
+      "slug": "time-waits-for-no-one",
+      "name": "Time Waits for No One"
+    },
+    {
+      "id": "23014",
+      "slug": "i-shall-be-my-own-sword",
+      "name": "I Shall Be My Own Sword"
+    },
+    {
+      "id": "23015",
+      "slug": "brighter-than-the-sun",
+      "name": "Brighter Than the Sun"
+    },
+    {
+      "id": "23016",
+      "slug": "worrisome-blissful",
+      "name": "Worrisome, Blissful"
+    },
+    {
+      "id": "23017",
+      "slug": "night-of-fright",
+      "name": "Night of Fright"
+    },
+    {
+      "id": "23018",
+      "slug": "an-instant-before-a-gaze",
+      "name": "An Instant Before A Gaze"
+    },
+    {
+      "id": "23019",
+      "slug": "past-self-in-mirror",
+      "name": "Past Self in Mirror"
+    },
+    {
+      "id": "23020",
+      "slug": "baptism-of-pure-thought",
+      "name": "Baptism of Pure Thought"
+    },
+    {
+      "id": "23021",
+      "slug": "earthly-escapade",
+      "name": "Earthly Escapade"
+    },
+    {
+      "id": "23022",
+      "slug": "reforged-remembrance",
+      "name": "Reforged Remembrance"
+    },
+    {
+      "id": "23023",
+      "slug": "inherently-unjust-destiny",
+      "name": "Inherently Unjust Destiny"
+    },
+    {
+      "id": "23024",
+      "slug": "along-the-passing-shore",
+      "name": "Along the Passing Shore"
+    },
+    {
+      "id": "23025",
+      "slug": "whereabouts-should-dreams-rest",
+      "name": "Whereabouts Should Dreams Rest"
+    },
+    {
+      "id": "23026",
+      "slug": "flowing-nightglow",
+      "name": "Flowing Nightglow"
+    },
+    {
+      "id": "23027",
+      "slug": "sailing-towards-a-second-life",
+      "name": "Sailing Towards a Second Life"
+    },
+    {
+      "id": "23028",
+      "slug": "yet-hope-is-priceless",
+      "name": "Yet Hope Is Priceless"
+    },
+    {
+      "id": "23029",
+      "slug": "those-many-springs",
+      "name": "Those Many Springs"
+    },
+    {
+      "id": "23030",
+      "slug": "dance-at-sunset",
+      "name": "Dance at Sunset"
+    },
+    {
+      "id": "23031",
+      "slug": "i-venture-forth-to-hunt",
+      "name": "I Venture Forth to Hunt"
+    },
+    {
+      "id": "23032",
+      "slug": "scent-alone-stays-true",
+      "name": "Scent Alone Stays True"
+    },
+    {
+      "id": "23033",
+      "slug": "ninjutsu-inscription-dazzling-evilbreaker",
+      "name": "Ninjutsu Inscription: Dazzling Evilbreaker"
+    },
+    {
+      "id": "23034",
+      "slug": "a-grounded-ascent",
+      "name": "A Grounded Ascent"
+    },
+    {
+      "id": "23035",
+      "slug": "long-road-leads-home",
+      "name": "Long Road Leads Home"
+    },
+    {
+      "id": "23036",
+      "slug": "time-woven-into-gold",
+      "name": "Time Woven Into Gold"
+    },
+    {
+      "id": "23037",
+      "slug": "into-the-unreachable-veil",
+      "name": "Into the Unreachable Veil"
+    },
+    {
+      "id": "23038",
+      "slug": "if-time-were-a-flower",
+      "name": "If Time Were a Flower"
+    },
+    {
+      "id": "23039",
+      "slug": "flame-of-blood-blaze-my-path",
+      "name": "Flame of Blood, Blaze My Path"
+    },
+    {
+      "id": "23040",
+      "slug": "make-farewells-more-beautiful",
+      "name": "Make Farewells More Beautiful"
+    },
+    {
+      "id": "23041",
+      "slug": "life-should-be-cast-to-flames",
+      "name": "Life Should Be Cast to Flames"
+    },
+    {
+      "id": "23042",
+      "slug": "long-may-rainbows-adorn-the-sky",
+      "name": "Long May Rainbows Adorn the Sky"
+    },
+    {
+      "id": "23043",
+      "slug": "lies-dance-on-the-breeze",
+      "name": "Lies Dance on the Breeze"
+    },
+    {
+      "id": "23044",
+      "slug": "thus-burns-the-dawn",
+      "name": "Thus Burns the Dawn"
+    },
+    {
+      "id": "23045",
+      "slug": "a-thankless-coronation",
+      "name": "A Thankless Coronation"
+    },
+    {
+      "id": "23046",
+      "slug": "the-hell-where-ideals-burn",
+      "name": "The Hell Where Ideals Burn"
+    },
+    {
+      "id": "23047",
+      "slug": "why-does-the-ocean-sing",
+      "name": "Why Does the Ocean Sing"
+    },
+    {
+      "id": "23048",
+      "slug": "epoch-etched-in-golden-blood",
+      "name": "Epoch Etched in Golden Blood"
+    },
+    {
+      "id": "23049",
+      "slug": "to-evernight-s-stars",
+      "name": "To Evernight's Stars"
+    },
+    {
+      "id": "23050",
+      "slug": "never-forget-her-flame",
+      "name": "Never Forget Her Flame"
+    },
+    {
+      "id": "23051",
+      "slug": "though-worlds-apart",
+      "name": "Though Worlds Apart"
+    },
+    {
+      "id": "23052",
+      "slug": "this-love-forever",
+      "name": "This Love, Forever"
+    },
+    {
+      "id": "23053",
+      "slug": "dazzled-by-a-flowery-world",
+      "name": "Dazzled by a Flowery World"
+    },
+    {
+      "id": "23054",
+      "slug": "when-she-decided-to-see",
+      "name": "When She Decided to See"
+    },
+    {
+      "id": "23056",
+      "slug": "the-finale-of-a-lie",
+      "name": "The Finale of a Lie"
+    },
+    {
+      "id": "23057",
+      "slug": "welcome-to-the-cosmic-city",
+      "name": "Welcome to the Cosmic City"
+    },
+    {
+      "id": "23058",
+      "slug": "until-the-flowers-bloom-again",
+      "name": "Until the Flowers Bloom Again"
+    },
+    {
+      "id": "23059",
+      "slug": "reforged-in-hellfire",
+      "name": "Reforged in Hellfire"
+    },
+    {
+      "id": "24000",
+      "slug": "on-the-fall-of-an-aeon",
+      "name": "On the Fall of an Aeon"
+    },
+    {
+      "id": "24001",
+      "slug": "cruising-in-the-stellar-sea",
+      "name": "Cruising in the Stellar Sea"
+    },
+    {
+      "id": "24002",
+      "slug": "texture-of-memories",
+      "name": "Texture of Memories"
+    },
+    {
+      "id": "24003",
+      "slug": "solitary-healing",
+      "name": "Solitary Healing"
+    },
+    {
+      "id": "24004",
+      "slug": "eternal-calculus",
+      "name": "Eternal Calculus"
+    },
+    {
+      "id": "24005",
+      "slug": "memory-s-curtain-never-falls",
+      "name": "Memory's Curtain Never Falls"
+    },
+    {
+      "id": "24006",
+      "slug": "elation-brimming-with-blessings",
+      "name": "Elation Brimming With Blessings"
+    }
+  ],
+  "relicSets": [
+    {
+      "id": "101",
+      "slug": "passerby-of-wandering-cloud",
+      "name": "Passerby of Wandering Cloud"
+    },
+    {
+      "id": "102",
+      "slug": "musketeer-of-wild-wheat",
+      "name": "Musketeer of Wild Wheat"
+    },
+    {
+      "id": "103",
+      "slug": "knight-of-purity-palace",
+      "name": "Knight of Purity Palace"
+    },
+    {
+      "id": "104",
+      "slug": "hunter-of-glacial-forest",
+      "name": "Hunter of Glacial Forest"
+    },
+    {
+      "id": "105",
+      "slug": "champion-of-streetwise-boxing",
+      "name": "Champion of Streetwise Boxing"
+    },
+    {
+      "id": "106",
+      "slug": "guard-of-wuthering-snow",
+      "name": "Guard of Wuthering Snow"
+    },
+    {
+      "id": "107",
+      "slug": "firesmith-of-lava-forging",
+      "name": "Firesmith of Lava-Forging"
+    },
+    {
+      "id": "108",
+      "slug": "genius-of-brilliant-stars",
+      "name": "Genius of Brilliant Stars"
+    },
+    {
+      "id": "109",
+      "slug": "band-of-sizzling-thunder",
+      "name": "Band of Sizzling Thunder"
+    },
+    {
+      "id": "110",
+      "slug": "eagle-of-twilight-line",
+      "name": "Eagle of Twilight Line"
+    },
+    {
+      "id": "111",
+      "slug": "thief-of-shooting-meteor",
+      "name": "Thief of Shooting Meteor"
+    },
+    {
+      "id": "112",
+      "slug": "wastelander-of-banditry-desert",
+      "name": "Wastelander of Banditry Desert"
+    },
+    {
+      "id": "113",
+      "slug": "longevous-disciple",
+      "name": "Longevous Disciple"
+    },
+    {
+      "id": "114",
+      "slug": "messenger-traversing-hackerspace",
+      "name": "Messenger Traversing Hackerspace"
+    },
+    {
+      "id": "115",
+      "slug": "the-ashblazing-grand-duke",
+      "name": "The Ashblazing Grand Duke"
+    },
+    {
+      "id": "116",
+      "slug": "prisoner-in-deep-confinement",
+      "name": "Prisoner in Deep Confinement"
+    },
+    {
+      "id": "117",
+      "slug": "pioneer-diver-of-dead-waters",
+      "name": "Pioneer Diver of Dead Waters"
+    },
+    {
+      "id": "118",
+      "slug": "watchmaker-master-of-dream-machinations",
+      "name": "Watchmaker, Master of Dream Machinations"
+    },
+    {
+      "id": "119",
+      "slug": "iron-cavalry-against-the-scourge",
+      "name": "Iron Cavalry Against the Scourge"
+    },
+    {
+      "id": "120",
+      "slug": "the-wind-soaring-valorous",
+      "name": "The Wind-Soaring Valorous"
+    },
+    {
+      "id": "121",
+      "slug": "sacerdos-relived-ordeal",
+      "name": "Sacerdos' Relived Ordeal"
+    },
+    {
+      "id": "122",
+      "slug": "scholar-lost-in-erudition",
+      "name": "Scholar Lost in Erudition"
+    },
+    {
+      "id": "123",
+      "slug": "hero-of-triumphant-song",
+      "name": "Hero of Triumphant Song"
+    },
+    {
+      "id": "124",
+      "slug": "poet-of-mourning-collapse",
+      "name": "Poet of Mourning Collapse"
+    },
+    {
+      "id": "125",
+      "slug": "warrior-goddess-of-sun-and-thunder",
+      "name": "Warrior Goddess of Sun and Thunder"
+    },
+    {
+      "id": "126",
+      "slug": "wavestrider-captain",
+      "name": "Wavestrider Captain"
+    },
+    {
+      "id": "127",
+      "slug": "world-remaking-deliverer",
+      "name": "World-Remaking Deliverer"
+    },
+    {
+      "id": "128",
+      "slug": "self-enshrouded-recluse",
+      "name": "Self-Enshrouded Recluse"
+    },
+    {
+      "id": "129",
+      "slug": "ever-glorious-magical-girl",
+      "name": "Ever-Glorious Magical Girl"
+    },
+    {
+      "id": "130",
+      "slug": "diviner-of-distant-reach",
+      "name": "Diviner of Distant Reach"
+    },
+    {
+      "id": "131",
+      "slug": "as-navigator-isee-sees-it",
+      "name": "As Navigator Isee Sees It"
+    },
+    {
+      "id": "132",
+      "slug": "divine-querying-master-smith",
+      "name": "Divine-Querying Master Smith"
+    },
+    {
+      "id": "301",
+      "slug": "space-sealing-station",
+      "name": "Space Sealing Station"
+    },
+    {
+      "id": "302",
+      "slug": "fleet-of-the-ageless",
+      "name": "Fleet of the Ageless"
+    },
+    {
+      "id": "303",
+      "slug": "pan-cosmic-commercial-enterprise",
+      "name": "Pan-Cosmic Commercial Enterprise"
+    },
+    {
+      "id": "304",
+      "slug": "belobog-of-the-architects",
+      "name": "Belobog of the Architects"
+    },
+    {
+      "id": "305",
+      "slug": "celestial-differentiator",
+      "name": "Celestial Differentiator"
+    },
+    {
+      "id": "306",
+      "slug": "inert-salsotto",
+      "name": "Inert Salsotto"
+    },
+    {
+      "id": "307",
+      "slug": "talia-kingdom-of-banditry",
+      "name": "Talia: Kingdom of Banditry"
+    },
+    {
+      "id": "308",
+      "slug": "sprightly-vonwacq",
+      "name": "Sprightly Vonwacq"
+    },
+    {
+      "id": "309",
+      "slug": "rutilant-arena",
+      "name": "Rutilant Arena"
+    },
+    {
+      "id": "310",
+      "slug": "broken-keel",
+      "name": "Broken Keel"
+    },
+    {
+      "id": "311",
+      "slug": "firmament-frontline-glamoth",
+      "name": "Firmament Frontline: Glamoth"
+    },
+    {
+      "id": "312",
+      "slug": "penacony-land-of-the-dreams",
+      "name": "Penacony, Land of the Dreams"
+    },
+    {
+      "id": "313",
+      "slug": "sigonia-the-unclaimed-desolation",
+      "name": "Sigonia, the Unclaimed Desolation"
+    },
+    {
+      "id": "314",
+      "slug": "izumo-gensei-and-takama-divine-realm",
+      "name": "Izumo Gensei and Takama Divine Realm"
+    },
+    {
+      "id": "315",
+      "slug": "duran-dynasty-of-running-wolves",
+      "name": "Duran, Dynasty of Running Wolves"
+    },
+    {
+      "id": "316",
+      "slug": "forge-of-the-kalpagni-lantern",
+      "name": "Forge of the Kalpagni Lantern"
+    },
+    {
+      "id": "317",
+      "slug": "lushaka-the-sunken-seas",
+      "name": "Lushaka, the Sunken Seas"
+    },
+    {
+      "id": "318",
+      "slug": "the-wondrous-bananamusement-park",
+      "name": "The Wondrous BananAmusement Park"
+    },
+    {
+      "id": "319",
+      "slug": "bone-collection-s-serene-demesne",
+      "name": "Bone Collection's Serene Demesne"
+    },
+    {
+      "id": "320",
+      "slug": "giant-tree-of-rapt-brooding",
+      "name": "Giant Tree of Rapt Brooding"
+    },
+    {
+      "id": "321",
+      "slug": "arcadia-of-woven-dreams",
+      "name": "Arcadia of Woven Dreams"
+    },
+    {
+      "id": "322",
+      "slug": "revelry-by-the-sea",
+      "name": "Revelry by the Sea"
+    },
+    {
+      "id": "323",
+      "slug": "amphoreus-the-eternal-land",
+      "name": "Amphoreus, The Eternal Land"
+    },
+    {
+      "id": "324",
+      "slug": "tengoku-livestream",
+      "name": "Tengoku@Livestream"
+    },
+    {
+      "id": "325",
+      "slug": "punklorde-stage-zero",
+      "name": "Punklorde Stage Zero"
+    },
+    {
+      "id": "326",
+      "slug": "city-of-converging-stars",
+      "name": "City of Converging Stars"
+    },
+    {
+      "id": "327",
+      "slug": "fallen-star-anchorage",
+      "name": "Fallen Star Anchorage"
+    },
+    {
+      "id": "328",
+      "slug": "cosmic-life-sciences-institute",
+      "name": "Cosmic Life Sciences Institute"
+    }
+  ],
+  "aliases": {
+    "characters": {
+      "march-7th": "1224",
+      "dan-heng": "1002",
+      "himeko": "1003",
+      "welt": "1004",
+      "kafka": "1005",
+      "silver-wolf": "1006",
+      "arlan": "1008",
+      "asta": "1009",
+      "herta": "1013",
+      "saber": "1014",
+      "archer": "1015",
+      "bronya": "1101",
+      "seele": "1102",
+      "serval": "1103",
+      "gepard": "1104",
+      "natasha": "1105",
+      "pela": "1106",
+      "clara": "1107",
+      "sampo": "1108",
+      "hook": "1109",
+      "lynx": "1110",
+      "luka": "1111",
+      "topaz-numby": "1112",
+      "qingque": "1201",
+      "tingyun": "1202",
+      "luocha": "1203",
+      "jing-yuan": "1204",
+      "blade": "1205",
+      "sushang": "1206",
+      "yukong": "1207",
+      "fu-xuan": "1208",
+      "yanqing": "1209",
+      "guinaifen": "1210",
+      "bailu": "1211",
+      "jingliu": "1212",
+      "dan-heng-imbibitor-lunae": "1213",
+      "xueyi": "1214",
+      "hanya": "1215",
+      "huohuo": "1217",
+      "jiaoqiu": "1218",
+      "feixiao": "1220",
+      "yunli": "1221",
+      "lingsha": "1222",
+      "moze": "1223",
+      "fugue": "1225",
+      "gallagher": "1301",
+      "argenti": "1302",
+      "ruan-mei": "1303",
+      "aventurine": "1304",
+      "dr-ratio": "1305",
+      "sparkle": "1306",
+      "black-swan": "1307",
+      "acheron": "1308",
+      "robin": "1309",
+      "firefly": "1310",
+      "misha": "1312",
+      "sunday": "1313",
+      "jade": "1314",
+      "boothill": "1315",
+      "rappa": "1317",
+      "the-dahlia": "1321",
+      "the-herta": "1401",
+      "aglaea": "1402",
+      "tribbie": "1403",
+      "mydei": "1404",
+      "anaxa": "1405",
+      "cipher": "1406",
+      "castorice": "1407",
+      "phainon": "1408",
+      "hyacine": "1409",
+      "hysilens": "1410",
+      "cerydra": "1412",
+      "evernight": "1413",
+      "dan-heng-permansor-terrae": "1414",
+      "cyrene": "1415",
+      "sparxie": "1501",
+      "yao-guang": "1502",
+      "ashveil": "1504",
+      "evanescia": "1505",
+      "silver-wolf-lv-999": "1506",
+      "mortenax-blade": "1507",
+      "trailblazer": "8010"
+    },
+    "lightCones": {
+      "arrows": "20000",
+      "cornucopia": "20001",
+      "collapsing-sky": "20002",
+      "amber": "20003",
+      "void": "20004",
+      "chorus": "20005",
+      "data-bank": "20006",
+      "darting-arrow": "20007",
+      "fine-fruit": "20008",
+      "shattered-home": "20009",
+      "defense": "20010",
+      "loop": "20011",
+      "meshing-cogs": "20012",
+      "passkey": "20013",
+      "adversarial": "20014",
+      "multiplication": "20015",
+      "mutual-demise": "20016",
+      "pioneering": "20017",
+      "hidden-shadow": "20018",
+      "mediation": "20019",
+      "sagacity": "20020",
+      "shadowburn": "20021",
+      "reminiscence": "20022",
+      "sneering": "20023",
+      "lingering-tear": "20024",
+      "post-op-conversation": "21000",
+      "good-night-and-sleep-well": "21001",
+      "day-one-of-my-new-life": "21002",
+      "only-silence-remains": "21003",
+      "memories-of-the-past": "21004",
+      "the-moles-welcome-you": "21005",
+      "the-birth-of-the-self": "21006",
+      "shared-feeling": "21007",
+      "eyes-of-the-prey": "21008",
+      "landau-s-choice": "21009",
+      "swordplay": "21010",
+      "planetary-rendezvous": "21011",
+      "a-secret-vow": "21012",
+      "make-the-world-clamor": "21013",
+      "perfect-timing": "21014",
+      "resolution-shines-as-pearls-of-sweat": "21015",
+      "trend-of-the-universal-market": "21016",
+      "subscribe-for-more": "21017",
+      "dance-dance-dance": "21018",
+      "under-the-blue-sky": "21019",
+      "geniuses-repose": "21020",
+      "quid-pro-quo": "21021",
+      "fermata": "21022",
+      "we-are-wildfire": "21023",
+      "river-flows-in-spring": "21024",
+      "past-and-future": "21025",
+      "woof-walk-time": "21026",
+      "the-seriousness-of-breakfast": "21027",
+      "warmth-shortens-cold-nights": "21028",
+      "we-will-meet-again": "21029",
+      "this-is-me": "21030",
+      "return-to-darkness": "21031",
+      "carve-the-moon-weave-the-clouds": "21032",
+      "nowhere-to-run": "21033",
+      "today-is-another-peaceful-day": "21034",
+      "what-is-real": "21035",
+      "dreamville-adventure": "21036",
+      "final-victor": "21037",
+      "flames-afar": "21038",
+      "destiny-s-threads-forewoven": "21039",
+      "the-day-the-cosmos-fell": "21040",
+      "it-s-showtime": "21041",
+      "indelible-promise": "21042",
+      "concert-for-two": "21043",
+      "boundless-choreo": "21044",
+      "after-the-charmony-fall": "21045",
+      "poised-to-bloom": "21046",
+      "shadowed-by-night": "21047",
+      "dream-s-montage": "21048",
+      "victory-in-a-blink": "21050",
+      "geniuses-greetings": "21051",
+      "sweat-now-cry-less": "21052",
+      "journey-forever-peaceful": "21053",
+      "the-story-s-next-page": "21054",
+      "unto-tomorrow-s-morrow": "21055",
+      "in-pursuit-of-the-wind": "21056",
+      "the-flower-remembers": "21057",
+      "a-trail-of-bygone-blood": "21058",
+      "a-dream-scented-in-wheat": "21060",
+      "holiday-thermae-escapade": "21061",
+      "see-you-at-the-end": "21062",
+      "mushy-shroomy-s-adventures": "21064",
+      "today-s-good-luck": "21065",
+      "before-the-tutorial-mission-starts": "22000",
+      "hey-over-here": "22001",
+      "for-tomorrow-s-journey": "22002",
+      "ninja-record-sound-hunt": "22003",
+      "the-great-cosmic-enterprise": "22004",
+      "the-forever-victual": "22005",
+      "fly-into-a-pink-tomorrow": "22006",
+      "tomorrow-together": "22007",
+      "night-on-the-milky-way": "23000",
+      "in-the-night": "23001",
+      "something-irreplaceable": "23002",
+      "but-the-battle-isn-t-over": "23003",
+      "in-the-name-of-the-world": "23004",
+      "moment-of-victory": "23005",
+      "patience-is-all-you-need": "23006",
+      "incessant-rain": "23007",
+      "echoes-of-the-coffin": "23008",
+      "the-unreachable-side": "23009",
+      "before-dawn": "23010",
+      "she-already-shut-her-eyes": "23011",
+      "sleep-like-the-dead": "23012",
+      "time-waits-for-no-one": "23013",
+      "i-shall-be-my-own-sword": "23014",
+      "brighter-than-the-sun": "23015",
+      "worrisome-blissful": "23016",
+      "night-of-fright": "23017",
+      "an-instant-before-a-gaze": "23018",
+      "past-self-in-mirror": "23019",
+      "baptism-of-pure-thought": "23020",
+      "earthly-escapade": "23021",
+      "reforged-remembrance": "23022",
+      "inherently-unjust-destiny": "23023",
+      "along-the-passing-shore": "23024",
+      "whereabouts-should-dreams-rest": "23025",
+      "flowing-nightglow": "23026",
+      "sailing-towards-a-second-life": "23027",
+      "yet-hope-is-priceless": "23028",
+      "those-many-springs": "23029",
+      "dance-at-sunset": "23030",
+      "i-venture-forth-to-hunt": "23031",
+      "scent-alone-stays-true": "23032",
+      "ninjutsu-inscription-dazzling-evilbreaker": "23033",
+      "a-grounded-ascent": "23034",
+      "long-road-leads-home": "23035",
+      "time-woven-into-gold": "23036",
+      "into-the-unreachable-veil": "23037",
+      "if-time-were-a-flower": "23038",
+      "flame-of-blood-blaze-my-path": "23039",
+      "make-farewells-more-beautiful": "23040",
+      "life-should-be-cast-to-flames": "23041",
+      "long-may-rainbows-adorn-the-sky": "23042",
+      "lies-dance-on-the-breeze": "23043",
+      "thus-burns-the-dawn": "23044",
+      "a-thankless-coronation": "23045",
+      "the-hell-where-ideals-burn": "23046",
+      "why-does-the-ocean-sing": "23047",
+      "epoch-etched-in-golden-blood": "23048",
+      "to-evernight-s-stars": "23049",
+      "never-forget-her-flame": "23050",
+      "though-worlds-apart": "23051",
+      "this-love-forever": "23052",
+      "dazzled-by-a-flowery-world": "23053",
+      "when-she-decided-to-see": "23054",
+      "the-finale-of-a-lie": "23056",
+      "welcome-to-the-cosmic-city": "23057",
+      "until-the-flowers-bloom-again": "23058",
+      "reforged-in-hellfire": "23059",
+      "on-the-fall-of-an-aeon": "24000",
+      "cruising-in-the-stellar-sea": "24001",
+      "texture-of-memories": "24002",
+      "solitary-healing": "24003",
+      "eternal-calculus": "24004",
+      "memory-s-curtain-never-falls": "24005",
+      "elation-brimming-with-blessings": "24006"
+    },
+    "relicSets": {
+      "passerby-of-wandering-cloud": "101",
+      "musketeer-of-wild-wheat": "102",
+      "knight-of-purity-palace": "103",
+      "hunter-of-glacial-forest": "104",
+      "champion-of-streetwise-boxing": "105",
+      "guard-of-wuthering-snow": "106",
+      "firesmith-of-lava-forging": "107",
+      "genius-of-brilliant-stars": "108",
+      "band-of-sizzling-thunder": "109",
+      "eagle-of-twilight-line": "110",
+      "thief-of-shooting-meteor": "111",
+      "wastelander-of-banditry-desert": "112",
+      "longevous-disciple": "113",
+      "messenger-traversing-hackerspace": "114",
+      "the-ashblazing-grand-duke": "115",
+      "prisoner-in-deep-confinement": "116",
+      "pioneer-diver-of-dead-waters": "117",
+      "watchmaker-master-of-dream-machinations": "118",
+      "iron-cavalry-against-the-scourge": "119",
+      "the-wind-soaring-valorous": "120",
+      "sacerdos-relived-ordeal": "121",
+      "scholar-lost-in-erudition": "122",
+      "hero-of-triumphant-song": "123",
+      "poet-of-mourning-collapse": "124",
+      "warrior-goddess-of-sun-and-thunder": "125",
+      "wavestrider-captain": "126",
+      "world-remaking-deliverer": "127",
+      "self-enshrouded-recluse": "128",
+      "ever-glorious-magical-girl": "129",
+      "diviner-of-distant-reach": "130",
+      "as-navigator-isee-sees-it": "131",
+      "divine-querying-master-smith": "132",
+      "space-sealing-station": "301",
+      "fleet-of-the-ageless": "302",
+      "pan-cosmic-commercial-enterprise": "303",
+      "belobog-of-the-architects": "304",
+      "celestial-differentiator": "305",
+      "inert-salsotto": "306",
+      "talia-kingdom-of-banditry": "307",
+      "sprightly-vonwacq": "308",
+      "rutilant-arena": "309",
+      "broken-keel": "310",
+      "firmament-frontline-glamoth": "311",
+      "penacony-land-of-the-dreams": "312",
+      "sigonia-the-unclaimed-desolation": "313",
+      "izumo-gensei-and-takama-divine-realm": "314",
+      "duran-dynasty-of-running-wolves": "315",
+      "forge-of-the-kalpagni-lantern": "316",
+      "lushaka-the-sunken-seas": "317",
+      "the-wondrous-bananamusement-park": "318",
+      "bone-collection-s-serene-demesne": "319",
+      "giant-tree-of-rapt-brooding": "320",
+      "arcadia-of-woven-dreams": "321",
+      "revelry-by-the-sea": "322",
+      "amphoreus-the-eternal-land": "323",
+      "tengoku-livestream": "324",
+      "punklorde-stage-zero": "325",
+      "city-of-converging-stars": "326",
+      "fallen-star-anchorage": "327",
+      "cosmic-life-sciences-institute": "328",
+      "quantum-set": "108",
+      "messenger": "114"
+    }
+  }
+}

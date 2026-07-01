@@ -1,0 +1,14 @@
+mode: single_hit
+enemyId: foi-95
+enemyBroken: false
+
+team:
+  members:
+    - characterId: jingliu
+      lightConeId: before-dawn
+      skillId: basic
+      relicSets:
+        - setId: quantum-set
+          pieces: 4
+      statOverrides:
+        flatAtk: 500

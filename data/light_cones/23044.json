@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23044",
+  "slug": "thus-burns-the-dawn",
+  "gameId": "23044",
+  "name": "Thus Burns the Dawn",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 687.96,
+    "hp": 952.56,
+    "def": 396.9
+  },
+  "superimpositions": {
+    "1": {
+      "BaseSpeed": 12
+    },
+    "2": {
+      "BaseSpeed": 14
+    },
+    "3": {
+      "BaseSpeed": 16
+    },
+    "4": {
+      "BaseSpeed": 18
+    },
+    "5": {
+      "BaseSpeed": 20
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

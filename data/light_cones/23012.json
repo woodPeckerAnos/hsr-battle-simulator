@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23012",
+  "slug": "sleep-like-the-dead",
+  "gameId": "23012",
+  "name": "Sleep Like the Dead",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1058.4,
+    "def": 463.05,
+    "critDmg": 0.3
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.3
+    },
+    "2": {
+      "CriticalDamageBase": 0.35
+    },
+    "3": {
+      "CriticalDamageBase": 0.4
+    },
+    "4": {
+      "CriticalDamageBase": 0.45
+    },
+    "5": {
+      "CriticalDamageBase": 0.5
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

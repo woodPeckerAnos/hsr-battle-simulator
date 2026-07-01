@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21053",
+  "slug": "journey-forever-peaceful",
+  "gameId": "21053",
+  "name": "Journey, Forever Peaceful",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370.44,
+    "hp": 1058.4,
+    "def": 529.2
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

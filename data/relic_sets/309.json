@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "309",
+  "slug": "rutilant-arena",
+  "gameId": "309",
+  "name": "Rutilant Arena",
+  "description": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, DMG dealt by Basic ATK and Skill increases by 20%.",
+  "pieces2": {
+    "description": "Increases the wearer's CRIT Rate by 8%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer's current CRIT Rate reaches 70% or higher, DMG dealt by Basic ATK and Skill increases by 20%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "20000",
+  "slug": "arrows",
+  "gameId": "20000",
+  "name": "Arrows",
+  "rarity": 3,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317.52,
+    "hp": 846.72,
+    "def": 264.6
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

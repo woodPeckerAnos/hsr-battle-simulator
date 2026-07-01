@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "117",
+  "slug": "pioneer-diver-of-dead-waters",
+  "gameId": "117",
+  "name": "Pioneer Diver of Dead Waters",
+  "description": "Increases DMG dealt to enemies with debuffs by 12%. Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn.",
+  "pieces2": {
+    "description": "Increases DMG dealt to enemies with debuffs by 12%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn.",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.04
+      }
+    ]
+  },
+  "source": "hsr-optimizer"
+}

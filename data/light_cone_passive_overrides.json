@@ -1,0 +1,14 @@
+{
+  "23010": {
+    "passive": {
+      "description": "战技和终结技伤害提高20%",
+      "modifiers": [
+        {
+          "zones": ["dmg_bonus"],
+          "tagFilter": ["skill", "ult"],
+          "value": 0.2
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21021",
+  "slug": "quid-pro-quo",
+  "gameId": "21021",
+  "name": "Quid Pro Quo",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423.36,
+    "hp": 952.56,
+    "def": 396.9
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

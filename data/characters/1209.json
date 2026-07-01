@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1209",
+  "slug": "yanqing",
+  "gameId": "1209",
+  "name": "Yanqing",
+  "rarity": 5,
+  "element": "ice",
+  "path": "hunt",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 679.14,
+    "hp": 892.58,
+    "def": 412.34,
+    "speed": 109,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "atkPercent": 0.28,
+    "elementDmgBonus": 0.144
+  },
+  "tracesRaw": {
+    "HP%": 0.1,
+    "ATK%": 0.28,
+    "Ice DMG Boost": 0.144
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "ice"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "ice"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

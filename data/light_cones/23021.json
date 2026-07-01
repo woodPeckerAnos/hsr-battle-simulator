@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23021",
+  "slug": "earthly-escapade",
+  "gameId": "23021",
+  "name": "Earthly Escapade",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1164.24,
+    "def": 463.05,
+    "critDmg": 0.32
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.32
+    },
+    "2": {
+      "CriticalDamageBase": 0.39
+    },
+    "3": {
+      "CriticalDamageBase": 0.46
+    },
+    "4": {
+      "CriticalDamageBase": 0.53
+    },
+    "5": {
+      "CriticalDamageBase": 0.6
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

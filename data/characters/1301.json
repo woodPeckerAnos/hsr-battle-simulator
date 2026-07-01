@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1301",
+  "slug": "gallagher",
+  "gameId": "1301",
+  "name": "Gallagher",
+  "rarity": 4,
+  "element": "fire",
+  "path": "abundance",
+  "level": 80,
+  "maxSp": 110,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 1305.36,
+    "def": 441,
+    "speed": 98,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.18,
+    "effectRes": 0.28
+  },
+  "tracesRaw": {
+    "HP%": 0.18,
+    "Effect RES": 0.28,
+    "Break Effect": 0.133
+  },
+  "traceModifiers": [],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [],
+  "source": "hsr-optimizer"
+}

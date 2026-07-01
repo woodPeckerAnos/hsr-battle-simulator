@@ -1,0 +1,32 @@
+# 游戏常量（来源：raw_data/星铁计算公式1）
+
+level_coefficient_base: 200
+level_coefficient_per_level: 10
+
+# 行动轴
+action_distance: 10000
+first_cycle_av: 150
+subsequent_cycle_av: 100
+
+# 敌人防御成长：等级 × 10 + 200
+enemy_def_per_level: 10
+enemy_def_base: 200
+
+# 破韧
+toughness_multiplier_unbroken: 0.9
+toughness_multiplier_broken: 1.0
+
+# 抗性默认值
+resistance_with_weakness: 0
+resistance_without_weakness: 0.2
+
+# 暴击基础
+base_crit_rate: 0.05
+base_crit_dmg: 0.5
+
+# 效果抵抗（Phase 3）
+default_effect_res: 0.4
+
+# 能量
+ult_energy_max: 100
+ult_energy_on_hit_taken: 10

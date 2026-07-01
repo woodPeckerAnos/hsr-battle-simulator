@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "118",
+  "slug": "watchmaker-master-of-dream-machinations",
+  "gameId": "118",
+  "name": "Watchmaker, Master of Dream Machinations",
+  "description": "Increases Break Effect by 16%. When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turns. This effect cannot be stacked.",
+  "pieces2": {
+    "description": "Increases Break Effect by 16%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turns. This effect cannot be stacked.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

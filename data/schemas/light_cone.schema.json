@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "light_cone.schema.json",
+  "type": "object",
+  "required": ["id", "name", "path", "level", "baseStats"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "path": { "type": "string" },
+    "level": { "type": "integer" },
+    "superimposition": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "baseStats": { "type": "object" },
+    "passive": { "type": "object" }
+  }
+}

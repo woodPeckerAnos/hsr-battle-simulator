@@ -1,0 +1,62 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1105",
+  "slug": "natasha",
+  "gameId": "1105",
+  "name": "Natasha",
+  "rarity": 4,
+  "element": "physical",
+  "path": "abundance",
+  "level": 80,
+  "maxSp": 90,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 1164.24,
+    "def": 507.15,
+    "speed": 98,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.28,
+    "effectRes": 0.18,
+    "defPercent": 0.125
+  },
+  "tracesRaw": {
+    "HP%": 0.28,
+    "Effect RES": 0.18,
+    "DEF%": 0.125
+  },
+  "traceModifiers": [],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [],
+  "source": "hsr-optimizer"
+}

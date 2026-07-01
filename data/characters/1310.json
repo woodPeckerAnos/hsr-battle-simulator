@@ -1,0 +1,75 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1310",
+  "slug": "firefly",
+  "gameId": "1310",
+  "name": "Firefly",
+  "rarity": 5,
+  "element": "fire",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 240,
+  "baseStats": {
+    "atk": 523.91,
+    "hp": 814.97,
+    "def": 776.16,
+    "speed": 104,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "flatSpeed": 5,
+    "effectRes": 0.18
+  },
+  "tracesRaw": {
+    "SPD": 5,
+    "Break Effect": 0.373,
+    "Effect RES": 0.18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    }
+  ],
+  "source": "hsr-optimizer"
+}

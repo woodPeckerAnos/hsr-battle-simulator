@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21032",
+  "slug": "carve-the-moon-weave-the-clouds",
+  "gameId": "21032",
+  "name": "Carve the Moon, Weave the Clouds",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 952.56,
+    "def": 330.75
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21018",
+  "slug": "dance-dance-dance",
+  "gameId": "21018",
+  "name": "Dance! Dance! Dance!",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423.36,
+    "hp": 952.56,
+    "def": 396.9
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

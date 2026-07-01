@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "20018",
+  "slug": "hidden-shadow",
+  "gameId": "20018",
+  "name": "Hidden Shadow",
+  "rarity": 3,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317.52,
+    "hp": 846.72,
+    "def": 264.6
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

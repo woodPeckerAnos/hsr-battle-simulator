@@ -1,0 +1,37 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "112",
+  "slug": "wastelander-of-banditry-desert",
+  "gameId": "112",
+  "name": "Wastelander of Banditry Desert",
+  "description": "Increases Imaginary DMG by 10%. When dealing DMG to debuffed enemy targets, the wearer has their CRIT Rate increased by 10%. And when they deal DMG to Imprisoned enemy targets, their CRIT DMG increases by 20%.",
+  "pieces2": {
+    "description": "Increases Imaginary DMG by 10%.",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "imaginary"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "When dealing DMG to debuffed enemy targets, the wearer has their CRIT Rate increased by 10%. And when they deal DMG to Imprisoned enemy targets, their CRIT DMG increases by 20%.",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "imaginary"
+        ]
+      }
+    ]
+  },
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1307",
+  "slug": "black-swan",
+  "gameId": "1307",
+  "name": "Black Swan",
+  "rarity": 5,
+  "element": "wind",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 659.74,
+    "hp": 1086.62,
+    "def": 485.1,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "elementDmgBonus": 0.144,
+    "effectHitRate": 0.1,
+    "atkPercent": 0.28
+  },
+  "tracesRaw": {
+    "Wind DMG Boost": 0.144,
+    "Effect Hit Rate": 0.1,
+    "ATK%": 0.28
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "wind"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "wind"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

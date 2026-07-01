@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1204",
+  "slug": "jing-yuan",
+  "gameId": "1204",
+  "name": "Jing Yuan",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 698.54,
+    "hp": 1164.24,
+    "def": 485.1,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "critRate": 0.12,
+    "defPercent": 0.125
+  },
+  "tracesRaw": {
+    "ATK%": 0.28,
+    "CRIT Rate": 0.12,
+    "DEF%": 0.125
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.12
+    }
+  ],
+  "source": "hsr-optimizer"
+}

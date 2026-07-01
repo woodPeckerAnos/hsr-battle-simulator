@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "20010",
+  "slug": "defense",
+  "gameId": "20010",
+  "name": "Defense",
+  "rarity": 3,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 264.6,
+    "hp": 952.56,
+    "def": 264.6
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

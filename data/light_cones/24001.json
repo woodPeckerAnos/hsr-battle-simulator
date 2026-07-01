@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "24001",
+  "slug": "cruising-in-the-stellar-sea",
+  "gameId": "24001",
+  "name": "Cruising in the Stellar Sea",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529.2,
+    "hp": 952.56,
+    "def": 463.05,
+    "critRate": 0.08
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalChanceBase": 0.08
+    },
+    "2": {
+      "CriticalChanceBase": 0.1
+    },
+    "3": {
+      "CriticalChanceBase": 0.12
+    },
+    "4": {
+      "CriticalChanceBase": 0.14
+    },
+    "5": {
+      "CriticalChanceBase": 0.16
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

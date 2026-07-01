@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1223",
+  "slug": "moze",
+  "gameId": "1223",
+  "name": "Moze",
+  "rarity": 4,
+  "element": "lightning",
+  "path": "hunt",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 599.76,
+    "hp": 811.44,
+    "def": 352.8,
+    "speed": 111,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "critDmg": 0.373,
+    "atkPercent": 0.18
+  },
+  "tracesRaw": {
+    "HP%": 0.1,
+    "CRIT DMG": 0.373,
+    "ATK%": 0.18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.18
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.18
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    }
+  ],
+  "source": "hsr-optimizer"
+}

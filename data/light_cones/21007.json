@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21007",
+  "slug": "shared-feeling",
+  "gameId": "21007",
+  "name": "Shared Feeling",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423.36,
+    "hp": 952.56,
+    "def": 396.9
+  },
+  "superimpositions": {
+    "1": {
+      "HealRatioBase": 0.1
+    },
+    "2": {
+      "HealRatioBase": 0.125
+    },
+    "3": {
+      "HealRatioBase": 0.15
+    },
+    "4": {
+      "HealRatioBase": 0.175
+    },
+    "5": {
+      "HealRatioBase": 0.2
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

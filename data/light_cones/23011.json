@@ -1,0 +1,41 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23011",
+  "slug": "she-already-shut-her-eyes",
+  "gameId": "23011",
+  "name": "She Already Shut Her Eyes",
+  "rarity": 5,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423.36,
+    "hp": 1270.08,
+    "def": 529.2,
+    "hpPercent": 0.24
+  },
+  "superimpositions": {
+    "1": {
+      "HPAddedRatio": 0.24,
+      "SPRatioBase": 0.12
+    },
+    "2": {
+      "HPAddedRatio": 0.28,
+      "SPRatioBase": 0.14
+    },
+    "3": {
+      "HPAddedRatio": 0.32,
+      "SPRatioBase": 0.16
+    },
+    "4": {
+      "HPAddedRatio": 0.36,
+      "SPRatioBase": 0.18
+    },
+    "5": {
+      "HPAddedRatio": 0.4,
+      "SPRatioBase": 0.2
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

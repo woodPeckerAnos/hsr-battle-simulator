@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "enemy.schema.json",
+  "type": "object",
+  "required": ["id", "name", "level", "defense", "hp", "toughness"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "level": { "type": "integer" },
+    "element": { "type": "string" },
+    "weaknesses": { "type": "array", "items": { "type": "string" } },
+    "defense": { "type": "number" },
+    "hp": { "type": "number" },
+    "toughness": { "type": "number" },
+    "speed": { "type": "number" },
+    "resistances": { "type": "object" },
+    "effectRes": { "type": "number" }
+  }
+}

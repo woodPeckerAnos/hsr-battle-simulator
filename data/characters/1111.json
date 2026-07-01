@@ -1,0 +1,76 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1111",
+  "slug": "luka",
+  "gameId": "1111",
+  "name": "Luka",
+  "rarity": 4,
+  "element": "physical",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 917.28,
+    "def": 485.1,
+    "speed": 103,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "effectHitRate": 0.18,
+    "defPercent": 0.125,
+    "atkPercent": 0.28
+  },
+  "tracesRaw": {
+    "Effect Hit Rate": 0.18,
+    "DEF%": 0.125,
+    "ATK%": 0.28
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    }
+  ],
+  "source": "hsr-optimizer"
+}

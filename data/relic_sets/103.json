@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "103",
+  "slug": "knight-of-purity-palace",
+  "gameId": "103",
+  "name": "Knight of Purity Palace",
+  "description": "Increases DEF by 15%. Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
+  "pieces2": {
+    "description": "Increases DEF by 15%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

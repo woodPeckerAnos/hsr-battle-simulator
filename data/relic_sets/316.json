@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "316",
+  "slug": "forge-of-the-kalpagni-lantern",
+  "gameId": "316",
+  "name": "Forge of the Kalpagni Lantern",
+  "description": "Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn.",
+  "pieces2": {
+    "description": "Increases the wearer's SPD by 6%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

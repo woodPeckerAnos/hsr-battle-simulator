@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "323",
+  "slug": "amphoreus-the-eternal-land",
+  "gameId": "323",
+  "name": "Amphoreus, The Eternal Land",
+  "description": "Increases the wearer's CRIT Rate by 8%. While the wearer's memosprite is on the field, increases all allies' SPD by 8%. This effect cannot be stacked.",
+  "pieces2": {
+    "description": "Increases the wearer's CRIT Rate by 8%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "While the wearer's memosprite is on the field, increases all allies' SPD by 8%. This effect cannot be stacked.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

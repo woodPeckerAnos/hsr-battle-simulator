@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23014",
+  "slug": "i-shall-be-my-own-sword",
+  "gameId": "23014",
+  "name": "I Shall Be My Own Sword",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1164.24,
+    "def": 396.9,
+    "critDmg": 0.2
+  },
+  "superimpositions": {
+    "1": {
+      "CriticalDamageBase": 0.2
+    },
+    "2": {
+      "CriticalDamageBase": 0.23
+    },
+    "3": {
+      "CriticalDamageBase": 0.26
+    },
+    "4": {
+      "CriticalDamageBase": 0.29
+    },
+    "5": {
+      "CriticalDamageBase": 0.32
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

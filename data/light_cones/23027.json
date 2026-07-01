@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23027",
+  "slug": "sailing-towards-a-second-life",
+  "gameId": "23027",
+  "name": "Sailing Towards a Second Life",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1058.4,
+    "def": 463.05,
+    "breakEffect": 0.6
+  },
+  "superimpositions": {
+    "1": {
+      "BreakDamageAddedRatioBase": 0.6
+    },
+    "2": {
+      "BreakDamageAddedRatioBase": 0.7
+    },
+    "3": {
+      "BreakDamageAddedRatioBase": 0.8
+    },
+    "4": {
+      "BreakDamageAddedRatioBase": 0.9
+    },
+    "5": {
+      "BreakDamageAddedRatioBase": 1
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

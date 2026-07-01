@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23034",
+  "slug": "a-grounded-ascent",
+  "gameId": "23034",
+  "name": "A Grounded Ascent",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 1164.24,
+    "def": 529.2
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "325",
+  "slug": "punklorde-stage-zero",
+  "gameId": "325",
+  "name": "Punklorde Stage Zero",
+  "description": "Increases the wearer's Elation by 8%. When Elation reaches 40%/80% for the first time in combat, increases the wearer's CRIT DMG by 20%/32%.",
+  "pieces2": {
+    "description": "Increases the wearer's Elation by 8%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When Elation reaches 40%/80% for the first time in combat, increases the wearer's CRIT DMG by 20%/32%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

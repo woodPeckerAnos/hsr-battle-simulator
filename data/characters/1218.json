@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "1218",
+  "slug": "jiaoqiu",
+  "gameId": "1218",
+  "name": "Jiaoqiu",
+  "rarity": 5,
+  "element": "fire",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 601.52,
+    "hp": 1358.28,
+    "def": 509.36,
+    "speed": 98,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "elementDmgBonus": 0.144,
+    "flatSpeed": 5,
+    "effectHitRate": 0.28
+  },
+  "tracesRaw": {
+    "Fire DMG Boost": 0.144,
+    "SPD": 5,
+    "Effect Hit Rate": 0.28
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "fire"
+      ]
+    }
+  ],
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "basic"
+      ]
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "skill"
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "multiplier": 1,
+      "tags": [
+        "ult"
+      ]
+    }
+  },
+  "passives": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 5
+    },
+    {
+      "zones": [
+        "dmg_bonus"
+      ],
+      "value": 0.144,
+      "tagFilter": [
+        "fire"
+      ]
+    }
+  ],
+  "source": "hsr-optimizer"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "302",
+  "slug": "fleet-of-the-ageless",
+  "gameId": "302",
+  "name": "Fleet of the Ageless",
+  "description": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
+  "pieces2": {
+    "description": "Increases the wearer's Max HP by 12%.",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
+    "modifiers": []
+  },
+  "source": "hsr-optimizer"
+}

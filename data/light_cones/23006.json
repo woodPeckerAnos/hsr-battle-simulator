@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23006",
+  "slug": "patience-is-all-you-need",
+  "gameId": "23006",
+  "name": "Patience Is All You Need",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582.12,
+    "hp": 1058.4,
+    "def": 463.05
+  },
+  "superimpositions": {
+    "1": {
+      "AllDamageTypeAddedRatio": 0.24
+    },
+    "2": {
+      "AllDamageTypeAddedRatio": 0.28
+    },
+    "3": {
+      "AllDamageTypeAddedRatio": 0.32
+    },
+    "4": {
+      "AllDamageTypeAddedRatio": 0.36
+    },
+    "5": {
+      "AllDamageTypeAddedRatio": 0.4
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

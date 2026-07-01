@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "23017",
+  "slug": "night-of-fright",
+  "gameId": "23017",
+  "name": "Night of Fright",
+  "rarity": 5,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 1164.24,
+    "def": 529.2
+  },
+  "superimpositions": {
+    "1": {
+      "SPRatioBase": 0.12
+    },
+    "2": {
+      "SPRatioBase": 0.14
+    },
+    "3": {
+      "SPRatioBase": 0.16
+    },
+    "4": {
+      "SPRatioBase": 0.18
+    },
+    "5": {
+      "SPRatioBase": 0.2
+    }
+  },
+  "passive": null,
+  "source": "hsr-optimizer"
+}

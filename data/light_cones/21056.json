@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "21056",
+  "slug": "in-pursuit-of-the-wind",
+  "gameId": "21056",
+  "name": "In Pursuit of the Wind",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476.28,
+    "hp": 1058.4,
+    "def": 396.9
+  },
+  "superimpositions": {},
+  "passive": null,
+  "source": "hsr-optimizer"
+}
