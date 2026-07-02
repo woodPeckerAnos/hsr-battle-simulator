@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "不老者的仙舟",
+  "slug": "不老者的仙舟",
+  "gameId": "1498",
+  "name": "不老者的仙舟",
+  "description": "使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。",
+  "pieces2": {
+    "description": "使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "不老者的仙舟",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%8D%E8%80%81%E8%80%85%E7%9A%84%E4%BB%99%E8%88%9F",
+    "revId": 59630
+  },
+  "source": "bwiki-scraper"
+}

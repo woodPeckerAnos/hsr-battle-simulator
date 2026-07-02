@@ -1,0 +1,178 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "流萤",
+  "slug": "流萤",
+  "gameId": "8666",
+  "name": "流萤",
+  "rarity": 5,
+  "element": "fire",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 240,
+  "baseStats": {
+    "atk": 523,
+    "hp": 814,
+    "def": 776,
+    "speed": 104,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 8,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 2.6,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "强化普攻伤害",
+        "levels": {
+          "1": 1.2,
+          "2": 1.4,
+          "3": 1.6,
+          "4": 1.8,
+          "5": 2,
+          "6": 2.2,
+          "7": 2.4,
+          "8": 2.6
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 2.5,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "战技伤害",
+        "levels": {
+          "1": 1.1,
+          "2": 1.2,
+          "3": 1.3,
+          "4": 1.4,
+          "5": 1.5,
+          "6": 1.625,
+          "7": 1.75,
+          "8": 1.875,
+          "9": 2,
+          "10": 2.1,
+          "11": 2.2,
+          "12": 2.3,
+          "13": 2.4,
+          "14": 2.5
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "我曾安眠，赤染之茧",
+      "effect": "施放强化战技时无视目标15%的防御，且强化战技不消耗战技点。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "自破碎的天空坠落",
+      "effect": "「完全燃烧」状态下施放强化普攻、强化战技消灭敌方目标或使目标陷入悬浮框弱点击破状态当敌方目标的韧性被削减至0时进入的特殊状态，进入该状态的目标行动会被延后。时，装甲「萨姆」立即获得1个额外回合获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。。该效果在1回合后可再次触发。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "沉睡在静默的星河",
+      "effect": "战技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "我会看见，飞萤之火",
+      "effect": "「完全燃烧」状态下，装甲「萨姆」的效果抵抗提高50%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "自无梦的长夜亮起",
+      "effect": "终结技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "绽放在终竟的明天",
+      "effect": "「完全燃烧」状态下装甲「萨姆」的火属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。施放强化普攻、强化战技时弱点击破效率提高50%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "流萤",
+    "url": "https://wiki.biligame.com/sr/%E6%B5%81%E8%90%A4",
+    "revId": 96582
+  },
+  "source": "bwiki-scraper"
+}

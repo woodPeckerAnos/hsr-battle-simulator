@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "苍穹战线格拉默",
+  "slug": "苍穹战线格拉默",
+  "gameId": "8016",
+  "name": "苍穹战线格拉默",
+  "description": "使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。",
+  "pieces2": {
+    "description": "使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "wiki": {
+    "title": "苍穹战线格拉默",
+    "url": "https://wiki.biligame.com/sr/%E8%8B%8D%E7%A9%B9%E6%88%98%E7%BA%BF%E6%A0%BC%E6%8B%89%E9%BB%98",
+    "revId": 59624
+  },
+  "source": "bwiki-scraper"
+}

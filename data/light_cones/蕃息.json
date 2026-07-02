@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "蕃息",
+  "slug": "蕃息",
+  "gameId": "699",
+  "name": "蕃息",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 952,
+    "def": 198
+  },
+  "passive": {
+    "name": "丰饶民",
+    "description": "以下效果仅对丰饶命途生效施放普攻后，使装备者的下1次行动提前12%/14%/16%/18%/20%。"
+  },
+  "wiki": {
+    "title": "蕃息",
+    "url": "https://wiki.biligame.com/sr/%E8%95%83%E6%81%AF",
+    "revId": 46690
+  },
+  "source": "bwiki-scraper"
+}

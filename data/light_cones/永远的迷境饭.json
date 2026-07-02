@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "永远的迷境饭",
+  "slug": "永远的迷境饭",
+  "gameId": "19923",
+  "name": "永远的迷境饭",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "真香",
+    "description": "以下效果仅对同谐命途生效使装备者的攻击力提高16%/20%/24%/28%/32%。装备者施放战技后，攻击力提高8%/10%/12%/14%/16%，该效果最多叠加3层。"
+  },
+  "wiki": {
+    "title": "永远的迷境饭",
+    "url": "https://wiki.biligame.com/sr/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%BF%B7%E5%A2%83%E9%A5%AD",
+    "revId": 64375
+  },
+  "source": "bwiki-scraper"
+}

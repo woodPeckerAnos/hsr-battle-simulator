@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "奔狼的都蓝王朝",
+  "slug": "奔狼的都蓝王朝",
+  "gameId": "12517",
+  "name": "奔狼的都蓝王朝",
+  "description": "我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。",
+  "pieces2": {
+    "description": "我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.25
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.25
+      }
+    ]
+  },
+  "wiki": {
+    "title": "奔狼的都蓝王朝",
+    "url": "https://wiki.biligame.com/sr/%E5%A5%94%E7%8B%BC%E7%9A%84%E9%83%BD%E8%93%9D%E7%8E%8B%E6%9C%9D",
+    "revId": 79173
+  },
+  "source": "bwiki-scraper"
+}

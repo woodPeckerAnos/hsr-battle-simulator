@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "无主荒星茨冈尼亚",
+  "slug": "无主荒星茨冈尼亚",
+  "gameId": "10680",
+  "name": "无主荒星茨冈尼亚",
+  "description": "使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。",
+  "pieces2": {
+    "description": "使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.04
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.04
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.04
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.04
+      }
+    ]
+  },
+  "wiki": {
+    "title": "无主荒星茨冈尼亚",
+    "url": "https://wiki.biligame.com/sr/%E6%97%A0%E4%B8%BB%E8%8D%92%E6%98%9F%E8%8C%A8%E5%86%88%E5%B0%BC%E4%BA%9A",
+    "revId": 71951
+  },
+  "source": "bwiki-scraper"
+}

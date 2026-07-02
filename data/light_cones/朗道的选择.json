@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "朗道的选择",
+  "slug": "朗道的选择",
+  "gameId": "656",
+  "name": "朗道的选择",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "时光如梭",
+    "description": "以下效果仅对存护命途生效使装备者受到攻击的概率提高，同时受到的伤害降低16%/18%/20%/22%/24%。"
+  },
+  "wiki": {
+    "title": "朗道的选择",
+    "url": "https://wiki.biligame.com/sr/%E6%9C%97%E9%81%93%E7%9A%84%E9%80%89%E6%8B%A9",
+    "revId": 46668
+  },
+  "source": "bwiki-scraper"
+}

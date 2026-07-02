@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "于夜色中",
+  "slug": "于夜色中",
+  "gameId": "211",
+  "name": "于夜色中",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1058,
+    "def": 463,
+    "critDmg": 0.12
+  },
+  "passive": {
+    "name": "花与蝶",
+    "description": "以下效果仅对巡猎命途生效使装备者的暴击率提高18%/21%/24%/27%/30%。当装备者在战斗中速度达到大于100时，每超过10点，普攻和战技造成的伤害提高6%/7%/8%/9%/10%，同时终结技的暴击伤害提高12%/14%/16%/18%/20%，该效果可叠加6层。"
+  },
+  "wiki": {
+    "title": "于夜色中",
+    "url": "https://wiki.biligame.com/sr/%E4%BA%8E%E5%A4%9C%E8%89%B2%E4%B8%AD",
+    "revId": 79223
+  },
+  "source": "bwiki-scraper"
+}

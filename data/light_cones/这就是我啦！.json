@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "这就是我啦！",
+  "slug": "这就是我啦！",
+  "gameId": "611",
+  "name": "这就是我啦！",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 846,
+    "def": 529
+  },
+  "passive": {
+    "name": "新篇章",
+    "description": "以下效果仅对存护命途生效使装备者防御力提高16%/20%/24%/28%/32%。使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的60%/75%/90%/105%/120% ，该效果对每个敌方目标仅生效1次。"
+  },
+  "wiki": {
+    "title": "这就是我啦！",
+    "url": "https://wiki.biligame.com/sr/%E8%BF%99%E5%B0%B1%E6%98%AF%E6%88%91%E5%95%A6%EF%BC%81",
+    "revId": 46670
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "开拓者•存护",
+  "slug": "开拓者•存护",
+  "gameId": "943",
+  "name": "开拓者•存护",
+  "rarity": 5,
+  "element": "fire",
+  "path": "preservation",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 601,
+    "hp": 1241,
+    "def": 606,
+    "speed": 95,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 8,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.6869999999999998,
+      "spreadMultiplier": 0.675,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "强化-单体伤害",
+        "levels": {
+          "1": 0.99,
+          "2": 1.08,
+          "3": 1.17,
+          "4": 1.26,
+          "5": 1.35,
+          "6": 1.462,
+          "7": 1.575,
+          "8": 1.6869999999999998
+        }
+      },
+      "spreadScaling": {
+        "row": "强化-扩散伤害",
+        "levels": {
+          "1": 0.396,
+          "2": 0.43200000000000005,
+          "3": 0.46799999999999997,
+          "4": 0.504,
+          "5": 0.54,
+          "6": 0.585,
+          "7": 0.63,
+          "8": 0.675
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.55,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "减伤",
+        "levels": {
+          "1": 0.41,
+          "2": 0.42,
+          "3": 0.43,
+          "4": 0.44,
+          "5": 0.45,
+          "6": 0.462,
+          "7": 0.475,
+          "8": 0.48700000000000004,
+          "9": 0.5,
+          "10": 0.51,
+          "11": 0.52,
+          "12": 0.53,
+          "13": 0.54,
+          "14": 0.55
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "大地芯髓的鸣动",
+      "effect": "施放普攻时，额外造成等同于开拓者25%防御力的火属性伤害；施放强化普攻时，额外造成等同于开拓者50%防御力的火属性伤害。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "古老寒铁的坚守",
+      "effect": "触发天赋时，为我方全体提供的护盾能够额外抵消等同于开拓者防御力2%+27的伤害。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "砌造未来的蓝图",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "驻留文明的誓言",
+      "effect": "战斗开始时，立即获得4层【灼热意志】。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "点燃光焰的勇气",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "永屹城垣的壁垒",
+      "effect": "施放强化普攻或终结技后，开拓者的防御力提高10%，最多叠加3层。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "开拓者•存护",
+    "url": "https://wiki.biligame.com/sr/%E5%BC%80%E6%8B%93%E8%80%85%E2%80%A2%E5%AD%98%E6%8A%A4",
+    "revId": 61900
+  },
+  "source": "bwiki-scraper"
+}

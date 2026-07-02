@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "泛银河商业公司",
+  "slug": "泛银河商业公司",
+  "gameId": "1275",
+  "name": "泛银河商业公司",
+  "description": "使装备者的效果命中提高10%，同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。",
+  "pieces2": {
+    "description": "使装备者的效果命中提高10%，同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "泛银河商业公司",
+    "url": "https://wiki.biligame.com/sr/%E6%B3%9B%E9%93%B6%E6%B2%B3%E5%95%86%E4%B8%9A%E5%85%AC%E5%8F%B8",
+    "revId": 59629
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "云无留迹的过客",
+  "slug": "云无留迹的过客",
+  "gameId": "1297",
+  "name": "云无留迹的过客",
+  "description": "治疗量提高10%。 在战斗开始时，立即为我方恢复1个战技点。",
+  "pieces2": {
+    "description": "治疗量提高10%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "在战斗开始时，立即为我方恢复1个战技点。",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "云无留迹的过客",
+    "url": "https://wiki.biligame.com/sr/%E4%BA%91%E6%97%A0%E7%95%99%E8%BF%B9%E7%9A%84%E8%BF%87%E5%AE%A2",
+    "revId": 46526
+  },
+  "source": "bwiki-scraper"
+}

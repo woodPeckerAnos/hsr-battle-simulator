@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "闪耀功勋的魔法少女",
+  "slug": "闪耀功勋的魔法少女",
+  "gameId": "28682",
+  "name": "闪耀功勋的魔法少女",
+  "description": "暴击伤害提高16%。 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。",
+  "pieces2": {
+    "description": "暴击伤害提高16%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "wiki": {
+    "title": "闪耀功勋的魔法少女",
+    "url": "https://wiki.biligame.com/sr/%E9%97%AA%E8%80%80%E5%8A%9F%E5%8B%8B%E7%9A%84%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3",
+    "revId": 79164
+  },
+  "source": "bwiki-scraper"
+}

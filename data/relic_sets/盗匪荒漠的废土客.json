@@ -1,0 +1,45 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "盗匪荒漠的废土客",
+  "slug": "盗匪荒漠的废土客",
+  "gameId": "1473",
+  "name": "盗匪荒漠的废土客",
+  "description": "虚数属性伤害提高10%。 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。",
+  "pieces2": {
+    "description": "虚数属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "imaginary"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.1
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.2
+      }
+    ]
+  },
+  "wiki": {
+    "title": "盗匪荒漠的废土客",
+    "url": "https://wiki.biligame.com/sr/%E7%9B%97%E5%8C%AA%E8%8D%92%E6%BC%A0%E7%9A%84%E5%BA%9F%E5%9C%9F%E5%AE%A2",
+    "revId": 46537
+  },
+  "source": "bwiki-scraper"
+}

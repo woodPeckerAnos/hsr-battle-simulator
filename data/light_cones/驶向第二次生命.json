@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "驶向第二次生命",
+  "slug": "驶向第二次生命",
+  "gameId": "11578",
+  "name": "驶向第二次生命",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1058,
+    "def": 463
+  },
+  "passive": {
+    "name": "苦航",
+    "description": "以下效果仅对巡猎命途生效使装备者的击破特攻提高60%/70%/80%/90%/100%，造成的击破伤害无视目标20%/23%/26%/29%/32%的防御力。当装备者在战斗中击破特攻大于等于150%时，速度提高12%/14%/16%/18%/20%。"
+  },
+  "wiki": {
+    "title": "驶向第二次生命",
+    "url": "https://wiki.biligame.com/sr/%E9%A9%B6%E5%90%91%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%94%9F%E5%91%BD",
+    "revId": 46600
+  },
+  "source": "bwiki-scraper"
+}

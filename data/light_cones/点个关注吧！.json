@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "点个关注吧！",
+  "slug": "点个关注吧！",
+  "gameId": "1269",
+  "name": "点个关注吧！",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "不赞不许走！",
+    "description": "以下效果仅对巡猎命途生效使装备者普攻和战技造成的伤害提高24%/30%/36%/42%/48%，当装备者的当前能量值等于其能量上限时，该效果额外提高24%/30%/36%/42%/48%。"
+  },
+  "wiki": {
+    "title": "点个关注吧！",
+    "url": "https://wiki.biligame.com/sr/%E7%82%B9%E4%B8%AA%E5%85%B3%E6%B3%A8%E5%90%A7%EF%BC%81",
+    "revId": 46613
+  },
+  "source": "bwiki-scraper"
+}

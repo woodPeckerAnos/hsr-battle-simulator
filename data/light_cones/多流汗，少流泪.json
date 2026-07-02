@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "多流汗，少流泪",
+  "slug": "多流汗，少流泪",
+  "gameId": "15642",
+  "name": "多流汗，少流泪",
+  "rarity": 5,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 198
+  },
+  "passive": {
+    "name": "来练！",
+    "description": "以下效果仅对记忆命途生效使装备者的暴击率提高12%/14%/16%/18%/20%，装备者的忆灵在场上时，装备者与忆灵造成的伤害提高24%/27%/30%/33%/36%。"
+  },
+  "wiki": {
+    "title": "多流汗，少流泪",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%9A%E6%B5%81%E6%B1%97%EF%BC%8C%E5%B0%91%E6%B5%81%E6%B3%AA",
+    "revId": 50040
+  },
+  "source": "bwiki-scraper"
+}

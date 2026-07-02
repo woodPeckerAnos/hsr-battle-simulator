@@ -1,0 +1,42 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "晨昏交界的翔鹰",
+  "slug": "晨昏交界的翔鹰",
+  "gameId": "1443",
+  "name": "晨昏交界的翔鹰",
+  "description": "风属性伤害提高10%。 当装备者施放终结技后，使其行动提前25%。",
+  "pieces2": {
+    "description": "风属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "wind"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者施放终结技后，使其行动提前25%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "wind"
+        ]
+      }
+    ]
+  },
+  "wiki": {
+    "title": "晨昏交界的翔鹰",
+    "url": "https://wiki.biligame.com/sr/%E6%99%A8%E6%98%8F%E4%BA%A4%E7%95%8C%E7%9A%84%E7%BF%94%E9%B9%B0",
+    "revId": 69897
+  },
+  "source": "bwiki-scraper"
+}

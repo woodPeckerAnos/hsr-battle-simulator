@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "但战斗还未结束",
+  "slug": "但战斗还未结束",
+  "gameId": "196",
+  "name": "但战斗还未结束",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1164,
+    "def": 463
+  },
+  "passive": {
+    "name": "继承人",
+    "description": "以下效果仅对同谐命途生效使装备者的能量恢复效率提高10%/12%/14%/16%/18%，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发一次。当装备者施放战技后，使下1个行动的我方其他目标造成的伤害提高30%/35%/40%/45%/50%，持续1回合。"
+  },
+  "wiki": {
+    "title": "但战斗还未结束",
+    "url": "https://wiki.biligame.com/sr/%E4%BD%86%E6%88%98%E6%96%97%E8%BF%98%E6%9C%AA%E7%BB%93%E6%9D%9F",
+    "revId": 46634
+  },
+  "source": "bwiki-scraper"
+}

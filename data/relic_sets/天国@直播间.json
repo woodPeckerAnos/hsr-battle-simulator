@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "天国@直播间",
+  "slug": "天国@直播间",
+  "gameId": "24208",
+  "name": "天国@直播间",
+  "description": "使装备者的暴击伤害提高16%。若在同一回合内消耗大于等于3点战技点，额外使装备者暴击伤害提高32%，持续3回合。",
+  "pieces2": {
+    "description": "使装备者的暴击伤害提高16%。若在同一回合内消耗大于等于3点战技点，额外使装备者暴击伤害提高32%，持续3回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "wiki": {
+    "title": "天国@直播间",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%A9%E5%9B%BD%40%E7%9B%B4%E6%92%AD%E9%97%B4",
+    "revId": 80120
+  },
+  "source": "bwiki-scraper"
+}

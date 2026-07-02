@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "白露",
+  "slug": "白露",
+  "gameId": "261",
+  "name": "白露",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "abundance",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 562,
+    "hp": 1319,
+    "def": 485,
+    "speed": 98,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.28,
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.136,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "回复生命值",
+        "levels": {
+          "1": 0.08199999999999999,
+          "2": 0.087,
+          "3": 0.092,
+          "4": 0.09699999999999999,
+          "5": 0.10099999999999999,
+          "6": 0.105,
+          "7": 0.109,
+          "8": 0.113,
+          "9": 0.11699999999999999,
+          "10": 0.12,
+          "11": 0.124,
+          "12": 0.128,
+          "13": 0.132,
+          "14": 0.136
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.157,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "回复生命值",
+        "levels": {
+          "1": 0.095,
+          "2": 0.10099999999999999,
+          "3": 0.106,
+          "4": 0.11199999999999999,
+          "5": 0.11699999999999999,
+          "6": 0.121,
+          "7": 0.126,
+          "8": 0.13,
+          "9": 0.135,
+          "10": 0.139,
+          "11": 0.14400000000000002,
+          "12": 0.14800000000000002,
+          "13": 0.153,
+          "14": 0.157
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "百脉甘津宁神久",
+      "effect": "【生息】结束时若我方目标当前生命值等于其生命上限，则额外恢复目标8点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "壶中洞天云螭眠",
+      "effect": "施放终结技后，白露的治疗量提高15%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "掌间乾坤便通玄",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "肘后备急除外障",
+      "effect": "战技提供的每1次治疗会额外使受治疗者造成的伤害提高10%，最多叠加3层，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "方定一倾浣俗尘",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "龙漦吐哺胜金丹",
+      "effect": "白露在单场战斗中累计可以对受到致命攻击的我方目标提供治疗的效果触发次数增加1次。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "白露",
+    "url": "https://wiki.biligame.com/sr/%E7%99%BD%E9%9C%B2",
+    "revId": 93966
+  },
+  "source": "bwiki-scraper"
+}

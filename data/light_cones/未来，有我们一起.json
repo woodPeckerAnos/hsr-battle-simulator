@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "未来，有我们一起",
+  "slug": "未来，有我们一起",
+  "gameId": "37861",
+  "name": "未来，有我们一起",
+  "rarity": 4,
+  "path": "欢愉",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330,
+    "critDmg": 0.12
+  },
+  "passive": {
+    "name": "同行",
+    "description": "以下效果仅对欢愉命途生效使装备者的暴击伤害提高12%/15%/18%/21%/24%。装备者施放终结技后，使我方全体欢愉度提高8%/9%/10%/11%/12%，持续1回合。"
+  },
+  "wiki": {
+    "title": "未来，有我们一起",
+    "url": "https://wiki.biligame.com/sr/%E6%9C%AA%E6%9D%A5%EF%BC%8C%E6%9C%89%E6%88%91%E4%BB%AC%E4%B8%80%E8%B5%B7",
+    "revId": 96721
+  },
+  "source": "bwiki-scraper"
+}

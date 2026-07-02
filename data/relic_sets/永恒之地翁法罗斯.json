@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "永恒之地翁法罗斯",
+  "slug": "永恒之地翁法罗斯",
+  "gameId": "24207",
+  "name": "永恒之地翁法罗斯",
+  "description": "使装备者的暴击率提高8%。装备者的忆灵在场时，我方全体速度提高8%，该效果无法叠加。",
+  "pieces2": {
+    "description": "使装备者的暴击率提高8%。装备者的忆灵在场时，我方全体速度提高8%，该效果无法叠加。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.08
+      },
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.08
+      },
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "永恒之地翁法罗斯",
+    "url": "https://wiki.biligame.com/sr/%E6%B0%B8%E6%81%92%E4%B9%8B%E5%9C%B0%E7%BF%81%E6%B3%95%E7%BD%97%E6%96%AF",
+    "revId": 71108
+  },
+  "source": "bwiki-scraper"
+}

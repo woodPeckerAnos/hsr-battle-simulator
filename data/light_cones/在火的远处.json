@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "在火的远处",
+  "slug": "在火的远处",
+  "gameId": "9408",
+  "name": "在火的远处",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1058,
+    "def": 264
+  },
+  "passive": {
+    "name": "爆燃",
+    "description": "以下效果仅对毁灭命途生效当装备者在单次受到攻击中累计损失的生命值超过最大生命值的25%，或单次消耗自身生命值超过最大生命值25%，则立即回复等同于装备者生命上限15%的生命值，同时使装备者造成的伤害提高25%/31.25%/37.5%/43.75%/50%，持续2回合。该效果每3回合只能触发1次。"
+  },
+  "wiki": {
+    "title": "在火的远处",
+    "url": "https://wiki.biligame.com/sr/%E5%9C%A8%E7%81%AB%E7%9A%84%E8%BF%9C%E5%A4%84",
+    "revId": 92896
+  },
+  "source": "bwiki-scraper"
+}

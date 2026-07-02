@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "余生的第一天",
+  "slug": "余生的第一天",
+  "gameId": "201",
+  "name": "余生的第一天",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "此刻定格",
+    "description": "以下效果仅对存护命途生效使装备者的防御力提高16%/18%/20%/22%/24%。进入战斗后，使我方全体的全属性抗性提高8%/9%/10%/11%/12%。同类技能无法重复生效。"
+  },
+  "wiki": {
+    "title": "余生的第一天",
+    "url": "https://wiki.biligame.com/sr/%E4%BD%99%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9",
+    "revId": 52057
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "银枝",
+  "slug": "银枝",
+  "gameId": "6751",
+  "name": "银枝",
+  "rarity": 5,
+  "element": "physical",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 180,
+  "baseStats": {
+    "atk": 737,
+    "hp": 1047,
+    "def": 363,
+    "speed": 103,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.1,
+    "flatSpeed": 14.4
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 1.5,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体伤害",
+        "levels": {
+          "1": 0.66,
+          "2": 0.72,
+          "3": 0.78,
+          "4": 0.84,
+          "5": 0.9,
+          "6": 0.975,
+          "7": 1.05,
+          "9": 1.2,
+          "10": 1.26,
+          "11": 1.32,
+          "12": 1.38,
+          "13": 1.44,
+          "14": 1.5
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 1.92,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体伤害",
+        "levels": {
+          "1": 1.024,
+          "2": 1.088,
+          "3": 1.1520000000000001,
+          "4": 1.216,
+          "5": 1.28,
+          "6": 1.36,
+          "7": 1.44,
+          "8": 1.52,
+          "9": 1.6,
+          "10": 1.6640000000000001,
+          "11": 1.7280000000000002,
+          "12": 1.7919999999999998,
+          "13": 1.8559999999999999,
+          "14": 1.92
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "审美王国的缺口",
+      "effect": "每层【升格】额外使暴击伤害提高4%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "玛瑙石的谦卑",
+      "effect": "施放终结技时，若敌方目标数量大于等于3个时，攻击力提高40%，持续1回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "荆棘路的荣光",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "号角的奉献",
+      "effect": "战斗开始时，获得2层【升格】，并使天赋的效果可叠加上限提高2层。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "宇宙某处的雪",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "「你」的光芒",
+      "effect": "施放终结技时，无视敌方目标30%的防御力。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "wiki": {
+    "title": "银枝",
+    "url": "https://wiki.biligame.com/sr/%E9%93%B6%E6%9E%9D",
+    "revId": 62074
+  },
+  "source": "bwiki-scraper"
+}

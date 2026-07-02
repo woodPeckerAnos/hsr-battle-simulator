@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "后会有期",
+  "slug": "后会有期",
+  "gameId": "609",
+  "name": "后会有期",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 846,
+    "def": 330
+  },
+  "passive": {
+    "name": "秘密",
+    "description": "以下效果仅对虚无命途生效装备者施放普攻或战技后，对随机1个受到技能攻击的敌方目标造成等同于自身48%/60%/72%/84%/96%攻击力的附加伤害。"
+  },
+  "wiki": {
+    "title": "后会有期",
+    "url": "https://wiki.biligame.com/sr/%E5%90%8E%E4%BC%9A%E6%9C%89%E6%9C%9F",
+    "revId": 46658
+  },
+  "source": "bwiki-scraper"
+}

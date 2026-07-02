@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "布洛妮娅",
+  "slug": "布洛妮娅",
+  "gameId": "129",
+  "name": "布洛妮娅",
+  "rarity": 5,
+  "element": "wind",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1241,
+    "def": 533,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 24
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 24
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.825,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "伤害提高",
+        "levels": {
+          "1": 0.363,
+          "2": 0.396,
+          "3": 0.429,
+          "4": 0.462,
+          "5": 0.495,
+          "6": 0.536,
+          "7": 0.5770000000000001,
+          "8": 0.618,
+          "9": 0.66,
+          "10": 0.693,
+          "11": 0.726,
+          "12": 0.759,
+          "13": 0.792,
+          "14": 0.825
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.375,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "行动提前",
+        "levels": {
+          "1": 0.165,
+          "2": 0.18,
+          "3": 0.195,
+          "4": 0.21,
+          "5": 0.225,
+          "6": 0.243,
+          "7": 0.262,
+          "8": 0.281,
+          "9": 0.3,
+          "10": 0.315,
+          "11": 0.33,
+          "12": 0.345,
+          "13": 0.36,
+          "14": 0.375
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "养精蓄锐",
+      "effect": "施放战技时，有50%悬浮框固定概率不会被任何因素影响的固定概率。恢复1个战技点，该效果有1回合的触发冷却。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "快速行军",
+      "effect": "施放战技时，被指定的我方目标在行动后速度提高30%，持续1回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "鼓炮齐鸣",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "攻其不备",
+      "effect": "我方其他角色对弱点为风属性的敌方目标施放普攻后，布洛妮娅立即进行1次追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。，对该目标造成等同于普攻伤害80%的风属性伤害，该效果每回合可触发1次。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "所向克捷",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "气贯长虹",
+      "effect": "战技对指定我方目标造成的伤害提高效果的持续时间增加1回合。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 24
+    }
+  ],
+  "wiki": {
+    "title": "布洛妮娅",
+    "url": "https://wiki.biligame.com/sr/%E5%B8%83%E6%B4%9B%E5%A6%AE%E5%A8%85",
+    "revId": 79298
+  },
+  "source": "bwiki-scraper"
+}

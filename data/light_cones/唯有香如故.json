@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "唯有香如故",
+  "slug": "唯有香如故",
+  "gameId": "13604",
+  "name": "唯有香如故",
+  "rarity": 5,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 529
+  },
+  "passive": {
+    "name": "安心",
+    "description": "以下效果仅对丰饶命途生效使装备者击破特攻提高60%/70%/80%/90%/100%。装备者施放终结技攻击敌方目标后，使其陷入【忘忧】状态，持续2回合，【忘忧】状态下的敌方目标受到的伤害提高10%/12%/14%/16%/18%，若装备者当前击破特攻大于等于150%，受到的伤害提高效果额外提高8%/10%/12%/14%/16%。"
+  },
+  "wiki": {
+    "title": "唯有香如故",
+    "url": "https://wiki.biligame.com/sr/%E5%94%AF%E6%9C%89%E9%A6%99%E5%A6%82%E6%95%85",
+    "revId": 46671
+  },
+  "source": "bwiki-scraper"
+}

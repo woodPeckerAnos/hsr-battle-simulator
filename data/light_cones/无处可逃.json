@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "无处可逃",
+  "slug": "无处可逃",
+  "gameId": "582",
+  "name": "无处可逃",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 952,
+    "def": 264
+  },
+  "passive": {
+    "name": "绝境",
+    "description": "以下效果仅对毁灭命途生效使装备者的攻击力提高24%/30%/36%/42%/48%。当装备者消灭敌方目标时，回复等同于自身12%/15%/18%/21%/24%攻击力的生命值。"
+  },
+  "wiki": {
+    "title": "无处可逃",
+    "url": "https://wiki.biligame.com/sr/%E6%97%A0%E5%A4%84%E5%8F%AF%E9%80%83",
+    "revId": 46594
+  },
+  "source": "bwiki-scraper"
+}

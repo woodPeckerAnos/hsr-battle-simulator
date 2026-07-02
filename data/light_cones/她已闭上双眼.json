@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "她已闭上双眼",
+  "slug": "她已闭上双眼",
+  "gameId": "5827",
+  "name": "她已闭上双眼",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 1270,
+    "def": 529
+  },
+  "passive": {
+    "name": "视界",
+    "description": "以下效果仅对存护命途生效使装备者的生命上限提高24%/28%/32%/36%/40%，能量恢复效率提高12%/14%/16%/18%/20%。当装备者的生命值降低时，使我方全体造成的伤害提高9%/10.5%/12%/13.5%/15%，持续2回合。每个波次开始时，为我方全体回复等同于各自已损失生命值80%/85%/90%/95%/100%的生命值。"
+  },
+  "wiki": {
+    "title": "她已闭上双眼",
+    "url": "https://wiki.biligame.com/sr/%E5%A5%B9%E5%B7%B2%E9%97%AD%E4%B8%8A%E5%8F%8C%E7%9C%BC",
+    "revId": 79221
+  },
+  "source": "bwiki-scraper"
+}

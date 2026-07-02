@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "镂月裁云之意",
+  "slug": "镂月裁云之意",
+  "gameId": "600",
+  "name": "镂月裁云之意",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330,
+    "critDmg": 0.12
+  },
+  "passive": {
+    "name": "秘密",
+    "description": "以下效果仅对同谐命途生效在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：使我方全体攻击力提高10%/12%/15%/17%/20%；使我方全体暴击伤害提高12%/15%/18%/21%/24%；使我方全体能量恢复效率提高6%/7%/9%/10%/12%。同类效果无法叠加，在装备者陷入无法战斗状态时解除。"
+  },
+  "wiki": {
+    "title": "镂月裁云之意",
+    "url": "https://wiki.biligame.com/sr/%E9%95%82%E6%9C%88%E8%A3%81%E4%BA%91%E4%B9%8B%E6%84%8F",
+    "revId": 46641
+  },
+  "source": "bwiki-scraper"
+}

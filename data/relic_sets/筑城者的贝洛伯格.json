@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "筑城者的贝洛伯格",
+  "slug": "筑城者的贝洛伯格",
+  "gameId": "1485",
+  "name": "筑城者的贝洛伯格",
+  "description": "使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。",
+  "pieces2": {
+    "description": "使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "筑城者的贝洛伯格",
+    "url": "https://wiki.biligame.com/sr/%E7%AD%91%E5%9F%8E%E8%80%85%E7%9A%84%E8%B4%9D%E6%B4%9B%E4%BC%AF%E6%A0%BC",
+    "revId": 59614
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "恶海逐波的船长",
+  "slug": "恶海逐波的船长",
+  "gameId": "18751",
+  "name": "恶海逐波的船长",
+  "description": "暴击伤害提高16%。 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。",
+  "pieces2": {
+    "description": "暴击伤害提高16%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.48
+      }
+    ]
+  },
+  "wiki": {
+    "title": "恶海逐波的船长",
+    "url": "https://wiki.biligame.com/sr/%E6%81%B6%E6%B5%B7%E9%80%90%E6%B3%A2%E7%9A%84%E8%88%B9%E9%95%BF",
+    "revId": 76247
+  },
+  "source": "bwiki-scraper"
+}

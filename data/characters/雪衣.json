@@ -1,0 +1,217 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "雪衣",
+  "slug": "雪衣",
+  "gameId": "3221",
+  "name": "雪衣",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 599,
+    "hp": 1058,
+    "def": 396,
+    "speed": 103,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.08,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.08
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.75,
+      "spreadMultiplier": 0.875,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.77,
+          "2": 0.84,
+          "3": 0.91,
+          "4": 0.98,
+          "5": 1.05,
+          "6": 1.137,
+          "7": 1.225,
+          "8": 1.3119999999999998,
+          "9": 1.4,
+          "10": 1.47,
+          "11": 1.54,
+          "12": 1.61,
+          "13": 1.68,
+          "14": 1.75
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.385,
+          "2": 0.42,
+          "3": 0.455,
+          "4": 0.49,
+          "5": 0.525,
+          "6": 0.568,
+          "7": 0.612,
+          "8": 0.6559999999999999,
+          "9": 0.7,
+          "10": 0.735,
+          "11": 0.77,
+          "12": 0.805,
+          "13": 0.84,
+          "14": 0.875
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 3,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.6,
+          "2": 1.7,
+          "3": 1.8,
+          "4": 1.9,
+          "5": 2,
+          "6": 2.125,
+          "7": 2.25,
+          "8": 2.375,
+          "9": 2.5,
+          "10": 2.6,
+          "11": 2.7,
+          "12": 2.8,
+          "13": 2.9,
+          "14": 3
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "缚心魔",
+      "effect": "天赋的悬浮框追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。造成的伤害提高40%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "破五尘",
+      "effect": "天赋的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。无视弱点属性削减敌方的韧性，同时为自身恢复等同于雪衣5%生命上限的生命值。击破弱点时，触发量子属性的弱点击破效果。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "止苦谛",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "断业根",
+      "effect": "施放终结技时，击破特攻提高40%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "勾灵神",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "司死生",
+      "effect": "【恶报】的层数上限降低至6层。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.08
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "雪衣",
+    "url": "https://wiki.biligame.com/sr/%E9%9B%AA%E8%A1%A3",
+    "revId": 79253
+  },
+  "source": "bwiki-scraper"
+}

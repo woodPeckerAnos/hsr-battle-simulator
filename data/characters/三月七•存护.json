@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "三月七•存护",
+  "slug": "三月七•存护",
+  "gameId": "161",
+  "name": "三月七•存护",
+  "rarity": 5,
+  "element": "ice",
+  "path": "preservation",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 511,
+    "hp": 1058,
+    "def": 573,
+    "speed": 101,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.665,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "护盾盾量",
+        "levels": {
+          "1": 0.40299999999999997,
+          "2": 0.42700000000000005,
+          "3": 0.451,
+          "4": 0.475,
+          "5": 0.494,
+          "6": 0.513,
+          "7": 0.532,
+          "8": 0.551,
+          "9": 0.57,
+          "10": 0.589,
+          "11": 0.608,
+          "12": 0.627,
+          "13": 0.6459999999999999,
+          "14": 0.665
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 1.8,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体伤害",
+        "levels": {
+          "1": 0.96,
+          "2": 1.02,
+          "3": 1.08,
+          "4": 1.14,
+          "5": 1.2,
+          "6": 1.275,
+          "7": 1.35,
+          "8": 1.425,
+          "9": 1.5,
+          "10": 1.56,
+          "11": 1.62,
+          "12": 1.68,
+          "13": 1.74,
+          "14": 1.8
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "记忆中的你",
+      "effect": "终结技每冻结1个目标，为三月七恢复6点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "记忆中的它",
+      "effect": "进入战斗时，为当前生命值百分比最低的我方目标提供等同于三月七24%防御力+320的护盾，持续3回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "记忆中的一切",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "不愿再失去",
+      "effect": "天赋的悬浮框反击当目标受到攻击后自动触发的效果，对攻击者施放1次额外的攻击。反击也属于追加攻击。效果每回合可触发的次数增加1次。使反击当目标受到攻击后自动触发的效果，对攻击者施放1次额外的攻击。反击也属于追加攻击。造成的伤害值提高，提高数值等同于三月七防御力的30%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "不想再忘却",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "就这样，一直…",
+      "effect": "在战技提供的护盾保护下的我方目标，每回合开始时回复等同于各自4%生命上限+106的生命值。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "三月七•存护",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%89%E6%9C%88%E4%B8%83%E2%80%A2%E5%AD%98%E6%8A%A4",
+    "revId": 71257
+  },
+  "source": "bwiki-scraper"
+}

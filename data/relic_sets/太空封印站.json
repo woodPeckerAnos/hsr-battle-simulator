@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "太空封印站",
+  "slug": "太空封印站",
+  "gameId": "1494",
+  "name": "太空封印站",
+  "description": "使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。",
+  "pieces2": {
+    "description": "使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "wiki": {
+    "title": "太空封印站",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%AA%E7%A9%BA%E5%B0%81%E5%8D%B0%E7%AB%99",
+    "revId": 59628
+  },
+  "source": "bwiki-scraper"
+}

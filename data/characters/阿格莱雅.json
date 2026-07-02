@@ -1,0 +1,209 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "阿格莱雅",
+  "slug": "阿格莱雅",
+  "gameId": "14808",
+  "name": "阿格莱雅",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "remembrance",
+  "level": 80,
+  "maxSp": 350,
+  "baseStats": {
+    "atk": 698,
+    "hp": 1241,
+    "def": 485,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.125,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 9,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 2.8,
+      "spreadMultiplier": 1.26,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.2,
+          "2": 1.4,
+          "3": 1.6,
+          "4": 1.8,
+          "5": 2,
+          "6": 2.2,
+          "7": 2.4,
+          "8": 2.6,
+          "9": 2.8
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.54,
+          "2": 0.63,
+          "3": 0.72,
+          "4": 0.81,
+          "5": 0.9,
+          "6": 0.99,
+          "7": 1.08,
+          "8": 1.17,
+          "9": 1.26
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.625,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "回复生命",
+        "levels": {
+          "1": 0.275,
+          "2": 0.3,
+          "3": 0.325,
+          "4": 0.35,
+          "5": 0.375,
+          "6": 0.406,
+          "7": 0.43700000000000006,
+          "8": 0.46799999999999997,
+          "9": 0.5,
+          "10": 0.525,
+          "11": 0.55,
+          "12": 0.575,
+          "13": 0.6,
+          "14": 0.625
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "飘曳金星的行列",
+      "effect": "处于【间隙织线】状态下的敌人受到的伤害提高15%，阿格莱雅或衣匠攻击该目标后额外恢复20点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "行舟命运的眼睑",
+      "effect": "当阿格莱雅或衣匠行动时，使阿格莱雅与衣匠造成的伤害无视目标14%的防御力，该效果最多叠加3层，持续至除自身与衣匠以外的任意单位主动施放技能时。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "华珠凝滞的礼物",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2,
+        "talent": 1
+      }
+    },
+    {
+      "index": 4,
+      "name": "大理石内的闪烁",
+      "effect": "忆灵天赋的速度提高效果层数上限提高1层。阿格莱雅施放攻击后也能使衣匠获得忆灵天赋的速度提高效果。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "漆黑苦难的织者",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "盈虚无常的金线",
+      "effect": "当阿格莱雅处于【至高之姿】状态时，自身与衣匠的雷属性悬浮框抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%，当阿格莱雅或衣匠的速度高于160/240/320点时，其造成的连携攻击伤害提高10%/30%/60%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "阿格莱雅",
+    "url": "https://wiki.biligame.com/sr/%E9%98%BF%E6%A0%BC%E8%8E%B1%E9%9B%85",
+    "revId": 92315
+  },
+  "source": "bwiki-scraper"
+}

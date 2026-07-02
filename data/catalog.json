@@ -1,1894 +1,1946 @@
 {
-  "source": "hsr-optimizer game_data.json",
-  "importedAt": "2026-06-30T10:21:36.465Z",
+  "source": "https://wiki.biligame.com/sr",
+  "scrapedAt": "2026-07-01T11:11:43.062022Z",
+  "importedAt": "2026-07-02T06:04:55.146Z",
+  "importFrom": "/Users/woodpeckeranos/Projects/star-rail-compute-on/projects/bwiki-scraper/data",
   "characters": [
     {
-      "id": "1001",
-      "slug": "march-7th",
-      "name": "March 7th"
+      "id": "阿格莱雅",
+      "slug": "阿格莱雅",
+      "name": "阿格莱雅"
     },
     {
-      "id": "1002",
-      "slug": "dan-heng",
-      "name": "Dan Heng"
+      "id": "阿兰",
+      "slug": "阿兰",
+      "name": "阿兰"
     },
     {
-      "id": "1003",
-      "slug": "himeko",
-      "name": "Himeko"
+      "id": "艾利欧",
+      "slug": "艾利欧",
+      "name": "艾利欧"
     },
     {
-      "id": "1004",
-      "slug": "welt",
-      "name": "Welt"
+      "id": "艾丝妲",
+      "slug": "艾丝妲",
+      "name": "艾丝妲"
     },
     {
-      "id": "1005",
-      "slug": "kafka",
-      "name": "Kafka"
-    },
-    {
-      "id": "1006",
-      "slug": "silver-wolf",
-      "name": "Silver Wolf"
-    },
-    {
-      "id": "1008",
-      "slug": "arlan",
-      "name": "Arlan"
-    },
-    {
-      "id": "1009",
-      "slug": "asta",
-      "name": "Asta"
-    },
-    {
-      "id": "1013",
-      "slug": "herta",
-      "name": "Herta"
-    },
-    {
-      "id": "1014",
-      "slug": "saber",
-      "name": "Saber"
-    },
-    {
-      "id": "1015",
-      "slug": "archer",
+      "id": "Archer",
+      "slug": "Archer",
       "name": "Archer"
     },
     {
-      "id": "1101",
-      "slug": "bronya",
-      "name": "Bronya"
+      "id": "白厄",
+      "slug": "白厄",
+      "name": "白厄"
     },
     {
-      "id": "1102",
-      "slug": "seele",
-      "name": "Seele"
+      "id": "白露",
+      "slug": "白露",
+      "name": "白露"
     },
     {
-      "id": "1103",
-      "slug": "serval",
-      "name": "Serval"
+      "id": "波提欧",
+      "slug": "波提欧",
+      "name": "波提欧"
     },
     {
-      "id": "1104",
-      "slug": "gepard",
-      "name": "Gepard"
+      "id": "布洛妮娅",
+      "slug": "布洛妮娅",
+      "name": "布洛妮娅"
     },
     {
-      "id": "1105",
-      "slug": "natasha",
-      "name": "Natasha"
+      "id": "不死途",
+      "slug": "不死途",
+      "name": "不死途"
     },
     {
-      "id": "1106",
-      "slug": "pela",
-      "name": "Pela"
+      "id": "大黑塔",
+      "slug": "大黑塔",
+      "name": "大黑塔"
     },
     {
-      "id": "1107",
-      "slug": "clara",
-      "name": "Clara"
+      "id": "大丽花",
+      "slug": "大丽花",
+      "name": "大丽花"
     },
     {
-      "id": "1108",
-      "slug": "sampo",
-      "name": "Sampo"
+      "id": "丹恒",
+      "slug": "丹恒",
+      "name": "丹恒"
     },
     {
-      "id": "1109",
-      "slug": "hook",
-      "name": "Hook"
+      "id": "丹恒•腾荒",
+      "slug": "丹恒•腾荒",
+      "name": "丹恒•腾荒"
     },
     {
-      "id": "1110",
-      "slug": "lynx",
-      "name": "Lynx"
+      "id": "丹恒•饮月",
+      "slug": "丹恒•饮月",
+      "name": "丹恒•饮月"
     },
     {
-      "id": "1111",
-      "slug": "luka",
-      "name": "Luka"
+      "id": "翡翠",
+      "slug": "翡翠",
+      "name": "翡翠"
     },
     {
-      "id": "1112",
-      "slug": "topaz-numby",
-      "name": "Topaz & Numby"
+      "id": "飞霄",
+      "slug": "飞霄",
+      "name": "飞霄"
     },
     {
-      "id": "1201",
-      "slug": "qingque",
-      "name": "Qingque"
+      "id": "绯英",
+      "slug": "绯英",
+      "name": "绯英"
     },
     {
-      "id": "1202",
-      "slug": "tingyun",
-      "name": "Tingyun"
+      "id": "风堇",
+      "slug": "风堇",
+      "name": "风堇"
     },
     {
-      "id": "1203",
-      "slug": "luocha",
-      "name": "Luocha"
+      "id": "符玄",
+      "slug": "符玄",
+      "name": "符玄"
     },
     {
-      "id": "1204",
-      "slug": "jing-yuan",
-      "name": "Jing Yuan"
+      "id": "桂乃芬",
+      "slug": "桂乃芬",
+      "name": "桂乃芬"
     },
     {
-      "id": "1205",
-      "slug": "blade",
-      "name": "Blade"
+      "id": "海瑟音",
+      "slug": "海瑟音",
+      "name": "海瑟音"
     },
     {
-      "id": "1206",
-      "slug": "sushang",
-      "name": "Sushang"
+      "id": "寒鸦",
+      "slug": "寒鸦",
+      "name": "寒鸦"
     },
     {
-      "id": "1207",
-      "slug": "yukong",
-      "name": "Yukong"
+      "id": "黑塔",
+      "slug": "黑塔",
+      "name": "黑塔"
     },
     {
-      "id": "1208",
-      "slug": "fu-xuan",
-      "name": "Fu Xuan"
+      "id": "黑天鹅",
+      "slug": "黑天鹅",
+      "name": "黑天鹅"
     },
     {
-      "id": "1209",
-      "slug": "yanqing",
-      "name": "Yanqing"
+      "id": "虎克",
+      "slug": "虎克",
+      "name": "虎克"
     },
     {
-      "id": "1210",
-      "slug": "guinaifen",
-      "name": "Guinaifen"
+      "id": "花火",
+      "slug": "花火",
+      "name": "花火"
     },
     {
-      "id": "1211",
-      "slug": "bailu",
-      "name": "Bailu"
+      "id": "黄泉",
+      "slug": "黄泉",
+      "name": "黄泉"
     },
     {
-      "id": "1212",
-      "slug": "jingliu",
-      "name": "Jingliu"
+      "id": "火花",
+      "slug": "火花",
+      "name": "火花"
     },
     {
-      "id": "1213",
-      "slug": "dan-heng-imbibitor-lunae",
-      "name": "Dan Heng • Imbibitor Lunae"
+      "id": "藿藿",
+      "slug": "藿藿",
+      "name": "藿藿"
     },
     {
-      "id": "1214",
-      "slug": "xueyi",
-      "name": "Xueyi"
+      "id": "吉尔伽美什",
+      "slug": "吉尔伽美什",
+      "name": "吉尔伽美什"
     },
     {
-      "id": "1215",
-      "slug": "hanya",
-      "name": "Hanya"
+      "id": "姬子",
+      "slug": "姬子",
+      "name": "姬子"
     },
     {
-      "id": "1217",
-      "slug": "huohuo",
-      "name": "Huohuo"
+      "id": "姬子•启行",
+      "slug": "姬子•启行",
+      "name": "姬子•启行"
     },
     {
-      "id": "1218",
-      "slug": "jiaoqiu",
-      "name": "Jiaoqiu"
+      "id": "加拉赫",
+      "slug": "加拉赫",
+      "name": "加拉赫"
     },
     {
-      "id": "1220",
-      "slug": "feixiao",
-      "name": "Feixiao"
+      "id": "椒丘",
+      "slug": "椒丘",
+      "name": "椒丘"
     },
     {
-      "id": "1221",
-      "slug": "yunli",
-      "name": "Yunli"
+      "id": "杰帕德",
+      "slug": "杰帕德",
+      "name": "杰帕德"
     },
     {
-      "id": "1222",
-      "slug": "lingsha",
-      "name": "Lingsha"
+      "id": "镜流",
+      "slug": "镜流",
+      "name": "镜流"
     },
     {
-      "id": "1223",
-      "slug": "moze",
-      "name": "Moze"
+      "id": "景元",
+      "slug": "景元",
+      "name": "景元"
     },
     {
-      "id": "1224",
-      "slug": "march-7th",
-      "name": "March 7th"
+      "id": "卡芙卡",
+      "slug": "卡芙卡",
+      "name": "卡芙卡"
     },
     {
-      "id": "1225",
-      "slug": "fugue",
-      "name": "Fugue"
+      "id": "开拓者•存护",
+      "slug": "开拓者•存护",
+      "name": "开拓者•存护"
     },
     {
-      "id": "1301",
-      "slug": "gallagher",
-      "name": "Gallagher"
+      "id": "开拓者•欢愉",
+      "slug": "开拓者•欢愉",
+      "name": "开拓者•欢愉"
     },
     {
-      "id": "1302",
-      "slug": "argenti",
-      "name": "Argenti"
+      "id": "开拓者•毁灭",
+      "slug": "开拓者•毁灭",
+      "name": "开拓者•毁灭"
     },
     {
-      "id": "1303",
-      "slug": "ruan-mei",
-      "name": "Ruan Mei"
+      "id": "开拓者•记忆",
+      "slug": "开拓者•记忆",
+      "name": "开拓者•记忆"
     },
     {
-      "id": "1304",
-      "slug": "aventurine",
-      "name": "Aventurine"
+      "id": "开拓者•同谐",
+      "slug": "开拓者•同谐",
+      "name": "开拓者•同谐"
     },
     {
-      "id": "1305",
-      "slug": "dr-ratio",
-      "name": "Dr. Ratio"
+      "id": "克拉拉",
+      "slug": "克拉拉",
+      "name": "克拉拉"
     },
     {
-      "id": "1306",
-      "slug": "sparkle",
-      "name": "Sparkle"
+      "id": "刻律德菈",
+      "slug": "刻律德菈",
+      "name": "刻律德菈"
     },
     {
-      "id": "1307",
-      "slug": "black-swan",
-      "name": "Black Swan"
+      "id": "玲可",
+      "slug": "玲可",
+      "name": "玲可"
     },
     {
-      "id": "1308",
-      "slug": "acheron",
-      "name": "Acheron"
+      "id": "灵砂",
+      "slug": "灵砂",
+      "name": "灵砂"
     },
     {
-      "id": "1309",
-      "slug": "robin",
-      "name": "Robin"
+      "id": "流萤",
+      "slug": "流萤",
+      "name": "流萤"
     },
     {
-      "id": "1310",
-      "slug": "firefly",
-      "name": "Firefly"
+      "id": "龙晶",
+      "slug": "龙晶",
+      "name": "龙晶"
     },
     {
-      "id": "1312",
-      "slug": "misha",
-      "name": "Misha"
+      "id": "卢卡",
+      "slug": "卢卡",
+      "name": "卢卡"
     },
     {
-      "id": "1313",
-      "slug": "sunday",
-      "name": "Sunday"
+      "id": "乱破",
+      "slug": "乱破",
+      "name": "乱破"
     },
     {
-      "id": "1314",
-      "slug": "jade",
-      "name": "Jade"
+      "id": "罗刹",
+      "slug": "罗刹",
+      "name": "罗刹"
     },
     {
-      "id": "1315",
-      "slug": "boothill",
-      "name": "Boothill"
+      "id": "螺丝咕姆",
+      "slug": "螺丝咕姆",
+      "name": "螺丝咕姆"
     },
     {
-      "id": "1317",
-      "slug": "rappa",
-      "name": "Rappa"
+      "id": "米沙",
+      "slug": "米沙",
+      "name": "米沙"
     },
     {
-      "id": "1321",
-      "slug": "the-dahlia",
-      "name": "The Dahlia"
+      "id": "貊泽",
+      "slug": "貊泽",
+      "name": "貊泽"
     },
     {
-      "id": "1401",
-      "slug": "the-herta",
-      "name": "The Herta"
+      "id": "那刻夏",
+      "slug": "那刻夏",
+      "name": "那刻夏"
     },
     {
-      "id": "1402",
-      "slug": "aglaea",
-      "name": "Aglaea"
+      "id": "娜塔莎",
+      "slug": "娜塔莎",
+      "name": "娜塔莎"
     },
     {
-      "id": "1403",
-      "slug": "tribbie",
-      "name": "Tribbie"
+      "id": "欧泊",
+      "slug": "欧泊",
+      "name": "欧泊"
     },
     {
-      "id": "1404",
-      "slug": "mydei",
-      "name": "Mydei"
+      "id": "佩拉",
+      "slug": "佩拉",
+      "name": "佩拉"
     },
     {
-      "id": "1405",
-      "slug": "anaxa",
-      "name": "Anaxa"
+      "id": "千冶•刃",
+      "slug": "千冶•刃",
+      "name": "千冶•刃"
     },
     {
-      "id": "1406",
-      "slug": "cipher",
-      "name": "Cipher"
+      "id": "青雀",
+      "slug": "青雀",
+      "name": "青雀"
     },
     {
-      "id": "1407",
-      "slug": "castorice",
-      "name": "Castorice"
+      "id": "刃",
+      "slug": "刃",
+      "name": "刃"
     },
     {
-      "id": "1408",
-      "slug": "phainon",
-      "name": "Phainon"
+      "id": "阮•梅",
+      "slug": "阮•梅",
+      "name": "阮•梅"
     },
     {
-      "id": "1409",
-      "slug": "hyacine",
-      "name": "Hyacine"
+      "id": "芮克先生",
+      "slug": "芮克先生",
+      "name": "芮克先生"
     },
     {
-      "id": "1410",
-      "slug": "hysilens",
-      "name": "Hysilens"
+      "id": "Saber",
+      "slug": "Saber",
+      "name": "Saber"
     },
     {
-      "id": "1412",
-      "slug": "cerydra",
-      "name": "Cerydra"
+      "id": "赛飞儿",
+      "slug": "赛飞儿",
+      "name": "赛飞儿"
     },
     {
-      "id": "1413",
-      "slug": "evernight",
-      "name": "Evernight"
+      "id": "三月七•存护",
+      "slug": "三月七•存护",
+      "name": "三月七•存护"
     },
     {
-      "id": "1414",
-      "slug": "dan-heng-permansor-terrae",
-      "name": "Dan Heng • Permansor Terrae"
+      "id": "三月七•巡猎",
+      "slug": "三月七•巡猎",
+      "name": "三月七•巡猎"
     },
     {
-      "id": "1415",
-      "slug": "cyrene",
-      "name": "Cyrene"
+      "id": "桑博",
+      "slug": "桑博",
+      "name": "桑博"
     },
     {
-      "id": "1501",
-      "slug": "sparxie",
-      "name": "Sparxie"
+      "id": "砂金",
+      "slug": "砂金",
+      "name": "砂金"
     },
     {
-      "id": "1502",
-      "slug": "yao-guang",
-      "name": "Yao Guang"
+      "id": "砂金•戏浪",
+      "slug": "砂金•戏浪",
+      "name": "砂金•戏浪"
     },
     {
-      "id": "1504",
-      "slug": "ashveil",
-      "name": "Ashveil"
+      "id": "舒俱",
+      "slug": "舒俱",
+      "name": "舒俱"
     },
     {
-      "id": "1505",
-      "slug": "evanescia",
-      "name": "Evanescia"
+      "id": "素裳",
+      "slug": "素裳",
+      "name": "素裳"
     },
     {
-      "id": "1506",
-      "slug": "silver-wolf-lv-999",
-      "name": "Silver Wolf LV.999"
+      "id": "缇宝",
+      "slug": "缇宝",
+      "name": "缇宝"
     },
     {
-      "id": "1507",
-      "slug": "mortenax-blade",
-      "name": "Mortenax Blade"
+      "id": "停云",
+      "slug": "停云",
+      "name": "停云"
     },
     {
-      "id": "8001",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "托帕&账账",
+      "slug": "托帕&账账",
+      "name": "托帕&账账"
     },
     {
-      "id": "8002",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "瓦尔特",
+      "slug": "瓦尔特",
+      "name": "瓦尔特"
     },
     {
-      "id": "8003",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "万敌",
+      "slug": "万敌",
+      "name": "万敌"
     },
     {
-      "id": "8004",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "忘归人",
+      "slug": "忘归人",
+      "name": "忘归人"
     },
     {
-      "id": "8005",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "希儿",
+      "slug": "希儿",
+      "name": "希儿"
     },
     {
-      "id": "8006",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "昔涟",
+      "slug": "昔涟",
+      "name": "昔涟"
     },
     {
-      "id": "8007",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "希露瓦",
+      "slug": "希露瓦",
+      "name": "希露瓦"
     },
     {
-      "id": "8008",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "遐蝶",
+      "slug": "遐蝶",
+      "name": "遐蝶"
     },
     {
-      "id": "8009",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "星期日",
+      "slug": "星期日",
+      "name": "星期日"
     },
     {
-      "id": "8010",
-      "slug": "trailblazer",
-      "name": "Trailblazer"
+      "id": "虚照",
+      "slug": "虚照",
+      "name": "虚照"
+    },
+    {
+      "id": "雪衣",
+      "slug": "雪衣",
+      "name": "雪衣"
+    },
+    {
+      "id": "彦卿",
+      "slug": "彦卿",
+      "name": "彦卿"
+    },
+    {
+      "id": "爻光",
+      "slug": "爻光",
+      "name": "爻光"
+    },
+    {
+      "id": "银狼",
+      "slug": "银狼",
+      "name": "银狼"
+    },
+    {
+      "id": "银狼LV.999",
+      "slug": "银狼LV.999",
+      "name": "银狼LV.999"
+    },
+    {
+      "id": "银枝",
+      "slug": "银枝",
+      "name": "银枝"
+    },
+    {
+      "id": "驭空",
+      "slug": "驭空",
+      "name": "驭空"
+    },
+    {
+      "id": "远坂凛",
+      "slug": "远坂凛",
+      "name": "远坂凛"
+    },
+    {
+      "id": "云璃",
+      "slug": "云璃",
+      "name": "云璃"
+    },
+    {
+      "id": "长夜月",
+      "slug": "长夜月",
+      "name": "长夜月"
+    },
+    {
+      "id": "真理医生",
+      "slug": "真理医生",
+      "name": "真理医生"
+    },
+    {
+      "id": "真珠",
+      "slug": "真珠",
+      "name": "真珠"
+    },
+    {
+      "id": "知更鸟",
+      "slug": "知更鸟",
+      "name": "知更鸟"
+    },
+    {
+      "id": "知更鸟•晴歌",
+      "slug": "知更鸟•晴歌",
+      "name": "知更鸟•晴歌"
     }
   ],
   "lightCones": [
     {
-      "id": "20000",
-      "slug": "arrows",
-      "name": "Arrows"
+      "id": "「我」的诞生",
+      "slug": "「我」的诞生",
+      "name": "「我」的诞生"
     },
     {
-      "id": "20001",
-      "slug": "cornucopia",
-      "name": "Cornucopia"
+      "id": "爱如此刻永恒",
+      "slug": "爱如此刻永恒",
+      "name": "爱如此刻永恒"
     },
     {
-      "id": "20002",
-      "slug": "collapsing-sky",
-      "name": "Collapsing Sky"
+      "id": "比阳光更明亮的",
+      "slug": "比阳光更明亮的",
+      "name": "比阳光更明亮的"
     },
     {
-      "id": "20003",
-      "slug": "amber",
-      "name": "Amber"
+      "id": "别让世界静下来",
+      "slug": "别让世界静下来",
+      "name": "别让世界静下来"
     },
     {
-      "id": "20004",
-      "slug": "void",
-      "name": "Void"
+      "id": "不息的演算",
+      "slug": "不息的演算",
+      "name": "不息的演算"
     },
     {
-      "id": "20005",
-      "slug": "chorus",
-      "name": "Chorus"
+      "id": "残泪",
+      "slug": "残泪",
+      "name": "残泪"
     },
     {
-      "id": "20006",
-      "slug": "data-bank",
-      "name": "Data Bank"
+      "id": "嗤笑",
+      "slug": "嗤笑",
+      "name": "嗤笑"
     },
     {
-      "id": "20007",
-      "slug": "darting-arrow",
-      "name": "Darting Arrow"
+      "id": "纯粹思维的洗礼",
+      "slug": "纯粹思维的洗礼",
+      "name": "纯粹思维的洗礼"
     },
     {
-      "id": "20008",
-      "slug": "fine-fruit",
-      "name": "Fine Fruit"
+      "id": "春水初生",
+      "slug": "春水初生",
+      "name": "春水初生"
     },
     {
-      "id": "20009",
-      "slug": "shattered-home",
-      "name": "Shattered Home"
+      "id": "此身为剑",
+      "slug": "此身为剑",
+      "name": "此身为剑"
     },
     {
-      "id": "20010",
-      "slug": "defense",
-      "name": "Defense"
+      "id": "此时恰好",
+      "slug": "此时恰好",
+      "name": "此时恰好"
     },
     {
-      "id": "20011",
-      "slug": "loop",
-      "name": "Loop"
+      "id": "但战斗还未结束",
+      "slug": "但战斗还未结束",
+      "name": "但战斗还未结束"
     },
     {
-      "id": "20012",
-      "slug": "meshing-cogs",
-      "name": "Meshing Cogs"
+      "id": "当她决定看见",
+      "slug": "当她决定看见",
+      "name": "当她决定看见"
     },
     {
-      "id": "20013",
-      "slug": "passkey",
-      "name": "Passkey"
+      "id": "到不了的彼岸",
+      "slug": "到不了的彼岸",
+      "name": "到不了的彼岸"
     },
     {
-      "id": "20014",
-      "slug": "adversarial",
-      "name": "Adversarial"
+      "id": "等价交换",
+      "slug": "等价交换",
+      "name": "等价交换"
     },
     {
-      "id": "20015",
-      "slug": "multiplication",
-      "name": "Multiplication"
+      "id": "点个关注吧！",
+      "slug": "点个关注吧！",
+      "name": "点个关注吧！"
     },
     {
-      "id": "20016",
-      "slug": "mutual-demise",
-      "name": "Mutual Demise"
+      "id": "调和",
+      "slug": "调和",
+      "name": "调和"
     },
     {
-      "id": "20017",
-      "slug": "pioneering",
-      "name": "Pioneering"
+      "id": "多流汗，少流泪",
+      "slug": "多流汗，少流泪",
+      "name": "多流汗，少流泪"
     },
     {
-      "id": "20018",
-      "slug": "hidden-shadow",
-      "name": "Hidden Shadow"
+      "id": "烦恼着，幸福着",
+      "slug": "烦恼着，幸福着",
+      "name": "烦恼着，幸福着"
     },
     {
-      "id": "20019",
-      "slug": "mediation",
-      "name": "Mediation"
+      "id": "蕃息",
+      "slug": "蕃息",
+      "name": "蕃息"
     },
     {
-      "id": "20020",
-      "slug": "sagacity",
-      "name": "Sagacity"
+      "id": "芳华待灼",
+      "slug": "芳华待灼",
+      "name": "芳华待灼"
     },
     {
-      "id": "20021",
-      "slug": "shadowburn",
-      "name": "Shadowburn"
+      "id": "飞向粉色的明天",
+      "slug": "飞向粉色的明天",
+      "name": "飞向粉色的明天"
     },
     {
-      "id": "20022",
-      "slug": "reminiscence",
-      "name": "Reminiscence"
+      "id": "焚影",
+      "slug": "焚影",
+      "name": "焚影"
     },
     {
-      "id": "20023",
-      "slug": "sneering",
-      "name": "Sneering"
+      "id": "锋镝",
+      "slug": "锋镝",
+      "name": "锋镝"
     },
     {
-      "id": "20024",
-      "slug": "lingering-tear",
-      "name": "Lingering Tear"
+      "id": "拂晓之前",
+      "slug": "拂晓之前",
+      "name": "拂晓之前"
     },
     {
-      "id": "21000",
-      "slug": "post-op-conversation",
-      "name": "Post-Op Conversation"
+      "id": "孤独的疗愈",
+      "slug": "孤独的疗愈",
+      "name": "孤独的疗愈"
     },
     {
-      "id": "21001",
-      "slug": "good-night-and-sleep-well",
-      "name": "Good Night and Sleep Well"
+      "id": "菇菇嘎嘎历险记",
+      "slug": "菇菇嘎嘎历险记",
+      "name": "菇菇嘎嘎历险记"
     },
     {
-      "id": "21002",
-      "slug": "day-one-of-my-new-life",
-      "name": "Day One of My New Life"
+      "id": "故事的下一页",
+      "slug": "故事的下一页",
+      "name": "故事的下一页"
     },
     {
-      "id": "21003",
-      "slug": "only-silence-remains",
-      "name": "Only Silence Remains"
+      "id": "棺的回响",
+      "slug": "棺的回响",
+      "name": "棺的回响"
     },
     {
-      "id": "21004",
-      "slug": "memories-of-the-past",
-      "name": "Memories of the Past"
+      "id": "过往未来",
+      "slug": "过往未来",
+      "name": "过往未来"
     },
     {
-      "id": "21005",
-      "slug": "the-moles-welcome-you",
-      "name": "The Moles Welcome You"
+      "id": "海洋为何而歌",
+      "slug": "海洋为何而歌",
+      "name": "海洋为何而歌"
     },
     {
-      "id": "21006",
-      "slug": "the-birth-of-the-self",
-      "name": "The Birth of the Self"
+      "id": "好戏开演",
+      "slug": "好戏开演",
+      "name": "好戏开演"
     },
     {
-      "id": "21007",
-      "slug": "shared-feeling",
-      "name": "Shared Feeling"
+      "id": "何物为真",
+      "slug": "何物为真",
+      "name": "何物为真"
     },
     {
-      "id": "21008",
-      "slug": "eyes-of-the-prey",
-      "name": "Eyes of the Prey"
+      "id": "嘿，我在这儿",
+      "slug": "嘿，我在这儿",
+      "name": "嘿，我在这儿"
     },
     {
-      "id": "21009",
-      "slug": "landau-s-choice",
-      "name": "Landau's Choice"
+      "id": "黑夜如影随行",
+      "slug": "黑夜如影随行",
+      "name": "黑夜如影随行"
     },
     {
-      "id": "21010",
-      "slug": "swordplay",
-      "name": "Swordplay"
+      "id": "后会有期",
+      "slug": "后会有期",
+      "name": "后会有期"
     },
     {
-      "id": "21011",
-      "slug": "planetary-rendezvous",
-      "name": "Planetary Rendezvous"
+      "id": "琥珀",
+      "slug": "琥珀",
+      "name": "琥珀"
     },
     {
-      "id": "21012",
-      "slug": "a-secret-vow",
-      "name": "A Secret Vow"
+      "id": "花儿不会忘记",
+      "slug": "花儿不会忘记",
+      "name": "花儿不会忘记"
     },
     {
-      "id": "21013",
-      "slug": "make-the-world-clamor",
-      "name": "Make the World Clamor"
+      "id": "花花世界迷人眼",
+      "slug": "花花世界迷人眼",
+      "name": "花花世界迷人眼"
     },
     {
-      "id": "21014",
-      "slug": "perfect-timing",
-      "name": "Perfect Timing"
+      "id": "欢迎来到银河城",
+      "slug": "欢迎来到银河城",
+      "name": "欢迎来到银河城"
     },
     {
-      "id": "21015",
-      "slug": "resolution-shines-as-pearls-of-sweat",
-      "name": "Resolution Shines As Pearls of Sweat"
+      "id": "欢愉满溢祝福",
+      "slug": "欢愉满溢祝福",
+      "name": "欢愉满溢祝福"
     },
     {
-      "id": "21016",
-      "slug": "trend-of-the-universal-market",
-      "name": "Trend of the Universal Market"
+      "id": "谎言在风中飘扬",
+      "slug": "谎言在风中飘扬",
+      "name": "谎言在风中飘扬"
     },
     {
-      "id": "21017",
-      "slug": "subscribe-for-more",
-      "name": "Subscribe for More!"
+      "id": "回到大地的飞行",
+      "slug": "回到大地的飞行",
+      "name": "回到大地的飞行"
     },
     {
-      "id": "21018",
-      "slug": "dance-dance-dance",
-      "name": "Dance! Dance! Dance!"
+      "id": "记忆的质料",
+      "slug": "记忆的质料",
+      "name": "记忆的质料"
     },
     {
-      "id": "21019",
-      "slug": "under-the-blue-sky",
-      "name": "Under the Blue Sky"
+      "id": "记一位星神的陨落",
+      "slug": "记一位星神的陨落",
+      "name": "记一位星神的陨落"
     },
     {
-      "id": "21020",
-      "slug": "geniuses-repose",
-      "name": "Geniuses' Repose"
+      "id": "记忆永不落幕",
+      "slug": "记忆永不落幕",
+      "name": "记忆永不落幕"
     },
     {
-      "id": "21021",
-      "slug": "quid-pro-quo",
-      "name": "Quid Pro Quo"
+      "id": "记忆中的模样",
+      "slug": "记忆中的模样",
+      "name": "记忆中的模样"
     },
     {
-      "id": "21022",
-      "slug": "fermata",
-      "name": "Fermata"
+      "id": "嘉果",
+      "slug": "嘉果",
+      "name": "嘉果"
     },
     {
-      "id": "21023",
-      "slug": "we-are-wildfire",
-      "name": "We Are Wildfire"
+      "id": "假日浴场大冒险",
+      "slug": "假日浴场大冒险",
+      "name": "假日浴场大冒险"
     },
     {
-      "id": "21024",
-      "slug": "river-flows-in-spring",
-      "name": "River Flows in Spring"
+      "id": "将光阴织成黄金",
+      "slug": "将光阴织成黄金",
+      "name": "将光阴织成黄金"
     },
     {
-      "id": "21025",
-      "slug": "past-and-future",
-      "name": "Past and Future"
+      "id": "今日好手气",
+      "slug": "今日好手气",
+      "name": "今日好手气"
     },
     {
-      "id": "21026",
-      "slug": "woof-walk-time",
-      "name": "Woof! Walk Time!"
+      "id": "今日亦是和平的一日",
+      "slug": "今日亦是和平的一日",
+      "name": "今日亦是和平的一日"
     },
     {
-      "id": "21027",
-      "slug": "the-seriousness-of-breakfast",
-      "name": "The Seriousness of Breakfast"
+      "id": "金血铭刻的时代",
+      "slug": "金血铭刻的时代",
+      "name": "金血铭刻的时代"
     },
     {
-      "id": "21028",
-      "slug": "warmth-shortens-cold-nights",
-      "name": "Warmth Shortens Cold Nights"
+      "id": "惊魂夜",
+      "slug": "惊魂夜",
+      "name": "惊魂夜"
     },
     {
-      "id": "21029",
-      "slug": "we-will-meet-again",
-      "name": "We Will Meet Again"
+      "id": "镜中故我",
+      "slug": "镜中故我",
+      "name": "镜中故我"
     },
     {
-      "id": "21030",
-      "slug": "this-is-me",
-      "name": "This Is Me!"
+      "id": "俱殁",
+      "slug": "俱殁",
+      "name": "俱殁"
     },
     {
-      "id": "21031",
-      "slug": "return-to-darkness",
-      "name": "Return to Darkness"
+      "id": "决心如汗珠般闪耀",
+      "slug": "决心如汗珠般闪耀",
+      "name": "决心如汗珠般闪耀"
     },
     {
-      "id": "21032",
-      "slug": "carve-the-moon-weave-the-clouds",
-      "name": "Carve the Moon, Weave the Clouds"
+      "id": "开疆",
+      "slug": "开疆",
+      "name": "开疆"
     },
     {
-      "id": "21033",
-      "slug": "nowhere-to-run",
-      "name": "Nowhere to Run"
+      "id": "朗道的选择",
+      "slug": "朗道的选择",
+      "name": "朗道的选择"
     },
     {
-      "id": "21034",
-      "slug": "today-is-another-peaceful-day",
-      "name": "Today Is Another Peaceful Day"
+      "id": "乐圮",
+      "slug": "乐圮",
+      "name": "乐圮"
     },
     {
-      "id": "21035",
-      "slug": "what-is-real",
-      "name": "What Is Real?"
+      "id": "黎明恰如此燃烧",
+      "slug": "黎明恰如此燃烧",
+      "name": "黎明恰如此燃烧"
     },
     {
-      "id": "21036",
-      "slug": "dreamville-adventure",
-      "name": "Dreamville Adventure"
+      "id": "离弦",
+      "slug": "离弦",
+      "name": "离弦"
     },
     {
-      "id": "21037",
-      "slug": "final-victor",
-      "name": "Final Victor"
+      "id": "理想燃烧的地狱",
+      "slug": "理想燃烧的地狱",
+      "name": "理想燃烧的地狱"
     },
     {
-      "id": "21038",
-      "slug": "flames-afar",
-      "name": "Flames Afar"
+      "id": "两个人的演唱会",
+      "slug": "两个人的演唱会",
+      "name": "两个人的演唱会"
     },
     {
-      "id": "21039",
-      "slug": "destiny-s-threads-forewoven",
-      "name": "Destiny's Threads Forewoven"
+      "id": "猎物的视线",
+      "slug": "猎物的视线",
+      "name": "猎物的视线"
     },
     {
-      "id": "21040",
-      "slug": "the-day-the-cosmos-fell",
-      "name": "The Day The Cosmos Fell"
+      "id": "灵钥",
+      "slug": "灵钥",
+      "name": "灵钥"
     },
     {
-      "id": "21041",
-      "slug": "it-s-showtime",
-      "name": "It's Showtime"
+      "id": "镂月裁云之意",
+      "slug": "镂月裁云之意",
+      "name": "镂月裁云之意"
     },
     {
-      "id": "21042",
-      "slug": "indelible-promise",
-      "name": "Indelible Promise"
+      "id": "论剑",
+      "slug": "论剑",
+      "name": "论剑"
     },
     {
-      "id": "21043",
-      "slug": "concert-for-two",
-      "name": "Concert for Two"
+      "id": "轮契",
+      "slug": "轮契",
+      "name": "轮契"
     },
     {
-      "id": "21044",
-      "slug": "boundless-choreo",
-      "name": "Boundless Choreo"
+      "id": "落日时起舞",
+      "slug": "落日时起舞",
+      "name": "落日时起舞"
     },
     {
-      "id": "21045",
-      "slug": "after-the-charmony-fall",
-      "name": "After the Charmony Fall"
+      "id": "美梦小镇大冒险",
+      "slug": "美梦小镇大冒险",
+      "name": "美梦小镇大冒险"
     },
     {
-      "id": "21046",
-      "slug": "poised-to-bloom",
-      "name": "Poised to Bloom"
+      "id": "没有回报的加冕",
+      "slug": "没有回报的加冕",
+      "name": "没有回报的加冕"
     },
     {
-      "id": "21047",
-      "slug": "shadowed-by-night",
-      "name": "Shadowed by Night"
+      "id": "梦的蒙太奇",
+      "slug": "梦的蒙太奇",
+      "name": "梦的蒙太奇"
     },
     {
-      "id": "21048",
-      "slug": "dream-s-montage",
-      "name": "Dream's Montage"
+      "id": "梦应归于何处",
+      "slug": "梦应归于何处",
+      "name": "梦应归于何处"
     },
     {
-      "id": "21050",
-      "slug": "victory-in-a-blink",
-      "name": "Victory In a Blink"
+      "id": "秘密誓心",
+      "slug": "秘密誓心",
+      "name": "秘密誓心"
     },
     {
-      "id": "21051",
-      "slug": "geniuses-greetings",
-      "name": "Geniuses' Greetings"
+      "id": "铭记于心的约定",
+      "slug": "铭记于心的约定",
+      "name": "铭记于心的约定"
     },
     {
-      "id": "21052",
-      "slug": "sweat-now-cry-less",
-      "name": "Sweat Now, Cry Less"
+      "id": "命运从未公平",
+      "slug": "命运从未公平",
+      "name": "命运从未公平"
     },
     {
-      "id": "21053",
-      "slug": "journey-forever-peaceful",
-      "name": "Journey, Forever Peaceful"
+      "id": "那无数个春天",
+      "slug": "那无数个春天",
+      "name": "那无数个春天"
     },
     {
-      "id": "21054",
-      "slug": "the-story-s-next-page",
-      "name": "The Story's Next Page"
+      "id": "匿影",
+      "slug": "匿影",
+      "name": "匿影"
     },
     {
-      "id": "21055",
-      "slug": "unto-tomorrow-s-morrow",
-      "name": "Unto Tomorrow's Morrow"
+      "id": "暖夜不会漫长",
+      "slug": "暖夜不会漫长",
+      "name": "暖夜不会漫长"
     },
     {
-      "id": "21056",
-      "slug": "in-pursuit-of-the-wind",
-      "name": "In Pursuit of the Wind"
+      "id": "片刻，留在眼底",
+      "slug": "片刻，留在眼底",
+      "name": "片刻，留在眼底"
     },
     {
-      "id": "21057",
-      "slug": "the-flower-remembers",
-      "name": "The Flower Remembers"
+      "id": "偏偏希望无价",
+      "slug": "偏偏希望无价",
+      "name": "偏偏希望无价"
     },
     {
-      "id": "21058",
-      "slug": "a-trail-of-bygone-blood",
-      "name": "A Trail of Bygone Blood"
+      "id": "齐颂",
+      "slug": "齐颂",
+      "name": "齐颂"
     },
     {
-      "id": "21060",
-      "slug": "a-dream-scented-in-wheat",
-      "name": "A Dream Scented in Wheat"
+      "id": "让告别，更美一些",
+      "slug": "让告别，更美一些",
+      "name": "让告别，更美一些"
     },
     {
-      "id": "21061",
-      "slug": "holiday-thermae-escapade",
-      "name": "Holiday Thermae Escapade"
+      "id": "忍法帖•缭乱破魔",
+      "slug": "忍法帖•缭乱破魔",
+      "name": "忍法帖•缭乱破魔"
     },
     {
-      "id": "21062",
-      "slug": "see-you-at-the-end",
-      "name": "See You at the End"
+      "id": "忍事录•音律狩猎",
+      "slug": "忍事录•音律狩猎",
+      "name": "忍事录•音律狩猎"
     },
     {
-      "id": "21064",
-      "slug": "mushy-shroomy-s-adventures",
-      "name": "Mushy Shroomy's Adventures"
+      "id": "如果时间是一朵花",
+      "slug": "如果时间是一朵花",
+      "name": "如果时间是一朵花"
     },
     {
-      "id": "21065",
-      "slug": "today-s-good-luck",
-      "name": "Today's Good Luck"
+      "id": "如泥酣眠",
+      "slug": "如泥酣眠",
+      "name": "如泥酣眠"
     },
     {
-      "id": "22000",
-      "slug": "before-the-tutorial-mission-starts",
-      "name": "Before the Tutorial Mission Starts"
+      "id": "睿见",
+      "slug": "睿见",
+      "name": "睿见"
     },
     {
-      "id": "22001",
-      "slug": "hey-over-here",
-      "name": "Hey, Over Here"
+      "id": "胜利只在朝夕间",
+      "slug": "胜利只在朝夕间",
+      "name": "胜利只在朝夕间"
     },
     {
-      "id": "22002",
-      "slug": "for-tomorrow-s-journey",
-      "name": "For Tomorrow's Journey"
+      "id": "生命当付之一炬",
+      "slug": "生命当付之一炬",
+      "name": "生命当付之一炬"
     },
     {
-      "id": "22003",
-      "slug": "ninja-record-sound-hunt",
-      "name": "Ninja Record: Sound Hunt"
+      "id": "时节不居",
+      "slug": "时节不居",
+      "name": "时节不居"
     },
     {
-      "id": "22004",
-      "slug": "the-great-cosmic-enterprise",
-      "name": "The Great Cosmic Enterprise"
+      "id": "驶向第二次生命",
+      "slug": "驶向第二次生命",
+      "name": "驶向第二次生命"
     },
     {
-      "id": "22005",
-      "slug": "the-forever-victual",
-      "name": "The Forever Victual"
+      "id": "戍御",
+      "slug": "戍御",
+      "name": "戍御"
     },
     {
-      "id": "22006",
-      "slug": "fly-into-a-pink-tomorrow",
-      "name": "Fly Into a Pink Tomorrow"
+      "id": "溯忆",
+      "slug": "溯忆",
+      "name": "溯忆"
     },
     {
-      "id": "22007",
-      "slug": "tomorrow-together",
-      "name": "Tomorrow, Together"
+      "id": "她已闭上双眼",
+      "slug": "她已闭上双眼",
+      "name": "她已闭上双眼"
     },
     {
-      "id": "23000",
-      "slug": "night-on-the-milky-way",
-      "name": "Night on the Milky Way"
+      "id": "天才们的问候",
+      "slug": "天才们的问候",
+      "name": "天才们的问候"
     },
     {
-      "id": "23001",
-      "slug": "in-the-night",
-      "name": "In the Night"
+      "id": "天才们的休憩",
+      "slug": "天才们的休憩",
+      "name": "天才们的休憩"
     },
     {
-      "id": "23002",
-      "slug": "something-irreplaceable",
-      "name": "Something Irreplaceable"
+      "id": "天倾",
+      "slug": "天倾",
+      "name": "天倾"
     },
     {
-      "id": "23003",
-      "slug": "but-the-battle-isn-t-over",
-      "name": "But the Battle Isn't Over"
+      "id": "同一种心情",
+      "slug": "同一种心情",
+      "name": "同一种心情"
     },
     {
-      "id": "23004",
-      "slug": "in-the-name-of-the-world",
-      "name": "In the Name of the World"
+      "id": "晚安与睡颜",
+      "slug": "晚安与睡颜",
+      "name": "晚安与睡颜"
     },
     {
-      "id": "23005",
-      "slug": "moment-of-victory",
-      "name": "Moment of Victory"
+      "id": "汪！散步时间！",
+      "slug": "汪！散步时间！",
+      "name": "汪！散步时间！"
     },
     {
-      "id": "23006",
-      "slug": "patience-is-all-you-need",
-      "name": "Patience Is All You Need"
+      "id": "未来，有我们一起",
+      "slug": "未来，有我们一起",
+      "name": "未来，有我们一起"
     },
     {
-      "id": "23007",
-      "slug": "incessant-rain",
-      "name": "Incessant Rain"
+      "id": "为了明日的旅途",
+      "slug": "为了明日的旅途",
+      "name": "为了明日的旅途"
     },
     {
-      "id": "23008",
-      "slug": "echoes-of-the-coffin",
-      "name": "Echoes of the Coffin"
+      "id": "唯有沉默",
+      "slug": "唯有沉默",
+      "name": "唯有沉默"
     },
     {
-      "id": "23009",
-      "slug": "the-unreachable-side",
-      "name": "The Unreachable Side"
+      "id": "唯有香如故",
+      "slug": "唯有香如故",
+      "name": "唯有香如故"
     },
     {
-      "id": "23010",
-      "slug": "before-dawn",
-      "name": "Before Dawn"
+      "id": "我将，巡征追猎",
+      "slug": "我将，巡征追猎",
+      "name": "我将，巡征追猎"
     },
     {
-      "id": "23011",
-      "slug": "she-already-shut-her-eyes",
-      "name": "She Already Shut Her Eyes"
+      "id": "我们是地火",
+      "slug": "我们是地火",
+      "name": "我们是地火"
     },
     {
-      "id": "23012",
-      "slug": "sleep-like-the-dead",
-      "name": "Sleep Like the Dead"
+      "id": "舞！舞！舞！",
+      "slug": "舞！舞！舞！",
+      "name": "舞！舞！舞！"
     },
     {
-      "id": "23013",
-      "slug": "time-waits-for-no-one",
-      "name": "Time Waits for No One"
+      "id": "无边曼舞",
+      "slug": "无边曼舞",
+      "name": "无边曼舞"
     },
     {
-      "id": "23014",
-      "slug": "i-shall-be-my-own-sword",
-      "name": "I Shall Be My Own Sword"
+      "id": "无处可逃",
+      "slug": "无处可逃",
+      "name": "无处可逃"
     },
     {
-      "id": "23015",
-      "slug": "brighter-than-the-sun",
-      "name": "Brighter Than the Sun"
+      "id": "无可取代的东西",
+      "slug": "无可取代的东西",
+      "name": "无可取代的东西"
     },
     {
-      "id": "23016",
-      "slug": "worrisome-blissful",
-      "name": "Worrisome, Blissful"
+      "id": "物穰",
+      "slug": "物穰",
+      "name": "物穰"
     },
     {
-      "id": "23017",
-      "slug": "night-of-fright",
-      "name": "Night of Fright"
+      "id": "勿忘她的火焰",
+      "slug": "勿忘她的火焰",
+      "name": "勿忘她的火焰"
     },
     {
-      "id": "23018",
-      "slug": "an-instant-before-a-gaze",
-      "name": "An Instant Before A Gaze"
+      "id": "相抗",
+      "slug": "相抗",
+      "name": "相抗"
     },
     {
-      "id": "23019",
-      "slug": "past-self-in-mirror",
-      "name": "Past Self in Mirror"
+      "id": "向着不可追问处",
+      "slug": "向着不可追问处",
+      "name": "向着不可追问处"
     },
     {
-      "id": "23020",
-      "slug": "baptism-of-pure-thought",
-      "name": "Baptism of Pure Thought"
+      "id": "邂逅于下一个花季",
+      "slug": "邂逅于下一个花季",
+      "name": "邂逅于下一个花季"
     },
     {
-      "id": "23021",
-      "slug": "earthly-escapade",
-      "name": "Earthly Escapade"
+      "id": "谐乐静默之后",
+      "slug": "谐乐静默之后",
+      "name": "谐乐静默之后"
     },
     {
-      "id": "23022",
-      "slug": "reforged-remembrance",
-      "name": "Reforged Remembrance"
+      "id": "新手任务开始前",
+      "slug": "新手任务开始前",
+      "name": "新手任务开始前"
     },
     {
-      "id": "23023",
-      "slug": "inherently-unjust-destiny",
-      "name": "Inherently Unjust Destiny"
+      "id": "星海巡航",
+      "slug": "星海巡航",
+      "name": "星海巡航"
     },
     {
-      "id": "23024",
-      "slug": "along-the-passing-shore",
-      "name": "Along the Passing Shore"
+      "id": "行于流逝的岸",
+      "slug": "行于流逝的岸",
+      "name": "行于流逝的岸"
     },
     {
-      "id": "23025",
-      "slug": "whereabouts-should-dreams-rest",
-      "name": "Whereabouts Should Dreams Rest"
+      "id": "血火啊，燃烧前路",
+      "slug": "血火啊，燃烧前路",
+      "name": "血火啊，燃烧前路"
     },
     {
-      "id": "23026",
-      "slug": "flowing-nightglow",
-      "name": "Flowing Nightglow"
+      "id": "鼹鼠党欢迎你",
+      "slug": "鼹鼠党欢迎你",
+      "name": "鼹鼠党欢迎你"
     },
     {
-      "id": "23027",
-      "slug": "sailing-towards-a-second-life",
-      "name": "Sailing Towards a Second Life"
+      "id": "延长记号",
+      "slug": "延长记号",
+      "name": "延长记号"
     },
     {
-      "id": "23028",
-      "slug": "yet-hope-is-priceless",
-      "name": "Yet Hope Is Priceless"
+      "id": "夜色流光溢彩",
+      "slug": "夜色流光溢彩",
+      "name": "夜色流光溢彩"
     },
     {
-      "id": "23029",
-      "slug": "those-many-springs",
-      "name": "Those Many Springs"
+      "id": "一场谎言的终幕",
+      "slug": "一场谎言的终幕",
+      "name": "一场谎言的终幕"
     },
     {
-      "id": "23030",
-      "slug": "dance-at-sunset",
-      "name": "Dance at Sunset"
+      "id": "一场术后对话",
+      "slug": "一场术后对话",
+      "name": "一场术后对话"
     },
     {
-      "id": "23031",
-      "slug": "i-venture-forth-to-hunt",
-      "name": "I Venture Forth to Hunt"
+      "id": "以世界之名",
+      "slug": "以世界之名",
+      "name": "以世界之名"
     },
     {
-      "id": "23032",
-      "slug": "scent-alone-stays-true",
-      "name": "Scent Alone Stays True"
+      "id": "一行往日的血",
+      "slug": "一行往日的血",
+      "name": "一行往日的血"
     },
     {
-      "id": "23033",
-      "slug": "ninjutsu-inscription-dazzling-evilbreaker",
-      "name": "Ninjutsu Inscription: Dazzling Evilbreaker"
+      "id": "银河沦陷日",
+      "slug": "银河沦陷日",
+      "name": "银河沦陷日"
     },
     {
-      "id": "23034",
-      "slug": "a-grounded-ascent",
-      "name": "A Grounded Ascent"
+      "id": "银河铁道之夜",
+      "slug": "银河铁道之夜",
+      "name": "银河铁道之夜"
     },
     {
-      "id": "23035",
-      "slug": "long-road-leads-home",
-      "name": "Long Road Leads Home"
+      "id": "氤氲麦香的梦",
+      "slug": "氤氲麦香的梦",
+      "name": "氤氲麦香的梦"
     },
     {
-      "id": "23036",
-      "slug": "time-woven-into-gold",
-      "name": "Time Woven Into Gold"
+      "id": "永远的迷境饭",
+      "slug": "永远的迷境饭",
+      "name": "永远的迷境饭"
     },
     {
-      "id": "23037",
-      "slug": "into-the-unreachable-veil",
-      "name": "Into the Unreachable Veil"
+      "id": "幽邃",
+      "slug": "幽邃",
+      "name": "幽邃"
     },
     {
-      "id": "23038",
-      "slug": "if-time-were-a-flower",
-      "name": "If Time Were a Flower"
+      "id": "游戏尘寰",
+      "slug": "游戏尘寰",
+      "name": "游戏尘寰"
     },
     {
-      "id": "23039",
-      "slug": "flame-of-blood-blaze-my-path",
-      "name": "Flame of Blood, Blaze My Path"
+      "id": "于那终点再见",
+      "slug": "于那终点再见",
+      "name": "于那终点再见"
     },
     {
-      "id": "23040",
-      "slug": "make-farewells-more-beautiful",
-      "name": "Make Farewells More Beautiful"
+      "id": "余生的第一天",
+      "slug": "余生的第一天",
+      "name": "余生的第一天"
     },
     {
-      "id": "23041",
-      "slug": "life-should-be-cast-to-flames",
-      "name": "Life Should Be Cast to Flames"
+      "id": "与行星相会",
+      "slug": "与行星相会",
+      "name": "与行星相会"
     },
     {
-      "id": "23042",
-      "slug": "long-may-rainbows-adorn-the-sky",
-      "name": "Long May Rainbows Adorn the Sky"
+      "id": "于夜色中",
+      "slug": "于夜色中",
+      "name": "于夜色中"
     },
     {
-      "id": "23043",
-      "slug": "lies-dance-on-the-breeze",
-      "name": "Lies Dance on the Breeze"
+      "id": "雨一直下",
+      "slug": "雨一直下",
+      "name": "雨一直下"
     },
     {
-      "id": "23044",
-      "slug": "thus-burns-the-dawn",
-      "name": "Thus Burns the Dawn"
+      "id": "宇宙大生意",
+      "slug": "宇宙大生意",
+      "name": "宇宙大生意"
     },
     {
-      "id": "23045",
-      "slug": "a-thankless-coronation",
-      "name": "A Thankless Coronation"
+      "id": "宇宙市场趋势",
+      "slug": "宇宙市场趋势",
+      "name": "宇宙市场趋势"
     },
     {
-      "id": "23046",
-      "slug": "the-hell-where-ideals-burn",
-      "name": "The Hell Where Ideals Burn"
+      "id": "愿虹光永驻天空",
+      "slug": "愿虹光永驻天空",
+      "name": "愿虹光永驻天空"
     },
     {
-      "id": "23047",
-      "slug": "why-does-the-ocean-sing",
-      "name": "Why Does the Ocean Sing"
+      "id": "渊环",
+      "slug": "渊环",
+      "name": "渊环"
     },
     {
-      "id": "23048",
-      "slug": "epoch-etched-in-golden-blood",
-      "name": "Epoch Etched in Golden Blood"
+      "id": "愿旅途永远坦然",
+      "slug": "愿旅途永远坦然",
+      "name": "愿旅途永远坦然"
     },
     {
-      "id": "23049",
-      "slug": "to-evernight-s-stars",
-      "name": "To Evernight's Stars"
+      "id": "在火的远处",
+      "slug": "在火的远处",
+      "name": "在火的远处"
     },
     {
-      "id": "23050",
-      "slug": "never-forget-her-flame",
-      "name": "Never Forget Her Flame"
+      "id": "在蓝天下",
+      "slug": "在蓝天下",
+      "name": "在蓝天下"
     },
     {
-      "id": "23051",
-      "slug": "though-worlds-apart",
-      "name": "Though Worlds Apart"
+      "id": "早餐的仪式感",
+      "slug": "早餐的仪式感",
+      "name": "早餐的仪式感"
     },
     {
-      "id": "23052",
-      "slug": "this-love-forever",
-      "name": "This Love, Forever"
+      "id": "长路终有归途",
+      "slug": "长路终有归途",
+      "name": "长路终有归途"
     },
     {
-      "id": "23053",
-      "slug": "dazzled-by-a-flowery-world",
-      "name": "Dazzled by a Flowery World"
+      "id": "这就是我啦！",
+      "slug": "这就是我啦！",
+      "name": "这就是我啦！"
     },
     {
-      "id": "23054",
-      "slug": "when-she-decided-to-see",
-      "name": "When She Decided to See"
+      "id": "直到明天的明天",
+      "slug": "直到明天的明天",
+      "name": "直到明天的明天"
     },
     {
-      "id": "23056",
-      "slug": "the-finale-of-a-lie",
-      "name": "The Finale of a Lie"
+      "id": "智库",
+      "slug": "智库",
+      "name": "智库"
     },
     {
-      "id": "23057",
-      "slug": "welcome-to-the-cosmic-city",
-      "name": "Welcome to the Cosmic City"
+      "id": "制胜的瞬间",
+      "slug": "制胜的瞬间",
+      "name": "制胜的瞬间"
     },
     {
-      "id": "23058",
-      "slug": "until-the-flowers-bloom-again",
-      "name": "Until the Flowers Bloom Again"
+      "id": "只需等待",
+      "slug": "只需等待",
+      "name": "只需等待"
     },
     {
-      "id": "23059",
-      "slug": "reforged-in-hellfire",
-      "name": "Reforged in Hellfire"
+      "id": "织造命运之线",
+      "slug": "织造命运之线",
+      "name": "织造命运之线"
     },
     {
-      "id": "24000",
-      "slug": "on-the-fall-of-an-aeon",
-      "name": "On the Fall of an Aeon"
+      "id": "致长夜的星光",
+      "slug": "致长夜的星光",
+      "name": "致长夜的星光"
     },
     {
-      "id": "24001",
-      "slug": "cruising-in-the-stellar-sea",
-      "name": "Cruising in the Stellar Sea"
+      "id": "重返幽冥",
+      "slug": "重返幽冥",
+      "name": "重返幽冥"
     },
     {
-      "id": "24002",
-      "slug": "texture-of-memories",
-      "name": "Texture of Memories"
+      "id": "重塑时光之忆",
+      "slug": "重塑时光之忆",
+      "name": "重塑时光之忆"
     },
     {
-      "id": "24003",
-      "slug": "solitary-healing",
-      "name": "Solitary Healing"
+      "id": "追逐风的时候",
+      "slug": "追逐风的时候",
+      "name": "追逐风的时候"
     },
     {
-      "id": "24004",
-      "slug": "eternal-calculus",
-      "name": "Eternal Calculus"
+      "id": "灼尽炼狱的新骸",
+      "slug": "灼尽炼狱的新骸",
+      "name": "灼尽炼狱的新骸"
     },
     {
-      "id": "24005",
-      "slug": "memory-s-curtain-never-falls",
-      "name": "Memory's Curtain Never Falls"
+      "id": "纵然山河万程",
+      "slug": "纵然山河万程",
+      "name": "纵然山河万程"
     },
     {
-      "id": "24006",
-      "slug": "elation-brimming-with-blessings",
-      "name": "Elation Brimming With Blessings"
+      "id": "最后的赢家",
+      "slug": "最后的赢家",
+      "name": "最后的赢家"
     }
   ],
   "relicSets": [
     {
-      "id": "101",
-      "slug": "passerby-of-wandering-cloud",
-      "name": "Passerby of Wandering Cloud"
+      "id": "哀歌覆国的诗人",
+      "slug": "哀歌覆国的诗人",
+      "name": "哀歌覆国的诗人"
     },
     {
-      "id": "102",
-      "slug": "musketeer-of-wild-wheat",
-      "name": "Musketeer of Wild Wheat"
+      "id": "宝命长存的莳者",
+      "slug": "宝命长存的莳者",
+      "name": "宝命长存的莳者"
     },
     {
-      "id": "103",
-      "slug": "knight-of-purity-palace",
-      "name": "Knight of Purity Palace"
+      "id": "奔狼的都蓝王朝",
+      "slug": "奔狼的都蓝王朝",
+      "name": "奔狼的都蓝王朝"
     },
     {
-      "id": "104",
-      "slug": "hunter-of-glacial-forest",
-      "name": "Hunter of Glacial Forest"
+      "id": "不老者的仙舟",
+      "slug": "不老者的仙舟",
+      "name": "不老者的仙舟"
     },
     {
-      "id": "105",
-      "slug": "champion-of-streetwise-boxing",
-      "name": "Champion of Streetwise Boxing"
+      "id": "苍穹战线格拉默",
+      "slug": "苍穹战线格拉默",
+      "name": "苍穹战线格拉默"
     },
     {
-      "id": "106",
-      "slug": "guard-of-wuthering-snow",
-      "name": "Guard of Wuthering Snow"
+      "id": "沉欢醉饮的海隅",
+      "slug": "沉欢醉饮的海隅",
+      "name": "沉欢醉饮的海隅"
     },
     {
-      "id": "107",
-      "slug": "firesmith-of-lava-forging",
-      "name": "Firesmith of Lava-Forging"
+      "id": "晨昏交界的翔鹰",
+      "slug": "晨昏交界的翔鹰",
+      "name": "晨昏交界的翔鹰"
     },
     {
-      "id": "108",
-      "slug": "genius-of-brilliant-stars",
-      "name": "Genius of Brilliant Stars"
+      "id": "沉陆海域露莎卡",
+      "slug": "沉陆海域露莎卡",
+      "name": "沉陆海域露莎卡"
     },
     {
-      "id": "109",
-      "slug": "band-of-sizzling-thunder",
-      "name": "Band of Sizzling Thunder"
+      "id": "出云显世与高天神国",
+      "slug": "出云显世与高天神国",
+      "name": "出云显世与高天神国"
     },
     {
-      "id": "110",
-      "slug": "eagle-of-twilight-line",
-      "name": "Eagle of Twilight Line"
+      "id": "荡除蠹灾的铁骑",
+      "slug": "荡除蠹灾的铁骑",
+      "name": "荡除蠹灾的铁骑"
     },
     {
-      "id": "111",
-      "slug": "thief-of-shooting-meteor",
-      "name": "Thief of Shooting Meteor"
+      "id": "盗匪荒漠的废土客",
+      "slug": "盗匪荒漠的废土客",
+      "name": "盗匪荒漠的废土客"
     },
     {
-      "id": "112",
-      "slug": "wastelander-of-banditry-desert",
-      "name": "Wastelander of Banditry Desert"
+      "id": "盗贼公国塔利亚",
+      "slug": "盗贼公国塔利亚",
+      "name": "盗贼公国塔利亚"
     },
     {
-      "id": "113",
-      "slug": "longevous-disciple",
-      "name": "Longevous Disciple"
+      "id": "恶海逐波的船长",
+      "slug": "恶海逐波的船长",
+      "name": "恶海逐波的船长"
     },
     {
-      "id": "114",
-      "slug": "messenger-traversing-hackerspace",
-      "name": "Messenger Traversing Hackerspace"
+      "id": "繁星璀璨的天才",
+      "slug": "繁星璀璨的天才",
+      "name": "繁星璀璨的天才"
     },
     {
-      "id": "115",
-      "slug": "the-ashblazing-grand-duke",
-      "name": "The Ashblazing Grand Duke"
+      "id": "繁星竞技场",
+      "slug": "繁星竞技场",
+      "name": "繁星竞技场"
     },
     {
-      "id": "116",
-      "slug": "prisoner-in-deep-confinement",
-      "name": "Prisoner in Deep Confinement"
+      "id": "泛银河商业公司",
+      "slug": "泛银河商业公司",
+      "name": "泛银河商业公司"
     },
     {
-      "id": "117",
-      "slug": "pioneer-diver-of-dead-waters",
-      "name": "Pioneer Diver of Dead Waters"
+      "id": "风举云飞的勇烈",
+      "slug": "风举云飞的勇烈",
+      "name": "风举云飞的勇烈"
     },
     {
-      "id": "118",
-      "slug": "watchmaker-master-of-dream-machinations",
-      "name": "Watchmaker, Master of Dream Machinations"
+      "id": "骇域漫游的信使",
+      "slug": "骇域漫游的信使",
+      "name": "骇域漫游的信使"
     },
     {
-      "id": "119",
-      "slug": "iron-cavalry-against-the-scourge",
-      "name": "Iron Cavalry Against the Scourge"
+      "id": "毁烬焚骨的大公",
+      "slug": "毁烬焚骨的大公",
+      "name": "毁烬焚骨的大公"
     },
     {
-      "id": "120",
-      "slug": "the-wind-soaring-valorous",
-      "name": "The Wind-Soaring Valorous"
+      "id": "机心戏梦的钟表匠",
+      "slug": "机心戏梦的钟表匠",
+      "name": "机心戏梦的钟表匠"
     },
     {
-      "id": "121",
-      "slug": "sacerdos-relived-ordeal",
-      "name": "Sacerdos' Relived Ordeal"
+      "id": "激奏雷电的乐队",
+      "slug": "激奏雷电的乐队",
+      "name": "激奏雷电的乐队"
     },
     {
-      "id": "122",
-      "slug": "scholar-lost-in-erudition",
-      "name": "Scholar Lost in Erudition"
+      "id": "劫火莲灯铸炼宫",
+      "slug": "劫火莲灯铸炼宫",
+      "name": "劫火莲灯铸炼宫"
     },
     {
-      "id": "123",
-      "slug": "hero-of-triumphant-song",
-      "name": "Hero of Triumphant Song"
+      "id": "街头出身的拳王",
+      "slug": "街头出身的拳王",
+      "name": "街头出身的拳王"
     },
     {
-      "id": "124",
-      "slug": "poet-of-mourning-collapse",
-      "name": "Poet of Mourning Collapse"
+      "id": "净庭教宗的圣骑士",
+      "slug": "净庭教宗的圣骑士",
+      "name": "净庭教宗的圣骑士"
     },
     {
-      "id": "125",
-      "slug": "warrior-goddess-of-sun-and-thunder",
-      "name": "Warrior Goddess of Sun and Thunder"
+      "id": "凯歌祝捷的英豪",
+      "slug": "凯歌祝捷的英豪",
+      "name": "凯歌祝捷的英豪"
     },
     {
-      "id": "126",
-      "slug": "wavestrider-captain",
-      "name": "Wavestrider Captain"
+      "id": "叩问天工的名冶",
+      "slug": "叩问天工的名冶",
+      "name": "叩问天工的名冶"
     },
     {
-      "id": "127",
-      "slug": "world-remaking-deliverer",
-      "name": "World-Remaking Deliverer"
+      "id": "烈阳惊雷的女武神",
+      "slug": "烈阳惊雷的女武神",
+      "name": "烈阳惊雷的女武神"
     },
     {
-      "id": "128",
-      "slug": "self-enshrouded-recluse",
-      "name": "Self-Enshrouded Recluse"
+      "id": "零号关卡朋克洛德",
+      "slug": "零号关卡朋克洛德",
+      "name": "零号关卡朋克洛德"
     },
     {
-      "id": "129",
-      "slug": "ever-glorious-magical-girl",
-      "name": "Ever-Glorious Magical Girl"
+      "id": "流星追迹的怪盗",
+      "slug": "流星追迹的怪盗",
+      "name": "流星追迹的怪盗"
     },
     {
-      "id": "130",
-      "slug": "diviner-of-distant-reach",
-      "name": "Diviner of Distant Reach"
+      "id": "梦想之地匹诺康尼",
+      "slug": "梦想之地匹诺康尼",
+      "name": "梦想之地匹诺康尼"
     },
     {
-      "id": "131",
-      "slug": "as-navigator-isee-sees-it",
-      "name": "As Navigator Isee Sees It"
+      "id": "密林卧雪的猎人",
+      "slug": "密林卧雪的猎人",
+      "name": "密林卧雪的猎人"
     },
     {
-      "id": "132",
-      "slug": "divine-querying-master-smith",
-      "name": "Divine-Querying Master Smith"
+      "id": "谧宁拾骨地",
+      "slug": "谧宁拾骨地",
+      "name": "谧宁拾骨地"
     },
     {
-      "id": "301",
-      "slug": "space-sealing-station",
-      "name": "Space Sealing Station"
+      "id": "奇想蕉乐园",
+      "slug": "奇想蕉乐园",
+      "name": "奇想蕉乐园"
     },
     {
-      "id": "302",
-      "slug": "fleet-of-the-ageless",
-      "name": "Fleet of the Ageless"
+      "id": "千星荟萃之城",
+      "slug": "千星荟萃之城",
+      "name": "千星荟萃之城"
     },
     {
-      "id": "303",
-      "slug": "pan-cosmic-commercial-enterprise",
-      "name": "Pan-Cosmic Commercial Enterprise"
+      "id": "熔岩锻铸的火匠",
+      "slug": "熔岩锻铸的火匠",
+      "name": "熔岩锻铸的火匠"
     },
     {
-      "id": "304",
-      "slug": "belobog-of-the-architects",
-      "name": "Belobog of the Architects"
+      "id": "闪耀功勋的魔法少女",
+      "slug": "闪耀功勋的魔法少女",
+      "name": "闪耀功勋的魔法少女"
     },
     {
-      "id": "305",
-      "slug": "celestial-differentiator",
-      "name": "Celestial Differentiator"
+      "id": "生命的翁瓦克",
+      "slug": "生命的翁瓦克",
+      "name": "生命的翁瓦克"
     },
     {
-      "id": "306",
-      "slug": "inert-salsotto",
-      "name": "Inert Salsotto"
+      "id": "识海迷坠的学者",
+      "slug": "识海迷坠的学者",
+      "name": "识海迷坠的学者"
     },
     {
-      "id": "307",
-      "slug": "talia-kingdom-of-banditry",
-      "name": "Talia: Kingdom of Banditry"
+      "id": "戍卫风雪的铁卫",
+      "slug": "戍卫风雪的铁卫",
+      "name": "戍卫风雪的铁卫"
     },
     {
-      "id": "308",
-      "slug": "sprightly-vonwacq",
-      "name": "Sprightly Vonwacq"
+      "id": "死水深潜的先驱",
+      "slug": "死水深潜的先驱",
+      "name": "死水深潜的先驱"
     },
     {
-      "id": "309",
-      "slug": "rutilant-arena",
-      "name": "Rutilant Arena"
+      "id": "太空封印站",
+      "slug": "太空封印站",
+      "name": "太空封印站"
     },
     {
-      "id": "310",
-      "slug": "broken-keel",
-      "name": "Broken Keel"
+      "id": "天国@直播间",
+      "slug": "天国@直播间",
+      "name": "天国@直播间"
     },
     {
-      "id": "311",
-      "slug": "firmament-frontline-glamoth",
-      "name": "Firmament Frontline: Glamoth"
+      "id": "停转的萨尔索图",
+      "slug": "停转的萨尔索图",
+      "name": "停转的萨尔索图"
     },
     {
-      "id": "312",
-      "slug": "penacony-land-of-the-dreams",
-      "name": "Penacony, Land of the Dreams"
+      "id": "无主荒星茨冈尼亚",
+      "slug": "无主荒星茨冈尼亚",
+      "name": "无主荒星茨冈尼亚"
     },
     {
-      "id": "313",
-      "slug": "sigonia-the-unclaimed-desolation",
-      "name": "Sigonia, the Unclaimed Desolation"
+      "id": "星如我见的领航员",
+      "slug": "星如我见的领航员",
+      "name": "星如我见的领航员"
     },
     {
-      "id": "314",
-      "slug": "izumo-gensei-and-takama-divine-realm",
-      "name": "Izumo Gensei and Takama Divine Realm"
+      "id": "星体差分机",
+      "slug": "星体差分机",
+      "name": "星体差分机"
     },
     {
-      "id": "315",
-      "slug": "duran-dynasty-of-running-wolves",
-      "name": "Duran, Dynasty of Running Wolves"
+      "id": "妖精织梦的乐园",
+      "slug": "妖精织梦的乐园",
+      "name": "妖精织梦的乐园"
     },
     {
-      "id": "316",
-      "slug": "forge-of-the-kalpagni-lantern",
-      "name": "Forge of the Kalpagni Lantern"
+      "id": "野穗伴行的快枪手",
+      "slug": "野穗伴行的快枪手",
+      "name": "野穗伴行的快枪手"
     },
     {
-      "id": "317",
-      "slug": "lushaka-the-sunken-seas",
-      "name": "Lushaka, the Sunken Seas"
+      "id": "应天涉远的卜者",
+      "slug": "应天涉远的卜者",
+      "name": "应天涉远的卜者"
     },
     {
-      "id": "318",
-      "slug": "the-wondrous-bananamusement-park",
-      "name": "The Wondrous BananAmusement Park"
+      "id": "永恒之地翁法罗斯",
+      "slug": "永恒之地翁法罗斯",
+      "name": "永恒之地翁法罗斯"
     },
     {
-      "id": "319",
-      "slug": "bone-collection-s-serene-demesne",
-      "name": "Bone Collection's Serene Demesne"
+      "id": "幽锁深牢的系囚",
+      "slug": "幽锁深牢的系囚",
+      "name": "幽锁深牢的系囚"
     },
     {
-      "id": "320",
-      "slug": "giant-tree-of-rapt-brooding",
-      "name": "Giant Tree of Rapt Brooding"
+      "id": "渊思寂虑的巨树",
+      "slug": "渊思寂虑的巨树",
+      "name": "渊思寂虑的巨树"
     },
     {
-      "id": "321",
-      "slug": "arcadia-of-woven-dreams",
-      "name": "Arcadia of Woven Dreams"
+      "id": "云无留迹的过客",
+      "slug": "云无留迹的过客",
+      "name": "云无留迹的过客"
     },
     {
-      "id": "322",
-      "slug": "revelry-by-the-sea",
-      "name": "Revelry by the Sea"
+      "id": "再创天地的救世主",
+      "slug": "再创天地的救世主",
+      "name": "再创天地的救世主"
     },
     {
-      "id": "323",
-      "slug": "amphoreus-the-eternal-land",
-      "name": "Amphoreus, The Eternal Land"
+      "id": "折断的龙骨",
+      "slug": "折断的龙骨",
+      "name": "折断的龙骨"
     },
     {
-      "id": "324",
-      "slug": "tengoku-livestream",
-      "name": "Tengoku@Livestream"
+      "id": "重循苦旅的司铎",
+      "slug": "重循苦旅的司铎",
+      "name": "重循苦旅的司铎"
     },
     {
-      "id": "325",
-      "slug": "punklorde-stage-zero",
-      "name": "Punklorde Stage Zero"
+      "id": "筑城者的贝洛伯格",
+      "slug": "筑城者的贝洛伯格",
+      "name": "筑城者的贝洛伯格"
     },
     {
-      "id": "326",
-      "slug": "city-of-converging-stars",
-      "name": "City of Converging Stars"
-    },
-    {
-      "id": "327",
-      "slug": "fallen-star-anchorage",
-      "name": "Fallen Star Anchorage"
-    },
-    {
-      "id": "328",
-      "slug": "cosmic-life-sciences-institute",
-      "name": "Cosmic Life Sciences Institute"
+      "id": "自匿星芒的隐士",
+      "slug": "自匿星芒的隐士",
+      "name": "自匿星芒的隐士"
     }
   ],
   "aliases": {
     "characters": {
-      "march-7th": "1224",
-      "dan-heng": "1002",
-      "himeko": "1003",
-      "welt": "1004",
-      "kafka": "1005",
-      "silver-wolf": "1006",
-      "arlan": "1008",
-      "asta": "1009",
-      "herta": "1013",
-      "saber": "1014",
-      "archer": "1015",
-      "bronya": "1101",
-      "seele": "1102",
-      "serval": "1103",
-      "gepard": "1104",
-      "natasha": "1105",
-      "pela": "1106",
-      "clara": "1107",
-      "sampo": "1108",
-      "hook": "1109",
-      "lynx": "1110",
-      "luka": "1111",
-      "topaz-numby": "1112",
-      "qingque": "1201",
-      "tingyun": "1202",
-      "luocha": "1203",
-      "jing-yuan": "1204",
-      "blade": "1205",
-      "sushang": "1206",
-      "yukong": "1207",
-      "fu-xuan": "1208",
-      "yanqing": "1209",
-      "guinaifen": "1210",
-      "bailu": "1211",
-      "jingliu": "1212",
-      "dan-heng-imbibitor-lunae": "1213",
-      "xueyi": "1214",
-      "hanya": "1215",
-      "huohuo": "1217",
-      "jiaoqiu": "1218",
-      "feixiao": "1220",
-      "yunli": "1221",
-      "lingsha": "1222",
-      "moze": "1223",
-      "fugue": "1225",
-      "gallagher": "1301",
-      "argenti": "1302",
-      "ruan-mei": "1303",
-      "aventurine": "1304",
-      "dr-ratio": "1305",
-      "sparkle": "1306",
-      "black-swan": "1307",
-      "acheron": "1308",
-      "robin": "1309",
-      "firefly": "1310",
-      "misha": "1312",
-      "sunday": "1313",
-      "jade": "1314",
-      "boothill": "1315",
-      "rappa": "1317",
-      "the-dahlia": "1321",
-      "the-herta": "1401",
-      "aglaea": "1402",
-      "tribbie": "1403",
-      "mydei": "1404",
-      "anaxa": "1405",
-      "cipher": "1406",
-      "castorice": "1407",
-      "phainon": "1408",
-      "hyacine": "1409",
-      "hysilens": "1410",
-      "cerydra": "1412",
-      "evernight": "1413",
-      "dan-heng-permansor-terrae": "1414",
-      "cyrene": "1415",
-      "sparxie": "1501",
-      "yao-guang": "1502",
-      "ashveil": "1504",
-      "evanescia": "1505",
-      "silver-wolf-lv-999": "1506",
-      "mortenax-blade": "1507",
-      "trailblazer": "8010"
+      "jingliu": "镜流",
+      "kafka": "卡芙卡",
+      "sparkle": "花火",
+      "阿格莱雅": "阿格莱雅",
+      "阿兰": "阿兰",
+      "艾利欧": "艾利欧",
+      "艾丝妲": "艾丝妲",
+      "Archer": "Archer",
+      "白厄": "白厄",
+      "白露": "白露",
+      "波提欧": "波提欧",
+      "布洛妮娅": "布洛妮娅",
+      "不死途": "不死途",
+      "大黑塔": "大黑塔",
+      "大丽花": "大丽花",
+      "丹恒": "丹恒",
+      "丹恒•腾荒": "丹恒•腾荒",
+      "丹恒•饮月": "丹恒•饮月",
+      "翡翠": "翡翠",
+      "飞霄": "飞霄",
+      "绯英": "绯英",
+      "风堇": "风堇",
+      "符玄": "符玄",
+      "桂乃芬": "桂乃芬",
+      "海瑟音": "海瑟音",
+      "寒鸦": "寒鸦",
+      "黑塔": "黑塔",
+      "黑天鹅": "黑天鹅",
+      "虎克": "虎克",
+      "花火": "花火",
+      "黄泉": "黄泉",
+      "火花": "火花",
+      "藿藿": "藿藿",
+      "吉尔伽美什": "吉尔伽美什",
+      "姬子": "姬子",
+      "姬子•启行": "姬子•启行",
+      "加拉赫": "加拉赫",
+      "椒丘": "椒丘",
+      "杰帕德": "杰帕德",
+      "镜流": "镜流",
+      "景元": "景元",
+      "卡芙卡": "卡芙卡",
+      "开拓者•存护": "开拓者•存护",
+      "开拓者•欢愉": "开拓者•欢愉",
+      "开拓者•毁灭": "开拓者•毁灭",
+      "开拓者•记忆": "开拓者•记忆",
+      "开拓者•同谐": "开拓者•同谐",
+      "克拉拉": "克拉拉",
+      "刻律德菈": "刻律德菈",
+      "玲可": "玲可",
+      "灵砂": "灵砂",
+      "流萤": "流萤",
+      "龙晶": "龙晶",
+      "卢卡": "卢卡",
+      "乱破": "乱破",
+      "罗刹": "罗刹",
+      "螺丝咕姆": "螺丝咕姆",
+      "米沙": "米沙",
+      "貊泽": "貊泽",
+      "那刻夏": "那刻夏",
+      "娜塔莎": "娜塔莎",
+      "欧泊": "欧泊",
+      "佩拉": "佩拉",
+      "千冶•刃": "千冶•刃",
+      "青雀": "青雀",
+      "刃": "刃",
+      "阮•梅": "阮•梅",
+      "芮克先生": "芮克先生",
+      "Saber": "Saber",
+      "赛飞儿": "赛飞儿",
+      "三月七•存护": "三月七•存护",
+      "三月七•巡猎": "三月七•巡猎",
+      "桑博": "桑博",
+      "砂金": "砂金",
+      "砂金•戏浪": "砂金•戏浪",
+      "舒俱": "舒俱",
+      "素裳": "素裳",
+      "缇宝": "缇宝",
+      "停云": "停云",
+      "托帕&账账": "托帕&账账",
+      "瓦尔特": "瓦尔特",
+      "万敌": "万敌",
+      "忘归人": "忘归人",
+      "希儿": "希儿",
+      "昔涟": "昔涟",
+      "希露瓦": "希露瓦",
+      "遐蝶": "遐蝶",
+      "星期日": "星期日",
+      "虚照": "虚照",
+      "雪衣": "雪衣",
+      "彦卿": "彦卿",
+      "爻光": "爻光",
+      "银狼": "银狼",
+      "银狼LV.999": "银狼LV.999",
+      "银枝": "银枝",
+      "驭空": "驭空",
+      "远坂凛": "远坂凛",
+      "云璃": "云璃",
+      "长夜月": "长夜月",
+      "真理医生": "真理医生",
+      "真珠": "真珠",
+      "知更鸟": "知更鸟",
+      "知更鸟•晴歌": "知更鸟•晴歌"
     },
     "lightCones": {
-      "arrows": "20000",
-      "cornucopia": "20001",
-      "collapsing-sky": "20002",
-      "amber": "20003",
-      "void": "20004",
-      "chorus": "20005",
-      "data-bank": "20006",
-      "darting-arrow": "20007",
-      "fine-fruit": "20008",
-      "shattered-home": "20009",
-      "defense": "20010",
-      "loop": "20011",
-      "meshing-cogs": "20012",
-      "passkey": "20013",
-      "adversarial": "20014",
-      "multiplication": "20015",
-      "mutual-demise": "20016",
-      "pioneering": "20017",
-      "hidden-shadow": "20018",
-      "mediation": "20019",
-      "sagacity": "20020",
-      "shadowburn": "20021",
-      "reminiscence": "20022",
-      "sneering": "20023",
-      "lingering-tear": "20024",
-      "post-op-conversation": "21000",
-      "good-night-and-sleep-well": "21001",
-      "day-one-of-my-new-life": "21002",
-      "only-silence-remains": "21003",
-      "memories-of-the-past": "21004",
-      "the-moles-welcome-you": "21005",
-      "the-birth-of-the-self": "21006",
-      "shared-feeling": "21007",
-      "eyes-of-the-prey": "21008",
-      "landau-s-choice": "21009",
-      "swordplay": "21010",
-      "planetary-rendezvous": "21011",
-      "a-secret-vow": "21012",
-      "make-the-world-clamor": "21013",
-      "perfect-timing": "21014",
-      "resolution-shines-as-pearls-of-sweat": "21015",
-      "trend-of-the-universal-market": "21016",
-      "subscribe-for-more": "21017",
-      "dance-dance-dance": "21018",
-      "under-the-blue-sky": "21019",
-      "geniuses-repose": "21020",
-      "quid-pro-quo": "21021",
-      "fermata": "21022",
-      "we-are-wildfire": "21023",
-      "river-flows-in-spring": "21024",
-      "past-and-future": "21025",
-      "woof-walk-time": "21026",
-      "the-seriousness-of-breakfast": "21027",
-      "warmth-shortens-cold-nights": "21028",
-      "we-will-meet-again": "21029",
-      "this-is-me": "21030",
-      "return-to-darkness": "21031",
-      "carve-the-moon-weave-the-clouds": "21032",
-      "nowhere-to-run": "21033",
-      "today-is-another-peaceful-day": "21034",
-      "what-is-real": "21035",
-      "dreamville-adventure": "21036",
-      "final-victor": "21037",
-      "flames-afar": "21038",
-      "destiny-s-threads-forewoven": "21039",
-      "the-day-the-cosmos-fell": "21040",
-      "it-s-showtime": "21041",
-      "indelible-promise": "21042",
-      "concert-for-two": "21043",
-      "boundless-choreo": "21044",
-      "after-the-charmony-fall": "21045",
-      "poised-to-bloom": "21046",
-      "shadowed-by-night": "21047",
-      "dream-s-montage": "21048",
-      "victory-in-a-blink": "21050",
-      "geniuses-greetings": "21051",
-      "sweat-now-cry-less": "21052",
-      "journey-forever-peaceful": "21053",
-      "the-story-s-next-page": "21054",
-      "unto-tomorrow-s-morrow": "21055",
-      "in-pursuit-of-the-wind": "21056",
-      "the-flower-remembers": "21057",
-      "a-trail-of-bygone-blood": "21058",
-      "a-dream-scented-in-wheat": "21060",
-      "holiday-thermae-escapade": "21061",
-      "see-you-at-the-end": "21062",
-      "mushy-shroomy-s-adventures": "21064",
-      "today-s-good-luck": "21065",
-      "before-the-tutorial-mission-starts": "22000",
-      "hey-over-here": "22001",
-      "for-tomorrow-s-journey": "22002",
-      "ninja-record-sound-hunt": "22003",
-      "the-great-cosmic-enterprise": "22004",
-      "the-forever-victual": "22005",
-      "fly-into-a-pink-tomorrow": "22006",
-      "tomorrow-together": "22007",
-      "night-on-the-milky-way": "23000",
-      "in-the-night": "23001",
-      "something-irreplaceable": "23002",
-      "but-the-battle-isn-t-over": "23003",
-      "in-the-name-of-the-world": "23004",
-      "moment-of-victory": "23005",
-      "patience-is-all-you-need": "23006",
-      "incessant-rain": "23007",
-      "echoes-of-the-coffin": "23008",
-      "the-unreachable-side": "23009",
-      "before-dawn": "23010",
-      "she-already-shut-her-eyes": "23011",
-      "sleep-like-the-dead": "23012",
-      "time-waits-for-no-one": "23013",
-      "i-shall-be-my-own-sword": "23014",
-      "brighter-than-the-sun": "23015",
-      "worrisome-blissful": "23016",
-      "night-of-fright": "23017",
-      "an-instant-before-a-gaze": "23018",
-      "past-self-in-mirror": "23019",
-      "baptism-of-pure-thought": "23020",
-      "earthly-escapade": "23021",
-      "reforged-remembrance": "23022",
-      "inherently-unjust-destiny": "23023",
-      "along-the-passing-shore": "23024",
-      "whereabouts-should-dreams-rest": "23025",
-      "flowing-nightglow": "23026",
-      "sailing-towards-a-second-life": "23027",
-      "yet-hope-is-priceless": "23028",
-      "those-many-springs": "23029",
-      "dance-at-sunset": "23030",
-      "i-venture-forth-to-hunt": "23031",
-      "scent-alone-stays-true": "23032",
-      "ninjutsu-inscription-dazzling-evilbreaker": "23033",
-      "a-grounded-ascent": "23034",
-      "long-road-leads-home": "23035",
-      "time-woven-into-gold": "23036",
-      "into-the-unreachable-veil": "23037",
-      "if-time-were-a-flower": "23038",
-      "flame-of-blood-blaze-my-path": "23039",
-      "make-farewells-more-beautiful": "23040",
-      "life-should-be-cast-to-flames": "23041",
-      "long-may-rainbows-adorn-the-sky": "23042",
-      "lies-dance-on-the-breeze": "23043",
-      "thus-burns-the-dawn": "23044",
-      "a-thankless-coronation": "23045",
-      "the-hell-where-ideals-burn": "23046",
-      "why-does-the-ocean-sing": "23047",
-      "epoch-etched-in-golden-blood": "23048",
-      "to-evernight-s-stars": "23049",
-      "never-forget-her-flame": "23050",
-      "though-worlds-apart": "23051",
-      "this-love-forever": "23052",
-      "dazzled-by-a-flowery-world": "23053",
-      "when-she-decided-to-see": "23054",
-      "the-finale-of-a-lie": "23056",
-      "welcome-to-the-cosmic-city": "23057",
-      "until-the-flowers-bloom-again": "23058",
-      "reforged-in-hellfire": "23059",
-      "on-the-fall-of-an-aeon": "24000",
-      "cruising-in-the-stellar-sea": "24001",
-      "texture-of-memories": "24002",
-      "solitary-healing": "24003",
-      "eternal-calculus": "24004",
-      "memory-s-curtain-never-falls": "24005",
-      "elation-brimming-with-blessings": "24006"
+      "before-dawn": "拂晓之前",
+      "「我」的诞生": "「我」的诞生",
+      "爱如此刻永恒": "爱如此刻永恒",
+      "比阳光更明亮的": "比阳光更明亮的",
+      "别让世界静下来": "别让世界静下来",
+      "不息的演算": "不息的演算",
+      "残泪": "残泪",
+      "嗤笑": "嗤笑",
+      "纯粹思维的洗礼": "纯粹思维的洗礼",
+      "春水初生": "春水初生",
+      "此身为剑": "此身为剑",
+      "此时恰好": "此时恰好",
+      "但战斗还未结束": "但战斗还未结束",
+      "当她决定看见": "当她决定看见",
+      "到不了的彼岸": "到不了的彼岸",
+      "等价交换": "等价交换",
+      "点个关注吧！": "点个关注吧！",
+      "调和": "调和",
+      "多流汗，少流泪": "多流汗，少流泪",
+      "烦恼着，幸福着": "烦恼着，幸福着",
+      "蕃息": "蕃息",
+      "芳华待灼": "芳华待灼",
+      "飞向粉色的明天": "飞向粉色的明天",
+      "焚影": "焚影",
+      "锋镝": "锋镝",
+      "拂晓之前": "拂晓之前",
+      "孤独的疗愈": "孤独的疗愈",
+      "菇菇嘎嘎历险记": "菇菇嘎嘎历险记",
+      "故事的下一页": "故事的下一页",
+      "棺的回响": "棺的回响",
+      "过往未来": "过往未来",
+      "海洋为何而歌": "海洋为何而歌",
+      "好戏开演": "好戏开演",
+      "何物为真": "何物为真",
+      "嘿，我在这儿": "嘿，我在这儿",
+      "黑夜如影随行": "黑夜如影随行",
+      "后会有期": "后会有期",
+      "琥珀": "琥珀",
+      "花儿不会忘记": "花儿不会忘记",
+      "花花世界迷人眼": "花花世界迷人眼",
+      "欢迎来到银河城": "欢迎来到银河城",
+      "欢愉满溢祝福": "欢愉满溢祝福",
+      "谎言在风中飘扬": "谎言在风中飘扬",
+      "回到大地的飞行": "回到大地的飞行",
+      "记忆的质料": "记忆的质料",
+      "记一位星神的陨落": "记一位星神的陨落",
+      "记忆永不落幕": "记忆永不落幕",
+      "记忆中的模样": "记忆中的模样",
+      "嘉果": "嘉果",
+      "假日浴场大冒险": "假日浴场大冒险",
+      "将光阴织成黄金": "将光阴织成黄金",
+      "今日好手气": "今日好手气",
+      "今日亦是和平的一日": "今日亦是和平的一日",
+      "金血铭刻的时代": "金血铭刻的时代",
+      "惊魂夜": "惊魂夜",
+      "镜中故我": "镜中故我",
+      "俱殁": "俱殁",
+      "决心如汗珠般闪耀": "决心如汗珠般闪耀",
+      "开疆": "开疆",
+      "朗道的选择": "朗道的选择",
+      "乐圮": "乐圮",
+      "黎明恰如此燃烧": "黎明恰如此燃烧",
+      "离弦": "离弦",
+      "理想燃烧的地狱": "理想燃烧的地狱",
+      "两个人的演唱会": "两个人的演唱会",
+      "猎物的视线": "猎物的视线",
+      "灵钥": "灵钥",
+      "镂月裁云之意": "镂月裁云之意",
+      "论剑": "论剑",
+      "轮契": "轮契",
+      "落日时起舞": "落日时起舞",
+      "美梦小镇大冒险": "美梦小镇大冒险",
+      "没有回报的加冕": "没有回报的加冕",
+      "梦的蒙太奇": "梦的蒙太奇",
+      "梦应归于何处": "梦应归于何处",
+      "秘密誓心": "秘密誓心",
+      "铭记于心的约定": "铭记于心的约定",
+      "命运从未公平": "命运从未公平",
+      "那无数个春天": "那无数个春天",
+      "匿影": "匿影",
+      "暖夜不会漫长": "暖夜不会漫长",
+      "片刻，留在眼底": "片刻，留在眼底",
+      "偏偏希望无价": "偏偏希望无价",
+      "齐颂": "齐颂",
+      "让告别，更美一些": "让告别，更美一些",
+      "忍法帖•缭乱破魔": "忍法帖•缭乱破魔",
+      "忍事录•音律狩猎": "忍事录•音律狩猎",
+      "如果时间是一朵花": "如果时间是一朵花",
+      "如泥酣眠": "如泥酣眠",
+      "睿见": "睿见",
+      "胜利只在朝夕间": "胜利只在朝夕间",
+      "生命当付之一炬": "生命当付之一炬",
+      "时节不居": "时节不居",
+      "驶向第二次生命": "驶向第二次生命",
+      "戍御": "戍御",
+      "溯忆": "溯忆",
+      "她已闭上双眼": "她已闭上双眼",
+      "天才们的问候": "天才们的问候",
+      "天才们的休憩": "天才们的休憩",
+      "天倾": "天倾",
+      "同一种心情": "同一种心情",
+      "晚安与睡颜": "晚安与睡颜",
+      "汪！散步时间！": "汪！散步时间！",
+      "未来，有我们一起": "未来，有我们一起",
+      "为了明日的旅途": "为了明日的旅途",
+      "唯有沉默": "唯有沉默",
+      "唯有香如故": "唯有香如故",
+      "我将，巡征追猎": "我将，巡征追猎",
+      "我们是地火": "我们是地火",
+      "舞！舞！舞！": "舞！舞！舞！",
+      "无边曼舞": "无边曼舞",
+      "无处可逃": "无处可逃",
+      "无可取代的东西": "无可取代的东西",
+      "物穰": "物穰",
+      "勿忘她的火焰": "勿忘她的火焰",
+      "相抗": "相抗",
+      "向着不可追问处": "向着不可追问处",
+      "邂逅于下一个花季": "邂逅于下一个花季",
+      "谐乐静默之后": "谐乐静默之后",
+      "新手任务开始前": "新手任务开始前",
+      "星海巡航": "星海巡航",
+      "行于流逝的岸": "行于流逝的岸",
+      "血火啊，燃烧前路": "血火啊，燃烧前路",
+      "鼹鼠党欢迎你": "鼹鼠党欢迎你",
+      "延长记号": "延长记号",
+      "夜色流光溢彩": "夜色流光溢彩",
+      "一场谎言的终幕": "一场谎言的终幕",
+      "一场术后对话": "一场术后对话",
+      "以世界之名": "以世界之名",
+      "一行往日的血": "一行往日的血",
+      "银河沦陷日": "银河沦陷日",
+      "银河铁道之夜": "银河铁道之夜",
+      "氤氲麦香的梦": "氤氲麦香的梦",
+      "永远的迷境饭": "永远的迷境饭",
+      "幽邃": "幽邃",
+      "游戏尘寰": "游戏尘寰",
+      "于那终点再见": "于那终点再见",
+      "余生的第一天": "余生的第一天",
+      "与行星相会": "与行星相会",
+      "于夜色中": "于夜色中",
+      "雨一直下": "雨一直下",
+      "宇宙大生意": "宇宙大生意",
+      "宇宙市场趋势": "宇宙市场趋势",
+      "愿虹光永驻天空": "愿虹光永驻天空",
+      "渊环": "渊环",
+      "愿旅途永远坦然": "愿旅途永远坦然",
+      "在火的远处": "在火的远处",
+      "在蓝天下": "在蓝天下",
+      "早餐的仪式感": "早餐的仪式感",
+      "长路终有归途": "长路终有归途",
+      "这就是我啦！": "这就是我啦！",
+      "直到明天的明天": "直到明天的明天",
+      "智库": "智库",
+      "制胜的瞬间": "制胜的瞬间",
+      "只需等待": "只需等待",
+      "织造命运之线": "织造命运之线",
+      "致长夜的星光": "致长夜的星光",
+      "重返幽冥": "重返幽冥",
+      "重塑时光之忆": "重塑时光之忆",
+      "追逐风的时候": "追逐风的时候",
+      "灼尽炼狱的新骸": "灼尽炼狱的新骸",
+      "纵然山河万程": "纵然山河万程",
+      "最后的赢家": "最后的赢家"
     },
     "relicSets": {
-      "passerby-of-wandering-cloud": "101",
-      "musketeer-of-wild-wheat": "102",
-      "knight-of-purity-palace": "103",
-      "hunter-of-glacial-forest": "104",
-      "champion-of-streetwise-boxing": "105",
-      "guard-of-wuthering-snow": "106",
-      "firesmith-of-lava-forging": "107",
-      "genius-of-brilliant-stars": "108",
-      "band-of-sizzling-thunder": "109",
-      "eagle-of-twilight-line": "110",
-      "thief-of-shooting-meteor": "111",
-      "wastelander-of-banditry-desert": "112",
-      "longevous-disciple": "113",
-      "messenger-traversing-hackerspace": "114",
-      "the-ashblazing-grand-duke": "115",
-      "prisoner-in-deep-confinement": "116",
-      "pioneer-diver-of-dead-waters": "117",
-      "watchmaker-master-of-dream-machinations": "118",
-      "iron-cavalry-against-the-scourge": "119",
-      "the-wind-soaring-valorous": "120",
-      "sacerdos-relived-ordeal": "121",
-      "scholar-lost-in-erudition": "122",
-      "hero-of-triumphant-song": "123",
-      "poet-of-mourning-collapse": "124",
-      "warrior-goddess-of-sun-and-thunder": "125",
-      "wavestrider-captain": "126",
-      "world-remaking-deliverer": "127",
-      "self-enshrouded-recluse": "128",
-      "ever-glorious-magical-girl": "129",
-      "diviner-of-distant-reach": "130",
-      "as-navigator-isee-sees-it": "131",
-      "divine-querying-master-smith": "132",
-      "space-sealing-station": "301",
-      "fleet-of-the-ageless": "302",
-      "pan-cosmic-commercial-enterprise": "303",
-      "belobog-of-the-architects": "304",
-      "celestial-differentiator": "305",
-      "inert-salsotto": "306",
-      "talia-kingdom-of-banditry": "307",
-      "sprightly-vonwacq": "308",
-      "rutilant-arena": "309",
-      "broken-keel": "310",
-      "firmament-frontline-glamoth": "311",
-      "penacony-land-of-the-dreams": "312",
-      "sigonia-the-unclaimed-desolation": "313",
-      "izumo-gensei-and-takama-divine-realm": "314",
-      "duran-dynasty-of-running-wolves": "315",
-      "forge-of-the-kalpagni-lantern": "316",
-      "lushaka-the-sunken-seas": "317",
-      "the-wondrous-bananamusement-park": "318",
-      "bone-collection-s-serene-demesne": "319",
-      "giant-tree-of-rapt-brooding": "320",
-      "arcadia-of-woven-dreams": "321",
-      "revelry-by-the-sea": "322",
-      "amphoreus-the-eternal-land": "323",
-      "tengoku-livestream": "324",
-      "punklorde-stage-zero": "325",
-      "city-of-converging-stars": "326",
-      "fallen-star-anchorage": "327",
-      "cosmic-life-sciences-institute": "328",
-      "quantum-set": "108",
-      "messenger": "114"
+      "quantum-set": "繁星璀璨的天才",
+      "messenger": "骇域漫游的信使",
+      "哀歌覆国的诗人": "哀歌覆国的诗人",
+      "宝命长存的莳者": "宝命长存的莳者",
+      "奔狼的都蓝王朝": "奔狼的都蓝王朝",
+      "不老者的仙舟": "不老者的仙舟",
+      "苍穹战线格拉默": "苍穹战线格拉默",
+      "沉欢醉饮的海隅": "沉欢醉饮的海隅",
+      "晨昏交界的翔鹰": "晨昏交界的翔鹰",
+      "沉陆海域露莎卡": "沉陆海域露莎卡",
+      "出云显世与高天神国": "出云显世与高天神国",
+      "荡除蠹灾的铁骑": "荡除蠹灾的铁骑",
+      "盗匪荒漠的废土客": "盗匪荒漠的废土客",
+      "盗贼公国塔利亚": "盗贼公国塔利亚",
+      "恶海逐波的船长": "恶海逐波的船长",
+      "繁星璀璨的天才": "繁星璀璨的天才",
+      "繁星竞技场": "繁星竞技场",
+      "泛银河商业公司": "泛银河商业公司",
+      "风举云飞的勇烈": "风举云飞的勇烈",
+      "骇域漫游的信使": "骇域漫游的信使",
+      "毁烬焚骨的大公": "毁烬焚骨的大公",
+      "机心戏梦的钟表匠": "机心戏梦的钟表匠",
+      "激奏雷电的乐队": "激奏雷电的乐队",
+      "劫火莲灯铸炼宫": "劫火莲灯铸炼宫",
+      "街头出身的拳王": "街头出身的拳王",
+      "净庭教宗的圣骑士": "净庭教宗的圣骑士",
+      "凯歌祝捷的英豪": "凯歌祝捷的英豪",
+      "叩问天工的名冶": "叩问天工的名冶",
+      "烈阳惊雷的女武神": "烈阳惊雷的女武神",
+      "零号关卡朋克洛德": "零号关卡朋克洛德",
+      "流星追迹的怪盗": "流星追迹的怪盗",
+      "梦想之地匹诺康尼": "梦想之地匹诺康尼",
+      "密林卧雪的猎人": "密林卧雪的猎人",
+      "谧宁拾骨地": "谧宁拾骨地",
+      "奇想蕉乐园": "奇想蕉乐园",
+      "千星荟萃之城": "千星荟萃之城",
+      "熔岩锻铸的火匠": "熔岩锻铸的火匠",
+      "闪耀功勋的魔法少女": "闪耀功勋的魔法少女",
+      "生命的翁瓦克": "生命的翁瓦克",
+      "识海迷坠的学者": "识海迷坠的学者",
+      "戍卫风雪的铁卫": "戍卫风雪的铁卫",
+      "死水深潜的先驱": "死水深潜的先驱",
+      "太空封印站": "太空封印站",
+      "天国@直播间": "天国@直播间",
+      "停转的萨尔索图": "停转的萨尔索图",
+      "无主荒星茨冈尼亚": "无主荒星茨冈尼亚",
+      "星如我见的领航员": "星如我见的领航员",
+      "星体差分机": "星体差分机",
+      "妖精织梦的乐园": "妖精织梦的乐园",
+      "野穗伴行的快枪手": "野穗伴行的快枪手",
+      "应天涉远的卜者": "应天涉远的卜者",
+      "永恒之地翁法罗斯": "永恒之地翁法罗斯",
+      "幽锁深牢的系囚": "幽锁深牢的系囚",
+      "渊思寂虑的巨树": "渊思寂虑的巨树",
+      "云无留迹的过客": "云无留迹的过客",
+      "再创天地的救世主": "再创天地的救世主",
+      "折断的龙骨": "折断的龙骨",
+      "重循苦旅的司铎": "重循苦旅的司铎",
+      "筑城者的贝洛伯格": "筑城者的贝洛伯格",
+      "自匿星芒的隐士": "自匿星芒的隐士"
     }
   }
 }

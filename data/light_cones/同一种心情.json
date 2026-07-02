@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "同一种心情",
+  "slug": "同一种心情",
+  "gameId": "650",
+  "name": "同一种心情",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "救治与维修",
+    "description": "以下效果仅对丰饶命途生效使装备者的治疗量提高10%/12.5%/15%/17.5%/20%，并在施放战技时为我方全体恢复2/2.5/3/3.5/4点能量。"
+  },
+  "wiki": {
+    "title": "同一种心情",
+    "url": "https://wiki.biligame.com/sr/%E5%90%8C%E4%B8%80%E7%A7%8D%E5%BF%83%E6%83%85",
+    "revId": 46687
+  },
+  "source": "bwiki-scraper"
+}

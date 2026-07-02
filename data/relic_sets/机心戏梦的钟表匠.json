@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "机心戏梦的钟表匠",
+  "slug": "机心戏梦的钟表匠",
+  "gameId": "9424",
+  "name": "机心戏梦的钟表匠",
+  "description": "击破特攻提高16%。 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。",
+  "pieces2": {
+    "description": "击破特攻提高16%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "机心戏梦的钟表匠",
+    "url": "https://wiki.biligame.com/sr/%E6%9C%BA%E5%BF%83%E6%88%8F%E6%A2%A6%E7%9A%84%E9%92%9F%E8%A1%A8%E5%8C%A0",
+    "revId": 46544
+  },
+  "source": "bwiki-scraper"
+}

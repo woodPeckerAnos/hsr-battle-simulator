@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "黎明恰如此燃烧",
+  "slug": "黎明恰如此燃烧",
+  "gameId": "19277",
+  "name": "黎明恰如此燃烧",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 687,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "失却",
+    "description": "以下效果仅对毁灭命途生效使装备者的基础速度提高12/14/16/18/20，造成伤害时无视目标18%/22.5%/27%/31.5%/36%的防御力。装备者施放终结技后，获得【烈阳】，回合开始时移除。持有【烈阳】时，装备者造成的伤害提高60%/78%/96%/114%/132%。"
+  },
+  "wiki": {
+    "title": "黎明恰如此燃烧",
+    "url": "https://wiki.biligame.com/sr/%E9%BB%8E%E6%98%8E%E6%81%B0%E5%A6%82%E6%AD%A4%E7%87%83%E7%83%A7",
+    "revId": 62522
+  },
+  "source": "bwiki-scraper"
+}

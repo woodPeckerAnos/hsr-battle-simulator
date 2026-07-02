@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "死水深潜的先驱",
+  "slug": "死水深潜的先驱",
+  "gameId": "9423",
+  "name": "死水深潜的先驱",
+  "description": "对受负面状态影响的敌人造成的伤害提高12%。 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。",
+  "pieces2": {
+    "description": "对受负面状态影响的敌人造成的伤害提高12%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.04
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "死水深潜的先驱",
+    "url": "https://wiki.biligame.com/sr/%E6%AD%BB%E6%B0%B4%E6%B7%B1%E6%BD%9C%E7%9A%84%E5%85%88%E9%A9%B1",
+    "revId": 46543
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,176 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "银狼LV.999",
+  "slug": "银狼LV.999",
+  "gameId": "29515",
+  "name": "银狼LV.999",
+  "rarity": 4,
+  "element": "imaginary",
+  "path": "欢愉命途",
+  "level": 80,
+  "baseStats": {
+    "atk": 388,
+    "hp": 1047,
+    "def": 654,
+    "speed": 110,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critRate": 0.187,
+    "hpPercent": 0.1,
+    "flatSpeed": 9
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 9
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 10,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "skill"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "以太编辑：星魂+1",
+      "effect": "结界中的敌方目标受到的伤害提高20%。退出【无敌玩家】状态时不会清空【隐藏分】，改为保留20%的【隐藏分】。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "是机制，不是BUG",
+      "effect": "进入【无敌玩家】状态后，使自身所有悬浮框增益效果对战斗有增益效果的所有持续状态，若无特殊说明则可以被解除。延长1回合。本次【无敌玩家】状态下每使【隐藏分】提高120点（含初始【隐藏分】），「银狼LV.999」获得1个额外回合获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。并恢复1次强化普攻的可施放次数。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "只有15级？谁填的",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "我来，我见，我..秒了",
+      "effect": "【崩坏级伤害演示】造成的欢愉伤害计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。欢愉伤害不受伤害提高类效果所影响。额外计入5倍的笑点笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "平A即是大招",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "我独自满级！",
+      "effect": "强化普攻期间造成的欢愉伤害计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。欢愉伤害不受伤害提高类效果所影响。增笑影响欢愉伤害的特殊效果，可额外提高造成的欢愉伤害。50%。敌方目标进入战斗时，会被植入【禁限弱点】：拥有全属性弱点并且全属性基础抗性目标入场时固有的伤害属性抗性，通常情况下无法被修改。降低至0（若基础抗性为0则改为对应属性抗性降低20%）。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 9
+    }
+  ],
+  "wiki": {
+    "title": "银狼LV.999",
+    "url": "https://wiki.biligame.com/sr/%E9%93%B6%E7%8B%BCLV.999",
+    "revId": 97119
+  },
+  "source": "bwiki-scraper"
+}

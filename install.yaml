@@ -1,5 +1,5 @@
-mode: single_hit
 enemyId: foi-95
+maxTurn: 30
 enemyBroken: false
 
 team:

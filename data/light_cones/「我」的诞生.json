@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "「我」的诞生",
+  "slug": "「我」的诞生",
+  "gameId": "647",
+  "name": "「我」的诞生",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "画像少女",
+    "description": "以下效果仅对智识命途生效使装备者追加攻击造成的伤害提高24%/30%/36%/42%/48%。若该敌方目标当前生命值百分比小于等于50%，则追加攻击造成的伤害额外提高24%/30%/36%/42%/48%。"
+  },
+  "wiki": {
+    "title": "「我」的诞生",
+    "url": "https://wiki.biligame.com/sr/%E3%80%8C%E6%88%91%E3%80%8D%E7%9A%84%E8%AF%9E%E7%94%9F",
+    "revId": 46627
+  },
+  "source": "bwiki-scraper"
+}

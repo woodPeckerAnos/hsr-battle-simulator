@@ -1,0 +1,250 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "云璃",
+  "slug": "云璃",
+  "gameId": "12500",
+  "name": "云璃",
+  "rarity": 5,
+  "element": "physical",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 240,
+  "baseStats": {
+    "atk": 679,
+    "hp": 1358,
+    "def": 460,
+    "speed": 94,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.067,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.5,
+      "spreadMultiplier": 0.75,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.66,
+          "2": 0.72,
+          "3": 0.78,
+          "4": 0.84,
+          "5": 0.9,
+          "6": 0.975,
+          "7": 1.05,
+          "8": 1.125,
+          "9": 1.2,
+          "10": 1.26,
+          "11": 1.32,
+          "12": 1.38,
+          "13": 1.44,
+          "14": 1.5
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.33,
+          "2": 0.36,
+          "3": 0.39,
+          "4": 0.42,
+          "5": 0.45,
+          "6": 0.48700000000000004,
+          "7": 0.525,
+          "8": 0.562,
+          "9": 0.6,
+          "10": 0.63,
+          "11": 0.66,
+          "12": 0.69,
+          "13": 0.72,
+          "14": 0.75
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "blast",
+      "multiplier": 2.64,
+      "spreadMultiplier": 1.32,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.4080000000000001,
+          "2": 1.496,
+          "3": 1.584,
+          "4": 1.672,
+          "5": 1.76,
+          "6": 1.87,
+          "7": 1.98,
+          "8": 2.09,
+          "9": 2.2,
+          "10": 2.2880000000000003,
+          "11": 2.376,
+          "12": 2.464,
+          "13": 2.552,
+          "14": 2.64
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.7040000000000001,
+          "2": 0.748,
+          "3": 0.792,
+          "4": 0.836,
+          "5": 0.88,
+          "6": 0.935,
+          "7": 0.99,
+          "8": 1.045,
+          "9": 1.1,
+          "10": 1.1440000000000001,
+          "11": 1.188,
+          "12": 1.232,
+          "13": 1.276,
+          "14": 1.32
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "沉锋离垢",
+      "effect": "【勘破•斩】与【勘破•灭】造成的伤害提高20%，【勘破•灭】的额外伤害次数增加3次。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "初芒破生",
+      "effect": "发动悬浮框反击当目标受到攻击后自动触发的效果，对攻击者施放1次额外的攻击。反击也属于追加攻击。造成伤害时无视敌方目标20%的防御力。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "九尺运斤",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "大匠击橐",
+      "effect": "发动【勘破•斩】或【勘破•灭】后使自身效果抵抗提高50%，持续1回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "恒兵匪石",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "剑胆琴心",
+      "effect": "【格挡】状态期间，敌方主动施放技能时无论是否攻击云璃，都会触发【勘破•灭】同时移除【格挡】效果，发动【勘破•斩】或【勘破•灭】造成伤害时暴击率提高15%，物理属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "云璃",
+    "url": "https://wiki.biligame.com/sr/%E4%BA%91%E7%92%83",
+    "revId": 71868
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,193 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "昔涟",
+  "slug": "昔涟",
+  "gameId": "14836",
+  "name": "昔涟",
+  "rarity": 4,
+  "element": "ice",
+  "path": "remembrance",
+  "level": 80,
+  "baseStats": {
+    "atk": 446,
+    "hp": 1397,
+    "def": 582,
+    "speed": 101,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critDmg": 0.373,
+    "hpPercent": 0.1,
+    "flatSpeed": 9
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 9
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 9,
+    "ult": 9,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.7,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65,
+          "9": 0.7
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.42,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.18,
+          "2": 0.21,
+          "3": 0.24,
+          "4": 0.27,
+          "5": 0.3,
+          "6": 0.33,
+          "7": 0.36,
+          "8": 0.39,
+          "9": 0.42
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "空白，在诗篇的起点",
+      "effect": "德谬歌触发忆灵技【献予「真我」之诗】施放【花与箭的舞曲】时获得6点【追忆】并使本次攻击的弹射次数额外增加12次。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "十三种光彩，倒映明天",
+      "effect": "进入战斗时，额外获得12点【追忆】。每有1名不同的我方角色获得德谬歌忆灵技的悬浮框增益效果对战斗有增益效果的所有持续状态，若无特殊说明则可以被解除。，我方目标通过战技的结界造成的真实伤害不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。倍率提高6%，最多提高24%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "因你而在，如我所书",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "请笑着，写就下一页",
+      "effect": "德谬歌每施放1次【花与箭的舞曲】后，本场战斗中触发忆灵技【献予「真我」之诗】的弹射伤害倍率提高6%，最多可叠加24层。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "目光，流溢昨日的花圃",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2,
+        "talent": 1
+      }
+    },
+    {
+      "index": 6,
+      "name": "记忆，化作涟漪片片♪",
+      "effect": "昔涟首次施放终结技时，使我方全体行动提前使目标在下次行动前的等待间隔缩短。100%。德谬歌每次触发忆灵技【献予「真我」之诗】施放【花与箭的舞曲】时，根据本场战斗中已触发的次数获得以下效果：1次：德谬歌在场时，敌方全体目标的防御力降低20%；至少2次：使我方全体行动提前使目标在下次行动前的等待间隔缩短。24%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 9
+    }
+  ],
+  "wiki": {
+    "title": "昔涟",
+    "url": "https://wiki.biligame.com/sr/%E6%98%94%E6%B6%9F",
+    "revId": 93501
+  },
+  "source": "bwiki-scraper"
+}

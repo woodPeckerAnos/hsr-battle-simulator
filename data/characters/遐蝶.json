@@ -1,0 +1,231 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "遐蝶",
+  "slug": "遐蝶",
+  "gameId": "14832",
+  "name": "遐蝶",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "remembrance",
+  "level": 80,
+  "baseStats": {
+    "atk": 523,
+    "hp": 1629,
+    "def": 485,
+    "speed": 95,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critRate": 0.187,
+    "hpPercent": 0.133,
+    "flatSpeed": 14.4
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.7,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65,
+          "9": 0.7
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 0.625,
+      "spreadMultiplier": 0.375,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.275,
+          "2": 0.3,
+          "3": 0.325,
+          "4": 0.35,
+          "5": 0.375,
+          "6": 0.40630000000000005,
+          "7": 0.4375,
+          "8": 0.46880000000000005,
+          "9": 0.5,
+          "10": 0.525,
+          "11": 0.55,
+          "12": 0.575,
+          "13": 0.6,
+          "14": 0.625
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.165,
+          "2": 0.18,
+          "3": 0.195,
+          "4": 0.21,
+          "5": 0.225,
+          "6": 0.2438,
+          "7": 0.2625,
+          "8": 0.2813,
+          "9": 0.3,
+          "10": 0.315,
+          "11": 0.33,
+          "12": 0.345,
+          "13": 0.36,
+          "14": 0.375
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.375,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "遐蝶伤害",
+        "levels": {
+          "1": 0.165,
+          "2": 0.18,
+          "3": 0.195,
+          "4": 0.21,
+          "5": 0.225,
+          "6": 0.2438,
+          "7": 0.2625,
+          "8": 0.2813,
+          "9": 0.3,
+          "10": 0.315,
+          "11": 0.33,
+          "12": 0.345,
+          "13": 0.36,
+          "14": 0.375
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "雪地的圣女，付记忆入殓",
+      "effect": "敌方目标当前生命值小于等于自身生命上限80%/50%时，【骸爪，冥龙之环拥】、【擘裂冥茫的爪痕】、【燎尽黯泽的焰息】、【灼掠幽墟的晦翼】对其造成的伤害为原伤害的120%/140%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "以扑翼繁花加冕",
+      "effect": "召唤忆灵死龙后，遐蝶获得2层【炽意】，【炽意】最多持有2层，可用来抵扣死龙忆灵技【燎尽黯泽的焰息】的生命值消耗，并使遐蝶悬浮框行动提前使目标在下次行动前的等待间隔缩短。100%，下一次施放强化战技遐蝶获得等同于【新蕊】上限30%点数的【新蕊】。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "虔敬的旅人，于死境翩跹",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "拥悲怜哀歌安眠",
+      "effect": "遐蝶在场时，我方全体受到治疗时的回复量提高20%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "素白的新篇，以预言装点",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2,
+        "talent": 1
+      }
+    },
+    {
+      "index": 6,
+      "name": "待流年奔涌破茧",
+      "effect": "遐蝶与死龙造成伤害时，量子属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。死龙攻击期间可以无视弱点属性削减敌方韧性，击破弱点时，触发量子属性的弱点击破效果，触发天赋【灼掠幽墟的晦翼】的弹射次数额外增加3次。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "wiki": {
+    "title": "遐蝶",
+    "url": "https://wiki.biligame.com/sr/%E9%81%90%E8%9D%B6",
+    "revId": 92317
+  },
+  "source": "bwiki-scraper"
+}

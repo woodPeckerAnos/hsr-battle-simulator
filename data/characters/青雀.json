@@ -1,0 +1,218 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "青雀",
+  "slug": "青雀",
+  "gameId": "262",
+  "name": "青雀",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 652,
+    "hp": 1023,
+    "def": 441,
+    "speed": 98,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.125,
+    "flatSpeed": 14.4
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 8,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 3.12,
+      "spreadMultiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "强化-单体伤害",
+        "levels": {
+          "1": 1.44,
+          "2": 1.68,
+          "3": 1.92,
+          "4": 2.16,
+          "5": 2.4,
+          "6": 2.64,
+          "7": 2.88,
+          "8": 3.12
+        }
+      },
+      "spreadScaling": {
+        "row": "强化-扩散伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.35,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "自身伤害提高",
+        "levels": {
+          "1": 0.154,
+          "2": 0.168,
+          "3": 0.182,
+          "4": 0.196,
+          "5": 0.21,
+          "6": 0.22699999999999998,
+          "7": 0.245,
+          "8": 0.262,
+          "9": 0.28,
+          "10": 0.294,
+          "11": 0.308,
+          "12": 0.322,
+          "13": 0.336,
+          "14": 0.35
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "散勇化骁摸幺鱼",
+      "effect": "施放终结技造成的伤害提高10%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "棋枰作枕好入眠",
+      "effect": "青雀每次触发抽牌时，立即恢复1点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "观琼视茕门前清",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "帝垣翔鳞和绝张",
+      "effect": "施放战技后，有24%的悬浮框固定概率不会被任何因素影响的固定概率。获得【不求人】状态，持续至本回合结束。【不求人】状态下，施放普攻或施放强化普攻后立即进行1次追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。，对该目标造成等同于普攻或强化普攻伤害100%的量子属性伤害。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "七星流离全不靠",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "虚心平意候枭卢",
+      "effect": "施放强化普攻后，恢复1个战技点。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "wiki": {
+    "title": "青雀",
+    "url": "https://wiki.biligame.com/sr/%E9%9D%92%E9%9B%80",
+    "revId": 63950
+  },
+  "source": "bwiki-scraper"
+}

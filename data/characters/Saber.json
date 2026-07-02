@@ -1,0 +1,180 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "Saber",
+  "slug": "Saber",
+  "gameId": "18686",
+  "name": "Saber",
+  "rarity": 5,
+  "element": "wind",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 360,
+  "baseStats": {
+    "atk": 601,
+    "hp": 1241,
+    "def": 654,
+    "speed": 101,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 9,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "失落的白垩坚城",
+      "effect": "Saber造成的终结技伤害提高60%。Saber施放普攻或战技后，获得1点【炉心共鸣】。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "尘封的圆桌誓言",
+      "effect": "本场战斗中每获得1点【炉心共鸣】，使Saber造成的伤害无视目标1%的防御力，该效果最多叠加15层。触发【炉心共鸣】提高战技倍率的效果时，每点【炉心共鸣】额外使本次战技的伤害倍率提高7%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "十五个世纪的追寻",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "十六个冬日的奇遇",
+      "effect": "Saber的风属性悬浮框抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高8%。施放终结技后，Saber的风属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高4%，该效果最多叠加3层。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "于抵达理想的黎明",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "守护命运长夜",
+      "effect": "Saber造成的终结技伤害的风属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20% ，行迹【湖之祝福】可积攒的溢出能量提高到200点。进入战斗首次施放终结技后，为Saber固定恢复300点能量，该效果每再施放3次终结技可触发1次。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "Saber",
+    "url": "https://wiki.biligame.com/sr/Saber",
+    "revId": 97873
+  },
+  "source": "bwiki-scraper"
+}

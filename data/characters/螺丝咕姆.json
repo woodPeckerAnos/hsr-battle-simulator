@@ -1,0 +1,128 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "螺丝咕姆",
+  "slug": "螺丝咕姆",
+  "gameId": "3208",
+  "name": "螺丝咕姆",
+  "rarity": 4,
+  "element": "physical",
+  "path": "文件:-白.png命途",
+  "level": 80,
+  "baseStats": {
+    "atk": 0,
+    "hp": 0,
+    "def": 0,
+    "speed": 100,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {},
+  "traceModifiers": [],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 10,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "skill"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "文件:螺丝咕姆-星魂1.png",
+      "effect": "",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "文件:螺丝咕姆-星魂2.png",
+      "effect": "",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "文件:螺丝咕姆-星魂3.png",
+      "effect": "",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 4,
+      "name": "文件:螺丝咕姆-星魂4.png",
+      "effect": "",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "文件:螺丝咕姆-星魂5.png",
+      "effect": "",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 6,
+      "name": "文件:螺丝咕姆-星魂6.png",
+      "effect": "",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [],
+  "wiki": {
+    "title": "螺丝咕姆",
+    "url": "https://wiki.biligame.com/sr/%E8%9E%BA%E4%B8%9D%E5%92%95%E5%A7%86",
+    "revId": 77679
+  },
+  "source": "bwiki-scraper"
+}

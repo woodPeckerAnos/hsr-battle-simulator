@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "猎物的视线",
+  "slug": "猎物的视线",
+  "gameId": "653",
+  "name": "猎物的视线",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "自信",
+    "description": "以下效果仅对虚无命途生效使装备者的效果命中提高20%/25%/30%/35%/40%，同时造成的持续伤害提高24%/30%/36%/42%/48%。"
+  },
+  "wiki": {
+    "title": "猎物的视线",
+    "url": "https://wiki.biligame.com/sr/%E7%8C%8E%E7%89%A9%E7%9A%84%E8%A7%86%E7%BA%BF",
+    "revId": 46656
+  },
+  "source": "bwiki-scraper"
+}

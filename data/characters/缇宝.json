@@ -1,0 +1,213 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "缇宝",
+  "slug": "缇宝",
+  "gameId": "14827",
+  "name": "缇宝",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 523,
+    "hp": 1047,
+    "def": 727,
+    "speed": 96,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critDmg": 0.373,
+    "hpPercent": 0.1,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 9,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 0.42,
+      "spreadMultiplier": 0.21,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.18,
+          "2": 0.21,
+          "3": 0.24,
+          "4": 0.27,
+          "5": 0.3,
+          "6": 0.33,
+          "7": 0.36,
+          "8": 0.39,
+          "9": 0.42
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.09,
+          "2": 0.105,
+          "3": 0.12,
+          "4": 0.135,
+          "5": 0.15,
+          "6": 0.165,
+          "7": 0.18,
+          "8": 0.195,
+          "9": 0.21
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.3,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "抗性穿透提高",
+        "levels": {
+          "1": 0.132,
+          "2": 0.14400000000000002,
+          "3": 0.156,
+          "4": 0.168,
+          "5": 0.18,
+          "6": 0.195,
+          "7": 0.21,
+          "8": 0.225,
+          "9": 0.24,
+          "10": 0.252,
+          "11": 0.264,
+          "12": 0.276,
+          "13": 0.28800000000000003,
+          "14": 0.3
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "拾起砂糖的祭典",
+      "effect": "结界持续期间，我方目标攻击敌人后，对结界造成悬浮框附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。的目标额外造成等同于本次攻击总伤害值24%的真实伤害不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "探访佳梦的向导",
+      "effect": "结界造成的附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。提高至原伤害的120%。结界造成附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。时，会额外造成1次附加伤害。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "盛满晨曦的宝藏",
+      "effect": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "心意相契的安宁",
+      "effect": "【神启】持续期间，我方全体造成伤害时无视目标18%的防御力。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "开启奇迹的时钟",
+      "effect": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "星月满天的明日",
+      "effect": "缇宝施放终结技后，对敌方全体发动天赋的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。。天赋的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。造成的伤害提高729%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "缇宝",
+    "url": "https://wiki.biligame.com/sr/%E7%BC%87%E5%AE%9D",
+    "revId": 79252
+  },
+  "source": "bwiki-scraper"
+}

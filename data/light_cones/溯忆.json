@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "溯忆",
+  "slug": "溯忆",
+  "gameId": "15637",
+  "name": "溯忆",
+  "rarity": 4,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 635,
+    "def": 264
+  },
+  "passive": {
+    "name": "入寐",
+    "description": "以下效果仅对记忆命途生效忆灵的回合开始时，使装备者和忆灵分别获得1层【缅怀】，每层使造成的伤害提高8%/9%/10%/11%/12%，最多叠加4层。忆灵消失时移除装备者和忆灵的【缅怀】。"
+  },
+  "wiki": {
+    "title": "溯忆",
+    "url": "https://wiki.biligame.com/sr/%E6%BA%AF%E5%BF%86",
+    "revId": 50057
+  },
+  "source": "bwiki-scraper"
+}

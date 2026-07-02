@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "忍法帖•缭乱破魔",
+  "slug": "忍法帖•缭乱破魔",
+  "gameId": "14214",
+  "name": "忍法帖•缭乱破魔",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 952,
+    "def": 529
+  },
+  "passive": {
+    "name": "除邪",
+    "description": "以下效果仅对智识命途生效使装备者的击破特攻提高60%/70%/80%/90%/100%。进入战斗时立即恢复30/32.5/35/37.5/40点能量，且装备者施放终结技后获得【雷遁】，施放2次普攻后，装备者行动提前50%/55%/60%/65%/70%，并移除【雷遁】。装备者施放终结技后会重置【雷遁】。"
+  },
+  "wiki": {
+    "title": "忍法帖•缭乱破魔",
+    "url": "https://wiki.biligame.com/sr/%E5%BF%8D%E6%B3%95%E5%B8%96%E2%80%A2%E7%BC%AD%E4%B9%B1%E7%A0%B4%E9%AD%94",
+    "revId": 46617
+  },
+  "source": "bwiki-scraper"
+}

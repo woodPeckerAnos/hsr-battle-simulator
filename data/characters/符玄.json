@@ -1,0 +1,210 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "符玄",
+  "slug": "符玄",
+  "gameId": "923",
+  "name": "符玄",
+  "rarity": 4,
+  "element": "quantum",
+  "path": "preservation",
+  "level": 80,
+  "maxSp": 135,
+  "baseStats": {
+    "atk": 465,
+    "hp": 1474,
+    "def": 606,
+    "speed": 100,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critRate": 0.187,
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.65,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.075,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "生命上限提高",
+        "levels": {
+          "1": 0.033,
+          "2": 0.036000000000000004,
+          "3": 0.039,
+          "4": 0.042,
+          "5": 0.045,
+          "6": 0.048,
+          "7": 0.052000000000000005,
+          "8": 0.055999999999999994,
+          "9": 0.06,
+          "10": 0.063,
+          "11": 0.066,
+          "12": 0.069,
+          "13": 0.07200000000000001,
+          "14": 0.075
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.2,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "终结技伤害",
+        "levels": {
+          "1": 0.64,
+          "2": 0.68,
+          "3": 0.72,
+          "4": 0.76,
+          "5": 0.8,
+          "6": 0.85,
+          "7": 0.9,
+          "8": 0.95,
+          "9": 1,
+          "10": 1.04,
+          "11": 1.08,
+          "12": 1.12,
+          "13": 1.16,
+          "14": 1.2
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "司危",
+      "effect": "【鉴知】使暴击伤害提高30%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "柔兆",
+      "effect": "【穷观阵】开启时，若我方目标受到致命伤害，则本次行动中所有受到致命伤害的我方目标都不会陷入悬浮框无法战斗状态当我方目标的当前生命值被削减至0时进入的特殊状态，处于该状态的目标无法继续战斗。，并立即回复等同于其自身生命上限70%的生命值。该效果单场战斗中可以触发1次。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "直符",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "格泽",
+      "effect": "当处于【穷观阵】的我方其他目标受到攻击后，符玄恢复5点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "计神",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "种陵",
+      "effect": "【穷观阵】开启时，会累计我方全体本场战斗中的已损失生命值。符玄施放终结技造成的伤害提高，提高数值等同于本场战斗中累计已损失生命值的200%。本场战斗中累计已损失生命值最高不超过符玄生命上限的120%，施放终结技后会清空并进行重新累计。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "符玄",
+    "url": "https://wiki.biligame.com/sr/%E7%AC%A6%E7%8E%84",
+    "revId": 79257
+  },
+  "source": "bwiki-scraper"
+}

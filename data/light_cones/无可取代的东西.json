@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "无可取代的东西",
+  "slug": "无可取代的东西",
+  "gameId": "195",
+  "name": "无可取代的东西",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1164,
+    "def": 396
+  },
+  "passive": {
+    "name": "家人",
+    "description": "以下效果仅对毁灭命途生效使装备者的攻击力提高24%/28%/32%/36%/40%。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力8%/9%/10%/11%/12%的生命值，同时造成的伤害提高24%/28%/32%/36%/40%，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。"
+  },
+  "wiki": {
+    "title": "无可取代的东西",
+    "url": "https://wiki.biligame.com/sr/%E6%97%A0%E5%8F%AF%E5%8F%96%E4%BB%A3%E7%9A%84%E4%B8%9C%E8%A5%BF",
+    "revId": 46587
+  },
+  "source": "bwiki-scraper"
+}

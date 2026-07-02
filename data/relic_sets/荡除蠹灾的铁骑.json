@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "荡除蠹灾的铁骑",
+  "slug": "荡除蠹灾的铁骑",
+  "gameId": "12519",
+  "name": "荡除蠹灾的铁骑",
+  "description": "击破特攻提高16%。 当装备者的击破特攻大于等于150%时，对目标造成的击破伤害无视目标10%防御力。当装备者的击破特攻大于等于250%时，对目标造成的超击破伤害额外无视其15%防御力。",
+  "pieces2": {
+    "description": "击破特攻提高16%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "当装备者的击破特攻大于等于150%时，对目标造成的击破伤害无视目标10%防御力。当装备者的击破特攻大于等于250%时，对目标造成的超击破伤害额外无视其15%防御力。",
+    "modifiers": [
+      {
+        "zones": [
+          "def_pen"
+        ],
+        "value": 0.15
+      }
+    ]
+  },
+  "wiki": {
+    "title": "荡除蠹灾的铁骑",
+    "url": "https://wiki.biligame.com/sr/%E8%8D%A1%E9%99%A4%E8%A0%B9%E7%81%BE%E7%9A%84%E9%93%81%E9%AA%91",
+    "revId": 46546
+  },
+  "source": "bwiki-scraper"
+}

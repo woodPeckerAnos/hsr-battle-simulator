@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "沉欢醉饮的海隅",
+  "slug": "沉欢醉饮的海隅",
+  "gameId": "19279",
+  "name": "沉欢醉饮的海隅",
+  "description": "使装备者的攻击力提高12%。当装备者的攻击力大于等于2400/3600时，使造成的持续伤害额外提高12%/24%。",
+  "pieces2": {
+    "description": "使装备者的攻击力提高12%。当装备者的攻击力大于等于2400/3600时，使造成的持续伤害额外提高12%/24%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "wiki": {
+    "title": "沉欢醉饮的海隅",
+    "url": "https://wiki.biligame.com/sr/%E6%B2%89%E6%AC%A2%E9%86%89%E9%A5%AE%E7%9A%84%E6%B5%B7%E9%9A%85",
+    "revId": 76251
+  },
+  "source": "bwiki-scraper"
+}

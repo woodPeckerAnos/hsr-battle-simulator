@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "骇域漫游的信使",
+  "slug": "骇域漫游的信使",
+  "gameId": "4302",
+  "name": "骇域漫游的信使",
+  "description": "速度提高6%。 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。",
+  "pieces2": {
+    "description": "速度提高6%。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "wiki": {
+    "title": "骇域漫游的信使",
+    "url": "https://wiki.biligame.com/sr/%E9%AA%87%E5%9F%9F%E6%BC%AB%E6%B8%B8%E7%9A%84%E4%BF%A1%E4%BD%BF",
+    "revId": 46540
+  },
+  "source": "bwiki-scraper"
+}

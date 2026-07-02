@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "密林卧雪的猎人",
+  "slug": "密林卧雪的猎人",
+  "gameId": "1330",
+  "name": "密林卧雪的猎人",
+  "description": "冰属性伤害提高10%。 当装备者施放终结技时，暴击伤害提高25%，持续2回合。",
+  "pieces2": {
+    "description": "冰属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "ice"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者施放终结技时，暴击伤害提高25%，持续2回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.25
+      }
+    ]
+  },
+  "wiki": {
+    "title": "密林卧雪的猎人",
+    "url": "https://wiki.biligame.com/sr/%E5%AF%86%E6%9E%97%E5%8D%A7%E9%9B%AA%E7%9A%84%E7%8C%8E%E4%BA%BA",
+    "revId": 46529
+  },
+  "source": "bwiki-scraper"
+}

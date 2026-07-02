@@ -1,0 +1,42 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "熔岩锻铸的火匠",
+  "slug": "熔岩锻铸的火匠",
+  "gameId": "1343",
+  "name": "熔岩锻铸的火匠",
+  "description": "火属性伤害提高10%。 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。",
+  "pieces2": {
+    "description": "火属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "fire"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.12,
+        "tagFilter": [
+          "fire"
+        ]
+      }
+    ]
+  },
+  "wiki": {
+    "title": "熔岩锻铸的火匠",
+    "url": "https://wiki.biligame.com/sr/%E7%86%94%E5%B2%A9%E9%94%BB%E9%93%B8%E7%9A%84%E7%81%AB%E5%8C%A0",
+    "revId": 48457
+  },
+  "source": "bwiki-scraper"
+}

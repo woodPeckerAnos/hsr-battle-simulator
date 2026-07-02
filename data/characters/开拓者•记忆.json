@@ -1,0 +1,206 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "开拓者•记忆",
+  "slug": "开拓者•记忆",
+  "gameId": "14811",
+  "name": "开拓者•记忆",
+  "rarity": 5,
+  "element": "ice",
+  "path": "remembrance",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 543,
+    "hp": 1047,
+    "def": 630,
+    "speed": 103,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critDmg": 0.373,
+    "hpPercent": 0.14,
+    "flatSpeed": 14
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.14
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 9,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.75,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "迷迷回复生命",
+        "levels": {
+          "1": 0.33,
+          "2": 0.36,
+          "3": 0.39,
+          "4": 0.42,
+          "5": 0.45,
+          "6": 0.4875,
+          "7": 0.525,
+          "8": 0.5625,
+          "9": 0.6,
+          "10": 0.63,
+          "11": 0.66,
+          "12": 0.69,
+          "13": 0.72,
+          "14": 0.75
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "现在的记叙者",
+      "effect": "持有【迷迷的声援】的我方目标暴击率提高10%。当我方目标持有【迷迷的声援】时，【迷迷的声援】的效果对该目标的忆灵/忆师也生效，该效果不可叠加。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "过往的拾遗者",
+      "effect": "除迷迷以外的我方忆灵行动时，开拓者恢复8点能量。该效果每回合最多触发1次，开拓者回合开始时重置可触发次数。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "未来的咏唱者",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵天赋等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "缪斯的新舞伴",
+      "effect": "使能量上限为0的我方目标主动施放技能时，迷迷也能够获得3%充能，并且该目标通过【迷迷的声援】造成的真实伤害倍率额外提高6%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "诗篇的裁缝匠",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵技等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "神启的转呈者",
+      "effect": "终结技的暴击率固定为100%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.14
+    },
+    {
+      "zones": [
+        "crit_dmg"
+      ],
+      "value": 0.373
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14
+    }
+  ],
+  "wiki": {
+    "title": "开拓者•记忆",
+    "url": "https://wiki.biligame.com/sr/%E5%BC%80%E6%8B%93%E8%80%85%E2%80%A2%E8%AE%B0%E5%BF%86",
+    "revId": 93505
+  },
+  "source": "bwiki-scraper"
+}

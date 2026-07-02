@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "行于流逝的岸",
+  "slug": "行于流逝的岸",
+  "gameId": "10643",
+  "name": "行于流逝的岸",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 1058,
+    "def": 396,
+    "critDmg": 0.36
+  },
+  "passive": {
+    "name": "司渡",
+    "description": "以下效果仅对虚无命途生效使装备者的暴击伤害提高36%/42%/48%/54%/60%。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高24%/28%/32%/36%/40%，终结技造成的伤害额外提高24%/28%/32%/36%/40%。"
+  },
+  "wiki": {
+    "title": "行于流逝的岸",
+    "url": "https://wiki.biligame.com/sr/%E8%A1%8C%E4%BA%8E%E6%B5%81%E9%80%9D%E7%9A%84%E5%B2%B8",
+    "revId": 46644
+  },
+  "source": "bwiki-scraper"
+}

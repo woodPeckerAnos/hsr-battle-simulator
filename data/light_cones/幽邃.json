@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "幽邃",
+  "slug": "幽邃",
+  "gameId": "208",
+  "name": "幽邃",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "沉沦",
+    "description": "以下效果仅对虚无命途生效战斗开始时，使装备者的效果命中提高20%/25%/30%/35%/40%，持续3回合。"
+  },
+  "wiki": {
+    "title": "幽邃",
+    "url": "https://wiki.biligame.com/sr/%E5%B9%BD%E9%82%83",
+    "revId": 27630
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "谐乐静默之后",
+  "slug": "谐乐静默之后",
+  "gameId": "12531",
+  "name": "谐乐静默之后",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396
+  },
+  "passive": {
+    "name": "沉寂",
+    "description": "以下效果仅对智识命途生效使装备者的击破特攻提高28%/35%/42%/49%/56%。装备者施放终结技后，速度提高8%/10%/12%/14%/16%，持续2回合，"
+  },
+  "wiki": {
+    "title": "谐乐静默之后",
+    "url": "https://wiki.biligame.com/sr/%E8%B0%90%E4%B9%90%E9%9D%99%E9%BB%98%E4%B9%8B%E5%90%8E",
+    "revId": 46623
+  },
+  "source": "bwiki-scraper"
+}

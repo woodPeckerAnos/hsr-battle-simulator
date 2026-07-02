@@ -1,0 +1,212 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "花火",
+  "slug": "花火",
+  "gameId": "8577",
+  "name": "花火",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 110,
+  "baseStats": {
+    "atk": 523,
+    "hp": 1397,
+    "def": 485,
+    "speed": 101,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.28,
+    "flatSpeed": 24
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 24
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "support",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.54,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "固定数值",
+        "levels": {
+          "1": 0.28800000000000003,
+          "2": 0.306,
+          "3": 0.324,
+          "4": 0.342,
+          "5": 0.36,
+          "6": 0.38299999999999995,
+          "7": 0.405,
+          "8": 0.428,
+          "9": 0.45,
+          "10": 0.46799999999999997,
+          "11": 0.486,
+          "12": 0.504,
+          "13": 0.522,
+          "14": 0.54
+        }
+      },
+      "effects": [
+        {
+          "type": "action_advance",
+          "target": "ally",
+          "value": 0.5
+        }
+      ]
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "support",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.12,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "每层额外提高",
+        "levels": {
+          "1": 0.064,
+          "2": 0.068,
+          "3": 0.07200000000000001,
+          "4": 0.076,
+          "5": 0.08,
+          "6": 0.085,
+          "7": 0.09,
+          "8": 0.095,
+          "9": 0.1,
+          "10": 0.10400000000000001,
+          "11": 0.10800000000000001,
+          "12": 0.11199999999999999,
+          "13": 0.11599999999999999,
+          "14": 0.12
+        }
+      },
+      "effects": [
+        {
+          "type": "action_advance",
+          "target": "team",
+          "value": 0.25
+        }
+      ]
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "悬置怀疑",
+      "effect": "终结技施加的【谜诡】的持续时间额外增加1回合，持有【谜诡】的我方目标攻击力提高40%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "虚构无端",
+      "effect": "天赋每层效果额外使我方目标造成伤害时无视目标8%的防御力。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "梦幻泡影",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "游戏人间",
+      "effect": "终结技可以额外恢复1点战技点，天赋的战技点上限增加效果额外增加1点。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "双面真相",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "多重解答",
+      "effect": "战技的暴击伤害提高效果额外提高，提高数值等同于花火暴击伤害的30%，花火施放战技时，使战技的暴击伤害提高效果对持有【谜诡】的队友都会生效，花火施放终结技时，若我方单体中有目标持有战技的暴击伤害提高效果，使该效果扩散至持有【谜诡】的队友。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 24
+    }
+  ],
+  "wiki": {
+    "title": "花火",
+    "url": "https://wiki.biligame.com/sr/%E8%8A%B1%E7%81%AB",
+    "revId": 96892
+  },
+  "source": "bwiki-scraper"
+}

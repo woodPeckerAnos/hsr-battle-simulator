@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "重塑时光之忆",
+  "slug": "重塑时光之忆",
+  "gameId": "9403",
+  "name": "重塑时光之忆",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1058,
+    "def": 463
+  },
+  "passive": {
+    "name": "结晶",
+    "description": "以下效果仅对虚无命途生效使装备者的效果命中提高40%/45%/50%/55%/60%。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可加1次【先知】效果。每层【先知】使装备者的攻击力提高5%/6%/7%/8%/9%，造成的持续伤害无视目标7.2%/7.9%/8.6%/9.3%/10%的防御力。"
+  },
+  "wiki": {
+    "title": "重塑时光之忆",
+    "url": "https://wiki.biligame.com/sr/%E9%87%8D%E5%A1%91%E6%97%B6%E5%85%89%E4%B9%8B%E5%BF%86",
+    "revId": 46646
+  },
+  "source": "bwiki-scraper"
+}

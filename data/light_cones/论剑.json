@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "论剑",
+  "slug": "论剑",
+  "gameId": "659",
+  "name": "论剑",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "各自的答案",
+    "description": "以下效果仅对巡猎命途生效当装备者多次击中同一敌方目标时，每次造成的伤害提高8%/10%/12%/14%/16%，最多叠加5次。若攻击目标发生变化，立即解除当前的增益状态。"
+  },
+  "wiki": {
+    "title": "论剑",
+    "url": "https://wiki.biligame.com/sr/%E8%AE%BA%E5%89%91",
+    "revId": 46611
+  },
+  "source": "bwiki-scraper"
+}

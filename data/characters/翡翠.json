@@ -1,0 +1,198 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "翡翠",
+  "slug": "翡翠",
+  "gameId": "10904",
+  "name": "翡翠",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 659,
+    "hp": 1086,
+    "def": 509,
+    "speed": 103,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 8,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.17,
+      "spreadMultiplier": 0.39,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.54,
+          "2": 0.63,
+          "3": 0.72,
+          "4": 0.81,
+          "5": 0.9,
+          "6": 0.99,
+          "7": 1.08,
+          "8": 1.17
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.18,
+          "2": 0.21,
+          "3": 0.24,
+          "4": 0.27,
+          "5": 0.3,
+          "6": 0.33,
+          "7": 0.36,
+          "8": 0.39
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 3,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "量子属性伤害",
+        "levels": {
+          "1": 1.32,
+          "2": 1.44,
+          "3": 1.56,
+          "4": 1.68,
+          "5": 1.8,
+          "6": 1.95,
+          "7": 2.1,
+          "8": 2.25,
+          "9": 2.4,
+          "10": 2.52,
+          "11": 2.64,
+          "12": 2.76,
+          "13": 2.88,
+          "14": 3
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "无私？亦可交割",
+      "effect": "翡翠天赋的悬浮框追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。伤害提高32%，持有【收债人】状态的角色施放攻击后击中敌方目标数量等于2/1名时，翡翠额外获得1/2点充能。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "道德？谨此核押",
+      "effect": "【当品】叠加至15层时，翡翠暴击率提高18%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "坦率？只待典当",
+      "effect": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "真诚？唯凭认沽",
+      "effect": "施放终结技时，使翡翠造成的伤害无视敌方目标12%的防御力，持续3回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "希冀？已然绝卖",
+      "effect": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "公平？仍须保荐",
+      "effect": "场上有【收债人】状态的角色时，翡翠量子属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%，同时翡翠获得【收债人】状态。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "翡翠",
+    "url": "https://wiki.biligame.com/sr/%E7%BF%A1%E7%BF%A0",
+    "revId": 71256
+  },
+  "source": "bwiki-scraper"
+}

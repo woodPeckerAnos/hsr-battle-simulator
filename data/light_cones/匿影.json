@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "匿影",
+  "slug": "匿影",
+  "gameId": "686",
+  "name": "匿影",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "机关",
+    "description": "以下效果仅对虚无命途生效施放战技后，使装备者的下1次普攻对敌方目标造成等同于自身60%/75%/90%/105%/120%攻击力的附加伤害。"
+  },
+  "wiki": {
+    "title": "匿影",
+    "url": "https://wiki.biligame.com/sr/%E5%8C%BF%E5%BD%B1",
+    "revId": 39482
+  },
+  "source": "bwiki-scraper"
+}

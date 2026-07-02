@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "我将，巡征追猎",
+  "slug": "我将，巡征追猎",
+  "gameId": "13603",
+  "name": "我将，巡征追猎",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "震慑",
+    "description": "以下效果仅对巡猎命途生效使装备者的暴击率提高15.0%/17.5%/20.0%/22.5%/25.0%。装备者施放追加攻击时，获得1层【流光】，最多叠加2.0层。每层【流光】使装备者造成的终结技伤害无视目标27.0%/30.0%/33.0%/36.0%/39.0%的防御力。装备者回合结束时，移除1层【流光】。"
+  },
+  "wiki": {
+    "title": "我将，巡征追猎",
+    "url": "https://wiki.biligame.com/sr/%E6%88%91%E5%B0%86%EF%BC%8C%E5%B7%A1%E5%BE%81%E8%BF%BD%E7%8C%8E",
+    "revId": 46598
+  },
+  "source": "bwiki-scraper"
+}

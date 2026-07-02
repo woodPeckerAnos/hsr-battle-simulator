@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "无边曼舞",
+  "slug": "无边曼舞",
+  "gameId": "11579",
+  "name": "无边曼舞",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330,
+    "critDmg": 0.24
+  },
+  "passive": {
+    "name": "试探",
+    "description": "以下效果仅对虚无命途生效使装备者的暴击率提高8%/10%/12%/14%/16%。装备者对处于防御降低或减速状态下的敌人造成的暴击伤害提高24%/30%/36%/42%/48%。"
+  },
+  "wiki": {
+    "title": "无边曼舞",
+    "url": "https://wiki.biligame.com/sr/%E6%97%A0%E8%BE%B9%E6%9B%BC%E8%88%9E",
+    "revId": 46651
+  },
+  "source": "bwiki-scraper"
+}

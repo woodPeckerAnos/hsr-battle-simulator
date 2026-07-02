@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "劫火莲灯铸炼宫",
+  "slug": "劫火莲灯铸炼宫",
+  "gameId": "12518",
+  "name": "劫火莲灯铸炼宫",
+  "description": "使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。",
+  "pieces2": {
+    "description": "使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "wiki": {
+    "title": "劫火莲灯铸炼宫",
+    "url": "https://wiki.biligame.com/sr/%E5%8A%AB%E7%81%AB%E8%8E%B2%E7%81%AF%E9%93%B8%E7%82%BC%E5%AE%AB",
+    "revId": 59633
+  },
+  "source": "bwiki-scraper"
+}

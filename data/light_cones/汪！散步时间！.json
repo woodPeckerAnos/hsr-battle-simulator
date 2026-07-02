@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "汪！散步时间！",
+  "slug": "汪！散步时间！",
+  "gameId": "579",
+  "name": "汪！散步时间！",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "快溜",
+    "description": "以下效果仅对毁灭命途生效使装备者的攻击力提高10%/12%/15%/17%/20%，对处于灼烧或裂伤状态的敌方目标造成的伤害提高16%/20%/24%/28%/32%，该效果对持续伤害也会生效。"
+  },
+  "wiki": {
+    "title": "汪！散步时间！",
+    "url": "https://wiki.biligame.com/sr/%E6%B1%AA%EF%BC%81%E6%95%A3%E6%AD%A5%E6%97%B6%E9%97%B4%EF%BC%81",
+    "revId": 46595
+  },
+  "source": "bwiki-scraper"
+}

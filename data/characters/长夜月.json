@@ -1,0 +1,199 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "长夜月",
+  "slug": "长夜月",
+  "gameId": "19929",
+  "name": "长夜月",
+  "rarity": 5,
+  "element": "ice",
+  "path": "remembrance",
+  "level": 80,
+  "maxSp": 240,
+  "baseStats": {
+    "atk": 543,
+    "hp": 1319,
+    "def": 582,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critRate": 0.187,
+    "hpPercent": 0.133,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 9,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.7,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65,
+          "9": 0.7
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 2.5,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "群体伤害",
+        "levels": {
+          "1": 1.1,
+          "2": 1.2,
+          "3": 1.3,
+          "4": 1.4,
+          "5": 1.5,
+          "6": 1.62,
+          "7": 1.75,
+          "8": 1.88,
+          "9": 2,
+          "10": 2.1,
+          "11": 2.2,
+          "12": 2.3,
+          "13": 2.4,
+          "14": 2.5
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "睡吧，长夜有所梦",
+      "effect": "长夜月在场时，场上敌方目标数量等于4或以上/3/2/1名时，我方忆灵造成的伤害为原伤害的120%/125%/130%/150%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "听，沉眠中的呓语",
+      "effect": "长夜月和忆灵「长夜」的暴击伤害提高40%，每当长夜月获得【忆质】时，使获得的【忆质】数量提高2点。施放终结技时，额外获得2点【至暗之谜】的充能。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "别怕，噩梦已成过去",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2,
+        "talent": 1
+      }
+    },
+    {
+      "index": 4,
+      "name": "醒来，便是你的明天",
+      "effect": "长夜月在场时，我方忆灵的弱点击破效率提高25%，忆灵「长夜」的弱点击破效率额外提高25%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "忘却，记忆中的「我」",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "就这样，一直",
+      "effect": "长夜月在场时，我方全体目标的全属性悬浮框抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。忆灵「长夜」施放【迷梦，流失，如露】后，长夜月获得本次攻击消耗【忆质】数量的30%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "长夜月",
+    "url": "https://wiki.biligame.com/sr/%E9%95%BF%E5%A4%9C%E6%9C%88",
+    "revId": 91496
+  },
+  "source": "bwiki-scraper"
+}

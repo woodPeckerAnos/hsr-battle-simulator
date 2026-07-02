@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "星海巡航",
+  "slug": "星海巡航",
+  "gameId": "586",
+  "name": "星海巡航",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "猎逐",
+    "description": "以下效果仅对巡猎命途生效使装备者的暴击率提高8%/10%/12%/14%/16%，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高8%/10%/12%/14%/16%。当装备者消灭敌方目标后，攻击力提高20%/25%/30%/35%/40%，持续2回合。"
+  },
+  "wiki": {
+    "title": "星海巡航",
+    "url": "https://wiki.biligame.com/sr/%E6%98%9F%E6%B5%B7%E5%B7%A1%E8%88%AA",
+    "revId": 46604
+  },
+  "source": "bwiki-scraper"
+}

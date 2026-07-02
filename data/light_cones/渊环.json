@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "渊环",
+  "slug": "渊环",
+  "gameId": "317",
+  "name": "渊环",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "追逼",
+    "description": "以下效果仅对虚无命途生效使装备者对减速状态下的敌方目标造成的伤害提高24%/30%/36%/42%/48%。"
+  },
+  "wiki": {
+    "title": "渊环",
+    "url": "https://wiki.biligame.com/sr/%E6%B8%8A%E7%8E%AF",
+    "revId": 43083
+  },
+  "source": "bwiki-scraper"
+}

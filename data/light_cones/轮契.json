@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "轮契",
+  "slug": "轮契",
+  "gameId": "680",
+  "name": "轮契",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "速决",
+    "description": "以下效果仅对同谐命途生效使装备者施放攻击或受到攻击后，额外恢复4/5/6/7/8点能量，该效果单个回合内不可重复触发。"
+  },
+  "wiki": {
+    "title": "轮契",
+    "url": "https://wiki.biligame.com/sr/%E8%BD%AE%E5%A5%91",
+    "revId": 46643
+  },
+  "source": "bwiki-scraper"
+}

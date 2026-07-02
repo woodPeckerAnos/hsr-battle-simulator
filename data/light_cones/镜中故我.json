@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "镜中故我",
+  "slug": "镜中故我",
+  "gameId": "8659",
+  "name": "镜中故我",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 529
+  },
+  "passive": {
+    "name": "彻骨梅香",
+    "description": "以下效果仅对同谐命途生效使装备者击破特攻提高60%/70%/80%/90%/100%。装备者施放终结技后，使我方全体造成的伤害提高24%/28%/32%/36%/40%，持续3回合，并且若装备者击破特攻大于等于150%，则恢复1个战技点。每个波次开始时，我方全体立即恢复10.0/12.5/15.0/17.5/20.0点能量，同类技能无法重复生效。"
+  },
+  "wiki": {
+    "title": "镜中故我",
+    "url": "https://wiki.biligame.com/sr/%E9%95%9C%E4%B8%AD%E6%95%85%E6%88%91",
+    "revId": 61932
+  },
+  "source": "bwiki-scraper"
+}

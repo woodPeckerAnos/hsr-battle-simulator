@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "将光阴织成黄金",
+  "slug": "将光阴织成黄金",
+  "gameId": "15647",
+  "name": "将光阴织成黄金",
+  "rarity": 5,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 1058,
+    "def": 396,
+    "critDmg": 0.09
+  },
+  "passive": {
+    "name": "创设",
+    "description": "以下效果仅对记忆命途生效使装备者的基础速度提高12/14/16/18/20，装备者和装备者的忆灵在攻击后使装备者获得1层【织锦】，每层【织锦】使装备者和装备者的忆灵暴击伤害提高9%/10.5%/12%/13.5%/15%，最多叠加6层。叠加至上限时，每层【织锦】额外使造成的普攻伤害提高9%/10.5%/12%/13.5%/15%。"
+  },
+  "wiki": {
+    "title": "将光阴织成黄金",
+    "url": "https://wiki.biligame.com/sr/%E5%B0%86%E5%85%89%E9%98%B4%E7%BB%87%E6%88%90%E9%BB%84%E9%87%91",
+    "revId": 54254
+  },
+  "source": "bwiki-scraper"
+}

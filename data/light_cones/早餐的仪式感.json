@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "早餐的仪式感",
+  "slug": "早餐的仪式感",
+  "gameId": "598",
+  "name": "早餐的仪式感",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396
+  },
+  "passive": {
+    "name": "各就其位",
+    "description": "以下效果仅对智识命途生效使装备者造成伤害提高12%/15%/18%/21%/24%。每消灭1个敌方目标，装备者的攻击力提高4%/5%/6%/7%/8%，该效果最多叠加3层。"
+  },
+  "wiki": {
+    "title": "早餐的仪式感",
+    "url": "https://wiki.biligame.com/sr/%E6%97%A9%E9%A4%90%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F",
+    "revId": 46630
+  },
+  "source": "bwiki-scraper"
+}

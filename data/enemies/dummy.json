@@ -1,0 +1,32 @@
+{
+  "$schema": "../schemas/enemy.schema.json",
+  "id": "dummy",
+  "slug": "木桩",
+  "name": "木桩",
+  "level": 90,
+  "element": "physical",
+  "weaknesses": [
+    "physical",
+    "fire",
+    "ice",
+    "lightning",
+    "wind",
+    "quantum",
+    "imaginary"
+  ],
+  "defense": 1100,
+  "hp": 999999999,
+  "toughness": 999,
+  "speed": 100,
+  "resistances": {
+    "physical": 0,
+    "fire": 0,
+    "ice": 0,
+    "lightning": 0,
+    "wind": 0,
+    "quantum": 0,
+    "imaginary": 0
+  },
+  "effectRes": 0,
+  "passive": true
+}

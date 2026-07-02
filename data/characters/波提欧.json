@@ -1,0 +1,191 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "波提欧",
+  "slug": "波提欧",
+  "gameId": "10479",
+  "name": "波提欧",
+  "rarity": 5,
+  "element": "physical",
+  "path": "hunt",
+  "level": 80,
+  "maxSp": 115,
+  "baseStats": {
+    "atk": 620,
+    "hp": 1203,
+    "def": 436,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 8,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 2.86,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.32,
+          "2": 1.54,
+          "3": 1.76,
+          "4": 1.98,
+          "5": 2.2,
+          "6": 2.42,
+          "7": 2.64,
+          "8": 2.86
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.375,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "敌方受到伤害提高",
+        "levels": {
+          "1": 0.165,
+          "2": 0.18,
+          "3": 0.195,
+          "4": 0.21,
+          "5": 0.225,
+          "6": 0.243,
+          "7": 0.262,
+          "8": 0.281,
+          "9": 0.3,
+          "10": 0.315,
+          "11": 0.33,
+          "12": 0.345,
+          "13": 0.36,
+          "14": 0.375
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "扬尘孤星",
+      "effect": "战斗开始时，获得1层【优势口袋】。波提欧造成伤害时无视敌方目标16%的防御力。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "里程碑贩子",
+      "effect": "处于【绝命对峙】并获得【优势口袋】时，恢复1个战技点，并且击破特攻提高30%，持续2回合。该效果单个回合内不可重复触发，在获得溢出的【优势口袋】时也会触发。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "大理石果园守卫",
+      "effect": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "冷肉名厨",
+      "effect": "处于【绝命对峙】的敌方目标受到波提欧攻击时，受到的伤害额外提高12%。波提欧受到处于【绝命对峙】的敌方目标的攻击时，受到的伤害提高效果降低12%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "树桩演说家",
+      "effect": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "撬棍旅馆的浣熊",
+      "effect": "触发天赋造成悬浮框击破伤害击破特攻、目标韧性上限、角色等级越高，造成的击破伤害越高。击破伤害无法暴击，不受伤害提高类效果所影响。时，对目标额外造成等同于原伤害倍率40%的击破伤害击破特攻、目标韧性上限、角色等级越高，造成的击破伤害越高。击破伤害无法暴击，不受伤害提高类效果所影响。，对相邻目标额外造成等同于原伤害倍率70%的击破伤害击破特攻、目标韧性上限、角色等级越高，造成的击破伤害越高。击破伤害无法暴击，不受伤害提高类效果所影响。。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "波提欧",
+    "url": "https://wiki.biligame.com/sr/%E6%B3%A2%E6%8F%90%E6%AC%A7",
+    "revId": 63381
+  },
+  "source": "bwiki-scraper"
+}

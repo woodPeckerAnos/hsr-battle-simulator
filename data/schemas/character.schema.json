@@ -5,10 +5,14 @@
   "required": ["id", "name", "element", "path", "level", "baseStats", "skills"],
   "properties": {
     "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "gameId": { "type": "string" },
     "name": { "type": "string" },
     "element": { "type": "string" },
     "path": { "type": "string" },
     "level": { "type": "integer", "minimum": 1, "maximum": 80 },
+    "rarity": { "type": "integer" },
+    "maxSp": { "type": "number" },
     "baseStats": {
       "type": "object",
       "properties": {
@@ -21,8 +25,69 @@
       },
       "required": ["atk", "speed"]
     },
+    "skillLevelCaps": {
+      "type": "object",
+      "properties": {
+        "basic": { "type": "integer" },
+        "skill": { "type": "integer" },
+        "ult": { "type": "integer" },
+        "talent": { "type": "integer" }
+      }
+    },
     "traces": { "type": "object" },
-    "skills": { "type": "object" },
+    "traceModifiers": { "type": "array" },
+    "skills": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "name", "type", "multiplier", "tags"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "enum": ["direct", "dot", "break", "support"] },
+          "multiplier": { "type": "number" },
+          "targetMode": { "enum": ["single", "blast", "aoe"] },
+          "level": { "type": "integer" },
+          "maxLevel": { "type": "integer" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "scaling": {
+            "type": "object",
+            "properties": {
+              "row": { "type": "string" },
+              "levels": {
+                "type": "object",
+                "additionalProperties": { "type": "number" }
+              }
+            }
+          },
+          "spreadScaling": {
+            "type": "object",
+            "properties": {
+              "row": { "type": "string" },
+              "levels": {
+                "type": "object",
+                "additionalProperties": { "type": "number" }
+              }
+            }
+          },
+          "spreadMultiplier": { "type": "number" },
+          "effects": { "type": "array" }
+        }
+      }
+    },
+    "eidolons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["index", "name", "effect"],
+        "properties": {
+          "index": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "name": { "type": "string" },
+          "effect": { "type": "string" },
+          "skillLevelBonus": { "type": "object" }
+        }
+      }
+    },
     "passives": { "type": "array" }
   }
 }

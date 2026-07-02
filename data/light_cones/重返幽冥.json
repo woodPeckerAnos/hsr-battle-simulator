@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "重返幽冥",
+  "slug": "重返幽冥",
+  "gameId": "584",
+  "name": "重返幽冥",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 846,
+    "def": 330
+  },
+  "passive": {
+    "name": "汹涌",
+    "description": "以下效果仅对巡猎命途生效使装备者暴击率提高12%/15%/18%/21%/24%。暴击后有16%/20%/24%/28%/32%的固定概率解除被攻击敌方目标所持有的1个增益状态，该效果每次攻击只可触发1次。"
+  },
+  "wiki": {
+    "title": "重返幽冥",
+    "url": "https://wiki.biligame.com/sr/%E9%87%8D%E8%BF%94%E5%B9%BD%E5%86%A5",
+    "revId": 46616
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,250 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "卡芙卡",
+  "slug": "卡芙卡",
+  "gameId": "228",
+  "name": "卡芙卡",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 679,
+    "hp": 1086,
+    "def": 485,
+    "speed": 100,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 2,
+      "spreadMultiplier": 0.75,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.88,
+          "2": 0.96,
+          "3": 1.04,
+          "4": 1.12,
+          "5": 1.2,
+          "6": 1.3,
+          "7": 1.4,
+          "8": 1.5,
+          "9": 1.6,
+          "10": 1.68,
+          "11": 1.76,
+          "12": 1.84,
+          "13": 1.92,
+          "14": 2
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.33,
+          "2": 0.36,
+          "3": 0.39,
+          "4": 0.42,
+          "5": 0.45,
+          "6": 0.4875,
+          "7": 0.525,
+          "8": 0.5625,
+          "9": 0.6,
+          "10": 0.63,
+          "11": 0.66,
+          "12": 0.69,
+          "13": 0.72,
+          "14": 0.75
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 0.96,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体伤害",
+        "levels": {
+          "1": 0.512,
+          "2": 0.544,
+          "3": 0.5760000000000001,
+          "4": 0.608,
+          "5": 0.64,
+          "6": 0.68,
+          "7": 0.72,
+          "8": 0.76,
+          "9": 0.8,
+          "10": 0.8320000000000001,
+          "11": 0.8640000000000001,
+          "12": 0.8959999999999999,
+          "13": 0.9279999999999999,
+          "14": 0.96
+        }
+      }
+    },
+    "dot": {
+      "id": "dot",
+      "name": "持续伤害",
+      "type": "dot",
+      "targetMode": "single",
+      "multiplier": 2.9,
+      "level": 1,
+      "maxLevel": 1,
+      "tags": [
+        "dot"
+      ],
+      "scaling": {
+        "row": "持续伤害",
+        "levels": {
+          "1": 2.9
+        }
+      },
+      "maxStacks": 1
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "无穷动！无穷",
+      "effect": "天赋触发悬浮框追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。时，有100%的基础概率给受击者添加负面效果的基础概率。最终概率会被攻击者的效果命中和敌方目标的效果抵抗所影响。使目标受到的持续伤害提高30%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "狂想者，呜咽",
+      "effect": "卡芙卡在场时，我方全体造成的持续伤害提高25%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "我赞美，即兴",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "把宣叙呈献给",
+      "effect": "当敌方目标承受的由卡芙卡造成的触电状态产生伤害时，额外为卡芙卡恢复2点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "只有今晚奏鸣",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "回旋，悄悄地",
+      "effect": "终结技、秘技与天赋触发的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。使敌方目标陷入的触电状态的伤害倍率提高156%，并使触电状态的持续时间增加1回合。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "卡芙卡",
+    "url": "https://wiki.biligame.com/sr/%E5%8D%A1%E8%8A%99%E5%8D%A1",
+    "revId": 96578
+  },
+  "source": "bwiki-scraper"
+}

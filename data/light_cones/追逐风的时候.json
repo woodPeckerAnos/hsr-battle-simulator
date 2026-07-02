@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "追逐风的时候",
+  "slug": "追逐风的时候",
+  "gameId": "19285",
+  "name": "追逐风的时候",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "慌张",
+    "description": "以下效果仅对同谐命途生效进入战斗后，使我方全体造成的击破伤害提高16%/18%/20%/22%/24%。同类技能无法重复生效。"
+  },
+  "wiki": {
+    "title": "追逐风的时候",
+    "url": "https://wiki.biligame.com/sr/%E8%BF%BD%E9%80%90%E9%A3%8E%E7%9A%84%E6%97%B6%E5%80%99",
+    "revId": 63306
+  },
+  "source": "bwiki-scraper"
+}

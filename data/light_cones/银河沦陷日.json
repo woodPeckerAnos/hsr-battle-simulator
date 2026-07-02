@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "银河沦陷日",
+  "slug": "银河沦陷日",
+  "gameId": "9417",
+  "name": "银河沦陷日",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330,
+    "critDmg": 0.2
+  },
+  "passive": {
+    "name": "攻略",
+    "description": "以下效果仅对智识命途生效使装备者的攻击力提高16%/18%/20%/22%/24%。装备者施放攻击后若有不少于2个被攻击的敌方目标具有对应属性弱点，装备者的暴击伤害提高20%/25%/30%/35%/40%，持续2回合。"
+  },
+  "wiki": {
+    "title": "银河沦陷日",
+    "url": "https://wiki.biligame.com/sr/%E9%93%B6%E6%B2%B3%E6%B2%A6%E9%99%B7%E6%97%A5",
+    "revId": 46624
+  },
+  "source": "bwiki-scraper"
+}

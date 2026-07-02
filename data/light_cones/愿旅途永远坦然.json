@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "愿旅途永远坦然",
+  "slug": "愿旅途永远坦然",
+  "gameId": "19283",
+  "name": "愿旅途永远坦然",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 1058,
+    "def": 529
+  },
+  "passive": {
+    "name": "甜梦",
+    "description": "以下效果仅对存护命途生效使装备者提供的护盾量提高12%/15%/18%/21%/24%，我方目标持有护盾时，造成的伤害提高12%/14%/16%/18%/20%。"
+  },
+  "wiki": {
+    "title": "愿旅途永远坦然",
+    "url": "https://wiki.biligame.com/sr/%E6%84%BF%E6%97%85%E9%80%94%E6%B0%B8%E8%BF%9C%E5%9D%A6%E7%84%B6",
+    "revId": 62831
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "睿见",
+  "slug": "睿见",
+  "gameId": "677",
+  "name": "睿见",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 740,
+    "def": 264
+  },
+  "passive": {
+    "name": "天才",
+    "description": "以下效果仅对智识命途生效当装备者施放终结技时，攻击力提高24%/30%/36%/42%/48%，持续2回合。"
+  },
+  "wiki": {
+    "title": "睿见",
+    "url": "https://wiki.biligame.com/sr/%E7%9D%BF%E8%A7%81",
+    "revId": 27599
+  },
+  "source": "bwiki-scraper"
+}

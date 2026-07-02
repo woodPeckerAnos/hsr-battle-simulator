@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "等价交换",
+  "slug": "等价交换",
+  "gameId": "929",
+  "name": "等价交换",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "酣适",
+    "description": "以下效果仅对丰饶命途生效当装备者的回合开始时，随机为1个当前能量百分比小于50%的我方其他目标恢复8/10/12/14/16点能量。"
+  },
+  "wiki": {
+    "title": "等价交换",
+    "url": "https://wiki.biligame.com/sr/%E7%AD%89%E4%BB%B7%E4%BA%A4%E6%8D%A2",
+    "revId": 46681
+  },
+  "source": "bwiki-scraper"
+}

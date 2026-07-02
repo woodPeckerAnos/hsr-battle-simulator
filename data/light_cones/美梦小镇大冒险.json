@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "美梦小镇大冒险",
+  "slug": "美梦小镇大冒险",
+  "gameId": "9406",
+  "name": "美梦小镇大冒险",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "团结",
+    "description": "以下效果仅对同谐命途生效装备者施放普攻、战技、终结技中某一类型的技能后，为我方全体附加【童心】，【童心】可以使我方目标对应类型的技能所造成的伤害提高12%/14%/16%/18%/20%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。"
+  },
+  "wiki": {
+    "title": "美梦小镇大冒险",
+    "url": "https://wiki.biligame.com/sr/%E7%BE%8E%E6%A2%A6%E5%B0%8F%E9%95%87%E5%A4%A7%E5%86%92%E9%99%A9",
+    "revId": 46637
+  },
+  "source": "bwiki-scraper"
+}

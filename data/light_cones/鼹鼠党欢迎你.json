@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "鼹鼠党欢迎你",
+  "slug": "鼹鼠党欢迎你",
+  "gameId": "644",
+  "name": "鼹鼠党欢迎你",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1058,
+    "def": 264
+  },
+  "passive": {
+    "name": "奇妙冒险",
+    "description": "以下效果仅对毁灭命途生效装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高12%/15%/18%/21%/24%。"
+  },
+  "wiki": {
+    "title": "鼹鼠党欢迎你",
+    "url": "https://wiki.biligame.com/sr/%E9%BC%B9%E9%BC%A0%E5%85%9A%E6%AC%A2%E8%BF%8E%E4%BD%A0",
+    "revId": 46592
+  },
+  "source": "bwiki-scraper"
+}

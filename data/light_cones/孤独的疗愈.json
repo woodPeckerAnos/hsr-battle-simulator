@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "孤独的疗愈",
+  "slug": "孤独的疗愈",
+  "gameId": "5775",
+  "name": "孤独的疗愈",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "混沌灵药",
+    "description": "以下效果仅对虚无命途生效使装备者的击破特攻提高20%/25%/30%/35%/40%。当装备者施放终结技时，使装备者造成的持续伤害提高24%/30%/36%/42%/48%，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复4.0/4.5/5.0/5.5/6.0点能量。"
+  },
+  "wiki": {
+    "title": "孤独的疗愈",
+    "url": "https://wiki.biligame.com/sr/%E5%AD%A4%E7%8B%AC%E7%9A%84%E7%96%97%E6%84%88",
+    "revId": 46648
+  },
+  "source": "bwiki-scraper"
+}

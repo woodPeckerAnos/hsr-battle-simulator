@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "乐圮",
+  "slug": "乐圮",
+  "gameId": "662",
+  "name": "乐圮",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 846,
+    "def": 198
+  },
+  "passive": {
+    "name": "诛讨",
+    "description": "以下效果仅对毁灭命途生效使装备者对当前生命值在其生命上限50%以上的敌方目标造成的伤害提高20%/25%/30%/35%/40%。"
+  },
+  "wiki": {
+    "title": "乐圮",
+    "url": "https://wiki.biligame.com/sr/%E4%B9%90%E5%9C%AE",
+    "revId": 39404
+  },
+  "source": "bwiki-scraper"
+}

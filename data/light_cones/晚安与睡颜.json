@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "晚安与睡颜",
+  "slug": "晚安与睡颜",
+  "gameId": "200",
+  "name": "晚安与睡颜",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "劳碌者",
+    "description": "以下效果仅对虚无命途生效敌方目标每承受一个负面效果，装备者对其造成的伤害提高12%/15%/18%/21%/24%，最多叠加3次。该效果对持续伤害也会生效。"
+  },
+  "wiki": {
+    "title": "晚安与睡颜",
+    "url": "https://wiki.biligame.com/sr/%E6%99%9A%E5%AE%89%E4%B8%8E%E7%9D%A1%E9%A2%9C",
+    "revId": 46659
+  },
+  "source": "bwiki-scraper"
+}

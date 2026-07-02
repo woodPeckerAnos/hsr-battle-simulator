@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "雨一直下",
+  "slug": "雨一直下",
+  "gameId": "318",
+  "name": "雨一直下",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1058,
+    "def": 463
+  },
+  "passive": {
+    "name": "幻影现实",
+    "description": "以下效果仅对虚无命途生效使装备者的效果命中提高24%/28%/32%/36%/40%。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高12%/14%/16%/18%/20%。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高12%/14%/16%/18%/20%，持续1回合。"
+  },
+  "wiki": {
+    "title": "雨一直下",
+    "url": "https://wiki.biligame.com/sr/%E9%9B%A8%E4%B8%80%E7%9B%B4%E4%B8%8B",
+    "revId": 96667
+  },
+  "source": "bwiki-scraper"
+}

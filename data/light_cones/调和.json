@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "调和",
+  "slug": "调和",
+  "gameId": "683",
+  "name": "调和",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "家族",
+    "description": "以下效果仅对同谐命途生效进入战斗时，我方全体速度提高12/14/16/18/20，持续1回合。"
+  },
+  "wiki": {
+    "title": "调和",
+    "url": "https://wiki.biligame.com/sr/%E8%B0%83%E5%92%8C",
+    "revId": 27611
+  },
+  "source": "bwiki-scraper"
+}

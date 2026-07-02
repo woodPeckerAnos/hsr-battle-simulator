@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "梦想之地匹诺康尼",
+  "slug": "梦想之地匹诺康尼",
+  "gameId": "8015",
+  "name": "梦想之地匹诺康尼",
+  "description": "使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。",
+  "pieces2": {
+    "description": "使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "梦想之地匹诺康尼",
+    "url": "https://wiki.biligame.com/sr/%E6%A2%A6%E6%83%B3%E4%B9%8B%E5%9C%B0%E5%8C%B9%E8%AF%BA%E5%BA%B7%E5%B0%BC",
+    "revId": 59631
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { aggregateStats } from '../engine/stat/aggregate.js';
-import { runSingleHit } from '../engine/pipeline.js';
-import type { BuildRequest } from '../engine/types.js';
+import { aggregateStats } from '../engine/pipeline.js';
+import { evaluateCharacterDamage } from '../engine/damage/evaluate.js';
 
 describe('L1 stat aggregation', () => {
   it('aggregates character + light cone base atk', () => {
@@ -14,22 +13,16 @@ describe('L1 stat aggregation', () => {
   });
 });
 
-describe('Phase 1 pipeline', () => {
-  it('single_hit mode returns damage range', () => {
-    const request: BuildRequest = {
-      mode: 'single_hit',
-      enemyId: 'foi-95',
-      team: {
-        members: [
-          {
-            characterId: 'jingliu',
-            skillId: 'basic',
-            statOverrides: { flatAtk: 970 },
-          },
-        ],
+describe('Phase 1 damage evaluation', () => {
+  it('evaluateCharacterDamage returns damage range', () => {
+    const result = evaluateCharacterDamage(
+      {
+        characterId: 'jingliu',
+        skillId: 'basic',
+        statOverrides: { flatAtk: 970 },
       },
-    };
-    const result = runSingleHit(request);
+      'foi-95',
+    );
     expect(result.min).toBeGreaterThan(0);
     expect(result.expected).toBeGreaterThanOrEqual(result.min);
     expect(result.max).toBeGreaterThanOrEqual(result.expected);

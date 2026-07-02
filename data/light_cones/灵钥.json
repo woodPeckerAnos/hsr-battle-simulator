@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "灵钥",
+  "slug": "灵钥",
+  "gameId": "674",
+  "name": "灵钥",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 740,
+    "def": 264
+  },
+  "passive": {
+    "name": "顿悟",
+    "description": "以下效果仅对智识命途生效使装备者施放战技后额外恢复8/9/10/11/12点能量，该效果单个回合内不可重复触发。"
+  },
+  "wiki": {
+    "title": "灵钥",
+    "url": "https://wiki.biligame.com/sr/%E7%81%B5%E9%92%A5",
+    "revId": 27596
+  },
+  "source": "bwiki-scraper"
+}

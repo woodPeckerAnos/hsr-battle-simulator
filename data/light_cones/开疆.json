@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "开疆",
+  "slug": "开疆",
+  "gameId": "692",
+  "name": "开疆",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 264,
+    "hp": 952,
+    "def": 264
+  },
+  "passive": {
+    "name": "公司",
+    "description": "以下效果仅对存护命途生效当装备者击破敌方目标的弱点时，回复等同于自身生命上限12%/14%/16%/18%/20%的生命值。"
+  },
+  "wiki": {
+    "title": "开疆",
+    "url": "https://wiki.biligame.com/sr/%E5%BC%80%E7%96%86",
+    "revId": 27645
+  },
+  "source": "bwiki-scraper"
+}

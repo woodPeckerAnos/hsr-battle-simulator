@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "梦应归于何处",
+  "slug": "梦应归于何处",
+  "gameId": "12529",
+  "name": "梦应归于何处",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1164,
+    "def": 529
+  },
+  "passive": {
+    "name": "蜕变",
+    "description": "以下效果仅对毁灭命途生效使装备者的击破特攻提高60%/70%/80%/90%/100%。当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续2回合。【溃败】状态下目标受到装备者造成的击破伤害提高24%/28%/32%/36%/40%，速度降低20%，同类效果无法叠加。"
+  },
+  "wiki": {
+    "title": "梦应归于何处",
+    "url": "https://wiki.biligame.com/sr/%E6%A2%A6%E5%BA%94%E5%BD%92%E4%BA%8E%E4%BD%95%E5%A4%84",
+    "revId": 46582
+  },
+  "source": "bwiki-scraper"
+}

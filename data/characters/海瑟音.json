@@ -1,0 +1,198 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "海瑟音",
+  "slug": "海瑟音",
+  "gameId": "14834",
+  "name": "海瑟音",
+  "rarity": 5,
+  "element": "physical",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 110,
+  "baseStats": {
+    "atk": 601,
+    "hp": 1203,
+    "def": 485,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.25,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "受到伤害提高",
+        "levels": {
+          "1": 0.11,
+          "2": 0.12,
+          "3": 0.13,
+          "4": 0.14,
+          "5": 0.15,
+          "6": 0.16,
+          "7": 0.18,
+          "8": 0.19,
+          "9": 0.2,
+          "10": 0.21,
+          "11": 0.22,
+          "12": 0.23,
+          "13": 0.24,
+          "14": 0.25
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.3,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "防御力降低",
+        "levels": {
+          "1": 0.16,
+          "2": 0.17,
+          "3": 0.18,
+          "4": 0.19,
+          "5": 0.2,
+          "6": 0.212,
+          "7": 0.225,
+          "8": 0.23800000000000002,
+          "9": 0.25,
+          "10": 0.26,
+          "11": 0.27,
+          "12": 0.28,
+          "13": 0.29,
+          "14": 0.3
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "你问我心为何悲伤",
+      "effect": "海瑟音在场时，我方目标造成的持续伤害为原伤害的116%，当海瑟音通过天赋使敌人陷入风化/裂伤/灼烧/触电状态时，有100%的悬浮框基础概率给受击者添加负面效果的基础概率。最终概率会被攻击者的效果命中和敌方目标的效果抵抗所影响。额外使其陷入一次与原天赋效果相同，且可同时存在的风化/裂伤/灼烧/触电状态。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "你说浪花为何喧响",
+      "effect": "结界持续期间，行迹【珍珠的琴弦】的造成伤害提高效果对我方全体生效。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "可知灯火为何遗忘",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "看呀，时间为何流淌",
+      "effect": "结界持续期间，使敌方全体全属性抗性降低20%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "于梳洗中，我轻吟浅唱",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "沉没的你，何日返乡",
+      "effect": "结界持续期间，每回合开始时或我方目标单次攻击内，触发海瑟音物理持续伤害效果的次数上限提高至12次，且造成的伤害倍率提高20%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "海瑟音",
+    "url": "https://wiki.biligame.com/sr/%E6%B5%B7%E7%91%9F%E9%9F%B3",
+    "revId": 96588
+  },
+  "source": "bwiki-scraper"
+}

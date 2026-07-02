@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "天倾",
+  "slug": "天倾",
+  "gameId": "206",
+  "name": "天倾",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 846,
+    "def": 198
+  },
+  "passive": {
+    "name": "破灭",
+    "description": "以下效果仅对毁灭命途生效使装备者施放普攻和战技时造成的伤害提高20%/25%/30%/35%/40%。"
+  },
+  "wiki": {
+    "title": "天倾",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%A9%E5%80%BE",
+    "revId": 46597
+  },
+  "source": "bwiki-scraper"
+}

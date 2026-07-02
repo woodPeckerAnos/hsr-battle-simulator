@@ -1,0 +1,198 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "托帕&账账",
+  "slug": "托帕&账账",
+  "gameId": "5124",
+  "name": "托帕&账账",
+  "rarity": 5,
+  "element": "fire",
+  "path": "hunt",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 620,
+    "hp": 931,
+    "def": 412,
+    "speed": 110,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.625,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "伤害提高",
+        "levels": {
+          "1": 0.275,
+          "2": 0.3,
+          "3": 0.325,
+          "4": 0.35,
+          "5": 0.375,
+          "6": 0.406,
+          "7": 0.43700000000000006,
+          "8": 0.46799999999999997,
+          "9": 0.5,
+          "10": 0.525,
+          "11": 0.55,
+          "12": 0.575,
+          "13": 0.6,
+          "14": 0.625
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.875,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "伤害倍率提高",
+        "levels": {
+          "1": 0.825,
+          "2": 0.9,
+          "3": 0.975,
+          "4": 1.05,
+          "5": 1.125,
+          "6": 1.218,
+          "7": 1.3119999999999998,
+          "8": 1.406,
+          "9": 1.5,
+          "10": 1.575,
+          "11": 1.65,
+          "12": 1.725,
+          "13": 1.8,
+          "14": 1.875
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "未来市场",
+      "effect": "陷入【负债证明】状态下的敌方目标受到悬浮框追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。时，将会陷入【被执行】状态，单次攻击内最多生效1次。【被执行】使敌方目标受到的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。的暴击伤害提高25%，最多叠加2层。【负债证明】被移除时，【被执行】也会被移除。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "善意收购",
+      "effect": "账账自身行动并发动攻击后，托帕恢复5点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "抓大放小",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "敏捷处理",
+      "effect": "账账自身回合开始时，托帕的行动提前使目标在下次行动前的等待间隔缩短。20%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "需求膨胀",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "激励机制",
+      "effect": "账账处于【涨幅惊人！】状态的攻击次数增加1次，且攻击时火属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高10%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "托帕&账账",
+    "url": "https://wiki.biligame.com/sr/%E6%89%98%E5%B8%95%26%E8%B4%A6%E8%B4%A6",
+    "revId": 79402
+  },
+  "source": "bwiki-scraper"
+}

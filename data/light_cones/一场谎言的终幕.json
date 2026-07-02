@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "一场谎言的终幕",
+  "slug": "一场谎言的终幕",
+  "gameId": "29564",
+  "name": "一场谎言的终幕",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 846,
+    "def": 529
+  },
+  "passive": {
+    "name": "吞没",
+    "description": "以下效果仅对巡猎命途生效使装备者的暴击率提高18%/21%/24%/27%/30%。战斗开始时或装备者每累计施放4次追加攻击，使装备者获得【影噬】，持续3回合。当装备者持有【影噬】时，攻击力提高40%/50%/60%/70%/80%，并使敌方全体受到的伤害提高20%/22.5%/25%/27.5%/30%，同类效果无法叠加。"
+  },
+  "wiki": {
+    "title": "一场谎言的终幕",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%80%E5%9C%BA%E8%B0%8E%E8%A8%80%E7%9A%84%E7%BB%88%E5%B9%95",
+    "revId": 96228
+  },
+  "source": "bwiki-scraper"
+}

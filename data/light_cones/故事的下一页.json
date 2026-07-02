@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "故事的下一页",
+  "slug": "故事的下一页",
+  "gameId": "19282",
+  "name": "故事的下一页",
+  "rarity": 4,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "书写",
+    "description": "以下效果仅对记忆命途生效使装备者的生命上限提高16%/20%/24%/28%/32%。装备者的忆灵攻击后，使装备者与忆灵的治疗量提高12%/15%/18%/21%/24%，持续1回合。"
+  },
+  "wiki": {
+    "title": "故事的下一页",
+    "url": "https://wiki.biligame.com/sr/%E6%95%85%E4%BA%8B%E7%9A%84%E4%B8%8B%E4%B8%80%E9%A1%B5",
+    "revId": 62830
+  },
+  "source": "bwiki-scraper"
+}

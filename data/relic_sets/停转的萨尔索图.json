@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "停转的萨尔索图",
+  "slug": "停转的萨尔索图",
+  "gameId": "1510",
+  "name": "停转的萨尔索图",
+  "description": "使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。",
+  "pieces2": {
+    "description": "使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "停转的萨尔索图",
+    "url": "https://wiki.biligame.com/sr/%E5%81%9C%E8%BD%AC%E7%9A%84%E8%90%A8%E5%B0%94%E7%B4%A2%E5%9B%BE",
+    "revId": 59620
+  },
+  "source": "bwiki-scraper"
+}

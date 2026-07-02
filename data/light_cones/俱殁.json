@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "俱殁",
+  "slug": "俱殁",
+  "gameId": "665",
+  "name": "俱殁",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 846,
+    "def": 198
+  },
+  "passive": {
+    "name": "军团",
+    "description": "以下效果仅对毁灭命途生效装备者当前生命值百分比小于80%时，暴击率提高12%/15%/18%/21%/24%。"
+  },
+  "wiki": {
+    "title": "俱殁",
+    "url": "https://wiki.biligame.com/sr/%E4%BF%B1%E6%AE%81",
+    "revId": 46596
+  },
+  "source": "bwiki-scraper"
+}

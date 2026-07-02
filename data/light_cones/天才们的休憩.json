@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "天才们的休憩",
+  "slug": "天才们的休憩",
+  "gameId": "1272",
+  "name": "天才们的休憩",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396,
+    "critDmg": 0.24
+  },
+  "passive": {
+    "name": "各得其所",
+    "description": "以下效果仅对智识命途生效使装备者攻击力提高16%/20%/24%/28%/32%，当装备者消灭敌方目标后，暴击伤害提高24%/30%/36%/42%/48%，持续3回合。"
+  },
+  "wiki": {
+    "title": "天才们的休憩",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%A9%E6%89%8D%E4%BB%AC%E7%9A%84%E4%BC%91%E6%86%A9",
+    "revId": 46692
+  },
+  "source": "bwiki-scraper"
+}

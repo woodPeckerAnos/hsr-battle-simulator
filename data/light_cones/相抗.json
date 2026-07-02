@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "相抗",
+  "slug": "相抗",
+  "gameId": "671",
+  "name": "相抗",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 740,
+    "def": 264
+  },
+  "passive": {
+    "name": "联盟",
+    "description": "以下效果仅对巡猎命途生效使装备者在消灭敌方目标后，速度提高10%/12%/14%/16%/18%，持续2回合。"
+  },
+  "wiki": {
+    "title": "相抗",
+    "url": "https://wiki.biligame.com/sr/%E7%9B%B8%E6%8A%97",
+    "revId": 46599
+  },
+  "source": "bwiki-scraper"
+}

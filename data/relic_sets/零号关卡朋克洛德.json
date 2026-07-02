@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "零号关卡朋克洛德",
+  "slug": "零号关卡朋克洛德",
+  "gameId": "29566",
+  "name": "零号关卡朋克洛德",
+  "description": "使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。",
+  "pieces2": {
+    "description": "使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.2
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.2
+      }
+    ]
+  },
+  "wiki": {
+    "title": "零号关卡朋克洛德",
+    "url": "https://wiki.biligame.com/sr/%E9%9B%B6%E5%8F%B7%E5%85%B3%E5%8D%A1%E6%9C%8B%E5%85%8B%E6%B4%9B%E5%BE%B7",
+    "revId": 96408
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "再创天地的救世主",
+  "slug": "再创天地的救世主",
+  "gameId": "23752",
+  "name": "再创天地的救世主",
+  "description": "暴击率提高8%。 装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。",
+  "pieces2": {
+    "description": "暴击率提高8%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "再创天地的救世主",
+    "url": "https://wiki.biligame.com/sr/%E5%86%8D%E5%88%9B%E5%A4%A9%E5%9C%B0%E7%9A%84%E6%95%91%E4%B8%96%E4%B8%BB",
+    "revId": 69916
+  },
+  "source": "bwiki-scraper"
+}

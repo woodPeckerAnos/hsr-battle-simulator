@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "向着不可追问处",
+  "slug": "向着不可追问处",
+  "gameId": "15643",
+  "name": "向着不可追问处",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "思维游戏",
+    "description": "以下效果仅对智识命途生效使装备者的暴击率提高12%/14%/16%/18%/20%。装备者施放终结技时，使装备者造成的战技和终结技伤害提高60%/70%/80%/90%/100%，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。"
+  },
+  "wiki": {
+    "title": "向着不可追问处",
+    "url": "https://wiki.biligame.com/sr/%E5%90%91%E7%9D%80%E4%B8%8D%E5%8F%AF%E8%BF%BD%E9%97%AE%E5%A4%84",
+    "revId": 50042
+  },
+  "source": "bwiki-scraper"
+}

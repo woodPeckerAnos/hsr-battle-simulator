@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "菇菇嘎嘎历险记",
+  "slug": "菇菇嘎嘎历险记",
+  "gameId": "28352",
+  "name": "菇菇嘎嘎历险记",
+  "rarity": 4,
+  "path": "欢愉",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396
+  },
+  "passive": {
+    "name": "乱斗",
+    "description": "以下效果仅对欢愉命途生效使装备者的欢愉度提高12%/14%/16%/18%/20%。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高6%/7%/8%/9%/10%，持续2回合。"
+  },
+  "wiki": {
+    "title": "菇菇嘎嘎历险记",
+    "url": "https://wiki.biligame.com/sr/%E8%8F%87%E8%8F%87%E5%98%8E%E5%98%8E%E5%8E%86%E9%99%A9%E8%AE%B0",
+    "revId": 80223
+  },
+  "source": "bwiki-scraper"
+}

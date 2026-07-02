@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "金血铭刻的时代",
+  "slug": "金血铭刻的时代",
+  "gameId": "19922",
+  "name": "金血铭刻的时代",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "征服",
+    "description": "以下效果仅对同谐命途生效使装备者的攻击力提高64%/80%/96%/112%/128%。施放终结技攻击后恢复1个战技点，装备者对我方单体角色施放战技后，使目标造成的战技伤害提高54%/67.5%/81%/94.5%/108%，持续3回合。"
+  },
+  "wiki": {
+    "title": "金血铭刻的时代",
+    "url": "https://wiki.biligame.com/sr/%E9%87%91%E8%A1%80%E9%93%AD%E5%88%BB%E7%9A%84%E6%97%B6%E4%BB%A3",
+    "revId": 68486
+  },
+  "source": "bwiki-scraper"
+}

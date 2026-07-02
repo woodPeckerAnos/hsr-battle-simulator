@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "此时恰好",
+  "slug": "此时恰好",
+  "gameId": "1266",
+  "name": "此时恰好",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "折射的视线",
+    "description": "以下效果仅对丰饶命途生效使装备者的效果抵抗提高16%/20%/24%/28%/32%，并使装备者的治疗量提高，提高数值等同于效果抵抗的33%/36%/39%/42%/45%，最多使治疗量提高15%/18%/21%/24%/27%。"
+  },
+  "wiki": {
+    "title": "此时恰好",
+    "url": "https://wiki.biligame.com/sr/%E6%AD%A4%E6%97%B6%E6%81%B0%E5%A5%BD",
+    "revId": 46680
+  },
+  "source": "bwiki-scraper"
+}

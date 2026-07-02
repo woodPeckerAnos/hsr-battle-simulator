@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "飞向粉色的明天",
+  "slug": "飞向粉色的明天",
+  "gameId": "24209",
+  "name": "飞向粉色的明天",
+  "rarity": 4,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396,
+    "critDmg": 0.12
+  },
+  "passive": {
+    "name": "凝望",
+    "description": "以下效果仅对记忆命途生效使装备者的暴击伤害提高12%/15%/18%/21%/24%。开拓者•记忆装备时，使我方全体目标造成的伤害提高8%/10%/12%/14%/16%，强化普攻【明天，一同写下！】造成的伤害提高60%/70%/80%/90%/100%。"
+  },
+  "wiki": {
+    "title": "飞向粉色的明天",
+    "url": "https://wiki.biligame.com/sr/%E9%A3%9E%E5%90%91%E7%B2%89%E8%89%B2%E7%9A%84%E6%98%8E%E5%A4%A9",
+    "revId": 78179
+  },
+  "source": "bwiki-scraper"
+}

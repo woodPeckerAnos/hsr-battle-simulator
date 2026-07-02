@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "纯粹思维的洗礼",
+  "slug": "纯粹思维的洗礼",
+  "gameId": "8660",
+  "name": "纯粹思维的洗礼",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 952,
+    "def": 529,
+    "critDmg": 0.2
+  },
+  "passive": {
+    "name": "思想训练",
+    "description": "以下效果仅对巡猎命途生效使装备者的暴击伤害提高20%/23%/26%/29%/32%。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高8%/9%/10%/11%/12%，最多叠加3层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高36%/42%/48%/54%/60%，追加攻击无视目标24%/28%/32%/36%/40%的防御力，该效果持续2回合。"
+  },
+  "wiki": {
+    "title": "纯粹思维的洗礼",
+    "url": "https://wiki.biligame.com/sr/%E7%BA%AF%E7%B2%B9%E6%80%9D%E7%BB%B4%E7%9A%84%E6%B4%97%E7%A4%BC",
+    "revId": 46601
+  },
+  "source": "bwiki-scraper"
+}

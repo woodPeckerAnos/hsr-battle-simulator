@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "今日好手气",
+  "slug": "今日好手气",
+  "gameId": "28353",
+  "name": "今日好手气",
+  "rarity": 5,
+  "path": "欢愉",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "抉择",
+    "description": "以下效果仅对欢愉命途生效使装备者的暴击率提高12%/14%/16%/18%/20%。装备者施放欢愉技时，欢愉度提高12%/14%/16%/18%/20%，该效果最多叠加2次。"
+  },
+  "wiki": {
+    "title": "今日好手气",
+    "url": "https://wiki.biligame.com/sr/%E4%BB%8A%E6%97%A5%E5%A5%BD%E6%89%8B%E6%B0%94",
+    "revId": 78180
+  },
+  "source": "bwiki-scraper"
+}

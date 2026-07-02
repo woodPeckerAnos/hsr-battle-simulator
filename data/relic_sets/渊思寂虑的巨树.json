@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "渊思寂虑的巨树",
+  "slug": "渊思寂虑的巨树",
+  "gameId": "16315",
+  "name": "渊思寂虑的巨树",
+  "description": "使装备者的速度提高6%。当装备者的速度大于等于135/180时，使装备者及其忆灵的治疗量提高12%/20%。",
+  "pieces2": {
+    "description": "使装备者的速度提高6%。当装备者的速度大于等于135/180时，使装备者及其忆灵的治疗量提高12%/20%。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "wiki": {
+    "title": "渊思寂虑的巨树",
+    "url": "https://wiki.biligame.com/sr/%E6%B8%8A%E6%80%9D%E5%AF%82%E8%99%91%E7%9A%84%E5%B7%A8%E6%A0%91",
+    "revId": 59637
+  },
+  "source": "bwiki-scraper"
+}

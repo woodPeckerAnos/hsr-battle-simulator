@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "不息的演算",
+  "slug": "不息的演算",
+  "gameId": "12532",
+  "name": "不息的演算",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "无界之思",
+    "description": "以下效果仅对智识命途生效使装备者的攻击力提高8%/9%/10%/11%/12%。施放攻击后，每击中一名敌方目标，使攻击力额外提高4%/5%/6%/7%/8%，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高8%/10%/12%/14%/16%，持续1回合。"
+  },
+  "wiki": {
+    "title": "不息的演算",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%8D%E6%81%AF%E7%9A%84%E6%BC%94%E7%AE%97",
+    "revId": 46619
+  },
+  "source": "bwiki-scraper"
+}

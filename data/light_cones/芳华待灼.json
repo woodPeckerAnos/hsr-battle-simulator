@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "芳华待灼",
+  "slug": "芳华待灼",
+  "gameId": "13141",
+  "name": "芳华待灼",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396,
+    "critDmg": 0.16
+  },
+  "passive": {
+    "name": "莫失莫忘",
+    "description": "以下效果仅对同谐命途生效使装备者的攻击力提高16%/20%/24%/28%/32%。进入战斗时，若有两名及以上我方角色拥有相同命途，则使这些角色的暴击伤害提高16%/20%/24%/28%/32%。同类技能无法重复生效。"
+  },
+  "wiki": {
+    "title": "芳华待灼",
+    "url": "https://wiki.biligame.com/sr/%E8%8A%B3%E5%8D%8E%E5%BE%85%E7%81%BC",
+    "revId": 53127
+  },
+  "source": "bwiki-scraper"
+}

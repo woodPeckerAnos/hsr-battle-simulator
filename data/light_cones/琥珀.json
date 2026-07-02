@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "琥珀",
+  "slug": "琥珀",
+  "gameId": "207",
+  "name": "琥珀",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 264,
+    "hp": 846,
+    "def": 330
+  },
+  "passive": {
+    "name": "静滞",
+    "description": "以下效果仅对存护命途生效使装备者的防御力提高16%/20%/24%/28%/32%。当装备者当前生命值低于自身生命上限的50%时，其防御力额外提高16%/20%/24%/28%/32%。"
+  },
+  "wiki": {
+    "title": "琥珀",
+    "url": "https://wiki.biligame.com/sr/%E7%90%A5%E7%8F%80",
+    "revId": 69043
+  },
+  "source": "bwiki-scraper"
+}

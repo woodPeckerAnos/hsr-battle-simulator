@@ -1,0 +1,238 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "赛飞儿",
+  "slug": "赛飞儿",
+  "gameId": "14831",
+  "name": "赛飞儿",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 640,
+    "hp": 931,
+    "def": 509,
+    "speed": 106,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 14.4
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 2.5,
+      "spreadMultiplier": 1.25,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.1,
+          "2": 1.2,
+          "3": 1.3,
+          "4": 1.4,
+          "5": 1.5,
+          "6": 1.625,
+          "7": 1.75,
+          "8": 1.875,
+          "9": 2,
+          "10": 2.1,
+          "11": 2.2,
+          "12": 2.3,
+          "13": 2.4,
+          "14": 2.5
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.55,
+          "2": 0.6,
+          "3": 0.65,
+          "4": 0.7,
+          "5": 0.75,
+          "6": 0.8125,
+          "7": 0.875,
+          "8": 0.9375,
+          "9": 1,
+          "10": 1.05,
+          "11": 1.1,
+          "12": 1.15,
+          "13": 1.2,
+          "14": 1.25
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.5,
+      "spreadMultiplier": 0.5,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.66,
+          "2": 0.72,
+          "3": 0.78,
+          "4": 0.84,
+          "5": 0.9,
+          "6": 0.975,
+          "7": 1.05,
+          "8": 1.125,
+          "9": 1.2,
+          "10": 1.26,
+          "11": 1.32,
+          "12": 1.38,
+          "13": 1.44,
+          "14": 1.5
+        }
+      },
+      "spreadScaling": {
+        "row": "单体/扩散伤害",
+        "levels": {
+          "1": 0.22,
+          "2": 0.24,
+          "3": 0.26,
+          "4": 0.28,
+          "5": 0.3,
+          "6": 0.325,
+          "7": 0.35,
+          "8": 0.375,
+          "9": 0.4,
+          "10": 0.42,
+          "11": 0.44,
+          "12": 0.46,
+          "13": 0.48,
+          "14": 0.5
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "察言观色看笑脸",
+      "effect": "赛飞儿记录的伤害值为原记录值的150%。施放天赋的悬浮框追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。时，赛飞儿的攻击力提高80%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "焦头烂额顺手牵",
+      "effect": "赛飞儿击中敌方目标时，有120%的基础概率给受击者添加负面效果的基础概率。最终概率会被攻击者的效果命中和敌方目标的效果抵抗所影响。使其受到的伤害提高30%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "无中生有难分辨",
+      "effect": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "东窗事发一溜烟",
+      "effect": "【老主顾】受到我方目标攻击后，赛飞儿对其造成等同于赛飞儿50%攻击力的量子属性附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "狡兔三窟轻如燕",
+      "effect": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "大盗无名天地间",
+      "effect": "赛飞儿天赋的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。造成的伤害提高350%，记录时额外记录该攻击造成的非溢出伤害的16%。施放终结技清空记录值后，返还本次清除记录值的20%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "wiki": {
+    "title": "赛飞儿",
+    "url": "https://wiki.biligame.com/sr/%E8%B5%9B%E9%A3%9E%E5%84%BF",
+    "revId": 92319
+  },
+  "source": "bwiki-scraper"
+}

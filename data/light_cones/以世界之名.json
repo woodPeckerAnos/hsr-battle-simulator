@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "以世界之名",
+  "slug": "以世界之名",
+  "gameId": "197",
+  "name": "以世界之名",
+  "rarity": 5,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1058,
+    "def": 463
+  },
+  "passive": {
+    "name": "传承者",
+    "description": "以下效果仅对虚无命途生效使装备者对陷入负面效果的敌方目标造成的伤害提高24%/28%/32%/36%/40%。当装备者施放战技时，装备者此次攻击的效果命中提高18%/21%/24%/27%/30%，攻击力提高24%/28%/32%/36%/40%。"
+  },
+  "wiki": {
+    "title": "以世界之名",
+    "url": "https://wiki.biligame.com/sr/%E4%BB%A5%E4%B8%96%E7%95%8C%E4%B9%8B%E5%90%8D",
+    "revId": 46650
+  },
+  "source": "bwiki-scraper"
+}

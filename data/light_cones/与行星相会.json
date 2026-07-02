@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "与行星相会",
+  "slug": "与行星相会",
+  "gameId": "625",
+  "name": "与行星相会",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 1058,
+    "def": 330
+  },
+  "passive": {
+    "name": "启程",
+    "description": "以下效果仅对同谐命途生效进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高12%/15%/18%/21%/24%。"
+  },
+  "wiki": {
+    "title": "与行星相会",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%8E%E8%A1%8C%E6%98%9F%E7%9B%B8%E4%BC%9A",
+    "revId": 46640
+  },
+  "source": "bwiki-scraper"
+}

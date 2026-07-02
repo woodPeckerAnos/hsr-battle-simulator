@@ -1,0 +1,225 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "大黑塔",
+  "slug": "大黑塔",
+  "gameId": "14803",
+  "name": "大黑塔",
+  "rarity": 5,
+  "element": "ice",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 220,
+  "baseStats": {
+    "atk": 679,
+    "hp": 1164,
+    "def": 485,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 0.875,
+      "spreadMultiplier": 0.875,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害扩散伤害",
+        "levels": {
+          "1": 0.385,
+          "2": 0.42,
+          "3": 0.455,
+          "4": 0.49,
+          "5": 0.525,
+          "6": 0.5688,
+          "7": 0.6125,
+          "8": 0.6563,
+          "9": 0.7,
+          "10": 0.735,
+          "11": 0.77,
+          "12": 0.805,
+          "13": 0.84,
+          "14": 0.875
+        }
+      },
+      "spreadScaling": {
+        "row": "单体伤害扩散伤害",
+        "levels": {
+          "1": 0.385,
+          "2": 0.42,
+          "3": 0.455,
+          "4": 0.49,
+          "5": 0.525,
+          "6": 0.5688,
+          "7": 0.6125,
+          "8": 0.6563,
+          "9": 0.7,
+          "10": 0.735,
+          "11": 0.77,
+          "12": 0.805,
+          "13": 0.84,
+          "14": 0.875
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1,
+      "spreadMultiplier": 1,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害扩散伤害",
+        "levels": {
+          "1": 0.44,
+          "2": 0.48,
+          "3": 0.52,
+          "4": 0.56,
+          "5": 0.6,
+          "6": 0.65,
+          "7": 0.7,
+          "8": 0.75,
+          "9": 0.8,
+          "10": 0.84,
+          "11": 0.88,
+          "12": 0.92,
+          "13": 0.96,
+          "14": 1
+        }
+      },
+      "spreadScaling": {
+        "row": "单体伤害扩散伤害",
+        "levels": {
+          "1": 0.44,
+          "2": 0.48,
+          "3": 0.52,
+          "4": 0.56,
+          "5": 0.6,
+          "6": 0.65,
+          "7": 0.7,
+          "8": 0.75,
+          "9": 0.8,
+          "10": 0.84,
+          "11": 0.88,
+          "12": 0.92,
+          "13": 0.96,
+          "14": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "群星岸落之夜",
+      "effect": "强化战技计算【解读】层数时，额外计算主目标及相邻目标中层数最高的1个目标当前【解读】层数的50%。施放强化战技重置【解读】时，改为将层数重置为15层。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "穿过锁孔之风",
+      "effect": "大黑塔进入战斗和施放终结技后，额外获得1层【灵感】。施放强化战技后，大黑塔的下一次悬浮框行动提前使目标在下次行动前的等待间隔缩短。35%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "进入盛夏之门",
+      "effect": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "第十六把钥匙",
+      "effect": "队伍中的「智识」命途角色的速度提高12%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "苦药似的真理",
+      "effect": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "甜饵般的答案",
+      "effect": "大黑塔的冰属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%，当场上敌方目标数量等于3或以上/2/1名时，终结技的伤害倍率提高140%/250%/400%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "大黑塔",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%A7%E9%BB%91%E5%A1%94",
+    "revId": 69930
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "沉陆海域露莎卡",
+  "slug": "沉陆海域露莎卡",
+  "gameId": "13606",
+  "name": "沉陆海域露莎卡",
+  "description": "使装备者的能量恢复效率提高5.0%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12.0%。",
+  "pieces2": {
+    "description": "使装备者的能量恢复效率提高5.0%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12.0%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "wiki": {
+    "title": "沉陆海域露莎卡",
+    "url": "https://wiki.biligame.com/sr/%E6%B2%89%E9%99%86%E6%B5%B7%E5%9F%9F%E9%9C%B2%E8%8E%8E%E5%8D%A1",
+    "revId": 59634
+  },
+  "source": "bwiki-scraper"
+}

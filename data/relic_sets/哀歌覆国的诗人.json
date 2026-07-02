@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "哀歌覆国的诗人",
+  "slug": "哀歌覆国的诗人",
+  "gameId": "15656",
+  "name": "哀歌覆国的诗人",
+  "description": "量子属性伤害提高10%。 使装备者的速度降低8%。进入战斗前，若装备者的速度小于110/95，使装备者的暴击率提高20%/32%。该效果同时对装备者的忆灵生效。",
+  "pieces2": {
+    "description": "量子属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "quantum"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "使装备者的速度降低8%。进入战斗前，若装备者的速度小于110/95，使装备者的暴击率提高20%/32%。该效果同时对装备者的忆灵生效。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.2
+      }
+    ]
+  },
+  "wiki": {
+    "title": "哀歌覆国的诗人",
+    "url": "https://wiki.biligame.com/sr/%E5%93%80%E6%AD%8C%E8%A6%86%E5%9B%BD%E7%9A%84%E8%AF%97%E4%BA%BA",
+    "revId": 53042
+  },
+  "source": "bwiki-scraper"
+}

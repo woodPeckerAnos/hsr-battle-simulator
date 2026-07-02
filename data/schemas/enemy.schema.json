@@ -14,6 +14,7 @@
     "toughness": { "type": "number" },
     "speed": { "type": "number" },
     "resistances": { "type": "object" },
-    "effectRes": { "type": "number" }
+    "effectRes": { "type": "number" },
+    "passive": { "type": "boolean", "description": "木桩：不行动、不加入行动轴" }
   }
 }

@@ -1,8 +1,8 @@
-import type { DefaultCharacterRuntime } from './default-character.js';
+import type { Character } from './character.js';
 import type { TeamContextRef } from './types.js';
 
 export class TeamContext implements TeamContextRef {
-  members: DefaultCharacterRuntime[] = [];
+  members: Character[] = [];
   skillPoints: number;
   maxSkillPoints: number;
 
@@ -21,11 +21,11 @@ export class TeamContext implements TeamContextRef {
     this.skillPoints = Math.min(this.maxSkillPoints, this.skillPoints + n);
   }
 
-  getMember(id: string): DefaultCharacterRuntime | undefined {
+  getMember(id: string): Character | undefined {
     return this.members.find((m) => m.id === id || m.slug === id);
   }
 
-  getAllies(): DefaultCharacterRuntime[] {
+  getAllies(): Character[] {
     return [...this.members];
   }
 }

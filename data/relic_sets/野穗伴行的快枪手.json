@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "野穗伴行的快枪手",
+  "slug": "野穗伴行的快枪手",
+  "gameId": "1323",
+  "name": "野穗伴行的快枪手",
+  "description": "攻击力提高12%。 使装备者的速度提高6%，普攻造成的伤害提高10%。",
+  "pieces2": {
+    "description": "攻击力提高12%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "使装备者的速度提高6%，普攻造成的伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "wiki": {
+    "title": "野穗伴行的快枪手",
+    "url": "https://wiki.biligame.com/sr/%E9%87%8E%E7%A9%97%E4%BC%B4%E8%A1%8C%E7%9A%84%E5%BF%AB%E6%9E%AA%E6%89%8B",
+    "revId": 46527
+  },
+  "source": "bwiki-scraper"
+}

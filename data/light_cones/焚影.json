@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "焚影",
+  "slug": "焚影",
+  "gameId": "15628",
+  "name": "焚影",
+  "rarity": 4,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "美化",
+    "description": "以下效果仅对记忆命途生效装备者首次召唤忆灵时，恢复1点战技点，并恢复自身12/14/16/18/20点能量。"
+  },
+  "wiki": {
+    "title": "焚影",
+    "url": "https://wiki.biligame.com/sr/%E7%84%9A%E5%BD%B1",
+    "revId": 50056
+  },
+  "source": "bwiki-scraper"
+}

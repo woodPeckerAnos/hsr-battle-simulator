@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "一场术后对话",
+  "slug": "一场术后对话",
+  "gameId": "199",
+  "name": "一场术后对话",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 1058,
+    "def": 330
+  },
+  "passive": {
+    "name": "互相治愈",
+    "description": "以下效果仅对丰饶命途生效使装备者的能量恢复效率提高8%/10%/12%/14%/16%，并在施放终结技时治疗量提高12%/15%/18%/21%/24%。"
+  },
+  "wiki": {
+    "title": "一场术后对话",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%80%E5%9C%BA%E6%9C%AF%E5%90%8E%E5%AF%B9%E8%AF%9D",
+    "revId": 46688
+  },
+  "source": "bwiki-scraper"
+}

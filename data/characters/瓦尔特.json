@@ -1,0 +1,177 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "瓦尔特",
+  "slug": "瓦尔特",
+  "gameId": "158",
+  "name": "瓦尔特",
+  "rarity": 5,
+  "element": "imaginary",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 620,
+    "hp": 1125,
+    "def": 509,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.1,
+    "flatSpeed": 14.4
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 10,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "skill"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "名的传承",
+      "effect": "施放终结技后，瓦尔特获得强化，在随后2次施放普攻或战技时额外对敌方目标造成1次悬浮框附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。。施放普攻造成的附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。等同于普攻伤害倍率的50%，施放战技造成的附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。等同于战技伤害倍率的80%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "星的凝聚",
+      "effect": "触发天赋时，瓦尔特恢复3点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "和平的祈愿",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "义的名号",
+      "effect": "施放战技时，使受到攻击的敌方目标速度降低的基础概率给受击者添加负面效果的基础概率。最终概率会被攻击者的效果命中和敌方目标的效果抵抗所影响。提高35%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "善的力量",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "光明的未来",
+      "effect": "施放战技时，对随机敌方单体额外造成1次伤害。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 14.4
+    }
+  ],
+  "wiki": {
+    "title": "瓦尔特",
+    "url": "https://wiki.biligame.com/sr/%E7%93%A6%E5%B0%94%E7%89%B9",
+    "revId": 97706
+  },
+  "source": "bwiki-scraper"
+}

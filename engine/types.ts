@@ -26,6 +26,9 @@ export type SkillTag = 'basic' | 'skill' | 'ult' | 'dot' | 'follow_up' | 'break'
 
 export type SkillType = 'direct' | 'dot' | 'break' | 'support';
 
+/** 技能命中模式：单体 / 扩散(主+副) / 全体 */
+export type SkillTargetMode = 'single' | 'blast' | 'aoe';
+
 export interface SkillEffect {
   type: 'action_advance' | 'action_delay' | 'speed_buff' | 'modifier';
   target?: 'self' | 'ally' | 'team' | 'enemy';
@@ -33,15 +36,49 @@ export interface SkillEffect {
   duration?: number;
 }
 
+export interface SkillScaling {
+  /** 倍率行标签，如「普攻伤害」「单体伤害」 */
+  row: string;
+  /** 技能等级 → 倍率（小数，0.7 = 70%） */
+  levels: Record<number, number>;
+}
+
 export interface SkillDef {
   id: string;
   name: string;
   type: SkillType;
   multiplier: number;
-  tags: string[];
+  tags: SkillTag[];
+  /** 命中模式；缺省为 single */
+  targetMode?: SkillTargetMode;
+  /** 当前/默认使用的技能等级（导入时为可达上限） */
+  level?: number;
+  /** 该技能在 scaling 表中的最高 LV 列 */
+  maxLevel?: number;
+  /** 主目标倍率表（单体/群攻/全体行） */
+  scaling?: SkillScaling;
+  /** 扩散副目标倍率表；targetMode=blast 时使用 */
+  spreadScaling?: SkillScaling;
+  /** 解析后的副目标倍率（运行时由 resolveSkillForBuild 填充） */
+  spreadMultiplier?: number;
   maxStacks?: number;
   hitCount?: number;
   effects?: SkillEffect[];
+}
+
+export interface EidolonDef {
+  index: number;
+  name: string;
+  effect: string;
+  /** 由导入器从 effect 文本解析 */
+  skillLevelBonus?: Partial<Record<'basic' | 'skill' | 'ult' | 'talent', number>>;
+}
+
+export interface SkillLevelCaps {
+  basic?: number;
+  skill?: number;
+  ult?: number;
+  talent?: number;
 }
 
 export interface ModifierDef {
@@ -71,7 +108,9 @@ export interface CharacterData {
   traces?: Record<string, number>;
   tracesRaw?: Record<string, number>;
   traceModifiers?: ModifierDef[];
+  skillLevelCaps?: SkillLevelCaps;
   skills: Record<string, SkillDef>;
+  eidolons?: EidolonDef[];
   passives?: ModifierDef[];
   source?: string;
 }
@@ -117,6 +156,8 @@ export interface EnemyData {
   speed?: number;
   resistances?: Partial<Record<Element, number>>;
   effectRes?: number;
+  /** 不加入行动轴、不执行 AI（木桩） */
+  passive?: boolean;
 }
 
 export interface RelicBuild {
@@ -129,12 +170,20 @@ export interface RelicBuild {
 export interface CharacterBuild {
   characterId: string;
   level?: number;
+  /** 星魂等级 0–6，默认 0 */
+  eidolonLevel?: number;
+  /** 各技能等级；缺省为当前星魂下可达上限 */
+  skillLevels?: Partial<Record<string, number>>;
   lightConeId?: string;
+  /** 光锥叠影 1–5，默认 1 */
+  lightConeSuperimposition?: number;
   relicSets?: RelicBuild[];
   /** Flat stat overrides from install.md (percent as decimal, e.g. 0.3 = 30%) */
   statOverrides?: Record<string, number>;
   /** Which skill to evaluate for single-hit damage */
   skillId?: string;
+  /** 扩散技能副目标数量（DPR/模拟），默认 2 */
+  blastAdjacentCount?: number;
 }
 
 export interface TeamBuild {
@@ -232,13 +281,6 @@ export interface SpeedBuff {
   remainingDistance: number;
 }
 
-export interface TeamSimResult {
-  events: ActionEvent[];
-  totalDamage: number;
-  dpr: number;
-  actionCounts: Record<string, number>;
-}
-
 export interface CombatLogEntry {
   timestamp: number;
   type: string;
@@ -249,18 +291,17 @@ export interface CombatLogEntry {
   enemyHp?: number;
 }
 
-export interface CombatSimResult {
-  log: CombatLogEntry[];
-  victory: boolean;
-  turnsElapsed: number;
-  totalDamageDealt: number;
+export interface BattleRequest {
+  team: TeamBuild;
+  enemyId: string;
+  maxTurn: number;
+  /** Enemy broken state for damage calc */
+  enemyBroken?: boolean;
 }
 
-export interface BuildRequest {
-  team: TeamBuild;
-  enemyId?: string;
-  mode: 'single_hit' | 'timeline' | 'combat';
-  cycles?: number;
-  /** Enemy broken state for damage calc */
+export interface DamageEvalRequest {
+  build: CharacterBuild;
+  enemyId: string;
+  skillId?: string;
   enemyBroken?: boolean;
 }

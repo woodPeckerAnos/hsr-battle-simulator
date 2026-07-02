@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "停云",
+  "slug": "停云",
+  "gameId": "263",
+  "name": "停云",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 529,
+    "hp": 846,
+    "def": 396,
+    "speed": 112,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.08,
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.08
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.65,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "伤害提高",
+        "levels": {
+          "1": 0.23,
+          "2": 0.26,
+          "3": 0.29,
+          "4": 0.32,
+          "5": 0.35,
+          "6": 0.387,
+          "7": 0.425,
+          "8": 0.462,
+          "9": 0.5,
+          "10": 0.53,
+          "11": 0.56,
+          "12": 0.59,
+          "13": 0.62,
+          "14": 0.65
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "春风得意，时运驰骋",
+      "effect": "得到【赐福】的我方单体施放终结技后速度提高20%，持续1回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "君子惠渥，晏笑承之",
+      "effect": "得到【赐福】的我方单体在消灭敌方目标时恢复5点能量，该效果每回合只能触发1次。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "青丘遗泽",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "鸣火机变，度时察势",
+      "effect": "【赐福】附加的伤害倍率提高20%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "绥绥狐魅",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "和气生财，泽盈四方",
+      "effect": "终结技为我方目标恢复的能量提高10点。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.08
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "停云",
+    "url": "https://wiki.biligame.com/sr/%E5%81%9C%E4%BA%91",
+    "revId": 71879
+  },
+  "source": "bwiki-scraper"
+}

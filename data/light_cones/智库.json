@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "智库",
+  "slug": "智库",
+  "gameId": "210",
+  "name": "智库",
+  "rarity": 4,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 740,
+    "def": 264
+  },
+  "passive": {
+    "name": "沉沦",
+    "description": "以下效果仅对智识命途生效使装备者施放终结技时造成的伤害提高28%/35%/42%/49%/56%。"
+  },
+  "wiki": {
+    "title": "智库",
+    "url": "https://wiki.biligame.com/sr/%E6%99%BA%E5%BA%93",
+    "revId": 27597
+  },
+  "source": "bwiki-scraper"
+}

@@ -7,7 +7,7 @@
     "build": "tsc",
     "test": "node --experimental-vm-modules node_modules/vitest/vitest.mjs run",
     "calc": "node --import tsx engine/cli.ts",
-    "import:hsr": "tsx scripts/import-from-hsr-optimizer.ts"
+    "import:bwiki": "tsx scripts/import-from-bwiki.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

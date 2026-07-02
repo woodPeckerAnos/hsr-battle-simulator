@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "繁星璀璨的天才",
+  "slug": "繁星璀璨的天才",
+  "gameId": "1461",
+  "name": "繁星璀璨的天才",
+  "description": "量子属性伤害提高10%。 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。",
+  "pieces2": {
+    "description": "量子属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "quantum"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。",
+    "modifiers": [
+      {
+        "zones": [
+          "def_pen"
+        ],
+        "value": 0.1
+      }
+    ]
+  },
+  "wiki": {
+    "title": "繁星璀璨的天才",
+    "url": "https://wiki.biligame.com/sr/%E7%B9%81%E6%98%9F%E7%92%80%E7%92%A8%E7%9A%84%E5%A4%A9%E6%89%8D",
+    "revId": 76606
+  },
+  "source": "bwiki-scraper"
+}

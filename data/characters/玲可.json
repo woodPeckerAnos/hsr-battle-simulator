@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "玲可",
+  "slug": "玲可",
+  "gameId": "3222",
+  "name": "玲可",
+  "rarity": 4,
+  "element": "quantum",
+  "path": "abundance",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 493,
+    "hp": 1058,
+    "def": 551,
+    "speed": 100,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.28,
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.65,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.087,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "提高目标生命上限",
+        "levels": {
+          "1": 0.052000000000000005,
+          "2": 0.055,
+          "3": 0.057,
+          "4": 0.06,
+          "5": 0.062,
+          "6": 0.065,
+          "7": 0.068,
+          "8": 0.071,
+          "9": 0.075,
+          "10": 0.077,
+          "11": 0.08,
+          "12": 0.08199999999999999,
+          "13": 0.085,
+          "14": 0.087
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.157,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "回复生命值",
+        "levels": {
+          "1": 0.095,
+          "2": 0.10099999999999999,
+          "3": 0.107,
+          "4": 0.11199999999999999,
+          "5": 0.11699999999999999,
+          "6": 0.121,
+          "7": 0.126,
+          "8": 0.13,
+          "9": 0.135,
+          "10": 0.139,
+          "11": 0.14400000000000002,
+          "12": 0.14800000000000002,
+          "13": 0.153,
+          "14": 0.157
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "远行雪杖的清晨",
+      "effect": "为当前生命值百分比小于等于50%的我方目标提供治疗时，玲可的治疗量提高20%，该效果对持续治疗效果也会生效。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "便携炉具的正午",
+      "effect": "持有【求生反应】的目标被施加悬浮框负面效果对战斗有负面效果的所有持续状态，若无特殊说明则可以被解除。时可抵抗1次负面效果对战斗有负面效果的所有持续状态，若无特殊说明则可以被解除。。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "雪崩信标的午后",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "露营篝火的薄暮",
+      "effect": "获得【求生反应】时，使该目标攻击力提高，提高数值等同于玲可3.0%生命上限的攻击力，持续1回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "极光红茶的新夜",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "测绘图纸的黎明",
+      "effect": "【求生反应】的生命上限提高效果额外提高，提高数值等同于玲可6.0%的生命上限，并使其效果抵抗提高30%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "玲可",
+    "url": "https://wiki.biligame.com/sr/%E7%8E%B2%E5%8F%AF",
+    "revId": 79243
+  },
+  "source": "bwiki-scraper"
+}

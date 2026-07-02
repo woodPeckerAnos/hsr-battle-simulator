@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "花儿不会忘记",
+  "slug": "花儿不会忘记",
+  "gameId": "19286",
+  "name": "花儿不会忘记",
+  "rarity": 5,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 330,
+    "critDmg": 0.24
+  },
+  "passive": {
+    "name": "相依为命",
+    "description": "以下效果仅对记忆命途生效使装备者的暴击伤害提高24%/28%/32%/36%/40%。装备者忆灵造成的暴击伤害额外提高24%/30%/36%/42%/48%。"
+  },
+  "wiki": {
+    "title": "花儿不会忘记",
+    "url": "https://wiki.biligame.com/sr/%E8%8A%B1%E5%84%BF%E4%B8%8D%E4%BC%9A%E5%BF%98%E8%AE%B0",
+    "revId": 62834
+  },
+  "source": "bwiki-scraper"
+}

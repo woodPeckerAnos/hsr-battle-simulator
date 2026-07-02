@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "嘿，我在这儿",
+  "slug": "嘿，我在这儿",
+  "gameId": "8021",
+  "name": "嘿，我在这儿",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "不怕不怕啦",
+    "description": "以下效果仅对丰饶命途生效使装备者的生命上限提高8%/9%/10%/11%/12%。当装备者施放战技时，治疗量提高16%/19%/22%/25%/28%，持续2回合。"
+  },
+  "wiki": {
+    "title": "嘿，我在这儿",
+    "url": "https://wiki.biligame.com/sr/%E5%98%BF%EF%BC%8C%E6%88%91%E5%9C%A8%E8%BF%99%E5%84%BF",
+    "revId": 46686
+  },
+  "source": "bwiki-scraper"
+}

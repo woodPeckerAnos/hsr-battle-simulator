@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "为了明日的旅途",
+  "slug": "为了明日的旅途",
+  "gameId": "11580",
+  "name": "为了明日的旅途",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "联结",
+    "description": "以下效果仅对同谐命途生效使装备者的攻击力提高16%/20%/24%/28%/32%。装备者施放终结技后，造成的伤害提高18%/21%/24%/27%/30%，持续1回合。"
+  },
+  "wiki": {
+    "title": "为了明日的旅途",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%BA%E4%BA%86%E6%98%8E%E6%97%A5%E7%9A%84%E6%97%85%E9%80%94",
+    "revId": 46635
+  },
+  "source": "bwiki-scraper"
+}

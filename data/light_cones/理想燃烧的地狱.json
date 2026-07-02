@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "理想燃烧的地狱",
+  "slug": "理想燃烧的地狱",
+  "gameId": "19281",
+  "name": "理想燃烧的地狱",
+  "rarity": 5,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 952,
+    "def": 529
+  },
+  "passive": {
+    "name": "赤原猎兵",
+    "description": "以下效果仅对巡猎命途生效使装备者的暴击率提高16%/20%/24%/28%/32%。进入战斗时，若我方的战技点上限大于等于6点，使装备者的攻击力提高40%/50%/60%/70%/80%。装备者每次施放战技后，使装备者的攻击力提高10%/12.5%/15%/17.5%/20%，最多叠加4次。"
+  },
+  "wiki": {
+    "title": "理想燃烧的地狱",
+    "url": "https://wiki.biligame.com/sr/%E7%90%86%E6%83%B3%E7%87%83%E7%83%A7%E7%9A%84%E5%9C%B0%E7%8B%B1",
+    "revId": 63242
+  },
+  "source": "bwiki-scraper"
+}

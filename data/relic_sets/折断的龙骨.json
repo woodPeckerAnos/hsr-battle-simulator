@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "折断的龙骨",
+  "slug": "折断的龙骨",
+  "gameId": "4304",
+  "name": "折断的龙骨",
+  "description": "使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。",
+  "pieces2": {
+    "description": "使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.1
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.1
+      }
+    ]
+  },
+  "wiki": {
+    "title": "折断的龙骨",
+    "url": "https://wiki.biligame.com/sr/%E6%8A%98%E6%96%AD%E7%9A%84%E9%BE%99%E9%AA%A8",
+    "revId": 59623
+  },
+  "source": "bwiki-scraper"
+}

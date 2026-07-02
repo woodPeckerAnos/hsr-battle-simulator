@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "银河铁道之夜",
+  "slug": "银河铁道之夜",
+  "gameId": "194",
+  "name": "银河铁道之夜",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1164,
+    "def": 396
+  },
+  "passive": {
+    "name": "流星群",
+    "description": "以下效果仅对智识命途生效当场上每有1个敌方目标，使装备者的攻击力提高9.0%/10.5%/12.0%/13.5%/15.0%，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高30%/35%/40%/45%/50%，持续1回合。"
+  },
+  "wiki": {
+    "title": "银河铁道之夜",
+    "url": "https://wiki.biligame.com/sr/%E9%93%B6%E6%B2%B3%E9%93%81%E9%81%93%E4%B9%8B%E5%A4%9C",
+    "revId": 46691
+  },
+  "source": "bwiki-scraper"
+}

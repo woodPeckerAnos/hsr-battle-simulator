@@ -6,37 +6,38 @@
 
 ## 数据来源
 
-角色、光锥、遗器套装基础数据来自 [hsr-optimizer](https://github.com/nocoday/hsr-optimizer) 的 `game_data.json`，通过导入脚本同步：
+角色、光锥、遗器套装来自 [bwiki-scraper](../bwiki-scraper/) 爬取的 BWIKI 数据，通过导入脚本同步：
 
 ```bash
-npm run import:hsr
-# 或指定路径：
-npm run import:hsr -- /path/to/hsr-optimizer-main/src/data/game_data.json
+npm run import:bwiki
+# 或指定目录：
+npm run import:bwiki -- ../bwiki-scraper/data
+npm run import:bwiki -- /path/to/custom/bwiki/data
 ```
 
 导入后生成：
-- `characters/{gameId}.json` — 92 个已发布角色
-- `light_cones/{gameId}.json` — 162 个已发布光锥
-- `relic_sets/{gameId}.json` — 60 个遗器/位面饰品套装
-- `catalog.json` — 索引与 slug 别名
+- `characters/{slug}.json` — Wiki 标题 slug（如 `镜流.json`）
+- `light_cones/{slug}.json`
+- `relic_sets/{slug}.json`
+- `catalog.json` — 索引与别名
 
 ## ID 约定
 
 | 字段 | 说明 |
 |------|------|
-| `id` / `gameId` | 游戏内 ID（如 `1212` = 镜流） |
-| `slug` | 英文名 kebab-case（如 `jingliu`） |
-| `catalog.json` → `aliases` | 兼容旧 slug 引用 |
+| `id` / `slug` | BWIKI 条目 slug（通常为中文 Wiki 标题） |
+| `gameId` | Wiki `page_id`（字符串） |
+| `catalog.json` → `aliases` | 兼容旧英文 slug（如 `jingliu` → `镜流`） |
 
-`install.yaml` 中可使用 `1212`、`jingliu` 或 `Jingliu` 对应的 slug/id。
+`install.yaml` 中可使用 `镜流`、`jingliu` 或别名。
 
 ## 手工覆盖
 
 | 文件 | 用途 |
 |------|------|
-| `character_skill_overrides.json` | 技能倍率与机制（按 gameId） |
-| `light_cone_passive_overrides.json` | 光锥被动效果（JSON 中仅有叠影数值） |
-| `enemies/` | 敌人仍手工维护 |
+| `character_skill_overrides.json` | 技能倍率与机制（按 slug） |
+| `light_cone_passive_overrides.json` | 光锥被动效果（结构化 modifier） |
+| `enemies/` | 敌人仍手工维护（如 `dummy` / `木桩` 无行动木桩） |
 
 ## Schema
 

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "嗤笑",
+  "slug": "嗤笑",
+  "gameId": "28354",
+  "name": "嗤笑",
+  "rarity": 4,
+  "path": "欢愉",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 740,
+    "def": 264
+  },
+  "passive": {
+    "name": "纵欢",
+    "description": "以下效果仅对欢愉命途生效阿哈时刻发动时，使装备者的欢愉度提高16%/20%/24%/28%/32%，持续到阿哈时刻结束。"
+  },
+  "wiki": {
+    "title": "嗤笑",
+    "url": "https://wiki.biligame.com/sr/%E5%97%A4%E7%AC%91",
+    "revId": 78183
+  },
+  "source": "bwiki-scraper"
+}

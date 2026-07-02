@@ -8,7 +8,7 @@ import type {
   SkillDef,
   ZoneBreakdown,
 } from '../types.js';
-import { applyDynamicModifiers } from '../stat/aggregate.js';
+import { applyActiveModifiersToCombatStats } from '../runtime/stat-utils.js';
 
 export interface DamageContext {
   stats: CombatStats;
@@ -98,7 +98,7 @@ function multiplyBreakdown(breakdown: ZoneBreakdown[]): number {
 }
 
 export function calcDirectDamage(ctx: DamageContext): DamageResult {
-  const effective = applyDynamicModifiers(
+  const effective = applyActiveModifiersToCombatStats(
     ctx.stats,
     ctx.modifiers ?? [],
     ctx.skill.tags,
@@ -121,7 +121,7 @@ export function calcDirectDamage(ctx: DamageContext): DamageResult {
 }
 
 export function calcDotDamage(ctx: DamageContext): DamageResult {
-  const effective = applyDynamicModifiers(
+  const effective = applyActiveModifiersToCombatStats(
     ctx.stats,
     ctx.modifiers ?? [],
     ctx.skill.tags,

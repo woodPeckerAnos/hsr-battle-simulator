@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "记忆永不落幕",
+  "slug": "记忆永不落幕",
+  "gameId": "16232",
+  "name": "记忆永不落幕",
+  "rarity": 5,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "收取",
+    "description": "以下效果仅对记忆命途生效使装备者的速度提高6%/7.5%/9%/10.5%/12%。装备者施放战技后，使我方全体造成的伤害提高8%/10%/12%/14%/16%，持续3回合。"
+  },
+  "wiki": {
+    "title": "记忆永不落幕",
+    "url": "https://wiki.biligame.com/sr/%E8%AE%B0%E5%BF%86%E6%B0%B8%E4%B8%8D%E8%90%BD%E5%B9%95",
+    "revId": 56934
+  },
+  "source": "bwiki-scraper"
+}

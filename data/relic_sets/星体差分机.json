@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "星体差分机",
+  "slug": "星体差分机",
+  "gameId": "1484",
+  "name": "星体差分机",
+  "description": "使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。",
+  "pieces2": {
+    "description": "使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.6
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.6
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "wiki": {
+    "title": "星体差分机",
+    "url": "https://wiki.biligame.com/sr/%E6%98%9F%E4%BD%93%E5%B7%AE%E5%88%86%E6%9C%BA",
+    "revId": 59618
+  },
+  "source": "bwiki-scraper"
+}

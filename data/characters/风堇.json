@@ -1,0 +1,198 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "风堇",
+  "slug": "风堇",
+  "gameId": "14829",
+  "name": "风堇",
+  "rarity": 4,
+  "element": "wind",
+  "path": "remembrance",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 388,
+    "hp": 1086,
+    "def": 630,
+    "speed": 110,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.7,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65,
+          "9": 0.7
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 0.1,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体回复",
+        "levels": {
+          "1": 0.045,
+          "2": 0.05,
+          "3": 0.055,
+          "4": 0.06,
+          "5": 0.064,
+          "6": 0.068,
+          "7": 0.07200000000000001,
+          "8": 0.076,
+          "9": 0.08,
+          "10": 0.084,
+          "11": 0.08800000000000001,
+          "12": 0.092,
+          "13": 0.096,
+          "14": 0.1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 0.125,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体回复",
+        "levels": {
+          "1": 0.056299999999999996,
+          "2": 0.0625,
+          "3": 0.0688,
+          "4": 0.075,
+          "5": 0.08,
+          "6": 0.085,
+          "7": 0.09,
+          "8": 0.095,
+          "9": 0.1,
+          "10": 0.105,
+          "11": 0.11,
+          "12": 0.115,
+          "13": 0.12,
+          "14": 0.125
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "呵护黑夜中的烛火",
+      "effect": "风堇处于【雨过天晴】状态时，我方全体目标生命上限额外提高50%，并且施放攻击后立即回复等同于风堇8%生命上限的生命值。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "请来我的庭院坐坐",
+      "effect": "我方目标生命值降低时，速度提高30%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "出发！向阳的历险",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵技等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "送你一颗橙晖琥珀",
+      "effect": "行迹【暴风停歇】获得强化，每超过1点速度，风堇和小伊卡的暴击伤害额外提高2%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "红霞映入海的背面",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵天赋等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "天空…应我的祈愿",
+      "effect": "小伊卡施放忆灵技清空累计治疗数值改为12%，小伊卡在场时，我方全体目标的全属性悬浮框抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "风堇",
+    "url": "https://wiki.biligame.com/sr/%E9%A3%8E%E5%A0%87",
+    "revId": 92318
+  },
+  "source": "bwiki-scraper"
+}

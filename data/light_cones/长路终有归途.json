@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "长路终有归途",
+  "slug": "长路终有归途",
+  "gameId": "14846",
+  "name": "长路终有归途",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 661
+  },
+  "passive": {
+    "name": "新生",
+    "description": "以下效果仅对虚无命途生效使装备者的击破特攻提高60%/70%/80%/90%/100%。当有敌方目标的弱点被击破时，有100%的基础概率使其陷入【焚灼】状态，受到的击破伤害提高18%/21%/24%/27%/30%，持续2回合，此效果可叠加2层。"
+  },
+  "wiki": {
+    "title": "长路终有归途",
+    "url": "https://wiki.biligame.com/sr/%E9%95%BF%E8%B7%AF%E7%BB%88%E6%9C%89%E5%BD%92%E9%80%94",
+    "revId": 58378
+  },
+  "source": "bwiki-scraper"
+}

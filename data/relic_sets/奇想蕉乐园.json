@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "奇想蕉乐园",
+  "slug": "奇想蕉乐园",
+  "gameId": "13607",
+  "name": "奇想蕉乐园",
+  "description": "使装备者的暴击伤害提高16.0%，当存在装备者召唤的目标时，暴击伤害额外提高32.0%。",
+  "pieces2": {
+    "description": "使装备者的暴击伤害提高16.0%，当存在装备者召唤的目标时，暴击伤害额外提高32.0%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.16
+      }
+    ]
+  },
+  "wiki": {
+    "title": "奇想蕉乐园",
+    "url": "https://wiki.biligame.com/sr/%E5%A5%87%E6%83%B3%E8%95%89%E4%B9%90%E5%9B%AD",
+    "revId": 70559
+  },
+  "source": "bwiki-scraper"
+}

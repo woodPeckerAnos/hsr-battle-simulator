@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "新手任务开始前",
+  "slug": "新手任务开始前",
+  "gameId": "2763",
+  "name": "新手任务开始前",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "眼疾手快",
+    "description": "以下效果仅对虚无命途生效使装备者的效果命中提高20%/25%/30%/35%/40%。当装备者攻击防御力被降低的敌方目标后，恢复4/5/6/7/8点能量。"
+  },
+  "wiki": {
+    "title": "新手任务开始前",
+    "url": "https://wiki.biligame.com/sr/%E6%96%B0%E6%89%8B%E4%BB%BB%E5%8A%A1%E5%BC%80%E5%A7%8B%E5%89%8D",
+    "revId": 46653
+  },
+  "source": "bwiki-scraper"
+}

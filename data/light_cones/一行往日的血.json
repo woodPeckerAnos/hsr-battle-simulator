@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "一行往日的血",
+  "slug": "一行往日的血",
+  "gameId": "19287",
+  "name": "一行往日的血",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 330
+  },
+  "passive": {
+    "name": "厮杀",
+    "description": "以下效果仅对毁灭命途生效使装备者的暴击率提高12%/14%/16%/18%/20%。装备者造成的战技和终结技伤害提高24%/28%/32%/36%/40%。"
+  },
+  "wiki": {
+    "title": "一行往日的血",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%80%E8%A1%8C%E5%BE%80%E6%97%A5%E7%9A%84%E8%A1%80",
+    "revId": 62835
+  },
+  "source": "bwiki-scraper"
+}

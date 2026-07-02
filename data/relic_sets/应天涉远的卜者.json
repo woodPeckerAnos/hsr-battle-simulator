@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "应天涉远的卜者",
+  "slug": "应天涉远的卜者",
+  "gameId": "28683",
+  "name": "应天涉远的卜者",
+  "description": "速度提高6%。 进入战斗前，若装备者的速度大于等于120/160，使装备者的暴击率提高10%/18%。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高10%，该效果无法叠加。",
+  "pieces2": {
+    "description": "速度提高6%。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "进入战斗前，若装备者的速度大于等于120/160，使装备者的暴击率提高10%/18%。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高10%，该效果无法叠加。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.1
+      }
+    ]
+  },
+  "wiki": {
+    "title": "应天涉远的卜者",
+    "url": "https://wiki.biligame.com/sr/%E5%BA%94%E5%A4%A9%E6%B6%89%E8%BF%9C%E7%9A%84%E5%8D%9C%E8%80%85",
+    "revId": 79163
+  },
+  "source": "bwiki-scraper"
+}

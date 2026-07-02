@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "净庭教宗的圣骑士",
+  "slug": "净庭教宗的圣骑士",
+  "gameId": "1327",
+  "name": "净庭教宗的圣骑士",
+  "description": "防御力提高15%。 使装备者提供的护盾量提高20%。",
+  "pieces2": {
+    "description": "防御力提高15%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "使装备者提供的护盾量提高20%。",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "净庭教宗的圣骑士",
+    "url": "https://wiki.biligame.com/sr/%E5%87%80%E5%BA%AD%E6%95%99%E5%AE%97%E7%9A%84%E5%9C%A3%E9%AA%91%E5%A3%AB",
+    "revId": 46528
+  },
+  "source": "bwiki-scraper"
+}

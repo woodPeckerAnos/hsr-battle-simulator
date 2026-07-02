@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "激奏雷电的乐队",
+  "slug": "激奏雷电的乐队",
+  "gameId": "1467",
+  "name": "激奏雷电的乐队",
+  "description": "雷属性伤害提高10%。 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。",
+  "pieces2": {
+    "description": "雷属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "lightning"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.2
+      }
+    ]
+  },
+  "wiki": {
+    "title": "激奏雷电的乐队",
+    "url": "https://wiki.biligame.com/sr/%E6%BF%80%E5%A5%8F%E9%9B%B7%E7%94%B5%E7%9A%84%E4%B9%90%E9%98%9F",
+    "revId": 46536
+  },
+  "source": "bwiki-scraper"
+}

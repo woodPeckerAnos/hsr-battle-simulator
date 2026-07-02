@@ -1,0 +1,230 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "希露瓦",
+  "slug": "希露瓦",
+  "gameId": "192",
+  "name": "希露瓦",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 652,
+    "hp": 917,
+    "def": 374,
+    "speed": 104,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critRate": 0.187,
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.75,
+      "spreadMultiplier": 0.75,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.77,
+          "2": 0.84,
+          "3": 0.91,
+          "4": 0.98,
+          "5": 1.05,
+          "6": 1.137,
+          "7": 1.225,
+          "8": 1.3119999999999998,
+          "9": 1.4,
+          "10": 1.47,
+          "11": 1.54,
+          "12": 1.61,
+          "13": 1.68,
+          "14": 1.75
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.33,
+          "2": 0.36,
+          "3": 0.39,
+          "4": 0.42,
+          "5": 0.45,
+          "6": 0.48700000000000004,
+          "7": 0.525,
+          "8": 0.562,
+          "9": 0.6,
+          "10": 0.63,
+          "11": 0.66,
+          "12": 0.69,
+          "13": 0.72,
+          "14": 0.75
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 2.16,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "群攻伤害",
+        "levels": {
+          "1": 1.1520000000000001,
+          "2": 1.224,
+          "3": 1.296,
+          "4": 1.368,
+          "5": 1.44,
+          "6": 1.53,
+          "7": 1.62,
+          "8": 1.71,
+          "9": 1.8,
+          "10": 1.8719999999999999,
+          "11": 1.944,
+          "12": 2.016,
+          "13": 2.088,
+          "14": 2.16
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "余音绕梁",
+      "effect": "普攻对指定敌方目标的1个随机相邻目标造成等同于普攻伤害60%的雷属性伤害。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "安可！",
+      "effect": "每触发1次天赋的悬浮框附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。，希露瓦恢复4点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "听，齿轮的心跳",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "制造噪音吧！",
+      "effect": "施放终结技时，有100%基础概率给受击者添加负面效果的基础概率。最终概率会被攻击者的效果命中和敌方目标的效果抵抗所影响。使非触电状态下的敌方目标状态陷入与战技相同的触电状态。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "贝洛伯格最强音！",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "这一曲，贯穿天穹！",
+      "effect": "希露瓦对触电状态下的敌方目标造成的伤害提高30%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "希露瓦",
+    "url": "https://wiki.biligame.com/sr/%E5%B8%8C%E9%9C%B2%E7%93%A6",
+    "revId": 61871
+  },
+  "source": "bwiki-scraper"
+}

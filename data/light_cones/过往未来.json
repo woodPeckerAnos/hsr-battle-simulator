@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "过往未来",
+  "slug": "过往未来",
+  "gameId": "931",
+  "name": "过往未来",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "旧日纸鸢",
+    "description": "以下效果仅对同谐命途生效当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高16%/20%/24%/28%/32%，持续1回合。"
+  },
+  "wiki": {
+    "title": "过往未来",
+    "url": "https://wiki.biligame.com/sr/%E8%BF%87%E5%BE%80%E6%9C%AA%E6%9D%A5",
+    "revId": 46639
+  },
+  "source": "bwiki-scraper"
+}

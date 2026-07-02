@@ -1,45 +1,6 @@
 {
-  "1212": {
+  "卡芙卡": {
     "skills": {
-      "basic": {
-        "id": "basic",
-        "name": "普攻",
-        "type": "direct",
-        "multiplier": 1.0,
-        "tags": ["basic"]
-      },
-      "skill": {
-        "id": "skill",
-        "name": "战技",
-        "type": "direct",
-        "multiplier": 2.0,
-        "tags": ["skill"]
-      },
-      "ult": {
-        "id": "ult",
-        "name": "终结技",
-        "type": "direct",
-        "multiplier": 3.0,
-        "tags": ["ult"]
-      }
-    }
-  },
-  "1005": {
-    "skills": {
-      "basic": {
-        "id": "basic",
-        "name": "普攻",
-        "type": "direct",
-        "multiplier": 1.0,
-        "tags": ["basic"]
-      },
-      "skill": {
-        "id": "skill",
-        "name": "战技",
-        "type": "direct",
-        "multiplier": 1.6,
-        "tags": ["skill"]
-      },
       "dot": {
         "id": "dot",
         "name": "持续伤害",
@@ -50,31 +11,16 @@
       }
     }
   },
-  "1306": {
+  "花火": {
     "skills": {
-      "basic": {
-        "id": "basic",
-        "name": "普攻",
-        "type": "direct",
-        "multiplier": 1.0,
-        "tags": ["basic"]
-      },
       "skill": {
-        "id": "skill",
-        "name": "战技",
         "type": "support",
-        "multiplier": 0,
-        "tags": ["skill"],
         "effects": [
           { "type": "action_advance", "target": "ally", "value": 0.5 }
         ]
       },
       "ult": {
-        "id": "ult",
-        "name": "终结技",
         "type": "support",
-        "multiplier": 0,
-        "tags": ["ult"],
         "effects": [
           { "type": "action_advance", "target": "team", "value": 0.25 }
         ]

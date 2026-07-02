@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "戍御",
+  "slug": "戍御",
+  "gameId": "689",
+  "name": "戍御",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 264,
+    "hp": 952,
+    "def": 264
+  },
+  "passive": {
+    "name": "兴复",
+    "description": "以下效果仅对存护命途生效使装备者施放终结技时，回复等同于自身生命上限18%/21%/24%/27%/30%的生命值。"
+  },
+  "wiki": {
+    "title": "戍御",
+    "url": "https://wiki.biligame.com/sr/%E6%88%8D%E5%BE%A1",
+    "revId": 27646
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "没有回报的加冕",
+  "slug": "没有回报的加冕",
+  "gameId": "19280",
+  "name": "没有回报的加冕",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 952,
+    "def": 529,
+    "critDmg": 0.36
+  },
+  "passive": {
+    "name": "骑士之王",
+    "description": "以下效果仅对毁灭命途生效使装备者的暴击伤害提高36%/45%/54%/63%/72%。施放终结技时，使装备者的攻击力提高40%/50%/60%/70%/80%，若装备者的能量上限大于等于300点，为装备者固定恢复等同于装备者能量上限10%的能量，并使装备者的攻击力提高40%/50%/60%/70%/80%，持续2回合。"
+  },
+  "wiki": {
+    "title": "没有回报的加冕",
+    "url": "https://wiki.biligame.com/sr/%E6%B2%A1%E6%9C%89%E5%9B%9E%E6%8A%A5%E7%9A%84%E5%8A%A0%E5%86%95",
+    "revId": 63251
+  },
+  "source": "bwiki-scraper"
+}

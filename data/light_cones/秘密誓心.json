@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "秘密誓心",
+  "slug": "秘密誓心",
+  "gameId": "622",
+  "name": "秘密誓心",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1058,
+    "def": 264
+  },
+  "passive": {
+    "name": "竭力而为",
+    "description": "以下效果仅对毁灭命途生效使装备者造成的伤害提高20%/25%/30%/35%/40%，同时对当前生命值百分比高于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高20%/25%/30%/35%/40%。"
+  },
+  "wiki": {
+    "title": "秘密誓心",
+    "url": "https://wiki.biligame.com/sr/%E7%A7%98%E5%AF%86%E8%AA%93%E5%BF%83",
+    "revId": 46593
+  },
+  "source": "bwiki-scraper"
+}

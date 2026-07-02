@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "藿藿",
+  "slug": "藿藿",
+  "gameId": "6738",
+  "name": "藿藿",
+  "rarity": 5,
+  "element": "wind",
+  "path": "abundance",
+  "level": 80,
+  "maxSp": 140,
+  "baseStats": {
+    "atk": 601,
+    "hp": 1358,
+    "def": 509,
+    "speed": 98,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.28,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.65,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.245,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体回复",
+        "levels": {
+          "1": 0.14800000000000002,
+          "2": 0.157,
+          "3": 0.166,
+          "4": 0.175,
+          "5": 0.182,
+          "6": 0.18899999999999997,
+          "7": 0.196,
+          "8": 0.203,
+          "9": 0.21,
+          "10": 0.217,
+          "11": 0.22399999999999998,
+          "12": 0.231,
+          "13": 0.23800000000000002,
+          "14": 0.245
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.225,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "能量恢复",
+        "levels": {
+          "1": 0.155,
+          "2": 0.16,
+          "3": 0.165,
+          "4": 0.17,
+          "5": 0.175,
+          "6": 0.18100000000000002,
+          "7": 0.187,
+          "8": 0.193,
+          "9": 0.2,
+          "10": 0.205,
+          "11": 0.21,
+          "12": 0.215,
+          "13": 0.22,
+          "14": 0.225
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "岁阳寄体，妖邪凭依",
+      "effect": "天赋产生的【禳命】持续时间延长1回合，且当藿藿拥有【禳命】时我方全体提高12%的速度。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "判官书符，镇尾锁灵",
+      "effect": "当藿藿拥有【禳命】时，若我方目标受到致命攻击，不会陷入悬浮框无法战斗状态当我方目标的当前生命值被削减至0时进入的特殊状态，处于该状态的目标无法继续战斗。，并立即回复等同于其自身生命上限50%的生命值，使【禳命】的持续回合数减1。该效果单场战斗中可以触发2次。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "贞凶体质，烛火招萤",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "坐卧不离，争拗难宁",
+      "effect": "施放战技或触发天赋为我方目标提供治疗时，目标的当前生命值越低治疗量越高，最多使藿藿提供的治疗量提高80%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "降妖捉鬼，十王敕令",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "同休共戚，相须而行",
+      "effect": "为我方目标提供治疗时，使目标造成的伤害提高50%，持续2回合。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "藿藿",
+    "url": "https://wiki.biligame.com/sr/%E8%97%BF%E8%97%BF",
+    "revId": 96583
+  },
+  "source": "bwiki-scraper"
+}

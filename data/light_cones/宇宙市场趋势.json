@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "宇宙市场趋势",
+  "slug": "宇宙市场趋势",
+  "gameId": "1268",
+  "name": "宇宙市场趋势",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "新一轮洗牌",
+    "description": "以下效果仅对存护命途生效使装备者的防御力提高16%/20%/24%/28%/32%。当装备者受到攻击后，有100%/105%/110%/115%/120%的基础概率使敌方目标陷入灼烧状态，每回合造成等同于装备者40%/50%/60%/70%/80%防御力的持续伤害，持续2回合。"
+  },
+  "wiki": {
+    "title": "宇宙市场趋势",
+    "url": "https://wiki.biligame.com/sr/%E5%AE%87%E5%AE%99%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF",
+    "revId": 46666
+  },
+  "source": "bwiki-scraper"
+}

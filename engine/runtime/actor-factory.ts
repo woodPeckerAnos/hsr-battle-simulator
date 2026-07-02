@@ -1,23 +1,19 @@
 import type { CharacterBuild } from '../types.js';
 import { getCharacter } from '../data-loader.js';
-import { DefaultCharacterRuntime } from './default-character.js';
+import type { Character } from './character.js';
+import { DefaultCharacter } from './characters/default.js';
+import { Sparkle } from './characters/sparkle.js';
 import type { TeamContext } from './team-context.js';
 
-const behaviorRegistry: Record<string, (r: DefaultCharacterRuntime) => void> = {};
+const characterClasses: Record<string, new (...args: ConstructorParameters<typeof DefaultCharacter>) => Character> = {
+  花火: Sparkle,
+};
 
-export function registerCharacterBehavior(
-  gameId: string,
-  setup: (runtime: DefaultCharacterRuntime) => void,
-): void {
-  behaviorRegistry[gameId] = setup;
-}
-
-export function createCharacterRuntime(
+export function createCharacter(
   build: CharacterBuild,
   team: TeamContext,
-): DefaultCharacterRuntime {
+): Character {
   const catalog = getCharacter(build.characterId);
-  const runtime = new DefaultCharacterRuntime(catalog, build, team);
-  behaviorRegistry[catalog.id]?.(runtime);
-  return runtime;
+  const C = characterClasses[catalog.id] ?? DefaultCharacter;
+  return new C(catalog, build, team);
 }

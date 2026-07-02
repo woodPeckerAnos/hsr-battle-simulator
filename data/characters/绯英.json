@@ -1,0 +1,171 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "绯英",
+  "slug": "绯英",
+  "gameId": "28361",
+  "name": "绯英",
+  "rarity": 5,
+  "element": "physical",
+  "path": "欢愉命途",
+  "level": 80,
+  "baseStats": {
+    "atk": 737,
+    "hp": 1047,
+    "def": 460,
+    "speed": 104,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "critRate": 0.187,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 10,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "skill"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "故乡，为祈福起舞",
+      "effect": "全属性抗性穿透提高20%，【狐狸老师】施放攻击后会额外触发一次欢愉技。欢愉技会使自身额外获得10点【好活当赏】。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "遥途，求长开不谢",
+      "effect": "暴击伤害提高36%，触发行迹【瞰众乐】/行迹【开不败】的获得好活当赏效果时，额外获得等同于本次获得的【好活当赏】50%/100%的【好活当赏】。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "尺剑，吞赤月妖邪",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "花田，遭恶徒摘落",
+      "effect": "绯英造成的伤害无视敌方目标15%的防御力。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "乐园，见悲喜苦乐",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "少女，见浮生入梦",
+      "effect": "绯英的【好活当赏】的持续时间增加1回合。绯英造成的欢愉伤害增笑15%，每持有100点【好活当赏】额外增笑2.0%，最高计入1000点【好活当赏】。进入战斗首次施放终结技后，为绯英固定恢复120点能量，该效果每再施放4次终结技可触发1次。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "crit_rate"
+      ],
+      "value": 0.187
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "绯英",
+    "url": "https://wiki.biligame.com/sr/%E7%BB%AF%E8%8B%B1",
+    "revId": 97117
+  },
+  "source": "bwiki-scraper"
+}

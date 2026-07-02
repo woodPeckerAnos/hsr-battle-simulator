@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "幽锁深牢的系囚",
+  "slug": "幽锁深牢的系囚",
+  "gameId": "8017",
+  "name": "幽锁深牢的系囚",
+  "description": "攻击力提高12%。 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。",
+  "pieces2": {
+    "description": "攻击力提高12%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。",
+    "modifiers": [
+      {
+        "zones": [
+          "def_pen"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "wiki": {
+    "title": "幽锁深牢的系囚",
+    "url": "https://wiki.biligame.com/sr/%E5%B9%BD%E9%94%81%E6%B7%B1%E7%89%A2%E7%9A%84%E7%B3%BB%E5%9B%9A",
+    "revId": 79187
+  },
+  "source": "bwiki-scraper"
+}

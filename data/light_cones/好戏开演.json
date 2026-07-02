@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "好戏开演",
+  "slug": "好戏开演",
+  "gameId": "9418",
+  "name": "好戏开演",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1058,
+    "def": 264
+  },
+  "passive": {
+    "name": "自娱自乐",
+    "description": "以下效果仅对虚无命途生效装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高6%/7%/8%/9%/10%，最多叠加3层，持续1回合。当装备者的效果命中大于等于80%时，攻击力提高20%/24%/28%/32%/36%。"
+  },
+  "wiki": {
+    "title": "好戏开演",
+    "url": "https://wiki.biligame.com/sr/%E5%A5%BD%E6%88%8F%E5%BC%80%E6%BC%94",
+    "revId": 46652
+  },
+  "source": "bwiki-scraper"
+}

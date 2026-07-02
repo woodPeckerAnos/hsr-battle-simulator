@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "今日亦是和平的一日",
+  "slug": "今日亦是和平的一日",
+  "gameId": "596",
+  "name": "今日亦是和平的一日",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 846,
+    "def": 330
+  },
+  "passive": {
+    "name": "风雨将至",
+    "description": "以下效果仅对智识命途生效进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高0.20%/0.25%/0.30%/0.35%/0.40%，最多计入160点。"
+  },
+  "wiki": {
+    "title": "今日亦是和平的一日",
+    "url": "https://wiki.biligame.com/sr/%E4%BB%8A%E6%97%A5%E4%BA%A6%E6%98%AF%E5%92%8C%E5%B9%B3%E7%9A%84%E4%B8%80%E6%97%A5",
+    "revId": 46628
+  },
+  "source": "bwiki-scraper"
+}

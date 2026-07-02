@@ -1,0 +1,172 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "Archer",
+  "slug": "Archer",
+  "gameId": "18685",
+  "name": "Archer",
+  "rarity": 5,
+  "element": "quantum",
+  "path": "hunt",
+  "level": 80,
+  "maxSp": 220,
+  "baseStats": {
+    "atk": 620,
+    "hp": 1164,
+    "def": 485,
+    "speed": 105,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.067,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 10,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "skill"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "未曾触及的理想",
+      "effect": "单个回合内施放3次战技后，为我方恢复2个战技点。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "未能实现的幸福",
+      "effect": "施放终结技时，使敌方目标的量子属性的抗性降低20%，并为其添加量子属性弱点，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "难为凡庸的意气",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "难称英雄的一生",
+      "effect": "造成的终结技伤害提高150%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "无铭孤影的守望",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "无尽徘徊的巡礼",
+      "effect": "回合开始时为我方恢复1个战技点。自身战技提供的伤害提高效果可以叠加的上限层数提高1层。造成的战技伤害无视20%的防御力。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "Archer",
+    "url": "https://wiki.biligame.com/sr/Archer",
+    "revId": 79280
+  },
+  "source": "bwiki-scraper"
+}

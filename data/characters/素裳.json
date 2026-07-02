@@ -1,0 +1,210 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "素裳",
+  "slug": "素裳",
+  "gameId": "223",
+  "name": "素裳",
+  "rarity": 5,
+  "element": "physical",
+  "path": "hunt",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 564,
+    "hp": 917,
+    "def": 418,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.125,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 2.625,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.155,
+          "2": 1.26,
+          "3": 1.365,
+          "4": 1.47,
+          "5": 1.575,
+          "6": 1.706,
+          "7": 1.837,
+          "8": 1.9680000000000002,
+          "9": 2.1,
+          "10": 2.205,
+          "11": 2.31,
+          "12": 2.415,
+          "13": 2.52,
+          "14": 2.625
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 3.84,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 2.048,
+          "2": 2.176,
+          "3": 2.3040000000000003,
+          "4": 2.432,
+          "5": 2.56,
+          "6": 2.72,
+          "7": 2.88,
+          "8": 3.04,
+          "9": 3.2,
+          "10": 3.3280000000000003,
+          "11": 3.4560000000000004,
+          "12": 3.5839999999999996,
+          "13": 3.7119999999999997,
+          "14": 3.84
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "游刃有余",
+      "effect": "对陷入悬浮框弱点击破状态当敌方目标的韧性被削减至0时进入的特殊状态，进入该状态的目标行动会被延后。的敌方目标施放战技后，恢复1个战技点。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "其身百炼",
+      "effect": "触发【剑势】后，素裳受到的伤害降低20%，持续1回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "传古剑流",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "其心百辟",
+      "effect": "素裳的击破特攻提高40%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "太虚神意",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "上善若水",
+      "effect": "天赋的加速效果可以叠加，最多叠加2层，且进入战斗后素裳立即获得1层天赋的加速效果。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "素裳",
+    "url": "https://wiki.biligame.com/sr/%E7%B4%A0%E8%A3%B3",
+    "revId": 79256
+  },
+  "source": "bwiki-scraper"
+}

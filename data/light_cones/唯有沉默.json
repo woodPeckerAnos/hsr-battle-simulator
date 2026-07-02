@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "唯有沉默",
+  "slug": "唯有沉默",
+  "gameId": "202",
+  "name": "唯有沉默",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "记录",
+    "description": "以下效果仅对巡猎命途生效使装备者的攻击力提高16%/20%/24%/28%/32%，当场上的敌方目标数量小于等于2时，装备者的暴击率提高12%/15%/18%/21%/24%。"
+  },
+  "wiki": {
+    "title": "唯有沉默",
+    "url": "https://wiki.biligame.com/sr/%E5%94%AF%E6%9C%89%E6%B2%89%E9%BB%98",
+    "revId": 46615
+  },
+  "source": "bwiki-scraper"
+}

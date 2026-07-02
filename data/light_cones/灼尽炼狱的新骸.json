@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "灼尽炼狱的新骸",
+  "slug": "灼尽炼狱的新骸",
+  "gameId": "38579",
+  "name": "灼尽炼狱的新骸",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423.4,
+    "hp": 1375.9,
+    "def": 463.1,
+    "critDmg": 0.3
+  },
+  "passive": {
+    "name": "淬炼",
+    "description": "以下效果仅对虚无命途生效使装备者的生命上限提高30%/38%/45%/53%/60%，装备者回合开始时，固定恢复20点能量，该效果每个波次可触发1次。装备者施放战技攻击后，使目标陷入【炼狱】状态，持续2回合，【炼狱】状态下目标受到的暴击伤害提高30%/38%/45%/53%/60%，受到来自装备者的暴击伤害额外提高30%/38%/45%/53%/60%。"
+  },
+  "wiki": {
+    "title": "灼尽炼狱的新骸",
+    "url": "https://wiki.biligame.com/sr/%E7%81%BC%E5%B0%BD%E7%82%BC%E7%8B%B1%E7%9A%84%E6%96%B0%E9%AA%B8",
+    "revId": 97891
+  },
+  "source": "bwiki-scraper"
+}

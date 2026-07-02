@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "自匿星芒的隐士",
+  "slug": "自匿星芒的隐士",
+  "gameId": "23751",
+  "name": "自匿星芒的隐士",
+  "description": "提供的护盾量提高10%。 使装备者提供的护盾量提高12%，我方目标持有装备者提供的护盾时，暴击伤害提高15%。",
+  "pieces2": {
+    "description": "提供的护盾量提高10%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "使装备者提供的护盾量提高12%，我方目标持有装备者提供的护盾时，暴击伤害提高15%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.15
+      }
+    ]
+  },
+  "wiki": {
+    "title": "自匿星芒的隐士",
+    "url": "https://wiki.biligame.com/sr/%E8%87%AA%E5%8C%BF%E6%98%9F%E8%8A%92%E7%9A%84%E9%9A%90%E5%A3%AB",
+    "revId": 76248
+  },
+  "source": "bwiki-scraper"
+}

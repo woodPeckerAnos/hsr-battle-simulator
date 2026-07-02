@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "谧宁拾骨地",
+  "slug": "谧宁拾骨地",
+  "gameId": "16314",
+  "name": "谧宁拾骨地",
+  "description": "使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。",
+  "pieces2": {
+    "description": "使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.28
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.28
+      }
+    ]
+  },
+  "wiki": {
+    "title": "谧宁拾骨地",
+    "url": "https://wiki.biligame.com/sr/%E8%B0%A7%E5%AE%81%E6%8B%BE%E9%AA%A8%E5%9C%B0",
+    "revId": 59636
+  },
+  "source": "bwiki-scraper"
+}

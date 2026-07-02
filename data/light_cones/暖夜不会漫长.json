@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "暖夜不会漫长",
+  "slug": "暖夜不会漫长",
+  "gameId": "613",
+  "name": "暖夜不会漫长",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "小小灯火",
+    "description": "以下效果仅对丰饶命途生效使装备者的生命上限提高16%/20%/24%/28%/32%。施放普攻或战技后，为我方全体回复等同于各自生命上限2.0%/2.5%/3.0%/3.5%/4.0%的生命值。"
+  },
+  "wiki": {
+    "title": "暖夜不会漫长",
+    "url": "https://wiki.biligame.com/sr/%E6%9A%96%E5%A4%9C%E4%B8%8D%E4%BC%9A%E6%BC%AB%E9%95%BF",
+    "revId": 46683
+  },
+  "source": "bwiki-scraper"
+}

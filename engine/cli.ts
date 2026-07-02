@@ -3,62 +3,78 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
-import { runPipeline } from './pipeline.js';
-import type { BuildRequest } from './types.js';
+import {
+  evaluateCharacterDamage,
+  runBattle,
+} from './pipeline.js';
+import type { BattleRequest, DamageEvalRequest } from './types.js';
+import { validateBattleRequest } from './simulation/validate.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-function parseArgs(): { installPath?: string; mode?: string } {
+function parseArgs(): { installPath?: string; damage: boolean } {
   const args = process.argv.slice(2);
   if (args.includes('--help') || args.includes('-h')) {
-    console.log(`Usage: npm run calc -- [--install path/to/install.yaml] [--mode single_hit|timeline|combat]`);
+    console.log(
+      `Usage: npm run calc -- --install path/to/install.yaml [--damage]
+
+  --install   YAML/JSON config (required)
+  --damage    Evaluate single-hit damage for team.members[0] instead of battle sim
+`,
+    );
     process.exit(0);
   }
   const installIdx = args.indexOf('--install');
-  const modeIdx = args.indexOf('--mode');
   return {
     installPath: installIdx >= 0 ? args[installIdx + 1] : undefined,
-    mode: modeIdx >= 0 ? args[modeIdx + 1] : undefined,
+    damage: args.includes('--damage'),
   };
 }
 
-function loadInstall(path: string): BuildRequest {
+function loadConfig(path: string): BattleRequest {
   const raw = readFileSync(path, 'utf-8');
-  const data = path.endsWith('.yaml') || path.endsWith('.yml')
-    ? (YAML.parse(raw) as BuildRequest)
-    : (JSON.parse(raw) as BuildRequest);
-  return data;
+  return (
+    path.endsWith('.yaml') || path.endsWith('.yml')
+      ? (YAML.parse(raw) as BattleRequest)
+      : (JSON.parse(raw) as BattleRequest)
+  );
 }
 
-function defaultRequest(mode: string): BuildRequest {
-  return {
-    mode: mode as BuildRequest['mode'],
-    enemyId: 'foi-95',
-    enemyBroken: false,
-    team: {
-      members: [
-        {
-          characterId: 'jingliu',
-          skillId: 'basic',
-          statOverrides: { atkPercent: 0, flatAtk: 970 },
-        },
-      ],
-    },
-  };
-}
-
-const { installPath, mode } = parseArgs();
-const defaultMode = mode ?? 'single_hit';
+const { installPath, damage } = parseArgs();
 
 try {
-  const request = installPath
-    ? loadInstall(installPath)
-    : defaultRequest(defaultMode);
+  if (!installPath) {
+    throw new Error('--install is required');
+  }
 
-  if (mode) request.mode = mode as BuildRequest['mode'];
+  const configPath = join(process.cwd(), installPath);
+  const request = loadConfig(configPath);
 
-  const result = runPipeline(request);
-  console.log(JSON.stringify(result, null, 2));
+  if (damage) {
+    const build = request.team.members[0];
+    if (!build) {
+      throw new Error('team.members[0] is required for --damage');
+    }
+    const evalRequest: DamageEvalRequest = {
+      build,
+      enemyId: request.enemyId,
+      skillId: build.skillId,
+      enemyBroken: request.enemyBroken,
+    };
+    const result = evaluateCharacterDamage(
+      evalRequest.build,
+      evalRequest.enemyId,
+      {
+        skillId: evalRequest.skillId,
+        enemyBroken: evalRequest.enemyBroken,
+      },
+    );
+    console.log(JSON.stringify(result, null, 2));
+  } else {
+    validateBattleRequest(request);
+    const result = runBattle(request);
+    console.log(JSON.stringify(result, null, 2));
+  }
 } catch (err) {
   console.error(err instanceof Error ? err.message : err);
   process.exit(1);

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "夜色流光溢彩",
+  "slug": "夜色流光溢彩",
+  "gameId": "11576",
+  "name": "夜色流光溢彩",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 635,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "抚慰",
+    "description": "以下效果仅对同谐命途生效我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高3.0%/3.5%/4.0%/4.5%/5.0%，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高48%/60%/72%/84%/96%，使我方全体造成的伤害提高24%/28%/32%/36%/40%，持续1回合。"
+  },
+  "wiki": {
+    "title": "夜色流光溢彩",
+    "url": "https://wiki.biligame.com/sr/%E5%A4%9C%E8%89%B2%E6%B5%81%E5%85%89%E6%BA%A2%E5%BD%A9",
+    "revId": 96672
+  },
+  "source": "bwiki-scraper"
+}

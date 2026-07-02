@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "两个人的演唱会",
+  "slug": "两个人的演唱会",
+  "gameId": "10645",
+  "name": "两个人的演唱会",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "鼓舞",
+    "description": "以下效果仅对存护命途生效使装备者的防御力提高16%/20%/24%/28%/32%。场上每有一名持有护盾的角色，装备者造成的伤害提高4%/5%/6%/7%/8%。"
+  },
+  "wiki": {
+    "title": "两个人的演唱会",
+    "url": "https://wiki.biligame.com/sr/%E4%B8%A4%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%BC%94%E5%94%B1%E4%BC%9A",
+    "revId": 46664
+  },
+  "source": "bwiki-scraper"
+}

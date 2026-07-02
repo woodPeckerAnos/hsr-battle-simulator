@@ -1,0 +1,198 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "刻律德菈",
+  "slug": "刻律德菈",
+  "gameId": "14835",
+  "name": "刻律德菈",
+  "rarity": 5,
+  "element": "wind",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 620,
+    "hp": 1358,
+    "def": 485,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.11,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "抗性穿透提高",
+        "levels": {
+          "1": 0.08199999999999999,
+          "2": 0.084,
+          "3": 0.086,
+          "4": 0.08800000000000001,
+          "5": 0.09,
+          "6": 0.092,
+          "7": 0.095,
+          "8": 0.098,
+          "9": 0.1,
+          "10": 0.102,
+          "11": 0.10400000000000001,
+          "12": 0.106,
+          "13": 0.10800000000000001,
+          "14": 0.11
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 2.88,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "群体伤害",
+        "levels": {
+          "1": 1.54,
+          "2": 1.63,
+          "3": 1.73,
+          "4": 1.82,
+          "5": 1.92,
+          "6": 2.04,
+          "7": 2.16,
+          "8": 2.28,
+          "9": 2.4,
+          "10": 2.5,
+          "11": 2.59,
+          "12": 2.69,
+          "13": 2.78,
+          "14": 2.88
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "夺走一切王冠",
+      "effect": "持有【军功】的角色造成伤害时无视目标16%的防御力。若当前【军功】已升级为【爵位】，则该角色造成战技伤害时额外无视目标20%的防御力。刻律德菈施放战技时，为指定我方目标恢复2点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "凝聚万众宏愿",
+      "effect": "持有【军功】的角色造成的伤害提高40%。场上存在持有【军功】的队友时，刻律德菈造成的伤害提高160%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "燃尽旧日律法",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "重塑天地人间",
+      "effect": "终结技的伤害倍率提高240%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "帮助与加害，全数奉还",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "征途只在，星辰大海",
+      "effect": "持有【军功】的角色全属性悬浮框抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%，且【军功】触发的附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。倍率提高300%。场上存在持有【军功】的队友时，刻律德菈全属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "刻律德菈",
+    "url": "https://wiki.biligame.com/sr/%E5%88%BB%E5%BE%8B%E5%BE%B7%E8%8F%88",
+    "revId": 92434
+  },
+  "source": "bwiki-scraper"
+}

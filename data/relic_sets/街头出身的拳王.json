@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "街头出身的拳王",
+  "slug": "街头出身的拳王",
+  "gameId": "1331",
+  "name": "街头出身的拳王",
+  "description": "物理属性伤害提高10%。 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。",
+  "pieces2": {
+    "description": "物理属性伤害提高10%。",
+    "modifiers": [
+      {
+        "zones": [
+          "dmg_bonus"
+        ],
+        "value": 0.1,
+        "tagFilter": [
+          "physical"
+        ]
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.05
+      }
+    ]
+  },
+  "wiki": {
+    "title": "街头出身的拳王",
+    "url": "https://wiki.biligame.com/sr/%E8%A1%97%E5%A4%B4%E5%87%BA%E8%BA%AB%E7%9A%84%E6%8B%B3%E7%8E%8B",
+    "revId": 46530
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "物穰",
+  "slug": "物穰",
+  "gameId": "205",
+  "name": "物穰",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 264,
+    "hp": 952,
+    "def": 264
+  },
+  "passive": {
+    "name": "繁盛",
+    "description": "以下效果仅对丰饶命途生效装备者施放战技和终结技时，治疗量提高12%/15%/18%/21%/24%。"
+  },
+  "wiki": {
+    "title": "物穰",
+    "url": "https://wiki.biligame.com/sr/%E7%89%A9%E7%A9%B0",
+    "revId": 27666
+  },
+  "source": "bwiki-scraper"
+}

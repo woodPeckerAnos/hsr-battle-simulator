@@ -1,0 +1,190 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "火花",
+  "slug": "火花",
+  "gameId": "28239",
+  "name": "火花",
+  "rarity": 5,
+  "element": "fire",
+  "path": "欢愉命途",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 640,
+    "hp": 1047,
+    "def": 460,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.133,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 9,
+    "ult": 9,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "blast",
+      "multiplier": 1.4,
+      "spreadMultiplier": 0.45,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "#全网热搜：她是谁？",
+      "effect": "阿哈时刻结束时获得5个悬浮框笑点笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。。当前每拥有1个笑点笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。，使我方全体全属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高1.5%，最多提高15%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "#观众的眼睛是雪亮的",
+      "effect": "阿哈时刻结束时使火花获得1个额外回合获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。和2个【爆点】。每消耗1个【爆点】使自身暴击伤害提高10%，持续2回合，最多叠加4层。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "#请点击：心跳超链接",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "#硬控！顶级表情管理",
+      "effect": "施放终结技时额外获得5个笑点笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。，使自身欢愉度提高36%，持续3回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "#世界破烂，小花缝补",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "#锵锵，即将绝版的我",
+      "effect": "全属性抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高20%。欢愉技每计入1个笑点笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。使其造成的额外伤害次数增加1次，最多增加至40次。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "火花",
+    "url": "https://wiki.biligame.com/sr/%E7%81%AB%E8%8A%B1",
+    "revId": 96893
+  },
+  "source": "bwiki-scraper"
+}

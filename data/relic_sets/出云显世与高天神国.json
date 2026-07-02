@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "出云显世与高天神国",
+  "slug": "出云显世与高天神国",
+  "gameId": "10679",
+  "name": "出云显世与高天神国",
+  "description": "使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。",
+  "pieces2": {
+    "description": "使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      },
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      },
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "wiki": {
+    "title": "出云显世与高天神国",
+    "url": "https://wiki.biligame.com/sr/%E5%87%BA%E4%BA%91%E6%98%BE%E4%B8%96%E4%B8%8E%E9%AB%98%E5%A4%A9%E7%A5%9E%E5%9B%BD",
+    "revId": 71890
+  },
+  "source": "bwiki-scraper"
+}

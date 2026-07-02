@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "决心如汗珠般闪耀",
+  "slug": "决心如汗珠般闪耀",
+  "gameId": "1267",
+  "name": "决心如汗珠般闪耀",
+  "rarity": 4,
+  "path": "nihility",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "回眸",
+    "description": "以下效果仅对虚无命途生效当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有60%/70%/80%/90%/100%的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低12%/13%/14%/15%/16%，持续1回合。"
+  },
+  "wiki": {
+    "title": "决心如汗珠般闪耀",
+    "url": "https://wiki.biligame.com/sr/%E5%86%B3%E5%BF%83%E5%A6%82%E6%B1%97%E7%8F%A0%E8%88%AC%E9%97%AA%E8%80%80",
+    "revId": 46654
+  },
+  "source": "bwiki-scraper"
+}

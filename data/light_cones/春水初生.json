@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "春水初生",
+  "slug": "春水初生",
+  "gameId": "927",
+  "name": "春水初生",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396
+  },
+  "passive": {
+    "name": "驱散余寒",
+    "description": "以下效果仅对巡猎命途生效进入战斗后，使装备者速度提高8%/9%/10%/11%/12%，造成的伤害提高12%/15%/18%/21%/24%。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。"
+  },
+  "wiki": {
+    "title": "春水初生",
+    "url": "https://wiki.biligame.com/sr/%E6%98%A5%E6%B0%B4%E5%88%9D%E7%94%9F",
+    "revId": 46609
+  },
+  "source": "bwiki-scraper"
+}

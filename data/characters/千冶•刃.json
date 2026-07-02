@@ -1,0 +1,180 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "千冶•刃",
+  "slug": "千冶•刃",
+  "gameId": "37834",
+  "name": "千冶•刃",
+  "rarity": 5,
+  "element": "fire",
+  "path": "nihility",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 543,
+    "hp": 1358,
+    "def": 485,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 6,
+    "skill": 9,
+    "ult": 9,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 6,
+      "maxLevel": 6,
+      "tags": [
+        "basic"
+      ],
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "6": 1
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.7,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "生命上限",
+        "levels": {
+          "1": 0.3,
+          "2": 0.35,
+          "3": 0.4,
+          "4": 0.45,
+          "5": 0.5,
+          "6": 0.55,
+          "7": 0.6,
+          "8": 0.65,
+          "9": 0.7
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "生命上限",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "我殁之前，我仍未成形",
+      "effect": "结界持续期间，使敌方全体全属性抗性降低20%，施放天赋的额外战技后使【无量忿怒】倒计时行动延后使目标在下次行动前的等待间隔延长。15%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "心若死灰，而炉火未熄",
+      "effect": "我方角色施放终结技造成伤害时，被视为发动了追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。，我方目标造成的追加攻击满足条件时自动触发的效果，对目标施放1次额外的攻击。伤害提高75%。千冶•刃充能点的上限降低至7。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "身渡彼岸，现忿怒本相",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "锻打遗恨，后剑骨自成",
+      "effect": "【万淬心】使我方目标造成的伤害额外提高50%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "自断苦己，知死所由生",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "神若当殒，自誓弑寿瘟",
+      "effect": "结界持续期间，千冶•刃受到伤害或消耗生命值时，获得1点充能，该效果在任意目标回合结束后可再次触发。【千冶铸一，万劫烬灭】的伤害倍率提高为原倍率的150%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "千冶•刃",
+    "url": "https://wiki.biligame.com/sr/%E5%8D%83%E5%86%B6%E2%80%A2%E5%88%83",
+    "revId": 97959
+  },
+  "source": "bwiki-scraper"
+}

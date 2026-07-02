@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "偏偏希望无价",
+  "slug": "偏偏希望无价",
+  "gameId": "12530",
+  "name": "偏偏希望无价",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 952,
+    "def": 529
+  },
+  "passive": {
+    "name": "承诺",
+    "description": "以下效果仅对智识命途生效使装备者的暴击率提高16%/19%/22%/25%/28%。当装备者在战斗中暴击伤害大于120%时，每超过20%，追加攻击造成的伤害提高12%/14%/16%/18%/20%，该效果可叠加4层。战斗开始时和装备者施放普攻后，使终结技和追加攻击造成的伤害无视目标20%/24%/28%/32%/36%的防御，持续2回合。"
+  },
+  "wiki": {
+    "title": "偏偏希望无价",
+    "url": "https://wiki.biligame.com/sr/%E5%81%8F%E5%81%8F%E5%B8%8C%E6%9C%9B%E6%97%A0%E4%BB%B7",
+    "revId": 46618
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "生命当付之一炬",
+  "slug": "生命当付之一炬",
+  "gameId": "18104",
+  "name": "生命当付之一炬",
+  "rarity": 5,
+  "path": "erudition",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 952,
+    "def": 529
+  },
+  "passive": {
+    "name": "熔炼",
+    "description": "以下效果仅对智识命途生效装备者回合开始时恢复10点能量。若敌方目标拥有装备者添加的弱点，装备者对其造成的伤害提高60%/70%/80%/90%/100%。当敌方目标受到装备者攻击时，装备者使其防御力降低12%/15%/18%/21%/24%，持续2回合。同类效果无法叠加。"
+  },
+  "wiki": {
+    "title": "生命当付之一炬",
+    "url": "https://wiki.biligame.com/sr/%E7%94%9F%E5%91%BD%E5%BD%93%E4%BB%98%E4%B9%8B%E4%B8%80%E7%82%AC",
+    "revId": 62678
+  },
+  "source": "bwiki-scraper"
+}

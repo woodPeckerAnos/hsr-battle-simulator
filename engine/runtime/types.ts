@@ -7,6 +7,7 @@ import type {
   SkillDef,
   SkillTag,
 } from '../types.js';
+import type { ActionEffect } from '../effects/index.js';
 
 export type AbilityKind =
   | 'basic'
@@ -65,20 +66,26 @@ export interface HitResult {
   targetId: string;
   element: Element;
   tags: SkillTag[];
+  role?: 'primary' | 'secondary';
   damage: DamageResult;
 }
+
+export type ActionDelayEffect =
+  | { target: 'all_allies'; percent: number }
+  | { targetId: string; percent: number };
 
 export interface ActionResult {
   actorId: string;
   ability: AbilityKind;
   success: boolean;
   reason?: string;
-  skillPointDelta?: number;
-  energyDelta?: number;
-  actionAdvances?: Array<{ targetId: string; percent: number }>;
-  hits: HitResult[];
+  primaryTargets?: string[];
+  effects: ActionEffect[];
   events: SimEvent[];
-  totalDamageExpected: number;
+  /** 为 true 时角色在 runMainPhase 内再次 action，不结束 Timeline 槽位 */
+  continueTurn?: boolean;
+  /** 敌人等仍可能使用 */
+  noop?: boolean;
 }
 
 export interface CombatPlugin {
@@ -88,7 +95,6 @@ export interface CombatPlugin {
   modifyStats?(stats: StatBlock, ctx: StatContext): StatBlock;
   onBeforeAction?(ctx: ActionContext): void;
   onAfterAction?(ctx: ActionContext, result: ActionResult): void;
-  modifyHit?(hit: HitRequest, ctx: HitContext): HitRequest;
 }
 
 /** 避免 circular import 的轻量引用 */
@@ -97,6 +103,7 @@ export interface CharacterRuntimeRef {
   readonly element: Element;
   getStats(ctx?: StatContext): StatBlock;
   getActiveModifiers(): ActiveModifier[];
+  addBuff(buff: ActiveModifier): void;
 }
 
 export interface BattleContext {
@@ -126,20 +133,8 @@ export interface ActionContext extends BattleContext {
   actor: CharacterRuntimeRef;
   evaluateOnly: boolean;
   targetIds?: string[];
-}
-
-export interface HitContext extends ActionContext {
-  hit: HitRequest;
-}
-
-export interface CharacterBehavior {
-  extend?(runtime: DefaultCharacterRuntimeLike): void;
-}
-
-export interface DefaultCharacterRuntimeLike extends CharacterRuntimeRef {
-  useBasic(ctx: ActionContext): ActionResult;
-  useSkill(ctx: ActionContext): ActionResult;
-  useUlt(ctx: ActionContext): ActionResult;
+  /** 由 Battle 根据 rotation 指定，供 ally action() 使用 */
+  chosenSkillId?: string;
 }
 
 export function skillIdToAbility(skillId: string): AbilityKind {

@@ -1,0 +1,184 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "阮•梅",
+  "slug": "阮•梅",
+  "gameId": "3209",
+  "name": "阮•梅",
+  "rarity": 5,
+  "element": "ice",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 659,
+    "hp": 1086,
+    "def": 485,
+    "speed": 104,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.4,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "伤害提高",
+        "levels": {
+          "1": 0.17600000000000002,
+          "2": 0.192,
+          "3": 0.20800000000000002,
+          "4": 0.22399999999999998,
+          "5": 0.24,
+          "6": 0.26,
+          "7": 0.28,
+          "8": 0.3,
+          "9": 0.32,
+          "10": 0.336,
+          "11": 0.35200000000000004,
+          "12": 0.368,
+          "13": 0.384,
+          "14": 0.4
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.3,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "抗性穿透提高",
+        "levels": {
+          "1": 0.16,
+          "2": 0.17,
+          "3": 0.18,
+          "4": 0.19,
+          "5": 0.2,
+          "6": 0.212,
+          "7": 0.225,
+          "8": 0.237,
+          "9": 0.25,
+          "10": 0.26,
+          "11": 0.27,
+          "12": 0.28,
+          "13": 0.29,
+          "14": 0.3
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "神经仿绣图",
+      "effect": "终结技展开结界期间，我方全体造成伤害时无视目标20%的防御力。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "芦前漫步",
+      "effect": "阮•梅在场时，我方全体对处于悬浮框弱点击破状态当敌方目标的韧性被削减至0时进入的特殊状态，进入该状态的目标行动会被延后。的敌方目标造成伤害时，攻击力提高40%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "彩缎烟衫绿婆娑",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "寻神铜镜前",
+      "effect": "当敌方目标的弱点被击破时，阮•梅自身击破特攻提高100%，持续3回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "手弄慵鬟玲珑钗",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "半脱纱巾落团扇",
+      "effect": "终结技展开的结界持续时间延长1回合。天赋造成的击破伤害击破特攻、目标韧性上限、角色等级越高，造成的击破伤害越高。击破伤害无法暴击，不受伤害提高类效果所影响。倍率额外提高200%。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "阮•梅",
+    "url": "https://wiki.biligame.com/sr/%E9%98%AE%E2%80%A2%E6%A2%85",
+    "revId": 70182
+  },
+  "source": "bwiki-scraper"
+}

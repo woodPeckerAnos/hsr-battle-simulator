@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "直到明天的明天",
+  "slug": "直到明天的明天",
+  "gameId": "19284",
+  "name": "直到明天的明天",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "离别",
+    "description": "以下效果仅对丰饶命途生效使装备者的治疗量提高12%/15%/18%/21%/24%。我方目标当前生命值百分比大于等于50%时，造成的伤害提高12%/14%/16%/18%/20%。"
+  },
+  "wiki": {
+    "title": "直到明天的明天",
+    "url": "https://wiki.biligame.com/sr/%E7%9B%B4%E5%88%B0%E6%98%8E%E5%A4%A9%E7%9A%84%E6%98%8E%E5%A4%A9",
+    "revId": 62832
+  },
+  "source": "bwiki-scraper"
+}

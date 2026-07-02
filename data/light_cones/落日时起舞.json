@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "落日时起舞",
+  "slug": "落日时起舞",
+  "gameId": "13139",
+  "name": "落日时起舞",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1058,
+    "def": 463,
+    "critDmg": 0.36
+  },
+  "passive": {
+    "name": "沉酣",
+    "description": "以下效果仅对毁灭命途生效使装备者受到攻击的概率大幅提高，暴击伤害提高36%/42%/48%/54%/60%。当装备者施放终结技后，获得1层【火舞】，持续2回合，最多叠加2层。每层【火舞】使装备者追加攻击造成的伤害提高36%/42%/48%/54%/60%。"
+  },
+  "wiki": {
+    "title": "落日时起舞",
+    "url": "https://wiki.biligame.com/sr/%E8%90%BD%E6%97%A5%E6%97%B6%E8%B5%B7%E8%88%9E",
+    "revId": 96674
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "烈阳惊雷的女武神",
+  "slug": "烈阳惊雷的女武神",
+  "gameId": "18750",
+  "name": "烈阳惊雷的女武神",
+  "description": "速度提高6%。 当装备者及其忆灵为装备者及其忆灵以外的我方目标提供治疗后，使装备者获得【甘霖】，每回合最多触发1次，持续2回合。装备者持有【甘霖】时，速度提高6%，我方全体暴击伤害提高15%，该效果无法叠加。",
+  "pieces2": {
+    "description": "速度提高6%。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "当装备者及其忆灵为装备者及其忆灵以外的我方目标提供治疗后，使装备者获得【甘霖】，每回合最多触发1次，持续2回合。装备者持有【甘霖】时，速度提高6%，我方全体暴击伤害提高15%，该效果无法叠加。",
+    "modifiers": [
+      {
+        "zones": [
+          "speed_percent"
+        ],
+        "value": 0.06
+      },
+      {
+        "zones": [
+          "crit_dmg"
+        ],
+        "value": 0.15
+      }
+    ]
+  },
+  "wiki": {
+    "title": "烈阳惊雷的女武神",
+    "url": "https://wiki.biligame.com/sr/%E7%83%88%E9%98%B3%E6%83%8A%E9%9B%B7%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E",
+    "revId": 76249
+  },
+  "source": "bwiki-scraper"
+}

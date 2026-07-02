@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "残泪",
+  "slug": "残泪",
+  "gameId": "28355",
+  "name": "残泪",
+  "rarity": 4,
+  "path": "欢愉",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264,
+    "critDmg": 0.2
+  },
+  "passive": {
+    "name": "悼念",
+    "description": "以下效果仅对欢愉命途生效当拥有的笑点大于等于10时，装备者的暴击伤害提高20%/25%/30%/35%/40%。"
+  },
+  "wiki": {
+    "title": "残泪",
+    "url": "https://wiki.biligame.com/sr/%E6%AE%8B%E6%B3%AA",
+    "revId": 78185
+  },
+  "source": "bwiki-scraper"
+}

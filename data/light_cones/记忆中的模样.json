@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "记忆中的模样",
+  "slug": "记忆中的模样",
+  "gameId": "203",
+  "name": "记忆中的模样",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "老相片",
+    "description": "以下效果仅对同谐命途生效使装备者的击破特攻提高28%/35%/42%/49%/56%。装备者施放攻击后，额外恢复4/5/6/7/8点能量，该效果单个回合内不可重复触发。"
+  },
+  "wiki": {
+    "title": "记忆中的模样",
+    "url": "https://wiki.biligame.com/sr/%E8%AE%B0%E5%BF%86%E4%B8%AD%E7%9A%84%E6%A8%A1%E6%A0%B7",
+    "revId": 46642
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "黑夜如影随行",
+  "slug": "黑夜如影随行",
+  "gameId": "13605",
+  "name": "黑夜如影随行",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 846,
+    "def": 396
+  },
+  "passive": {
+    "name": "隐匿",
+    "description": "以下效果仅对巡猎命途生效使装备者的击破特攻提高28%/35%/42%/49%/56%。进入战斗时或造成击破伤害后，速度提高8%/9%/10%/11%/12%，持续2回合，该效果每回合只可触发1次。"
+  },
+  "wiki": {
+    "title": "黑夜如影随行",
+    "url": "https://wiki.biligame.com/sr/%E9%BB%91%E5%A4%9C%E5%A6%82%E5%BD%B1%E9%9A%8F%E8%A1%8C",
+    "revId": 58379
+  },
+  "source": "bwiki-scraper"
+}

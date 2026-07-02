@@ -1,0 +1,210 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "景元",
+  "slug": "景元",
+  "gameId": "229",
+  "name": "景元",
+  "rarity": 5,
+  "element": "lightning",
+  "path": "erudition",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 698,
+    "hp": 1164,
+    "def": 485,
+    "speed": 99,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.125,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 1.25,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体伤害",
+        "levels": {
+          "1": 0.55,
+          "2": 0.6,
+          "3": 0.65,
+          "4": 0.7,
+          "5": 0.75,
+          "6": 0.812,
+          "7": 0.875,
+          "8": 0.937,
+          "9": 1,
+          "10": 1.05,
+          "11": 1.1,
+          "12": 1.15,
+          "13": 1.2,
+          "14": 1.25
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "aoe",
+      "multiplier": 2.4,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "全体伤害",
+        "levels": {
+          "1": 1.28,
+          "2": 1.36,
+          "3": 1.44,
+          "4": 1.52,
+          "5": 1.6,
+          "6": 1.7,
+          "7": 1.8,
+          "8": 1.9,
+          "9": 2,
+          "10": 2.08,
+          "11": 2.16,
+          "12": 2.24,
+          "13": 2.32,
+          "14": 2.4
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "星流霆击碎昆冈",
+      "effect": "【神君】施放攻击时，对指定敌方单体的相邻目标造成的伤害倍率额外提高，提高数值等同于对主目标伤害倍率的25%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "戎戈动地开天阵",
+      "effect": "【神君】行动后，景元的普攻、战技、终结技造成的伤害提高20%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "移锋惊电冲霄汉",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "刃卷横云落玉沙",
+      "effect": "【神君】每段攻击后，景元恢复2点能量。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "百战弃躯轻死生",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "威灵有应破敌雠",
+      "effect": "【神君】每段攻击后会使指定敌方目标额外陷入易伤状态。易伤状态下的敌方目标受到的伤害提高12%，持续至【神君】本次攻击结束，该效果最多叠加3层。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.125
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "景元",
+    "url": "https://wiki.biligame.com/sr/%E6%99%AF%E5%85%83",
+    "revId": 79188
+  },
+  "source": "bwiki-scraper"
+}

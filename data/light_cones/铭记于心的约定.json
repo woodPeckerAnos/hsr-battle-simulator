@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "铭记于心的约定",
+  "slug": "铭记于心的约定",
+  "gameId": "9419",
+  "name": "铭记于心的约定",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "传承",
+    "description": "以下效果仅对毁灭命途生效使装备者的击破特攻提高28%/35%/42%/49%/56%。当装备者施放终结技时，暴击率提高15%/18.75%/22.5%/26.25%/30%，持续2回合。"
+  },
+  "wiki": {
+    "title": "铭记于心的约定",
+    "url": "https://wiki.biligame.com/sr/%E9%93%AD%E8%AE%B0%E4%BA%8E%E5%BF%83%E7%9A%84%E7%BA%A6%E5%AE%9A",
+    "revId": 46589
+  },
+  "source": "bwiki-scraper"
+}

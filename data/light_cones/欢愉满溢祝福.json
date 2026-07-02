@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "欢愉满溢祝福",
+  "slug": "欢愉满溢祝福",
+  "gameId": "29565",
+  "name": "欢愉满溢祝福",
+  "rarity": 5,
+  "path": "欢愉",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "开场",
+    "description": "以下效果仅对欢愉命途生效使装备者的攻击力提高20%/25%/30%/35%/40%。当装备者对我方单体角色施放战技或终结技后，使目标欢愉度提高12%/15%/18%/21%/24%，持续2回合。"
+  },
+  "wiki": {
+    "title": "欢愉满溢祝福",
+    "url": "https://wiki.biligame.com/sr/%E6%AC%A2%E6%84%89%E6%BB%A1%E6%BA%A2%E7%A5%9D%E7%A6%8F",
+    "revId": 95841
+  },
+  "source": "bwiki-scraper"
+}

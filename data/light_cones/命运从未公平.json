@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "命运从未公平",
+  "slug": "命运从未公平",
+  "gameId": "10644",
+  "name": "命运从未公平",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 1058,
+    "def": 661,
+    "critDmg": 0.4
+  },
+  "passive": {
+    "name": "全下",
+    "description": "以下效果仅对存护命途生效使装备者的防御力提高40%/46%/52%/58%/64%，当装备者为我方目标提供护盾时使装备者的暴击伤害提高40%/46%/52%/58%/64%，持续2回合。当装备者发动追加攻击击中敌方目标时，有100%/115%/130%/145%/160%的基础概率使受到攻击的敌方目标受到的伤害提高10.0%/11.5%/13.0%/14.5%/16.0%，持续2回合。"
+  },
+  "wiki": {
+    "title": "命运从未公平",
+    "url": "https://wiki.biligame.com/sr/%E5%91%BD%E8%BF%90%E4%BB%8E%E6%9C%AA%E5%85%AC%E5%B9%B3",
+    "revId": 46660
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "驭空",
+  "slug": "驭空",
+  "gameId": "1538",
+  "name": "驭空",
+  "rarity": 5,
+  "element": "imaginary",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 130,
+  "baseStats": {
+    "atk": 599,
+    "hp": 917,
+    "def": 374,
+    "speed": 107,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.1,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 4.56,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 2.432,
+          "2": 2.5839999999999996,
+          "3": 2.736,
+          "4": 2.888,
+          "5": 3.04,
+          "6": 3.23,
+          "7": 3.42,
+          "8": 3.61,
+          "9": 3.8,
+          "10": 3.952,
+          "11": 4.104,
+          "12": 4.256,
+          "13": 4.408,
+          "14": 4.56
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "额外伤害",
+        "levels": {
+          "1": 0.44,
+          "2": 0.48,
+          "3": 0.52,
+          "4": 0.56,
+          "5": 0.6,
+          "6": 0.65,
+          "7": 0.7,
+          "8": 0.75,
+          "9": 0.8,
+          "10": 0.84,
+          "11": 0.88,
+          "12": 0.92,
+          "13": 0.96,
+          "14": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "天舶飞将，枕弧待战",
+      "effect": "进入战斗时，我方全体速度提高10%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "青霄驰骋，驱驭苍穹",
+      "effect": "当我方任意单体当前能量值等于其能量上限时，驭空额外恢复5点能量。该效果我方每个单体仅可触发1次，当驭空施放终结技后，重置该效果触发次数。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "危弓未辍，执射不宁",
+      "effect": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "skill": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "百里闻风，九曲响镝",
+      "effect": "持有【鸣弦号令】时，驭空造成的伤害提高30%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "井仪贯侯，疾羽参连",
+      "effect": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "ult": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "弦栝如雷，铣珧激荡",
+      "effect": "驭空施放终结技时，立即先获得1层【鸣弦号令】。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.1
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "驭空",
+    "url": "https://wiki.biligame.com/sr/%E9%A9%AD%E7%A9%BA",
+    "revId": 79255
+  },
+  "source": "bwiki-scraper"
+}

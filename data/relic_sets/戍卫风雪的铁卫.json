@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "戍卫风雪的铁卫",
+  "slug": "戍卫风雪的铁卫",
+  "gameId": "1455",
+  "name": "戍卫风雪的铁卫",
+  "description": "受到伤害降低8%。 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。",
+  "pieces2": {
+    "description": "受到伤害降低8%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "戍卫风雪的铁卫",
+    "url": "https://wiki.biligame.com/sr/%E6%88%8D%E5%8D%AB%E9%A3%8E%E9%9B%AA%E7%9A%84%E9%93%81%E5%8D%AB",
+    "revId": 46534
+  },
+  "source": "bwiki-scraper"
+}

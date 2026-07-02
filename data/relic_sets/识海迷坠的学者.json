@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "识海迷坠的学者",
+  "slug": "识海迷坠的学者",
+  "gameId": "14220",
+  "name": "识海迷坠的学者",
+  "description": "暴击率提高8%。 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。",
+  "pieces2": {
+    "description": "暴击率提高8%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "识海迷坠的学者",
+    "url": "https://wiki.biligame.com/sr/%E8%AF%86%E6%B5%B7%E8%BF%B7%E5%9D%A0%E7%9A%84%E5%AD%A6%E8%80%85",
+    "revId": 96806
+  },
+  "source": "bwiki-scraper"
+}

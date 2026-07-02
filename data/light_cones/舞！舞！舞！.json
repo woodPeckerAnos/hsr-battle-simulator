@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "舞！舞！舞！",
+  "slug": "舞！舞！舞！",
+  "gameId": "1270",
+  "name": "舞！舞！舞！",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 423,
+    "hp": 952,
+    "def": 396
+  },
+  "passive": {
+    "name": "停不下来啦！",
+    "description": "以下效果仅对同谐命途生效当装备者施放终结技后，我方全体行动提前16%/18%/20%/22%/24%。"
+  },
+  "wiki": {
+    "title": "舞！舞！舞！",
+    "url": "https://wiki.biligame.com/sr/%E8%88%9E%EF%BC%81%E8%88%9E%EF%BC%81%E8%88%9E%EF%BC%81",
+    "revId": 46638
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "让告别，更美一些",
+  "slug": "让告别，更美一些",
+  "gameId": "18103",
+  "name": "让告别，更美一些",
+  "rarity": 5,
+  "path": "remembrance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1270,
+    "def": 396
+  },
+  "passive": {
+    "name": "铭刻",
+    "description": "以下效果仅对记忆命途生效使装备者的生命上限提高30%/37.5%/45%/52.5%/60%，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标30%/35%/40%/45%/50%的防御力，持续2回合。 当装备者的忆灵消失时，使装备者行动提前12%/15%/18%/21%/24%。该效果最多触发1次，装备者每次施放终结技时重置触发次数。"
+  },
+  "wiki": {
+    "title": "让告别，更美一些",
+    "url": "https://wiki.biligame.com/sr/%E8%AE%A9%E5%91%8A%E5%88%AB%EF%BC%8C%E6%9B%B4%E7%BE%8E%E4%B8%80%E4%BA%9B",
+    "revId": 59229
+  },
+  "source": "bwiki-scraper"
+}

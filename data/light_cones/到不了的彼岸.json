@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "到不了的彼岸",
+  "slug": "到不了的彼岸",
+  "gameId": "4135",
+  "name": "到不了的彼岸",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 582,
+    "hp": 1270,
+    "def": 330
+  },
+  "passive": {
+    "name": "不得",
+    "description": "以下效果仅对毁灭命途生效使装备者的暴击率提高18%/21%/24%/27%/30%，生命上限提高18%/21%/24%/27%/30%。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高24%/28%/32%/36%/40%，该效果在装备者施放攻击后解除。"
+  },
+  "wiki": {
+    "title": "到不了的彼岸",
+    "url": "https://wiki.biligame.com/sr/%E5%88%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E5%BD%BC%E5%B2%B8",
+    "revId": 61934
+  },
+  "source": "bwiki-scraper"
+}

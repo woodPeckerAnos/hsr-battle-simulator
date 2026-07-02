@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "风举云飞的勇烈",
+  "slug": "风举云飞的勇烈",
+  "gameId": "12520",
+  "name": "风举云飞的勇烈",
+  "description": "攻击力提高12%。 使装备者暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，该效果持续1回合。",
+  "pieces2": {
+    "description": "攻击力提高12%。",
+    "modifiers": [
+      {
+        "zones": [
+          "atk_percent"
+        ],
+        "value": 0.12
+      }
+    ]
+  },
+  "pieces4": {
+    "description": "使装备者暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，该效果持续1回合。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.06
+      }
+    ]
+  },
+  "wiki": {
+    "title": "风举云飞的勇烈",
+    "url": "https://wiki.biligame.com/sr/%E9%A3%8E%E4%B8%BE%E4%BA%91%E9%A3%9E%E7%9A%84%E5%8B%87%E7%83%88",
+    "revId": 79172
+  },
+  "source": "bwiki-scraper"
+}

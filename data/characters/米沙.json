@@ -1,0 +1,217 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "米沙",
+  "slug": "米沙",
+  "gameId": "8582",
+  "name": "米沙",
+  "rarity": 5,
+  "element": "ice",
+  "path": "destruction",
+  "level": 80,
+  "maxSp": 100,
+  "baseStats": {
+    "atk": 599,
+    "hp": 1270,
+    "def": 396,
+    "speed": 96,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.067,
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 14,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "blast",
+      "multiplier": 2.5,
+      "spreadMultiplier": 1,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "1": 1.1,
+          "2": 1.2,
+          "3": 1.3,
+          "4": 1.4,
+          "5": 1.5,
+          "6": 1.625,
+          "7": 1.75,
+          "8": 1.875,
+          "9": 2,
+          "10": 2.1,
+          "11": 2.2,
+          "12": 2.3,
+          "13": 2.4,
+          "14": 2.5
+        }
+      },
+      "spreadScaling": {
+        "row": "扩散伤害",
+        "levels": {
+          "1": 0.44,
+          "2": 0.48,
+          "3": 0.52,
+          "4": 0.56,
+          "5": 0.6,
+          "6": 0.65,
+          "7": 0.7,
+          "8": 0.75,
+          "9": 0.8,
+          "10": 0.84,
+          "11": 0.88,
+          "12": 0.92,
+          "13": 0.96,
+          "14": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "tags": [
+        "ult"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.72,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "指定单体伤害",
+        "levels": {
+          "1": 0.384,
+          "2": 0.408,
+          "3": 0.43200000000000005,
+          "4": 0.456,
+          "5": 0.48,
+          "6": 0.51,
+          "7": 0.54,
+          "8": 0.57,
+          "9": 0.6,
+          "10": 0.624,
+          "11": 0.648,
+          "12": 0.672,
+          "13": 0.696,
+          "14": 0.72
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "飘忽的幻影",
+      "effect": "施放终结技时，场上每有1个敌方目标，本次终结技的攻击段数额外增加1段，最多额外增加5段。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "青春的怅望",
+      "effect": "终结技每段攻击前，有24%的悬浮框基础概率给受击者添加负面效果的基础概率。最终概率会被攻击者的效果命中和敌方目标的效果抵抗所影响。使目标防御力降低16%，持续3回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "欢乐年光的影子",
+      "effect": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "亲挚的音容",
+      "effect": "终结技每段攻击的伤害倍率提高6%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "最初的爱与友谊",
+      "effect": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "久已生疏的憧憬",
+      "effect": "施放终结技时，使自身造成的伤害提高30%，持续至自身回合结束，且下一次施放战技后为我方恢复1个战技点。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "米沙",
+    "url": "https://wiki.biligame.com/sr/%E7%B1%B3%E6%B2%99",
+    "revId": 61842
+  },
+  "source": "bwiki-scraper"
+}

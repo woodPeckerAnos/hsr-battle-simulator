@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "嘉果",
+  "slug": "嘉果",
+  "gameId": "696",
+  "name": "嘉果",
+  "rarity": 4,
+  "path": "abundance",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 952,
+    "def": 198
+  },
+  "passive": {
+    "name": "甘美",
+    "description": "以下效果仅对丰饶命途生效战斗开始时，立即为我方全体恢复6/7/9/10/12点能量。"
+  },
+  "wiki": {
+    "title": "嘉果",
+    "url": "https://wiki.biligame.com/sr/%E5%98%89%E6%9E%9C",
+    "revId": 27657
+  },
+  "source": "bwiki-scraper"
+}

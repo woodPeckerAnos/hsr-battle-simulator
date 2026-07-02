@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "生命的翁瓦克",
+  "slug": "生命的翁瓦克",
+  "gameId": "1506",
+  "name": "生命的翁瓦克",
+  "description": "使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。",
+  "pieces2": {
+    "description": "使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "",
+    "modifiers": []
+  },
+  "wiki": {
+    "title": "生命的翁瓦克",
+    "url": "https://wiki.biligame.com/sr/%E7%94%9F%E5%91%BD%E7%9A%84%E7%BF%81%E7%93%A6%E5%85%8B",
+    "revId": 59616
+  },
+  "source": "bwiki-scraper"
+}

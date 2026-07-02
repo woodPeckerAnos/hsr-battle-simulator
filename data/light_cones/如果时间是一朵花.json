@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "如果时间是一朵花",
+  "slug": "如果时间是一朵花",
+  "gameId": "16234",
+  "name": "如果时间是一朵花",
+  "rarity": 5,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1270,
+    "def": 396,
+    "critDmg": 0.36
+  },
+  "passive": {
+    "name": "希冀",
+    "description": "以下效果仅对同谐命途生效使装备者的暴击伤害提高36%/42%/48%/54%/60%。装备者施放追加攻击后额外恢复12点能量，并获得【谕示】，持续2回合。当装备者持有【谕示】时，我方全体目标的暴击伤害提高48%/60%/72%/84%/96%。进入战斗时，装备者恢复21点能量，并获得【谕示】，持续2回合。"
+  },
+  "wiki": {
+    "title": "如果时间是一朵花",
+    "url": "https://wiki.biligame.com/sr/%E5%A6%82%E6%9E%9C%E6%97%B6%E9%97%B4%E6%98%AF%E4%B8%80%E6%9C%B5%E8%8A%B1",
+    "revId": 56935
+  },
+  "source": "bwiki-scraper"
+}

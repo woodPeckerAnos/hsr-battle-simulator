@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "我们是地火",
+  "slug": "我们是地火",
+  "gameId": "928",
+  "name": "我们是地火",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 740,
+    "def": 463
+  },
+  "passive": {
+    "name": "泪中人",
+    "description": "以下效果仅对存护命途生效战斗开始时，使我方全体受到的伤害降低8%/10%/12%/14%/16%，持续5回合。同时立即为我方全体回复等同于各自已损失生命值30%/35%/40%/45%/50%的生命值"
+  },
+  "wiki": {
+    "title": "我们是地火",
+    "url": "https://wiki.biligame.com/sr/%E6%88%91%E4%BB%AC%E6%98%AF%E5%9C%B0%E7%81%AB",
+    "revId": 46667
+  },
+  "source": "bwiki-scraper"
+}

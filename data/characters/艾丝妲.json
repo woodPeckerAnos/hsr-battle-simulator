@@ -1,0 +1,184 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "艾丝妲",
+  "slug": "艾丝妲",
+  "gameId": "160",
+  "name": "艾丝妲",
+  "rarity": 5,
+  "element": "fire",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 120,
+  "baseStats": {
+    "atk": 511,
+    "hp": 1023,
+    "def": 463,
+    "speed": 106,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "hpPercent": 0.067,
+    "flatSpeed": 22.5
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.625,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "战技单体伤害",
+        "levels": {
+          "1": 0.275,
+          "2": 0.3,
+          "3": 0.325,
+          "4": 0.35,
+          "5": 0.375,
+          "6": 0.406,
+          "7": 0.43700000000000006,
+          "8": 0.46799999999999997,
+          "9": 0.5,
+          "10": 0.525,
+          "11": 0.55,
+          "12": 0.575,
+          "13": 0.6,
+          "14": 0.625
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "星有无言之歌",
+      "effect": "施放战技时，对敌方随机单体额外造成1次伤害。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "月见圆缺之意",
+      "effect": "施放终结技时，艾丝妲下回合不会减少蓄能层数。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "黄道陨石之变",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "极光显现之时",
+      "effect": "天赋的蓄能层数大于等于2时，艾丝妲的能量恢复效率提高15%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "深空天体之谜",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "眠于银河之下",
+      "effect": "天赋每回合减少的蓄能层数降低1。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.067
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 22.5
+    }
+  ],
+  "wiki": {
+    "title": "艾丝妲",
+    "url": "https://wiki.biligame.com/sr/%E8%89%BE%E4%B8%9D%E5%A6%B2",
+    "revId": 61886
+  },
+  "source": "bwiki-scraper"
+}

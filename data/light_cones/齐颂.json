@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "齐颂",
+  "slug": "齐颂",
+  "gameId": "209",
+  "name": "齐颂",
+  "rarity": 4,
+  "path": "harmony",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "协力",
+    "description": "以下效果仅对同谐命途生效进入战斗后，使我方全体的攻击力提高8%/9%/10%/11%/12%。同类技能无法重复生效。"
+  },
+  "wiki": {
+    "title": "齐颂",
+    "url": "https://wiki.biligame.com/sr/%E9%BD%90%E9%A2%82",
+    "revId": 27616
+  },
+  "source": "bwiki-scraper"
+}

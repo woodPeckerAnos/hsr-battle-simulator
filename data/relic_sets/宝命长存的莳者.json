@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/relic_set.schema.json",
+  "id": "宝命长存的莳者",
+  "slug": "宝命长存的莳者",
+  "gameId": "4301",
+  "name": "宝命长存的莳者",
+  "description": "生命上限提高12%。 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。",
+  "pieces2": {
+    "description": "生命上限提高12%。",
+    "modifiers": []
+  },
+  "pieces4": {
+    "description": "当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。",
+    "modifiers": [
+      {
+        "zones": [
+          "crit_rate"
+        ],
+        "value": 0.08
+      }
+    ]
+  },
+  "wiki": {
+    "title": "宝命长存的莳者",
+    "url": "https://wiki.biligame.com/sr/%E5%AE%9D%E5%91%BD%E9%95%BF%E5%AD%98%E7%9A%84%E8%8E%B3%E8%80%85",
+    "revId": 46538
+  },
+  "source": "bwiki-scraper"
+}

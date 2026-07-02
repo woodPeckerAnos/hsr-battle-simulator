@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "织造命运之线",
+  "slug": "织造命运之线",
+  "gameId": "9416",
+  "name": "织造命运之线",
+  "rarity": 4,
+  "path": "preservation",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 370,
+    "hp": 952,
+    "def": 463
+  },
+  "passive": {
+    "name": "洞见",
+    "description": "以下效果仅对存护命途生效使装备者的效果抵抗提高12%/14%/16%/18%/20%。装备者每有100点防御力，使装备者造成的伤害提高0.8%/0.9%/1.0%/1.1%/1.2%，最多使造成的伤害提高32%/36%/40%/44%/48%。"
+  },
+  "wiki": {
+    "title": "织造命运之线",
+    "url": "https://wiki.biligame.com/sr/%E7%BB%87%E9%80%A0%E5%91%BD%E8%BF%90%E4%B9%8B%E7%BA%BF",
+    "revId": 46665
+  },
+  "source": "bwiki-scraper"
+}

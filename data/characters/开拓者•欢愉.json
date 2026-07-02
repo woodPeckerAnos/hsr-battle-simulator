@@ -1,0 +1,185 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "开拓者•欢愉",
+  "slug": "开拓者•欢愉",
+  "gameId": "29552",
+  "name": "开拓者•欢愉",
+  "rarity": 4,
+  "element": "lightning",
+  "path": "欢愉命途",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 465,
+    "hp": 1086,
+    "def": 630,
+    "speed": 106,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "hpPercent": 0.133,
+    "flatSpeed": 12
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 9,
+    "skill": 10,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.4,
+      "level": 9,
+      "maxLevel": 9,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3,
+          "9": 1.4
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "skill"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "相信光的时间",
+      "effect": "施放战技后，下一次终结技使我方目标获得的【悬浮框好活当赏使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。多个【好活当赏】计入的笑点数合并计算。各个【好活当赏】的持续时间各自独立计算。】提高2点，该效果最多叠加3层。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "名场面酝酿中……",
+      "effect": "终结技额外使指定我方单体的欢愉度提高12%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "来吧，镜头的焦点",
+      "effect": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "talent": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "拯救世界，无需理由",
+      "effect": "施放欢愉技时，使敌方目标受到的伤害提高10%，持续2回合。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "爱与勇气，永不过时",
+      "effect": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "ult": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "银河传奇，登场！",
+      "effect": "施放欢愉技时，使自身暴击伤害提高100%，持续3回合。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "hp_percent"
+      ],
+      "value": 0.133
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 12
+    }
+  ],
+  "wiki": {
+    "title": "开拓者•欢愉",
+    "url": "https://wiki.biligame.com/sr/%E5%BC%80%E6%8B%93%E8%80%85%E2%80%A2%E6%AC%A2%E6%84%89",
+    "revId": 96857
+  },
+  "source": "bwiki-scraper"
+}

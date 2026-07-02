@@ -1,0 +1,184 @@
+{
+  "$schema": "../schemas/character.schema.json",
+  "id": "知更鸟",
+  "slug": "知更鸟",
+  "gameId": "8665",
+  "name": "知更鸟",
+  "rarity": 5,
+  "element": "physical",
+  "path": "harmony",
+  "level": 80,
+  "maxSp": 160,
+  "baseStats": {
+    "atk": 640,
+    "hp": 1280,
+    "def": 485,
+    "speed": 102,
+    "critRate": 0.05,
+    "critDmg": 0.5
+  },
+  "traces": {
+    "atkPercent": 0.28,
+    "flatSpeed": 18
+  },
+  "traceModifiers": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "skillLevelCaps": {
+    "basic": 8,
+    "skill": 14,
+    "ult": 10,
+    "talent": 10
+  },
+  "skills": {
+    "basic": {
+      "id": "basic",
+      "name": "普攻",
+      "type": "direct",
+      "tags": [
+        "basic"
+      ],
+      "targetMode": "single",
+      "multiplier": 1.3,
+      "level": 8,
+      "maxLevel": 8,
+      "scaling": {
+        "row": "普攻伤害",
+        "levels": {
+          "1": 0.6,
+          "2": 0.7,
+          "3": 0.8,
+          "4": 0.9,
+          "5": 1,
+          "6": 1.1,
+          "7": 1.2,
+          "8": 1.3
+        }
+      }
+    },
+    "skill": {
+      "id": "skill",
+      "name": "战技",
+      "type": "direct",
+      "tags": [
+        "skill"
+      ],
+      "targetMode": "single",
+      "multiplier": 0.625,
+      "level": 14,
+      "maxLevel": 14,
+      "scaling": {
+        "row": "伤害提高",
+        "levels": {
+          "1": 0.275,
+          "2": 0.3,
+          "3": 0.325,
+          "4": 0.35,
+          "5": 0.375,
+          "6": 0.406,
+          "7": 0.43700000000000006,
+          "8": 0.46799999999999997,
+          "9": 0.5,
+          "10": 0.525,
+          "11": 0.55,
+          "12": 0.575,
+          "13": 0.6,
+          "14": 0.625
+        }
+      }
+    },
+    "ult": {
+      "id": "ult",
+      "name": "终结技",
+      "type": "direct",
+      "targetMode": "single",
+      "multiplier": 1,
+      "level": 10,
+      "maxLevel": 10,
+      "tags": [
+        "ult"
+      ],
+      "scaling": {
+        "row": "单体伤害",
+        "levels": {
+          "10": 1
+        }
+      }
+    }
+  },
+  "eidolons": [
+    {
+      "index": 1,
+      "name": "微笑的国度",
+      "effect": "处于【协奏】状态时，我方全体全属性悬浮框抗性穿透当造成伤害时，无视敌方目标的一部分对应伤害属性的抗性值。提高24%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 2,
+      "name": "两者的午茶",
+      "effect": "处于【协奏】状态时，我方全体速度提高16%。天赋的能量恢复效果额外提高1点。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 3,
+      "name": "倒悬的弦宫",
+      "effect": "战技等级+2，最多不超过15级，终结技等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "skill": 2,
+        "ult": 2
+      }
+    },
+    {
+      "index": 4,
+      "name": "雨滴的钥匙",
+      "effect": "施放终结技时，解除我方全体的控制类负面状态冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身。，使我方全体在知更鸟处于【协奏】状态期间的效果抵抗提高50%。",
+      "skillLevelBonus": {}
+    },
+    {
+      "index": 5,
+      "name": "孤星的眼泪",
+      "effect": "普攻等级+1，最多不超过10级，天赋等级+2，最多不超过15级。",
+      "skillLevelBonus": {
+        "basic": 1,
+        "talent": 2
+      }
+    },
+    {
+      "index": 6,
+      "name": "月隐的午夜",
+      "effect": "处于【协奏】状态时，终结技造成的物理属性附加伤害使受击者额外受到1次伤害，本次伤害不视为造成了1次攻击。的暴击伤害额外提高450%。【月隐的午夜】效果最多触发8次，每次施放终结技时重置触发次数。",
+      "skillLevelBonus": {}
+    }
+  ],
+  "passives": [
+    {
+      "zones": [
+        "atk_percent"
+      ],
+      "value": 0.28
+    },
+    {
+      "zones": [
+        "flat_speed"
+      ],
+      "value": 18
+    }
+  ],
+  "wiki": {
+    "title": "知更鸟",
+    "url": "https://wiki.biligame.com/sr/%E7%9F%A5%E6%9B%B4%E9%B8%9F",
+    "revId": 98162
+  },
+  "source": "bwiki-scraper"
+}

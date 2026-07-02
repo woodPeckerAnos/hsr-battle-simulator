@@ -6,24 +6,26 @@
 
 | 类型 | 文件 | 职责 |
 |------|------|------|
+| `Character` | `character.ts` | 生命周期 `takeTurn`、attack/skill/ultra、`effects[]` |
+| `DefaultCharacter` | `characters/default.ts` | 按 catalog 默认施法 |
+| `Sparkle` | `characters/sparkle.ts` | 花火战技：队友 buff + 拉条 |
+| `EquipLoadout` | `equipment/` | 光锥 / 遗器 reconcile |
 | `TeamContext` | `team-context.ts` | 战技点等队伍共享资源 |
-| `DefaultCharacterRuntime` | `default-character.ts` | `getStats`, `useBasic/useSkill/useUlt` |
-| `LightConeInstance` | `light-cone-instance.ts` | 注入光锥插件 |
-| `RelicSetInstance` | `relic-set-instance.ts` | 注入套装插件 |
-| `CombatPlugin` | `types.ts` | 统一 modifier / hook 接口 |
+| `ActionEffect` | `../effects/` | 战斗 effect 类（DamageEffect、BuffEffect 等） |
+| `calcDamage` | `../damage/calc.ts` | L3 伤害公式 |
+| `CombatPlugin` | `types.ts` | trace / 被动 modifier 插件 |
 | `Battle` | `../simulation/battle.ts` | 本地仿真入口 |
 
-## 注册特化行为
+## 注册特化角色
+
+在 `actor-factory.ts` 的 `characterClasses` 映射里添加子类即可，例如花火：
 
 ```typescript
-import { registerCharacterBehavior } from './actor-factory.js';
-
-registerCharacterBehavior('1306', (runtime) => {
-  // 为花火注册额外插件或 override 方法
-});
+const characterClasses = {
+  花火: Sparkle,
+};
 ```
 
-## 与旧代码
+## 对外入口
 
-- `engine/stat/aggregate.ts` — 仍保留，pipeline 已改走 runtime
-- `engine/pipeline.ts` — `runSingleHit` → `Battle` + runtime
+- `engine/pipeline.ts` — `runBattle` / `evaluateCharacterDamage` / `aggregateStats`

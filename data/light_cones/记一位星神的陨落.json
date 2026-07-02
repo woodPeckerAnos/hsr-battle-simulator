@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "记一位星神的陨落",
+  "slug": "记一位星神的陨落",
+  "gameId": "498",
+  "name": "记一位星神的陨落",
+  "rarity": 5,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 529,
+    "hp": 1058,
+    "def": 396
+  },
+  "passive": {
+    "name": "扑火",
+    "description": "以下效果仅对毁灭命途生效当装备者施放攻击时，使装备者本场战斗中的攻击力提升8%/10%/12%/14%/16%，该效果最多叠加4层。当装备者击破敌方弱点后，造成的伤害提高12%/15%/18%/21%/24%，持续2回合。"
+  },
+  "wiki": {
+    "title": "记一位星神的陨落",
+    "url": "https://wiki.biligame.com/sr/%E8%AE%B0%E4%B8%80%E4%BD%8D%E6%98%9F%E7%A5%9E%E7%9A%84%E9%99%A8%E8%90%BD",
+    "revId": 47142
+  },
+  "source": "bwiki-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "锋镝",
+  "slug": "锋镝",
+  "gameId": "204",
+  "name": "锋镝",
+  "rarity": 4,
+  "path": "hunt",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 317,
+    "hp": 846,
+    "def": 264
+  },
+  "passive": {
+    "name": "危机",
+    "description": "以下效果仅对巡猎命途生效战斗开始时，使装备者的暴击率提高12%/15%/18%/21%/24%，持续3回合。"
+  },
+  "wiki": {
+    "title": "锋镝",
+    "url": "https://wiki.biligame.com/sr/%E9%94%8B%E9%95%9D",
+    "revId": 27583
+  },
+  "source": "bwiki-scraper"
+}

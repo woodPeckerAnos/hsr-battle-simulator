@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/light_cone.schema.json",
+  "id": "在蓝天下",
+  "slug": "在蓝天下",
+  "gameId": "1271",
+  "name": "在蓝天下",
+  "rarity": 4,
+  "path": "destruction",
+  "level": 80,
+  "superimposition": 1,
+  "baseStats": {
+    "atk": 476,
+    "hp": 952,
+    "def": 330
+  },
+  "passive": {
+    "name": "暖阳麦浪",
+    "description": "以下效果仅对毁灭命途生效使装备者攻击力提高16%/20%/24%/28%/32%，当装备者消灭敌方目标后，暴击率提高12%/15%/18%/21%/24%，持续3回合。"
+  },
+  "wiki": {
+    "title": "在蓝天下",
+    "url": "https://wiki.biligame.com/sr/%E5%9C%A8%E8%93%9D%E5%A4%A9%E4%B8%8B",
+    "revId": 69016
+  },
+  "source": "bwiki-scraper"
+}
